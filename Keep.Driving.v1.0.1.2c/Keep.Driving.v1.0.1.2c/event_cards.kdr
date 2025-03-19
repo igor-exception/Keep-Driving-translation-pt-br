@@ -1,7 +1,7 @@
 {
 	dev_name: all_attack
-	name: Unlucky
-	desc: set all threat to attack
+	name: Azarado
+	desc: define todas as ameaças para ataque
 	reqs: none
 	rarity: 1
 	level:1
@@ -9,8 +9,8 @@
 
 {
 	dev_name: clear_skies
-	name: Clear skies
-	desc: nothing happens
+	name: Céu Limpo
+	desc: nada acontece
 	reqs: clear,day
 	effect: weather
 	rarity: 1
@@ -18,29 +18,28 @@
 
 {
 	dev_name: more_attacks
-	name: Threatening
-	desc: More attacks this turn!
+	name: Ameaçador
+	desc: Mais ataques neste turno!
 	reqs: none
 	rarity: 1
 }
 
 {
 	dev_name: quiet_night
-	name: Quiet Night
-	desc: nothing happens
+	name: Noite Tranquila
+	desc: nada acontece
 	reqs: clear,night
 	effect: weather
 	rarity: 1
 }
 
-
 {
 	dev_name: heavy_rain
-	name: Heavy Rain
+	name: Chuva Forte
 	type: add_threat
 	stat: durability
 	amount: 1
-	desc: add §amnt §st threat
+	desc: adiciona §amnt §st ameaça
 	reqs: rain
 	effect: weather
 	rarity: 3
@@ -48,9 +47,9 @@
 
 {
 	dev_name: foggy
-	name: Thick Fog
+	name: Névoa Densa
 	type: special
-	desc: It's hard to see
+	desc: Está difícil enxergar
 	reqs: fog
 	effect: weather
 	rarity: 3
@@ -58,37 +57,35 @@
 
 {
 	dev_name: hh_sleep
-	name: Tired hitchhikers
-	desc: all hitchhikers are asleep
+	name: Caroneiros Cansados
+	desc: todos os caroneiros estão dormindo
 	reqs: night, hh_in_car,!spec:hh_argument,!tribe:race
 	effect: car
 	rarity: 3
 }
 
-
-//MUSIC
-
+//MÚSICA
 
 {
 	dev_name: playing_music
-	name: Music Playing
+	name: Música Tocando
 	type: status
 	status: bomb
 	amount: 1
-	desc: Music is blasting from the car stereo
+	desc: A música está explodindo no som do carro
 	reqs: music_playing
 	effect: road
 	rarity: 1
 }
 
+//AMBIENTE
 
-//ENV STUFF
 {
 	dev_name: city_ailment
-	name: Getting hungry
+	name: Ficando com Fome
 	type: ailment
 	ailment: hungry
-	desc: You're getting hungry
+	desc: Você está ficando com fome
 	reqs: env:city
 	effect: env
 	rarity: 2
@@ -96,10 +93,10 @@
 
 {
 	dev_name: country_ailment
-	name: Getting tired
+	name: Ficando Cansado
 	type: ailment
 	ailment: tired
-	desc: You're getting tired
+	desc: Você está ficando cansado
 	reqs: env:country
 	effect: env
 	rarity: 1
@@ -108,41 +105,40 @@
 
 {
 	dev_name: forest_ailment
-	name: Forest Tranquility
+	name: Tranquilidade da Floresta
 	type: ailment
 	ailment: inspired
-	desc: The forest is inspring
+	desc: A floresta é inspiradora
 	reqs: env:forest
 	effect: env
 	rarity: 2
 }
 
-//EVENT TYPE SPECIFIC
+//ESPECÍFICO DO TIPO DE EVENTO
 
 {
 	dev_name: animal_instincts
-	name: Animal Instincts
-	desc: Shuffle all threat
+	name: Instintos Animais
+	desc: Embaralha todas as ameaças
 	reqs: tribe:animal
 	rarity: 2
 }
 
-
 {
 	dev_name: follow_the_law
-	name: Follow the Rules
-	desc: Order all threat
+	name: Siga as Regras
+	desc: Ordena todas as ameaças
 	reqs: tribe:order
 	rarity: 2
 }
 
 {
 	dev_name: socially_awkward
-	name: Awkward silence
+	name: Silêncio Constrangedor
 	type: stat_change
 	stat: energy
 	amount: -1
-	desc: lose §amnt §st
+	desc: perde §amnt §st
 	reqs: tribe:social
 	effect: car
 	rarity: 3
@@ -151,11 +147,11 @@
 
 {
 	dev_name: dangerous_situation
-	name: Imminent threat
+	name: Ameaça Iminente
 	type: add_threat
 	stat: durability
 	amount: 2
-	desc: add §amnt §st threat
+	desc: adiciona §amnt §st ameaça
 	reqs: tribe:danger
 	effect: road
 	rarity: 3
@@ -164,11 +160,11 @@
 
 {
 	dev_name: scared
-	name: You're scared
+	name: Você está com medo
 	type: add_threat
 	stat: energy
 	amount: 2
-	desc: add §amnt §st threat
+	desc: adiciona §amnt §st ameaça
 	reqs: tribe:scary
 	effect: road
 	rarity: 3
@@ -177,44 +173,46 @@
 
 {
 	dev_name: scared
-	name: You're scared
+	name: Você está com medo
 	type: ailment
 	ailment: scared
-	desc: become stressed
+	desc: fica estressado
 	reqs: tribe:scary
 	effect: road
 	rarity: 2
 }
 
-//EVENT SPECIFIC
+//ESPECÍFICO DO EVENTO
+
 {
 	dev_name: bee_buzz
-	name: Buzzing Bee
-	desc: The bee is buzzing around
+	name: Zumbido da Abelha
+	desc: A abelha está zumbindo ao redor
 	reqs: spec:bee
 	rarity: 3
 }
 
 {
 	dev_name: cow_moo
-	name: Moo
-	desc: The cow lets out a deep Moo
+	name: Muu
+	desc: A vaca solta um Muu profundo
 	reqs: spec:cow
 	rarity: 3
 }
 
 {
 	dev_name: sheep_bah
-	name: Baah
-	desc: The sheep stares directly into your eyes
+	name: Bééé
+	desc: A ovelha encara você diretamente nos olhos
 	reqs: spec:sheep
 	rarity: 3
 }
 
+
 {
 	dev_name: goat_stare
-	name: Goat Stare
-	desc: One goat stares directly into your soul.
+	name: Olhar da Cabra
+	desc: Uma cabra olha diretamente para a sua alma.
 	reqs: spec:goats
 	type: ailment
 	ailment: scared
@@ -224,70 +222,68 @@
 {
 	dev_name: slow_driving_sounds
 	name: Ba-Dunk
-	desc: There's a rythm to the sound of the speed bumps
+	desc: Há um ritmo no som dos quebra-molas
 	reqs: spec:slow_driving
 	rarity: 3
 }
 
 {
 	dev_name: speed_camera_wave
-	name: Strike a pose
-	desc: You try to strike a pose for the camera
+	name: Faça uma pose
+	desc: Você tenta fazer uma pose para a câmera
 	reqs: spec:speed_cameras
 	rarity: 3
 }
 
 {
 	dev_name: ambulance_sound
-	name: Sirens
-	desc: The wailing sounds of the sirens
+	name: Sirenes
+	desc: O som agudo das sirenes
 	reqs: spec:ambulance
 	rarity: 3
 }
 
 {
 	dev_name: skate_kids_trick
-	name: Almost!
-	desc: It almost looked like the kid was gonna land the trick!
+	name: Quase!
+	desc: Parecia que o garoto ia acertar a manobra!
 	reqs: spec:skate_kids
 	rarity: 3
 }
 
 {
 	dev_name: tractor_humming
-	name: Peaceful humming
-	desc: The tractor makes a peaceful humming sound
+	name: Zumbido Tranquilo
+	desc: O trator emite um som de zumbido tranquilo
 	reqs: spec:tractor
 	rarity: 3
 }
 
 {
 	dev_name: cyclist_sweat
-	name: Sweaty
-	desc: The cyclist looks awfully sweaty
+	name: Suado
+	desc: O ciclista parece extremamente suado
 	reqs: spec:cyclist
 	rarity: 3
 }
 
-
 {
 	dev_name: thunder_inspire
-	name: Awesome Thunder
+	name: Trovão Impressionante
 	type: ailment
 	ailment: inspired
-	desc: The thunder is inspiring
+	desc: O trovão é inspirador
 	reqs: spec:thunder_storm
 	effect: road
 	rarity: 2
 }
 
-
 {
 	dev_name: snake_scary
-	name: Hiss!
+	name: Ssssh!
 	type: ailment
 	ailment: scared
-	desc: The snake stresses you out!
+	desc: A cobra te deixa nervoso!
 	reqs: spec:snake
 	effect: road
 	rarity: 2
@@ -295,41 +291,37 @@
 
 {
 	dev_name: turtle_shield
-	name: Tanky Turtle!
+	name: Tartaruga Blindada!
 	type: status
 	status: shield
 	amount: 2
-	desc: The Turtle shields itself!
+	desc: A tartaruga se protege!
 	reqs: spec:turtle
 	effect: road
 	rarity: 2
 }
 
-
 {
 	dev_name: traffic_stuck
-	name: Traffic isn't moving
+	name: Trânsito Parado
 	type: add_threat
 	stat: gas
 	amount: 2
-	desc: add §amnt §st threat
+	desc: adiciona §amnt §st ameaça
 	reqs: spec:traffic_jam
 	effect: road
 	rarity: 3
 }
 
-
-
-//RACE
-
+//CORRIDA
 
 {
 	dev_name: race_music
-	name: Engine music
+	name: Música do Motor
 	type: status
 	status: bomb
 	amount: 1
-	desc: The engine's sound is like music to your ears
+	desc: O som do motor é como música para seus ouvidos
 	reqs: tribe:race
 	effect: road
 	rarity: 1
@@ -337,10 +329,10 @@
 
 {
 	dev_name: race_inspire
-	name: Thrill of the race
+	name: Emoção da Corrida
 	type: ailment
 	ailment: inspired
-	desc: Driving at this speed inspires you
+	desc: Dirigir nessa velocidade te inspira
 	reqs: tribe:race
 	effect: road
 	rarity: 1
@@ -348,60 +340,59 @@
 
 {
 	dev_name: race_happy
-	name: Going fast
+	name: Indo Rápido
 	type: ailment
 	ailment: happy
-	desc: You're enjoying this
+	desc: Você está curtindo isso
 	reqs: tribe:race
 	effect: road
 	rarity: 1
 }
 
+//ESPECÍFICO PARA AILMENTOS
 
-
-//AILMENT SPECIFIC
 {
 	dev_name: drunk_driving
-	name: Drunk Driving
-	desc: You shouldn't be driving
+	name: Direção Bêbada
+	desc: Você não deveria estar dirigindo
 	reqs: ail:drunk
 	rarity: 20
 }
 
 
-//TRAIT
 
+//TRAÇO
 
 {
 	dev_name: idiot_sort
-	name: OCD
-	desc: The Idiot organizes the threat
+	name: TOC
+	desc: O Idiota organiza a ameaça
 	reqs: gb_organize
 	rarity: 2
 }
 
-//ROAD STUFF
+//ESTRADAS
+
 {
 	dev_name: rough_road_basic_stat
-	name: Rough Road Stone Chip
+	name: Pedra Solta na Estrada Acidentada
 	type: stat_change
 	stat: durability
 	amount: -1
-	desc: lose §amnt §st
+	desc: perde §amnt §st
 	reqs: road:rough, moving
 	effect: road
 	rarity: 3
 	level:2
 }
 
-
 {
 	dev_name: rough_road_shields
-	name: Rough Terrain
+	name: Terreno Acidentado
 	type: status
 	status: shield
 	amount: 1
-	desc: Give shields to §amnt random threat
+	desc: Concede escudos para §amnt ameaça aleatória
 	reqs: road:rough
 	effect: road
 	rarity: 2
@@ -409,11 +400,11 @@
 
 {
 	dev_name: city_crit
-	name: Inner City Pressure
+	name: Pressão Urbana
 	type: status
 	status: crit
 	amount: 3
-	desc: Give DANGER to §amnt random threat
+	desc: Concede PERIGO para §amnt ameaça aleatória
 	reqs: road:city
 	effect: road
 	rarity: 2
@@ -425,22 +416,19 @@
 	type: status
 	status: debuff
 	amount: 3
-	desc: Give debuff to §amnt random threat
+	desc: Concede um debuff para §amnt ameaça aleatória
 	reqs: road:motorway
 	effect: road
 	rarity: 2
 }
 
-
-
-
 {
 	dev_name: country_road_basic_stat
-	name: Slow Country Road
+	name: Estrada Lenta do Interior
 	type: add_threat
 	stat: energy
 	amount: 1
-	desc: add §amnt §st threat
+	desc: adiciona §amnt §st ameaça
 	reqs: road:country
 	effect: road
 	rarity: 3
@@ -449,11 +437,11 @@
 
 {
 	dev_name: motorway_road_basic_stat
-	name: Draining Motorway
+	name: Rodovia Exaustiva
 	type: stat_change
 	stat: gas
 	amount: -1
-	desc: lose §amnt §st
+	desc: perde §amnt §st
 	reqs: road:motorway
 	effect: road
 	rarity: 3
@@ -462,11 +450,11 @@
 
 {
 	dev_name: motorway_bomb
-	name: Motorway madness
+	name: Loucura na Rodovia
 	type: special
 	stat: gas
 	amount: 2
-	desc: add §amnt §st threat with bombs
+	desc: adiciona §amnt §st ameaça com bombas
 	reqs: road:motorway
 	effect: road
 	rarity: 0
@@ -474,11 +462,11 @@
 
 {
 	dev_name: city_road_basic_stat
-	name: City Street Tolls
+	name: Pedágios Urbanos
 	type: stat_change
 	stat: money
 	amount: -10
-	desc: lose §amnt §st
+	desc: perde §amnt §st
 	reqs: road:city
 	effect: road
 	rarity: 3
@@ -486,11 +474,11 @@
 
 {
 	dev_name: saving_grace
-	name: Energy Reserve
+	name: Reserva de Energia
 	type: stat_change
 	stat: energy
 	amount: 1
-	desc: gain §amnt §st
+	desc: ganha §amnt §st
 	reqs: !scary,!road:city
 	effect: road
 	rarity: 0
@@ -498,11 +486,11 @@
 
 {
 	dev_name: saving_grace_gas
-	name: More Juice
+	name: Mais Combustível
 	type: stat_change
 	stat: gas
 	amount: 1
-	desc: gain §amnt §st
+	desc: ganha §amnt §st
 	reqs: road:country
 	effect: road
 	rarity: 0
@@ -510,14 +498,12 @@
 
 {
 	dev_name: saving_grace_durability
-	name: Oh! It works!
+	name: Oh! Está Funcionando!
 	type: stat_change
 	stat: durability
 	amount: 1
-	desc: gain §amnt §st
+	desc: ganha §amnt §st
 	reqs: road:city
 	effect: road
 	rarity: 1
 }
-
-
