@@ -1,10 +1,10 @@
 ///////////////////////HITCHHIKERS
 
-//---------------------------------THE SUIT
+//------------------------------THE SUIT
 {
 	dev_name: "suit"
-	hh_name: "The Suit"
-	desc: "This is a hitchhiker"
+	hh_name: "O Terno"
+	desc: "Este é um carona"
 	sex: male
 	age: 42
 	pick_up_quest: suit_get_to_work
@@ -54,7 +54,7 @@
 	
 	sleep_sprite_full:	spr_hitchhiker_suit_portrait_full_sleep
 	sleep_sprite_small:	spr_hitchhiker_suit_portrait_small_sleep
-
+	
 	
 	sprite_portrait: spr_hh_portrait_suit
 	sprite_rw_big: spr_hh_suit_rw_big
@@ -82,76 +82,73 @@
 	talk_dialogue: hh_suit_inheritance
 	
 	
-	impression: He looked so sad standing there in his unkempt suit. I couldn’t quite tell, he looked like he was 50, but he was probably in his late 30s. He said he quit his job and wanted to get out of town, but didn’t have a buck for the bus.
-	impression: The suit mumbles when he speaks - not a great salesman. He told me about a way to deduct my taxes and that he can probably help me save some money. Not sure about that though. He mentioned he had a kid in another town.
-	impression: It seems like everything reminds him of his daughter now. I don’t think he really wants to be here. I overheard him on the phone saying he was coming home and that he’d get his job back. I heard him promise. Probably doesn’t count for much.
+	impression: Ele parecia tão triste parado ali em seu terno desleixado. Eu não conseguia dizer ao certo, parecia ter 50 anos, mas provavelmente estava no final dos 30. Ele disse que largou o emprego e queria sair da cidade, mas não tinha um centavo para o ônibus.
+	impression: O terno murmura quando fala - não é um grande vendedor. Ele me contou sobre uma maneira de deduzir meus impostos e que provavelmente poderia me ajudar a economizar algum dinheiro. Não sei quanto a isso. Ele mencionou que tinha um filho em outra cidade.
+	impression: Parece que tudo agora o lembra da filha. Acho que ele realmente não quer estar aqui. Eu o ouvi ao telefone dizendo que estava voltando para casa e que conseguiria seu emprego de volta. Eu o ouvi prometer. Provavelmente não significa muito.
 	
 }
 //---------------------------------THE HIPPIE GIRL
 {
 	dev_name: "hippie_girl"
-	hh_name: "The Girl"
-	desc: "This is a hitchhikerette"
+	hh_name: "A Garota"
+	desc: "Esta é uma caroneira"
 	sex: female
 	age: 22
 	
 	start_skill: "backrubber"
 	
 	perk_id: "super_cheer"
-	perk_name: "When I was a cheerleader"
+	perk_name: "Quando Eu Era Uma Animadora de Torcida"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
 	perk_id: "backrubber"
-	perk_name: "Backrubs"
+	perk_name: "Massagens Nas Costas"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "lose_status"
-	perk_name: "Get through anything"
+	perk_name: "Passar Por Qualquer Coisa"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "extra_neg_status"
-	perk_name: "Stacking thoughts"
+	perk_name: "Pensamentos Acumulados"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
 	perk_id: "skill_points"
-	perk_name: "Skill points"
+	perk_name: "Pontos de Habilidade"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "road_start_neg_status"
-	perk_name: "Bad vibes"
+	perk_name: "Más Vibrações"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
-	
 	
 	greeting_dia: hh_girl_greeting_a
 	greeting_dia: hh_girl_greeting_b
 	greeting_dia: hh_girl_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_girl_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_girl_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_girl_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_girl_portrait_small_sleep
 	
-	impression: As soon as I stopped, her gaudy hippie energy poured over the car. She asked where I was headed, but didn’t really care about my answer. She probably ran away from home.
-	impression: Her joy came and went. I found her crying one night, but not for long. She said she wants to leave it all behind her. “Life always hurts you, so it’s best to leave before it does.” I guess I’m her ferryman now.
-	impression: She kissed me on the cheek while I was driving and told me I’m boring. Her breath smelt of egg. When she isn’t flirting with strangers, she sleeps on her Dad’s old military jacket and dreams away the day.
-	
+	impression: Assim que parei, sua energia hippie espalhafatosa inundou o carro. Ela perguntou para onde eu estava indo, mas não se importava muito com minha resposta. Provavelmente fugiu de casa.
+	impression: Sua alegria ia e vinha. Uma noite a encontrei chorando, mas não por muito tempo. Ela disse que queria deixar tudo para trás. "A vida sempre te machuca, então é melhor ir embora antes que aconteça." Acho que sou seu barqueiro agora.
+	impression: Ela me deu um beijo na bochecha enquanto eu dirigia e disse que eu sou chato. Seu hálito cheirava a ovo. Quando não está flertando com estranhos, dorme no velho casaco militar do pai e sonha o dia inteiro.
 	
 	hitch_dialogue: hh_hippie_girl_hitch
 	
 	talk_dialogue: hh_hippie_girl_talk
 	talk_dialogue: hh_hippie_girl_festival
 	talk_dialogue: hh_hippie_girl_inheritance
-	
 	
 	sprite_portrait: spr_hh_portrait_hippiegirl
 	sprite_rw_big: spr_hh_girl_rw_big
@@ -174,51 +171,51 @@
 //---------------------------------THE MECHANIC
 {
 	dev_name: "mechanic"
-	hh_name: "The Mechanic"
-	desc: "Doesn't talk much."
+	hh_name: "O Mecânico"
+	desc: "Não fala muito."
 	sex: male
 	age: 27
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "instruct"
-	perk_name: "Instruct"
+	perk_name: "Instruir"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "auto_repair"
-	perk_name: "Fixing things"
+	perk_name: "Consertando Coisas"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "fast_repair"
-	perk_name: "The right whack!"
+	perk_name: "O Golpe Certo!"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "cigarette_share"
-	perk_name: "Smoker"
+	perk_name: "Fumante"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "upgrade_anywhere"
-	perk_name: "Upgrade anywhere!"
+	perk_name: "Atualizar em Qualquer Lugar!"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "upgrade_dependant"
-	perk_name: "Upgrade dependant!"
+	perk_name: "Atualização Dependente!"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -227,12 +224,12 @@
 	greeting_dia: hh_mechanic_greeting_b
 	greeting_dia: hh_mechanic_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_mechanic_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_mechanic_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_mechanic_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_mechanic_portrait_small_sleep
 	
-	impression: A good looking guy with a bunch of tools - I should be scared. But his easy manner and quiet voice puts me at ease. He looks at my car and asks about the engine. After a drag of his cigarette he returns to inspecting the car.
-	impression: The mechanic doesn’t talk much. He lays under the car for a few minutes and reappears with brown fingers that are steadily supplied with new cigarettes. Hidden behind work, literally. 
-	impression: I was surprised he had nothing with him but tools, but I’m starting to realize that that’s really all he has. All he has ever had. And an engine makes sense, it’s easier to fix that.
+	impression: Um cara bonitão com um monte de ferramentas – eu deveria estar assustado. Mas seu jeito tranquilo e voz calma me deixam à vontade. Ele olha para o meu carro e pergunta sobre o motor. Depois de uma tragada no cigarro, volta a inspecioná-lo.
+	impression: O mecânico não fala muito. Ele se deita sob o carro por alguns minutos e reaparece com os dedos sujos de graxa, sempre segurando um cigarro novo. Escondido atrás do trabalho, literalmente.
+	impression: Fiquei surpreso ao perceber que ele não tinha nada com ele além das ferramentas, mas estou começando a entender que isso é tudo que ele tem. Tudo o que ele sempre teve. E um motor faz sentido – é mais fácil consertá-lo.
 	
 	hitch_dialogue: hh_mechanic_hitch
 	
@@ -262,56 +259,54 @@
 	
 }
 
-
 //---------------------------------THE HURRICANE
 {
 	dev_name: "hurricane"
-	hh_name: "The Hurricane"
-	desc: "wild"
+	hh_name: "O Furacão"
+	desc: "selvagem"
 	sex: female
-
 	age: 25
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "dont_worry_2"
-	perk_name: "dont_worry"
+	perk_name: "não_se_preocupe"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "messy"
-	perk_name: "Messy"
+	perk_name: "Bagunceira"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "drunk_master"
-	perk_name: "drunk_master"
+	perk_name: "mestre_bêbado"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "drunk_energy"
-	perk_name: "Drink up!"
+	perk_name: "Beba tudo!"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "shoplifting"
-	perk_name: "Shoplifter"
+	perk_name: "Ladra de Lojas"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "demanding"
-	perk_name: "demanding"
+	perk_name: "Exigente"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -320,23 +315,23 @@
 	greeting_dia: hh_hurricane_greeting_b
 	greeting_dia: hh_hurricane_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_indiechick_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_indiechick_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_indiechick_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_indiechick_portrait_small_sleep
 	
-	impression: She had her thumb out like she’s done this 100 times before. Her confidence was astounding. Makes sense in a way - she was incredibly beautiful. I couldn’t quite see her eyes, but I heard some rock music from her headphones.
-	impression: When she drank she spoke loudly and laughed. She sounded a bit like a witch when she burst, but always ended with a cute giggle that restored the balance. I didn’t want to disappoint her, and I didn’t want her laughter to end.
-	impression: She told me she left college and wanted to live a fun life. If fun means dancing through a hurricane. At gas stations she’d snag stuff without the clerks noticing while talking to me about nothing.
+	impression: Ela estendeu o polegar como se já tivesse feito isso 100 vezes antes. Sua confiança era impressionante. Faz sentido, de certa forma – ela era incrivelmente bonita. Não consegui ver seus olhos direito, mas ouvi um pouco de rock vindo dos fones de ouvido dela.
+	impression: Quando bebia, falava alto e ria. Sua risada às vezes parecia uma bruxa soltando gargalhadas, mas sempre terminava com uma risadinha fofa que equilibrava tudo. Eu não queria decepcioná-la, e não queria que sua risada acabasse.
+	impression: Ela me disse que largou a faculdade e queria viver uma vida divertida. Se diversão significa dançar no meio de um furacão… Nos postos de gasolina, pegava coisas sem que os atendentes percebessem enquanto conversava comigo sobre qualquer coisa.
 	
 	hitch_dialogue: hh_hurricane_hitch
 	
-	talk_dialogue:hh_hurricane_begin_q1
-	talk_dialogue_quest:hurricane_drunk_driving
+	talk_dialogue: hh_hurricane_begin_q1
+	talk_dialogue_quest: hurricane_drunk_driving
 	
-	talk_dialogue:hh_hurricane_give_cd
+	talk_dialogue: hh_hurricane_give_cd
 	
-	talk_dialogue:hh_hurricane_party_complete
-	talk_dialogue:hh_hurricane_festival
-	talk_dialogue:hh_hurricane_inheritance
+	talk_dialogue: hh_hurricane_party_complete
+	talk_dialogue: hh_hurricane_festival
+	talk_dialogue: hh_hurricane_inheritance
 
 	
 	sprite_portrait: spr_hh_portrait_hurricane
@@ -356,12 +351,11 @@
 	
 }
 
-
 //---------------------------------THE PUNK
 {
 	dev_name: "punk"
-	hh_name: "The Punk"
-	desc: "punky skunky wunky"
+	hh_name: "O Punk"
+	desc: "punk fedido e estranho"
 	sex: male
 	pick_up_quest: punk_city_club
 	
@@ -369,44 +363,44 @@
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "poison_heart"
-	perk_name: "poison_heart"
+	perk_name: "coração_envenenado"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "dog"
-	perk_name: "dog"
+	perk_name: "cachorro"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "songwriter_soothe"
-	perk_name: "songwriter_soothe"
+	perk_name: "compositor_apaziguador"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "motor_breath"
-	perk_name: "motor_breath!"
+	perk_name: "respiração_motor!"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "dog_friend"
-	perk_name: "dog_friend"
+	perk_name: "amigo_dos_cães"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "hh_forced_vegan"
-	perk_name: "hh_forced_vegan"
+	perk_name: "veganismo_forçado"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -415,16 +409,16 @@
 	greeting_dia: hh_punk_greeting_b
 	greeting_dia: hh_punk_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_punk_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_punk_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_punk_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_punk_portrait_small_sleep
 	
-	impression: This kid was just standing on the side of the road with his dog, a pure-breed borzoi. I couldn’t even tell he was looking for a ride. “It doesn’t pay to try” was written on one of his pins. He looked a bit like a junky.
-	impression: I’m not surprised when he said he was feeling alone, just surprised he said it. He also asked me to play some better music. “Anything fast.” It helps him think. I think he thinks too much.
-	impression: I never caught the name of his dog, it was so shy anyway. He talked about animals and how they deserve better and asked me if I would consider being straight edge, like him. But mostly he just talked about music.
+	impression: Esse moleque estava parado na beira da estrada com seu cachorro, um borzoi puro. Nem parecia que estava pedindo carona. "Não vale a pena tentar" estava escrito em um de seus bottons. Ele parecia um pouco um viciado.
+	impression: Não fiquei surpreso quando ele disse que se sentia sozinho, só fiquei surpreso por ele ter admitido. Ele também me pediu para colocar uma música melhor. "Qualquer coisa rápida". Isso ajuda ele a pensar. Acho que ele pensa demais.
+	impression: Nunca perguntei o nome do cachorro dele, de qualquer forma era tímido. Ele falava sobre animais e como eles merecem mais, e perguntou se eu consideraria ser straight edge, como ele. Mas, na maior parte do tempo, ele só falava sobre música.
 	
 	hitch_dialogue: hh_punk_hitch
 	
-	talk_dialogue:hh_punk_city
+	talk_dialogue: hh_punk_city
 	
 	talk_dialogue: hh_punk_party_cabin
 	talk_dialogue: hh_punk_festival
@@ -455,69 +449,66 @@
 //---------------------------------THE DOG
 {
 	dev_name: "dog"
-	hh_name: "The Dog"
-	desc: "doggo skunky wunky"
+	hh_name: "O Cachorro"
+	desc: "cachorrinho fedido e estranho"
 	sex: female
 	age: 5
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "bark"
-	perk_name: "bark"
+	perk_name: "latir"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "dog_passive_1"
-	perk_name: "Messy"
+	perk_name: "Bagunceira"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "pet"
-	perk_name: "pet"
+	perk_name: "carinho"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "dog_passive_2"
-	perk_name: "dog_passive_2"
+	perk_name: "cachorro_passivo_2"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "fetch"
-	perk_name: "fetch"
+	perk_name: "buscar"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "dog_passive_3"
-	perk_name: "dog_passive_3"
+	perk_name: "cachorro_passivo_3"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	sleep_sprite_full:	spr_hitchhiker_punk_dog_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_punk_dog_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_punk_dog_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_punk_dog_portrait_small_sleep
 	
-	impression: Soft white fur on a bony body. She would let me pet her head now and the way she pushed back for more was adorable.
-	impression: She didn’t seem like the most playful dog at first but once we got her going she’d be loads of fun.
-	impression: Sometimes we’d stop and play fetch; She’s a borzoi after all, she needs to run! A lot!
-
+	impression: Pelo branco e macio em um corpo ossudo. Agora ela me deixava acariciar sua cabeça, e o jeito que ela se inclinava para mais carinho era adorável.
+	impression: Ela não parecia ser a cachorra mais brincalhona no começo, mas depois que começamos, era diversão garantida.
+	impression: Às vezes parávamos para brincar de buscar; afinal, ela é um borzoi, ela precisa correr! Muito!
 	
 	sprite_portrait: spr_hitchhiker_punk_dog_portrait_small_seat
 	sprite_rw_big: spr_hitchhiker_punk_dog_portrait_full
 	sprite_rw_small: spr_hitchhiker_punk_dog_portrait_small
 	sprite_menu_portrait: spr_hitchhiker_punk_dog_portrait_full_hitchermenu
-	
-	sprite_button: spr_hitchhiker_punk_dog_button
 	
 	sprite_button: spr_hitchhiker_punk_dog_button
 	
@@ -531,56 +522,55 @@
 	
 }
 
-
 //---------------------------------THE KID
 {
 	dev_name: "kid"
-	hh_name: "The Kid"
-	desc: "needs to pee ALL THE TIME"
+	hh_name: "A Criança"
+	desc: "precisa fazer xixi O TEMPO TODO"
 	sex: female
 	pick_up_quest: kid_dad_1
 	age: 6
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "innocence"
-	perk_name: "innocence"
+	perk_name: "inocência"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "pee_breaks"
-	perk_name: "pee_breaks"
+	perk_name: "pausas para xixi"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "kid_game_1"
-	perk_name: "kid_game_1"
+	perk_name: "jogo de criança 1"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "night_sleep"
-	perk_name: "night_sleep"
+	perk_name: "sono noturno"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "idol_power"
-	perk_name: "idol_power"
+	perk_name: "poder do ídolo"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "no_drugs"
-	perk_name: "no_drugs"
+	perk_name: "sem drogas"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -589,20 +579,19 @@
 	greeting_dia: hh_kid_greeting_b
 	greeting_dia: hh_kid_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_kid_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_kid_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_kid_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_kid_portrait_small_sleep
 	
-	impression: I found her on the side of the road looking oddly optimistic. She said she thinks she took the right bus, but it dropped her off here. I asked if she wanted to call her mom but she couldn't remember the number. 	
-	impression: I saw a ticket stick out of her bag - it was for an Express bus. She must have taken a local bus by accident. It’s kind of fun having her around though. She said she was on her way to her dad’s.
-	impression: She’s the kind of kid that makes me wish I had a little sister. It’s both kind of annoying and really fun hearing her play in the back with her toys. More than anything I wish I still had her imagination.
-	
-	hitch_dialogue:hh_kid_hitch
+	impression: Eu a encontrei na beira da estrada, parecendo estranhamente otimista. Ela disse que achava que pegou o ônibus certo, mas ele a deixou aqui. Perguntei se queria ligar para a mãe, mas ela não lembrava o número.
+	impression: Vi um bilhete saindo de sua bolsa – era para um ônibus expresso. Ela deve ter pegado um ônibus local por engano. Mas é meio divertido tê-la por perto. Ela disse que estava indo ver o pai.
+	impression: Ela é o tipo de criança que me faz desejar ter uma irmãzinha. É um pouco irritante e ao mesmo tempo muito divertido ouvi-la brincar no banco de trás com seus brinquedos. Mais do que tudo, queria ainda ter sua imaginação.
+
+	hitch_dialogue: hh_kid_hitch
 	
 	talk_dialogue: hh_kid_greeting_b
 	talk_dialogue: hh_kid_party_cabin
 	talk_dialogue: hh_kid_festival
 	talk_dialogue: hh_kid_inheritance
-
 	
 	sprite_portrait: spr_hitchhiker_kid_portrait_small_seat
 	sprite_rw_big: spr_hitchhiker_kid_portrait_full
@@ -625,8 +614,8 @@
 //---------------------------------THE SONGWRITER
 {
 	dev_name: "songwriter"
-	hh_name: "The Songwriter"
-	desc: "musician"
+	hh_name: "O Compositor"
+	desc: "músico"
 	sex: male
 	age: 32
 	
@@ -634,44 +623,44 @@
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "songwriter_setup"
-	perk_name: "songwriter_setup"
+	perk_name: "configuração do compositor"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "guitar_case"
-	perk_name: "guitar_case"
+	perk_name: "estojo de guitarra"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "power_chord"
-	perk_name: "power_chord"
+	perk_name: "acorde poderoso"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "center_of_attention"
-	perk_name: "center_of_attention"
+	perk_name: "centro das atenções"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "street_musician"
-	perk_name: "street_musician"
+	perk_name: "músico de rua"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "kick_penalty"
-	perk_name: "kick_penalty"
+	perk_name: "penalidade de expulsão"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -680,23 +669,22 @@
 	greeting_dia: hh_songwriter_greeting_b
 	greeting_dia: hh_songwriter_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_songwriter_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_songwriter_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_songwriter_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_songwriter_portrait_small_sleep
 	
-	impression: Some people have such easy faces to read. He said he was on tour and needed a ride... sure. He looked so tired. I wonder where he slept last night. At least his cat doesn’t look hungry.
-	impression: Apparently he broke up with his girlfriend just before going on this “tour” and stole her - I mean took his - cat when he left. He said he had to break up with her to not be unfaithful, it was ‘the right thing to do’.
-	impression: He wrote a few songs while we were on the road together and started playing them at stops. He’s not bad. Not great either. But really not bad. I hope this “tour” has helped him deal with his ex.
-	
+	impression: Algumas pessoas têm rostos fáceis de ler. Ele disse que estava em turnê e precisava de uma carona... claro. Parecia tão cansado. Me pergunto onde ele dormiu na noite passada. Pelo menos seu gato não parece faminto.
+	impression: Aparentemente ele terminou com a namorada pouco antes de sair nessa “turnê” e roubou - quer dizer, levou - o gato dela quando partiu. Ele disse que teve que terminar com ela para não ser infiel, era ‘a coisa certa a fazer’.
+	impression: Ele escreveu algumas músicas enquanto viajávamos juntos e começou a tocá-las nas paradas. Ele não é ruim. Nem ótimo. Mas realmente não é ruim. Espero que essa “turnê” o ajude a lidar com sua ex.
+
 	hitch_dialogue: hh_songwriter_hitch
 	
-	talk_dialogue:hh_songwriter_talk
+	talk_dialogue: hh_songwriter_talk
 	
 	talk_dialogue: hh_songwriter_party_cabin
 	talk_dialogue: hh_songwriter_festival
 	talk_dialogue: hh_songwriter_inheritance
 	
 	talk_dialogue: hh_songwriter_talk_max
-	
 	
 	sprite_portrait: spr_hh_songwriter_portrait_small_seat
 	sprite_rw_big: spr_hh_songwriter_portrait_full
@@ -716,57 +704,55 @@
 	sprite_kicked: spr_hh_songwriter_idle
 	
 }
-
-
 //---------------------------------THE STRANGER
 {
 	dev_name: "stranger"
-	hh_name: "The Stranger"
-	desc: "Very strange"
+	hh_name: "O Estranho"
+	desc: "Muito estranho"
 	sex: male
 	pick_up_quest: stranger_casino
 	age: 37
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "gambler_1"
-	perk_name: "gambler_1"
+	perk_name: "apostador_1"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "gambler"
-	perk_name: "gambler"
+	perk_name: "apostador"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "big_gamble"
-	perk_name: "big_gamble"
+	perk_name: "grande aposta"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "creepy"
-	perk_name: "creepy"
+	perk_name: "assustador"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "bribe"
-	perk_name: "bribe"
+	perk_name: "suborno"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "loan_sharks"
-	perk_name: "loan_sharks"
+	perk_name: "agiotas"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -775,31 +761,28 @@
 	greeting_dia: hh_stranger_greeting_b
 	greeting_dia: hh_stranger_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_stranger_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_stranger_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_stranger_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_stranger_portrait_small_sleep
 	
 	hitch_dialogue: hh_stranger_hitch
 	
-	talk_dialogue:hh_stranger_q2_begin
-	talk_dialogue_quest:stranger_debt
+	talk_dialogue: hh_stranger_q2_begin
+	talk_dialogue_quest: stranger_debt
 	
 	talk_dialogue: hh_stranger_party_cabin
 	talk_dialogue: hh_stranger_festival
 	talk_dialogue: hh_stranger_inheritance
 	
-	impression: It didn’t take long before he started telling me about how much money he made once before he lost it all. He seems like the capable sort, but I wouldn’t trust him with my life.
-	impression: I don’t really know, but I felt like he didn’t care about anything anyone said to him. Like everyone was uninteresting. Everyone except pretty girls, which he would immediately point out while we were driving.
-	impression: One evening, after he came back from a loss, he mentioned that I should keep my eye out for a couple of thugs. He said he just had to borrow some cash for a game - it wouldn’t be a problem - he’d make it back soon.
+	impression: Não demorou muito até que ele começasse a me contar sobre o quanto de dinheiro ganhou antes de perder tudo. Ele parece ser do tipo capaz, mas eu não confiaria minha vida a ele.
+	impression: Eu realmente não sei, mas senti que ele não se importava com nada do que alguém dizia para ele. Como se todo mundo fosse desinteressante. Exceto as garotas bonitas, que ele imediatamente apontava enquanto dirigíamos.
+	impression: Uma noite, depois de voltar de uma derrota, ele mencionou que eu deveria ficar de olho em alguns capangas. Disse que só precisava pegar um dinheiro emprestado para um jogo - não seria um problema - ele logo o recuperaria.
 
-	
 	sprite_portrait: spr_hitchhiker_stranger_portrait_small_seat
 	sprite_rw_big: spr_hitchhiker_stranger_portrait_full
 	sprite_rw_small: spr_hitchhiker_stranger_portrait_small
 	sprite_menu_portrait: spr_hitchhiker_stranger_portrait_full_hitchermenu
 	
 	sprite_button: spr_hitchhiker_stranger_button
-	
-	
 	
 	sprite_idle: spr_hitchhiker_stranger_idle
 	sprite_idle: spr_hitchhiker_stranger_idle_2
@@ -813,56 +796,55 @@
 	
 }
 
-
 //---------------------------------THE IDIOT
 {
 	dev_name: "idiot"
-	hh_name: "The Idiot"
-	desc: "Very smart"
+	hh_name: "O Idiota"
+	desc: "Muito inteligente"
 	sex: male
 	pick_up_quest: idiot_mission
 	age: 38
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "idiotic_1"
-	perk_name: "idiotic_1"
+	perk_name: "idiota_1"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "gb_organize"
-	perk_name: "gb_organize"
+	perk_name: "organizar_gb"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "idiot_think"
-	perk_name: "idiot_think"
+	perk_name: "pensamento_idiota"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "oblivious"
-	perk_name: "oblivious"
+	perk_name: "desatento"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "idiot_x"
-	perk_name: "idiot_x"
+	perk_name: "idiota_x"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "idiot_flowers"
-	perk_name: "idiot_flowers"
+	perk_name: "flores_idiotas"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -871,20 +853,19 @@
 	greeting_dia: hh_idiot_greeting_b
 	greeting_dia: hh_idiot_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_idiot_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_idiot_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_idiot_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_idiot_portrait_small_sleep
 	
-	impression: The way he just stood there and stared out into the horizon made me a bit worried for him. I wasn’t sure he was all there. He said he picked some flowers for his sister and was waiting to be driven to her. 
-	impression: He mostly just looks out the window and smiles at whatever nature is going by. When I asked him what he did with his days he thought for a while and said he took walks and thought about things.
-	impression: Some shitheads called him an idiot when we stopped for gas as he picked another bouquet from the side of the road. He said ‘beauty will save the world and the world is beautiful’. I didn’t understand, but smiled all the same.
-	
+	impression: O jeito como ele apenas ficou parado ali olhando para o horizonte me deixou um pouco preocupado com ele. Não tinha certeza se ele estava completamente presente. Ele disse que colheu algumas flores para sua irmã e estava esperando para ser levado até ela. 
+	impression: Ele basicamente só olha pela janela e sorri para qualquer coisa na natureza que passa. Quando perguntei o que ele fazia com seus dias, ele pensou por um tempo e disse que caminhava e pensava sobre as coisas.
+	impression: Alguns idiotas o chamaram de "idiota" quando paramos para abastecer, enquanto ele colhia mais um buquê na beira da estrada. Ele disse: "A beleza salvará o mundo, e o mundo é belo". Eu não entendi, mas sorri mesmo assim.
+
 	hitch_dialogue: hh_idiot_hitch
 	
 	talk_dialogue: hh_idiot_party_cabin
 	talk_dialogue: hh_idiot_festival
 	talk_dialogue: hh_idiot_inheritance
 	talk_dialogue: hh_idiot_q_complete_again
-	
 	
 	sprite_portrait: spr_hh_idiot_portrait_small_seat
 	sprite_rw_big: spr_hh_idiot_portrait_full
@@ -905,55 +886,54 @@
 	
 }
 
-
 //---------------------------------THE CONVICT
 {
 	dev_name: "convict"
-	hh_name: "The Convict"
-	desc: "Very jail"
+	hh_name: "O Presidiário"
+	desc: "Muito prisão"
 	sex: male
 	age: 48
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "convict_1"
-	perk_name: "convict_1"
+	perk_name: "presidiário_1"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "convict_no_adjacent"
-	perk_name: "convict_no_adjacent"
+	perk_name: "presidiário_sem_adjacente"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "convict_2"
-	perk_name: "convict_2"
+	perk_name: "presidiário_2"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "on_the_run"
-	perk_name: "on_the_run"
+	perk_name: "fugitivo"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "double_engine"
-	perk_name: "double_engine"
+	perk_name: "motor_duplo"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "partner_in_crime"
-	perk_name: "partner_in_crime"
+	perk_name: "cúmplice"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -962,24 +942,21 @@
 	greeting_dia: hh_convict_greeting_b
 	greeting_dia: hh_convict_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_convict_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_convict_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_convict_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_convict_portrait_small_sleep
 	
-	impression: I probably shouldn’t have acted on the saying “don’t judge a book by its cover” when stopping for an escaped prisoner, but I did. Besides his stressed out demeanor there was a cool kindness hiding in his eyes.
-	impression: He told me to just keep driving… fast. I should be more freaked out, but he kept assuring me he was innocent. Look, of course he’d say that, it’s just for some reason I believe him. He said the guards were sadists.
-	impression: The way he modified the engine was gnarly. There is no way this guy hasn’t been involved in some illegal racing or chop shop. I guess as long as I don’t get caught with him we make a great team.
+	impression: Eu provavelmente não deveria ter seguido o ditado "não julgue um livro pela capa" ao parar para um prisioneiro fugitivo, mas parei. Além de seu comportamento tenso, havia uma gentileza fria escondida em seus olhos.
+	impression: Ele me disse apenas para continuar dirigindo... rápido. Eu deveria estar mais assustado, mas ele continuava me garantindo que era inocente. Claro, é o que qualquer um diria, mas por algum motivo eu acredito nele. Ele disse que os guardas eram sádicos.
+	impression: O jeito que ele modificou o motor foi insano. Não há como esse cara não ter se envolvido em alguma corrida ilegal ou oficina clandestina. Acho que, contanto que eu não seja pego com ele, fazemos uma ótima dupla.
 
+	hitch_dialogue: hh_convict_hitch
 	
-	hitch_dialogue:hh_convict_hitch
-	
-	talk_dialogue:hh_convict_talk
-	talk_dialogue_quest:convict_escape
+	talk_dialogue: hh_convict_talk
+	talk_dialogue_quest: convict_escape
 	
 	talk_dialogue: hh_convict_party_cabin
 	talk_dialogue: hh_convict_festival
 	talk_dialogue: hh_convict_inheritance
-	
-	
 	
 	sprite_portrait: spr_hitchhiker_convict_portrait_small_seat
 	sprite_rw_big: spr_hitchhiker_convict_portrait_full
@@ -1003,51 +980,51 @@
 //---------------------------------THE SLEEPER
 {
 	dev_name: "sleeper"
-	hh_name: "The Sleeper"
-	desc: "Very Tired"
+	hh_name: "O Dorminhoco"
+	desc: "Muito cansado"
 	sex: male
 	age: 29
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "sleeper_armor"
-	perk_name: "sleeper_armor"
+	perk_name: "armadura do dorminhoco"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "hypersomnia"
-	perk_name: "hypersomnia"
+	perk_name: "hipersonia"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "tired_eyes"
-	perk_name: "tired_eyes"
+	perk_name: "olhos cansados"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "smoke_sleep"
-	perk_name: "smoke_sleep"
+	perk_name: "fumaça do sono"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "snore"
-	perk_name: "snore"
+	perk_name: "ronco"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "sleeper_less_energy"
-	perk_name: "sleeper_less_energy"
+	perk_name: "menos energia do dorminhoco"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -1056,16 +1033,16 @@
 	greeting_dia: hh_sleeper_greeting_b
 	greeting_dia: hh_sleeper_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_sleeper_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_sleeper_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_sleeper_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_sleeper_portrait_small_sleep
 	
-	impression: Poor guy looks like he just woke up! He told me he has a condition where he just falls asleep all of the sudden. Anytime, anywhere. At least I know he’s pretty and harmless.
-	impression: I can’t believe someone just left him on the side of the road. It’s kind of funny how he just shuts off sometimes. He mentioned he was staying with some rich old lady in the city, but not much more than that.
-	impression: I asked him where his friends were and he replied “what friends, I can’t keep any with this condition.” But honestly it felt like it was because he was ashamed of his work - he was often on the move, and always skint. 
+	impression: O coitado parecia que tinha acabado de acordar! Ele me contou que tem uma condição que o faz adormecer de repente. A qualquer hora, em qualquer lugar. Pelo menos sei que ele é bonito e inofensivo.
+	impression: Não acredito que alguém simplesmente o deixou na beira da estrada. É meio engraçado como ele simplesmente "desliga" às vezes. Ele mencionou que estava morando com uma senhora rica na cidade, mas não contou muito mais do que isso.
+	impression: Perguntei onde estavam seus amigos e ele respondeu "quais amigos? Não consigo manter nenhum com essa condição." Mas, para ser honesto, parecia que ele sentia vergonha do seu trabalho - estava sempre na estrada e sempre sem dinheiro.
 
-	hitch_dialogue:hh_sleeper_hitch
+	hitch_dialogue: hh_sleeper_hitch
 	
-	talk_dialogue:hh_sleeper_inheritance
+	talk_dialogue: hh_sleeper_inheritance
 	
 	sprite_portrait: spr_hitchhiker_sleeper_portrait_small_seat
 	sprite_rw_big: spr_hitchhiker_sleeper_portrait_full
@@ -1087,52 +1064,52 @@
 //---------------------------------THE HIKER
 {
 	dev_name: "hiker"
-	hh_name: "The Hiker"
-	desc: "Very rich"
+	hh_name: "O Caminhante"
+	desc: "Muito rico"
 	sex: male
 	pick_up_quest: hiker_go_mountain
 	age: 51
 	
 	start_skill: "instruct"
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "hiker_resource"
-	perk_name: "hiker_resource"
+	perk_name: "recursos do caminhante"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "hh_city_hate"
-	perk_name: "hh_city_hate"
+	perk_name: "ódio à cidade"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "take_in_nature"
-	perk_name: "take_in_nature"
+	perk_name: "absorver a natureza"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "weather_extra_energy"
-	perk_name: "weather_extra_energy"
+	perk_name: "energia extra do clima"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "hiker_new_roads"
-	perk_name: "hiker_new_roads"
+	perk_name: "novos caminhos"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "hh_no_inspire"
-	perk_name: "hh_no_inspire"
+	perk_name: "sem inspiração"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -1141,13 +1118,13 @@
 	greeting_dia: hh_hiker_greeting_b
 	greeting_dia: hh_hiker_greeting_c
 	
-	sleep_sprite_full:	spr_hitchhiker_hiker_portrait_full_sleep
-	sleep_sprite_small:	spr_hitchhiker_hiker_portrait_small_sleep
+	sleep_sprite_full: spr_hitchhiker_hiker_portrait_full_sleep
+	sleep_sprite_small: spr_hitchhiker_hiker_portrait_small_sleep
 	
-	impression: I could tell he liked my old car, this is a good start, but he was so sweaty. He must have been hiking for a few days before he got onto the road. It was kind of funny, he couldn’t get rid of his hiccups.
-	impression: He didn’t smell great and his beard had little crumbs in it that he’d find and eat. He would tell me about the ways he built fires in the rain and all the beautiful creeks and vistas he found on his hikes. He hiked alone.
-	impression: Maybe it’s his age, or maybe he’s always like this but he kept backseat driving. ‘Take this route, it’s more scenic’. He talked a lot about how beautiful the nature is around these parts and how he misses it.
-	
+	impression: Eu percebi que ele gostou do meu carro velho, o que já é um bom começo, mas ele estava todo suado. Ele deve ter estado caminhando por dias antes de chegar à estrada. Era engraçado, ele não conseguia parar de soluçar.
+	impression: Ele não cheirava bem e sua barba estava cheia de farelos que ele encontrava e comia. Ele me contou sobre os jeitos que construiu fogueiras na chuva e sobre todos os riachos e paisagens incríveis que encontrou em suas caminhadas. Ele caminhava sozinho.
+	impression: Talvez seja a idade ou talvez ele sempre tenha sido assim, mas ele ficava me dizendo como dirigir. "Pegue essa rota, é mais bonita." Ele falava muito sobre como a natureza era linda naquela região e como sentia falta disso.
+
 	hitch_dialogue: hh_hiker_hitch
 	talk_dialogue: hh_hiker_talk
 	
@@ -1177,12 +1154,11 @@
 	
 }
 
-
 //---------------------------------THE BRIDE
 {
 	dev_name: "bride"
-	hh_name: "The Bride"
-	desc: "Very unmarried"
+	hh_name: "A Noiva"
+	desc: "Muito solteira"
 	sex: female
 	age: 31
 	
@@ -1191,44 +1167,44 @@
 	start_skill: "instruct"
 	
 	
-	// LEVEL 1
+	// NÍVEL 1
 	
 	perk_id: "bride_happy"
-	perk_name: "bride_happy"
+	perk_name: "noiva feliz"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "runaway_bride"
-	perk_name: "runaway_bride"
+	perk_name: "noiva fugitiva"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end	
 	
-	// LEVEL 2
+	// NÍVEL 2
 	
 	perk_id: "bride_basic"
-	perk_name: "bride_basic"
+	perk_name: "noiva básica"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
 	perk_id: "lose_happy_sad"
-	perk_name: "lose_happy_sad"
+	perk_name: "perde felicidade e tristeza"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 	
-	// LEVEL 3
+	// NÍVEL 3
 	
 	perk_id: "inspire_happy"
-	perk_name: "inspire_happy"
+	perk_name: "inspirar felicidade"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
 		
 	perk_id: "double_hot_cold"
-	perk_name: "double_hot_cold"
+	perk_name: "dobro de quente e frio"
 	perk_type: "passive"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -1237,9 +1213,9 @@
 	greeting_dia: hh_bride_greeting_b
 	greeting_dia: hh_bride_greeting_c
 	
-	impression: It’s hard to describe the relief she displayed that someone stopped for her. She was stern and said "there is a wedding in search of a bride" after I asked if she happened to be looking for a wedding.
-	impression: The bride had been on the run for a few hours before I found her and she said she just can't go back to that life. She wants something more! I’m glad to have her here. She’s giddy and fun and enjoying the ride.
-	impression: She asked me about the trip and talked about her favorite musicals and how she wish we could go dancing some time. We got nothing in common but our will to find joy anywhere we can. I’m happy she feels free.
+	impression: É difícil descrever o alívio que ela demonstrou ao perceber que alguém parou para ela. Ela foi firme e disse "há um casamento procurando por uma noiva" depois que perguntei se ela estava indo para um casamento.
+	impression: A noiva estava fugindo há algumas horas antes de eu encontrá-la, e ela disse que simplesmente não podia voltar para aquela vida. Ela quer algo mais! Estou feliz por tê-la aqui. Ela está animada e se divertindo com a viagem.
+	impression: Ela me perguntou sobre a viagem e falou sobre seus musicais favoritos e como gostaria que pudéssemos ir dançar algum dia. Não temos nada em comum, exceto nossa vontade de encontrar alegria onde pudermos. Estou feliz que ela se sente livre.
 
 	hitch_dialogue: hh_bride_hitch
 	
@@ -1255,7 +1231,7 @@
 	sprite_button: spr_hh_bride_button
 	
 	sprite_idle: spr_hitchhiker_bride_trash_idle
-	sprite_idle: spr_hitchhiker_bride_idle_2
+	sprite_idle: spr_hit
 	
 	sprite_hitch: spr_hitchhiker_bride_dress_hitch
 	
