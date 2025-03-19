@@ -1,19 +1,19 @@
-///////////EXPLORATION
+///////////EXPLORAÇÃO
 
 {
 	name: rocks
 	ep_env: forest
 	ep_type: door
 	key_item: rope
-	text_fail: A big rock is blocking the way forward.
-	text_success: You use your rope to climb over the rocks.
+	text_fail: Uma grande rocha está bloqueando o caminho à frente.
+	text_success: Você usa sua corda para escalar as rochas.
 	sprite: spr_exp_forest_door_rock
 	
 	solution:item:rope
-	solution_text: You use your rope to climb over the rocks.
+	solution_text: Você usa sua corda para escalar as rochas.
 	
 	solution:hh:hiker
-	solution_text: The Hiker uses his rope to climb over the rocks.
+	solution_text: O Caminhante usa sua corda para escalar as rochas.
 }
 
 {
@@ -21,21 +21,21 @@
 	ep_env: forest
 	ep_type: door
 	key_item: knife
-	text_fail: vines are blocking your way forward.
-	text_success: You use your knife to slash through the vines.
+	text_fail: Cipós estão bloqueando seu caminho à frente.
+	text_success: Você usa sua faca para cortar os cipós.
 	sprite: spr_exp_forest_door_vines
 	
 	solution:item:knife
-	solution_text: You use your knife to slash through the vines.
+	solution_text: Você usa sua faca para cortar os cipós.
 	
 	solution:item:knife_small
-	solution_text: You use your knife to slash through the vines.
+	solution_text: Você usa sua faca para cortar os cipós.
 	
 	solution:item:wine_glass_broken
-	solution_text: You use the shattered glass pieces of your wine glass to cut through the vines
+	solution_text: Você usa os pedaços de vidro quebrado da sua taça de vinho para cortar os cipós.
 	
 	solution:item:milk_shake_broken
-	solution_text: You use the shattered glass pieces of your former milk shake to cut through the vines
+	solution_text: Você usa os pedaços de vidro quebrado do seu antigo milk-shake para cortar os cipós.
 }
 
 {
@@ -43,15 +43,15 @@
 	ep_env: forest
 	ep_type: door
 	key_item: flash_light
-	text_fail: It's too dark to see in the cave ahead.
-	text_success: You light up the cave with your flash light.
+	text_fail: Está muito escuro para ver na caverna à frente.
+	text_success: Você ilumina a caverna com sua lanterna.
 	sprite: spr_exp_forest_door_cave
 	
 	solution:item:flash_light
-	solution_text: You light up the cave with your flash light.
+	solution_text: Você ilumina a caverna com sua lanterna.
 	
 	solution:hh:hiker
-	solution_text: The Hiker guides you through the cave.
+	solution_text: O Caminhante guia você pela caverna.
 }
 
 {
@@ -59,16 +59,16 @@
 	ep_env: city
 	ep_type: door
 	key_item: dog_food
-	text_fail: A snarling dog is blocking the way
-	text_success: You throw some food for the dog.
+	text_fail: Um cachorro rosnando está bloqueando o caminho.
+	text_success: Você joga um pouco de comida para o cachorro.
 	sprite: spr_exp_city_door_dog
 	
 	solution:item:dog_food
-	solution_text: You throw some food for the dog.
+	solution_text: Você joga um pouco de comida para o cachorro.
 	solution_consume:1	
 	
 	solution:hh:dog
-	solution_text: The Punk's Dog befriends the snarling dog.
+	solution_text: O Cachorro do Punk faz amizade com o cachorro rosnando.
 }
 
 {
@@ -76,24 +76,24 @@
 	ep_env: city
 	ep_type: door
 	key_item: knife
-	text_fail: Some muggers are blocking the way
-	text_success: You threaten the muggers with your knife
+	text_fail: Alguns assaltantes estão bloqueando o caminho.
+	text_success: Você ameaça os assaltantes com sua faca.
 	sprite: spr_exp_city_door_muggers
 	
 	solution:item:knife
-	solution_text: You threaten the muggers with your knife.
+	solution_text: Você ameaça os assaltantes com sua faca.
 	
 	solution:item:knife_small
-	solution_text: You threaten the muggers with your knife.
+	solution_text: Você ameaça os assaltantes com sua faca.
 	
 	solution:hh:dog
-	solution_text: The Punk's Dog scares away the muggers.
+	solution_text: O Cachorro do Punk assusta os assaltantes.
 	
 	solution:hh:stranger
-	solution_text: The Stranger threatens the muggers.
+	solution_text: O Estranho ameaça os assaltantes.
 	
 	solution:item:gun
-	solution_text: You threaten the muggers with your gun.
+	solution_text: Você ameaça os assaltantes com sua arma.
 }
 
 {
@@ -101,31 +101,27 @@
 	ep_env: city
 	ep_type: door
 	key_item: crowbar
-	text_fail: A closed iron gate is blocking the way forward.
-	text_success: You pry open the gate with your crowbar.
+	text_fail: Um portão de ferro fechado está bloqueando o caminho à frente.
+	text_success: Você arromba o portão com seu pé de cabra.
 	sprite: spr_exp_city_door_fence
 	
 	solution:item:crowbar
-	solution_text: You pry open the gate with your crowbar.
+	solution_text: Você arromba o portão com seu pé de cabra.
 	
 	solution:hh:convict
-	solution_text: The Convict picks the lock and opens the gate.
-	
+	solution_text: O Condenado arromba a fechadura e abre o portão.
 	
 	solution:item:gun
-	solution_text: You shoot the lock with your gun.
+	solution_text: Você atira na fechadura com sua arma.
 }
-
-
-//TREASURES
 
 {
 	name: mushrooms
 	ep_env: forest
 	ep_type: treasure
 	ep_reward_item: item:random_mushroom,item:random_mushroom,item:random_mushroom,item:random_mushroom%50,item:random_mushroom%50, item:random_porn%10
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_forest_treasure_mushrooms
 }
 
@@ -134,8 +130,8 @@
 	ep_env: forest
 	ep_type: treasure
 	ep_reward_item: item:random_berries,item:random_berries,item:random_berries,item:random_berries%50,item:random_berries%50, item:random_porn%10
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_forest_treasure_berry_1
 }
 
@@ -144,8 +140,8 @@
 	ep_env: forest
 	ep_type: treasure
 	ep_reward_item: item:random_camping, item:random_trash, item:random_trash%50, item:random_porn%50
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_forest_treasure_tent
 }
 
@@ -154,18 +150,19 @@
 	ep_env: forest
 	ep_type: treasure
 	ep_reward_item: item:random_common_find,item:random_common_find%50,item:random_drug%50, item:random_porn%75
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_forest_treasure_shed
 }
+
 
 {
 	name: car_city
 	ep_env: city
 	ep_type: treasure
 	ep_reward_item: item:random_car_upgrade, item:random_scrap, item:random_scrap%50, item:random_scrap%50
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_forest_treasure_car
 }
 
@@ -174,8 +171,8 @@
 	ep_env: forest
 	ep_type: treasure
 	ep_reward_item: item:random_car_upgrade, item:random_porn%10, item:random_scrap, item:random_scrap%50, item:random_scrap%50
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_forest_treasure_car
 }
 
@@ -184,17 +181,18 @@
 	ep_env: city
 	ep_type: treasure
 	ep_reward_item: item:random_food,item:random_drug%50
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_city_dumpster
 }
+
 {
 	name: boxes
 	ep_env: city
 	ep_type: treasure
 	ep_reward_item: item:random_food,energy:-1,item:random_drug%50
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_city_boxes
 }
 
@@ -203,8 +201,8 @@
 	ep_env: city
 	ep_type: treasure
 	ep_reward_item: item:random_spray,energy:-1,item:random_drug%50
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_city_vents
 }
 
@@ -213,8 +211,8 @@
 	ep_env: city
 	ep_type: treasure
 	ep_reward_item: item:random_drug,item:random_spray
-	text_fail: You found some mushrooms! They look delicious!
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você encontrou alguns cogumelos! Eles parecem deliciosos!
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	sprite: spr_exp_city_spray
 }
 
@@ -224,11 +222,11 @@
 	ep_type: door
 	ep_reward_item: item:random_food,energy:-1,item:random_drug%50
 	
-	text_fail: You can't seem to get into the club
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você não consegue entrar no clube.
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	
 	solution:hh:punk
-	solution_text: The Punk enters The Club. Leaving The Dog with you.
+	solution_text: O Punk entra no Clube. Deixando O Cachorro com você.
 	
 	sprite: spr_exp_city_punk_club
 }
@@ -239,8 +237,8 @@
 	ep_type: door
 	ep_reward_item: item:random_food,energy:-1,item:random_drug%50
 	
-	text_fail: You can't seem to get into the club
-	text_success: You found some mushrooms! They look delicious!
+	text_fail: Você não consegue entrar no clube.
+	text_success: Você encontrou alguns cogumelos! Eles parecem deliciosos!
 	
 	solution:hh:punk
 	solution_text: bug
