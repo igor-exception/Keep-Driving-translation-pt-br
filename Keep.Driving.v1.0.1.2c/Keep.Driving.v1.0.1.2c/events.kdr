@@ -1,49 +1,48 @@
-TEST EVENTS
+EVENTOS DE TESTE
 
 {
 	event_name: "default_event"
 	event_type: "normal"
-	event_title: "Oops!"
-	event_text: "The desired event was not found"
+	event_title: "Opa!"
+	event_text: "O evento desejado não foi encontrado"
 	tags: "test"
 
-	option: "Close this message"
+	option: "Fechar esta mensagem"
 	option_type: "close"
 }
 
-//-----------------------------------------------------------------------------------ROAD EVENTS
+//-----------------------------------------------------------------------------------EVENTOS NA ESTRADA
 
-//--GENERAL
+//--GERAL
 {
 	event_name: "road_1"
 	event_type: "road"
-	event_title: "Road Cameras"
-	event_text: "There are road cameras coming up ahead!"
+	event_title: "Câmeras na Estrada"
+	event_text: "Há câmeras na estrada mais à frente!"
 	tags: "general"
 	
-	option: "Drive fast!"
+	option: "Dirija rápido!"
 	option_type: "choice" 
 	option_cost: money:40
 	option_reward: "ailment:inspired%75"
 	
-	option: "Slow down!"
+	option: "Diminua a velocidade!"
 	option_type: "choice" 
 	option_cost: energy:1
 }
 
-
 {
 	event_name: "road_3"
 	event_type: "road"
-	event_title: "Fork in the road"
-	event_text: "Looks like there are two different routes you can take."
+	event_title: "Bifurcação na Estrada"
+	event_text: "Parece que há duas rotas diferentes que você pode seguir."
 	tags: "general"
 	
-	option: "Go left!"
+	option: "Vá para a esquerda!"
 	option_type: "choice" 
 	option_cost: energy:2
 	
-	option: "go Right!"
+	option: "Vá para a direita!"
 	option_type: "choice" 
 	option_cost: gas:1
 }
@@ -51,49 +50,50 @@ TEST EVENTS
 {
 	event_name: "road_4"
 	event_type: "road"
-	event_title: "Fork in the road"
-	event_text: "Looks like there are two different routes you can take."
+	event_title: "Bifurcação na Estrada"
+	event_text: "Parece que há duas rotas diferentes que você pode seguir."
 	tags: "general"
 	
-	option: "Go left!"
+	option: "Vá para a esquerda!"
 	option_type: "choice" 
 	option_cost: carhealth:1
 	
-	option: "go Right!"
+	option: "Vá para a direita!"
 	option_type: "choice" 
 	option_cost: energy:2
 }
 
-//--------MOTORWAY
+//--------RODOVIA
 {
 	event_name: "road_motor_1"
 	event_type: "road"
-	event_title: "Motorway event"
-	event_text: "It's hard to stay focused on your driving."
+	event_title: "Evento na Rodovia"
+	event_text: "Está difícil manter o foco na direção."
 	tags: "motorway"
 	
-	option: "Just keep going"
+	option: "Continue dirigindo"
 	option_type: "choice"
 	option_cost: gas:1
 	
-	option: "Try to focus"
+	option: "Tente se concentrar"
 	option_type: "choice"
 	option_cost: energy:2
 	option_reward: "ailment:zone%10"
 }
-//--------ROUGH
+
+//--------ESTRADAS RUINS
 {
 	event_name: "road_rough_1"
 	event_type: "road"
-	event_title: "Rough road event"
-	event_text: "The road is full of bumps and holes."
+	event_title: "Estrada Ruim"
+	event_text: "A estrada está cheia de buracos e irregularidades."
 	tags: "rough"
 	
-	option: "Nothing you can do about it"
+	option: "Nada que você possa fazer"
 	option_type: "choice"
 	option_cost: "carhealth:1"
 	
-	option: "Slow down"
+	option: "Reduza a velocidade"
 	option_type: "choice"
 	option_cost: "gas:1,energy:1"
 }
@@ -101,81 +101,80 @@ TEST EVENTS
 {
 	event_name: "road_bumpy"
 	event_type: "road"
-	event_title: "Bumpy road!"
-	event_text: "The road looks bumpy and uneven up ahead..."
+	event_title: "Estrada Esburacada!"
+	event_text: "A estrada à frente parece cheia de buracos e irregularidades..."
 	tags: "rough"
 	
-	option: "Drive fast!"
+	option: "Dirija rápido!"
 	option_type: "choice" 
 	option_cost: carhealth:1
 	
-	option: "Slow down!"
+	option: "Diminua a velocidade!"
 	option_type: "choice" 
 	option_cost: energy:1
 }
 
-
-//--------COUNTRY
+//--------INTERIOR
 {
 	event_name: "road_country_1"
 	event_type: "road"
-	event_title: "country roads (take me home)
-	event_text: "The scenery is beautiful."
+	event_title: "Estradas do Interior (me leve para casa)"
+	event_text: "A paisagem está linda."
 	tags: "country"
 	
-	option: "Take it in."
+	option: "Aproveite a vista."
 	option_type: "choice"
 	option_cost: "energy:2"
 	option_reward:"ailment:inspired%15"
 	
-	option: "This reminds me of that time..."
+	option: "Isso me lembra daquela vez..."
 	option_type: "choice"
 	option_cost: "energy:2"
 	option_reward: "ailment:social%75"
 }
-//--------CITY
+
+//--------CIDADE
 {
 	event_name: "road_city_1"
 	event_type: "road"
-	event_title: "BIKES!"
-	event_text: "A kid on a bicycle suddenly decides to drive across the road."
+	event_title: "BICICLETAS!"
+	event_text: "Uma criança de bicicleta decide atravessar a rua de repente."
 	tags: "city"
 	
-	option: "Step on the break!"
+	option: "Pise no freio!"
 	option_type: "choice"
 	option_cost: "carhealth:1,energy:1"
 	
-	option: "Do a quick turn!"
+	option: "Faça uma curva rápida!"
 	option_type: "choice"
 	option_cost: "gas:1,energy:1"
-	
 }
-//--------OTHER
+
+//--------OUTROS
 {
 	event_name: "road_sunlight"
 	event_type: "DISABLED"
-	event_title: "Bright light!"
-	event_text: "The sun is shining bright through the windows.
+	event_title: "Luz Forte!"
+	event_text: "O sol está brilhando intensamente pelas janelas."
 	tags: "day"
 	
-	option: "Put on your sunglasses"
+	option: "Coloque seus óculos de sol"
 	option_type: "choice"
 	option_req: "sunglasses:1"
 	
-	option: "Squint your eyes"
+	option: "Aperte os olhos"
 	option_type: "choice"
 	option_cost: "energy:2"
 }
-
 
 //-------------------------------------------------------------------------------------------------
 {
 	event_name: "blonde_guy_1"
 	event_type: "person"
-	event_title: "Some guy"
-	event_text: "I'll sell it to you real cheap!"
+	event_title: "Um Cara Qualquer"
+	event_text: "Eu vendo para você bem barato!"
 	
-	option: "Buy the thing"
+	option: "Comprar o item"
 	option_type: "choice"
 	option_cost: money:10
 	option_reward: "item:rope%50,item:wine"
@@ -184,10 +183,10 @@ TEST EVENTS
 {
 	event_name: "lumberjack_work"
 	event_type: "person"
-	event_title: "Lumberjack"
-	event_text: "What do you say, kid? Help me out here? I'll pay you!"
+	event_title: "Lenhador"
+	event_text: "O que me diz, garoto? Me ajude aqui? Eu te pago!"
 	
-	option: "Help the lumberjack"
+	option: "Ajudar o lenhador"
 	option_type: "choice"
 	option_req: "strong:1"
 	option_cost: energy:6
@@ -197,10 +196,10 @@ TEST EVENTS
 {
 	event_name: "journal_girl_1"
 	event_type: "person"
-	event_title: "weirdo"
-	event_text: "Can you stay here and talk to me? I'll pay you!"
+	event_title: "Excêntrica"
+	event_text: "Você pode ficar aqui e conversar comigo? Eu te pago!"
 	
-	option: "Stay with the guy"
+	option: "Ficar e conversar"
 	option_type: "choice"
 	option_cost: energy: 2, money:-20
 }
@@ -208,23 +207,22 @@ TEST EVENTS
 {
 	event_name: "doom_diver_1"
 	event_type: "person"
-	event_title: "DOOM DIVER"
-	event_text: "THE END IS NIGH!"
+	event_title: "MERGULHADOR DO APOCALIPSE"
+	event_text: "O FIM ESTÁ PRÓXIMO!"
 	
-	option: "Be drunk with him"
+	option: "Beba com ele"
 	option_type: "choice"
 	option_req: "drunk:1"
 	option_cost: energy:-2
-	
 }
 
 {
 	event_name: "crying_girl_1"
 	event_type: "person"
-	event_title: "Crying girl"
-	event_text: "Stay and comfort the girl?"
+	event_title: "Garota Chorando"
+	event_text: "Ficar e confortá-la?"
 	
-	option: "Comfort her"
+	option: "Confortá-la"
 	option_type: "choice"
 	option_cost: "energy:4"
 	option_reward: "money:20"
@@ -233,10 +231,10 @@ TEST EVENTS
 {
 	event_name: "hobo_1"
 	event_type: "person"
-	event_title: "Homeless man"
-	event_text: "Give the homeless man some change?"
+	event_title: "Morador de Rua"
+	event_text: "Dar algumas moedas para o morador de rua?"
 	
-	option: "Give him some change"
+	option: "Dar algumas moedas"
 	option_type: "choice"
 	option_cost: money:1
 }
@@ -244,148 +242,138 @@ TEST EVENTS
 {
 	event_name: "student_coffee"
 	event_type: "person"
-	event_title: "Stuttering student"
-	event_text: "This person talks on and on about upcoming exams and crazy parties."
+	event_title: "Estudante Gago"
+	event_text: "Essa pessoa fala sem parar sobre provas que estão por vir e festas loucas."
 	
-	option: "Relate"
+	option: "Se relacionar"
 	option_type: "choice"
 	option_req: "student:1,chameleon:1,social:1"
 	option_cost: "energy:2"
 	option_reward: "item:coffee"
 }
 
-
 {
 	event_name: "gas_test"
 	event_type: "normal"
-	event_title: "Gas Station"
-	event_text: "Fill up your car's tank?"
+	event_title: "Posto de Gasolina"
+	event_text: "Encher o tanque do seu carro?"
 	tags: "test","destination"
 
-	option: "buy gas"
+	option: "Comprar gasolina"
 	option_type: "stats" money:-100, gas:100, energy:-1
 
-	option: "cancel"
+	option: "Cancelar"
 	option_type: "close"
 }
-
 
 {
 	event_name: "mechanic"
 	event_type: "normal"
-	event_title: "Mechanic"
-	event_text: "Repair your car?"
+	event_title: "Mecânico"
+	event_text: "Consertar seu carro?"
 	tags: "test","destination"
 
-	option: "Repair your car?" 
+	option: "Consertar o carro?" 
 	option_type: "choice" empty_event
 	option_cost: money:200, carhealth:-100, energy:1
-
 }
-
-
-
 
 {
 	event_name: "bar_test"
 	event_type: "normal"
-	event_title: "Cool bar"
-	event_text: "You enter the bar."
+	event_title: "Bar Legal"
+	event_text: "Você entra no bar."
 	tags: "test","destination"
 
-	option: "Drink with the locals"
+	option: "Beber com os locais"
 	option_type: "stats" money:-5, social:1, confidence:1
 
-	option: "Arm wrestle"
+	option: "Queda de braço"
 	option_type: "stats" energy:-1, strength:1
 
-	option: "leave the bar"
+	option: "Sair do bar"
 	option_type: "close"
 }
 
 {
 	event_name: "no_energy"
 	event_type: "normal"
-	event_title: "Oops!"
-	event_text: "Not enough energy!"
+	event_title: "Opa!"
+	event_text: "Energia insuficiente!"
 	tags: "debug"
 
-	option: "Close this message"
+	option: "Fechar esta mensagem"
 	option_type: "close"
 }
 
 {
 	event_name: "no_stats"
 	event_type: "normal"
-	event_title: "Oops!"
-	event_text: "Not enough stats!"
+	event_title: "Opa!"
+	event_text: "Atributos insuficientes!"
 	tags: "debug"
 
-	option: "Close"
+	option: "Fechar"
 	option_type: "close"
 }
 
 {
 	event_name: "no_money"
 	event_type: "normal"
-	event_title: "Oops!"
-	event_text: "Not enough money!"
+	event_title: "Opa!"
+	event_text: "Dinheiro insuficiente!"
 	tags: "debug"
 
-	option: "Close this message"
+	option: "Fechar esta mensagem"
 	option_type: "close"
 }
 
 {
 	event_name: "not_enough"
 	event_type: "normal"
-	event_title: "Oops!"
-	event_text: "Could not afford"
+	event_title: "Opa!"
+	event_text: "Você não pode pagar por isso"
 	tags: "debug"
-
 }
-
 
 {
 	event_name: "fine_100"
 	event_type: "normal"
-	event_title: "Damn!"
-	event_text: "You got a fine for $100!"
+	event_title: "Droga!"
+	event_text: "Você recebeu uma multa de $100!"
 	tags: "debug"
 
-	option: "continue"
+	option: "Continuar"
 	option_type: "stats" money:-100
 }
 
 {
 	event_name: "no_gas"
 	event_type: "normal"
-	event_title: "Out of gas"
-	event_text: "You ran out of gas... Buy some more magically?"
+	event_title: "Sem Gasolina"
+	event_text: "Você ficou sem gasolina... Comprar mais magicamente?"
 	tags: "test"
 	
-	option: "...sure!"
+	option: "...claro!"
 	option_type: "stats" money:-100, gas:50
 }
 
 {
 	event_name: "no_energy_dest"
 	event_type: "normal"
-	event_title: "Out of energy"
-	event_text: "You don't have enough energy to do more things. Time to go to sleep!"
+	event_title: "Sem Energia"
+	event_text: "Você não tem energia suficiente para fazer mais coisas. Hora de dormir!"
 	tags: "test"
 	
-	option: "ok!"
+	option: "Ok!"
 	option_type: "close"
 }
-
-
 
 {
 	event_name: "lose"
 	event_type: "normal"
-	event_title: "YOU LOST!"
-	event_text: "It's very beautiful!"
+	event_title: "VOCÊ PERDEU!"
+	event_text: "É muito bonito!"
 	tags: "lose","test"
 	
 	option: "Ok"
@@ -395,31 +383,31 @@ TEST EVENTS
 {
 	event_name: "car_full"
 	event_type: "normal"
-	event_title: "Car is full"
-	event_text: "no more room in your car"
+	event_title: "Carro Lotado"
+	event_text: "Não há mais espaço no seu carro"
 	tags: "hh","test"
 }
 
 {
 	event_name: "seats_occupied"
 	event_type: "normal"
-	event_title: "Occupied"
-	event_text: "No free seats to remove in your car"
+	event_title: "Ocupado"
+	event_text: "Sem assentos livres para remover no seu carro"
 	tags: "hh","test"
 }
-
 
 {
 	event_name: "work_done"
 	event_type: "normal"
-	event_title: "No more work"
-	event_text: "There is no more work to be done!"
+	event_title: "Sem Mais Trabalho"
+	event_text: "Não há mais trabalho a ser feito!"
 	tags: "work","test"
 }
+
 {
 	event_name: "quest_got"
 	event_type: "normal"
-	event_title: "No quests"
-	event_text: "Nothing to find here"
+	event_title: "Sem Missões"
+	event_text: "Nada para encontrar aqui"
 	tags: "quest","test"
 }
