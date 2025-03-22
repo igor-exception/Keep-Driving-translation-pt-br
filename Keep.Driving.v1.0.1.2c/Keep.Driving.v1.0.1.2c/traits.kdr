@@ -1,384 +1,373 @@
 
 {
 	devname: wanderlust
-	name: Wanderlust
-	desc: When clearing a road event during the day, gain 1 energy.
-	unlock: innate
+	name: Saudade de Viajar
+	desc: Ao limpar um evento de estrada durante o dia, ganhe 1 energia.
+	unlock: inato
 }
 
 {
 	devname: carefree
-	name: Carefree
-	desc: Wanderlust restores one additional energy.
-	unlock: innate
+	name: Despreocupado
+	desc: Saudade de Viajar restaura uma energia adicional.
+	unlock: inato
 }
 
 {
 	devname: car_savvy
-	name: Car Savvy
-	desc: Whenever you restore durability, restore one more.
-	unlock: innate
+	name: Sabe Tudo de Carro
+	desc: Sempre que restaurar durabilidade, restaure uma a mais.
+	unlock: inato
 }
 
 {
 	devname: student
-	name: Fast Learner
-	desc: Start with one skill point. Gain a skill point when you read.
-	unlock: innate
+	name: Aprendiz Rápido
+	desc: Comece com um ponto de habilidade. Ganhe um ponto de habilidade quando ler.
+	unlock: inato
 }
 
 {
 	devname: smoker
-	name: Smoker
-	desc: when using cigarettes, consume 2 cigarettes instead of 1.
-	unlock: smoke 14 cigarettes
+	name: Fumante
+	desc: ao usar cigarros, consuma 2 cigarros ao invés de 1.
+	unlock: fumar 14 cigarros
 }
 
 {
 	devname: heavy_smoker
-	name: Heavy Smoker
-	desc: when using cigarettes, consume 3 cigarettes instead of 1.
-	unlock: smoke 36 cigarettes
+	name: Fumante Pesado
+	desc: ao usar cigarros, consuma 3 cigarros ao invés de 1.
+	unlock: fumar 36 cigarros
 }
 
 {
 	devname: loner
-	name: Loner
-	desc: When driving alone: gain 1 energy at the start of each turn during events.
-	unlock: Skip picking up hitchhikers
+	name: Solitário
+	desc: Ao dirigir sozinho: ganhe 1 energia no início de cada turno durante eventos.
+	unlock: Deixe de pegar carona com estranhos
 }
 
 {
 	devname: workaholic
 	name: Workaholic
-	desc: Aren't you on a Road Trip?
-	unlock: work at the same place 3 times
+	desc: Você não está em uma viagem de estrada?
+	unlock: trabalhe no mesmo lugar 3 vezes
 }
 
 {
 	devname: mechanic
-	name: Mechanic
-	desc: You get better prices at garages.
-	unlock: use mechanic-related items
+	name: Mecânico
+	desc: Você consegue preços melhores nas oficinas.
+	unlock: use itens relacionados a mecânica
 }
 
 {
 	devname: broke
-	name: Broke
-	desc: Start of player phase: remove one cash threat
-	unlock: lose 0 cash when taking cash threat damage
+	name: Quebrado
+	desc: Início da fase do jogador: remova uma ameaça de dinheiro.
+	unlock: perca 0 dinheiro ao sofrer dano de ameaça de dinheiro
 }
 
 {
 	devname: inspired_worker
-	name: Inspired Worker
-	desc: It costs less energy to work.
-	unlock: Work when inspired.
+	name: Trabalhador Inspirado
+	desc: Custa menos energia para trabalhar.
+	unlock: Trabalhe quando inspirado.
 }
 
 {
 	devname: city_kid
-	name: City Kid
-	desc: Get Inspired when entering a city
-	unlock: Clear obstacles while exploring the city
+	name: Jovem da Cidade
+	desc: Fique inspirado ao entrar em uma cidade
+	unlock: Limpe obstáculos enquanto explora a cidade
 }
 
 {
 	devname: runaway
-	name: Impatient
-	desc: Get In the zone when escaping an event
-	unlock: Escape events
+	name: Impaciente
+	desc: Entre na zona ao escapar de um evento
+	unlock: Escape de eventos
 }
 
 {
 	devname: rain_lover
-	name: Rain Lover
-	desc: Sleeping in the tent while it's raining restores energy fully and inspires you.
-	unlock: introspection
+	name: Amante da Chuva
+	desc: Dormir na tenda enquanto chove restaura toda a energia e inspira você.
+	unlock: introspecção
 }
 
 {
 	devname: comfortable
-	name: Comfortable
-	desc: Staying in a hostel has a chance of giving you a skill point.
-	unlock: Stay in a hostel three times
+	name: Confortável
+	desc: Ficar em um albergue tem uma chance de te dar um ponto de habilidade.
+	unlock: Fique em um albergue três vezes
 	
-	//add -1 energy to sleeping in car
+	//adicionar -1 energia ao dormir no carro
 	
 }
 
 {
 	devname: moody
-	name: Moody
-	desc: gain 1 energy when rotating out a status effect.
-	unlock: Rotate out a status effect 5 times
+	name: Temperamental
+	desc: ganhe 1 energia ao rotacionar um efeito de status.
+	unlock: Rotacione um efeito de status 5 vezes
 }
 
 {
 	devname: happy_user
-	name: Optimist
-	desc: Happy lasts twice as long!
-	unlock: Use happy turns
+	name: Otimista
+	desc: A felicidade dura o dobro de tempo!
+	unlock: Use turnos felizes
 }
 
 
 {
 	devname: junkie
-	name: Junkie 
-	desc: You're in constant withdrawal
-	unlock: Use drugs excessively
+	name: Viciado
+	desc: Você está em constante abstinência
+	unlock: Use drogas excessivamente
 }
 
 {
 	devname: good_driver
-	name: Good driver 
-	desc: Drive faster
-	unlock: Don't take any durability or gas damage for 6 complete roads
+	name: Bom Motorista
+	desc: Dirija mais rápido
+	unlock: Não sofra dano de durabilidade ou combustível por 6 estradas completas
 }
 
 {
 	devname: bad_driver
-	name: Bad driver 
-	desc: Start of road event: get one armor
-	unlock: Black out from taking durability damage (lose all durability)
+	name: Motorista Ruim
+	desc: Início de evento de estrada: ganhe uma armadura
+	unlock: Desmaie ao sofrer dano de durabilidade (perca toda a durabilidade)
 }
 
 {
 	devname: gourmand
-	name: Glutton
-	desc: Become hungry more often
-	unlock: Eat large amounts of junk food
+	name: Glutão
+	desc: Fique com fome mais frequentemente
+	unlock: Coma grandes quantidades de comida lixo
 }
 
 {
 	devname: macgyver
-	name: Crafty
-	desc: Items are considered SWIFT
-	unlock: Use crafty items
+	name: Habilidoso
+	desc: Itens são considerados RÁPIDOS
+	unlock: Use itens habilidosos
 }
 
 {
 	devname: vegetarian
-	name: Vegetarian
-	desc: Consuming vegetarian food gives you 1 energy
-	unlock: Introspection
+	name: Vegetariano
+	desc: Consumir comida vegetariana lhe dá 1 energia
+	unlock: Introspecção
 }
 
 {
 	devname: drunk_meat_eater
-	name: Drunk Meat Eater
-	desc: Consuming vegetarian food gives you 1 energy. You can still eat meat, but only when you're drunk.
-	unlock: Eat meat while drunk and vegetarian.
+	name: Comedor de Carne Bêbado
+	desc: Consumir comida vegetariana lhe dá 1 energia. Você ainda pode comer carne, mas apenas quando estiver bêbado.
+	unlock: Coma carne enquanto estiver bêbado e vegetariano.
 }
 
 {
 	devname: careful_car_owner
-	name: Careful Car Owner
-	desc: You are VERY careful with your car. Durability threat are always attacking
-	unlock: Don't let your durability drop below 80%
+	name: Dono de Carro Cuidadoso
+	desc: Você é MUITO cuidadoso com seu carro. As ameaças de durabilidade sempre o atacam
+	unlock: Não deixe sua durabilidade cair abaixo de 80%
 	
-	//add threat effect
+	//adicionar efeito de ameaça
 	
 }
 
 {
 	devname: pinch_purse
-	name: Pinch-Purse
-	desc: You are more likely to get robbed
-	unlock: Don't spend money
+	name: Mão Fechada
+	desc: Você tem mais chances de ser roubado
+	unlock: Não gaste dinheiro
 	
-	//can't unlock yet
+	//não pode ser desbloqueado ainda
 }
 
 {
 	devname: social_drinker
-	name: Social Drinker
-	desc: Turning in quests while drunk earns you more skill points
-	unlock: Be drunk while talking to people
+	name: Beber Socialmente
+	desc: Entregar missões enquanto estiver bêbado lhe dá mais pontos de habilidade
+	unlock: Fique bêbado enquanto fala com as pessoas
 }
 
 {
 	devname: alcoholic
-	name: Alcoholic
-	desc: When you're no longer drunk, become sad.
-	unlock: Drink. Alot. While already drunk.
+	name: Alcoólatra
+	desc: Quando você não estiver mais bêbado, fique triste.
+	unlock: Beba. Muito. Enquanto já estiver bêbado.
 	
-	//add event card tag while sober
+	//adicionar tag de evento enquanto estiver sóbrio
 	
 }
 
-
 {
 	devname: untrustworthy
-	name: Untrustworthy
-	desc: Find less quests.
-	unlock: Fail enough quests
+	name: Fiel à Mentira
+	desc: Encontre menos missões.
+	unlock: Fale falhe em missões suficientes
 }
 
 {
 	devname: precision
-	name: Perfectionist
-	desc: All skills/items that only target ONE threat ignores shields
-	unlock: Use skills and items that ignore SHIELDS.
+	name: Perfeccionista
+	desc: Todas as habilidades/itens que só atingem UMA ameaça ignoram os escudos
+	unlock: Use habilidades e itens que ignoram ESCUDOS.
 }
 
 {
 	devname: rehabilitated
-	name: Rehabilitated
-	desc: Start from the REHAB Facility
-	unlock: Complete the rehab ending
+	name: Reabilitado
+	desc: Comece na instalação de REABILITAÇÃO
+	unlock: Complete o final de reabilitação
 }
 
 {
 	devname: racer
-	name: Racer
-	desc: Adds special events during road events
-	unlock: Complete the race ending
+	name: Corredor
+	desc: Adiciona eventos especiais durante os eventos de estrada
+	unlock: Complete o final da corrida
 }
 
 {
 	devname: veteran
-	name: Veteran
-	desc: No perks. Harder events earlier.
-	unlock: Unlock 7 endings
+	name: Veterano
+	desc: Sem vantagens. Eventos mais difíceis mais cedo.
+	unlock: Desbloqueie 7 finais
 }
-
 
 {
 	devname: social_mastery
-	name: Social Master
-	desc: All Hitchhiker skills have one additional use
-	unlock: Aquire all social skills
+	name: Mestre Social
+	desc: Todas as habilidades de Carona têm um uso adicional
+	unlock: Adquira todas as habilidades sociais
 }
 
 {
 	devname: basic_mastery
-	name: Working Class Hero
-	desc: When you use a basic skill you have a 50% chance to become inspired
-	unlock: Aquire all basic skills
-	//its in
-	
+	name: Herói da Classe Trabalhadora
+	desc: Quando você usa uma habilidade básica, tem 50% de chance de ficar inspirado
+	unlock: Adquira todas as habilidades básicas
+	//está incluso
 }
-
 
 {
 	devname: driving_mastery
-	name: King of the Road
-	desc: skills that are exhausted can still be used, but lose 1 durability and 1 gas when you do so
-	unlock: Aquire all driving skills
-	//note maybe 2 random threat. works with running on fumes, make another skill in driver tree work with exhausting skills
-	//skills that are exhausted can still be used, but lose 1 durability and 1 gas when you do so
-	//Whenever a skill is exhausted, destroy one random threat
-	
+	name: Rei da Estrada
+	desc: Habilidades que estão esgotadas ainda podem ser usadas, mas perdem 1 de durabilidade e 1 de combustível ao serem usadas
+	unlock: Adquira todas as habilidades de direção
+	//nota: talvez 2 ameaças aleatórias. funciona com "correndo na reserva", fazer outra habilidade na árvore de motorista funcionar com habilidades esgotadas
+	//habilidades esgotadas podem ser usadas, mas perdem 1 de durabilidade e 1 de combustível ao serem usadas
+	//Sempre que uma habilidade for esgotada, destrua uma ameaça aleatória
 }
 
 {
 	devname: hiking_mastery
-	name: True Hiker
-	desc: Whenever threat destroys armor, destroy the attacking threat.
-	unlock: Aquire all hiking skills
-	//its in
-	// basically a "thorns"-effect. may word it differently
-	
+	name: Verdadeiro Viajante
+	desc: Sempre que uma ameaça destruir uma armadura, destrua a ameaça que atacou.
+	unlock: Adquira todas as habilidades de caminhada
+	//está incluso
+	//basicamente um efeito de "espinhos". pode ser formulado de forma diferente
 }
 
 {
 	devname: thrifty_mastery
-	name: Scavenger
-	desc: Whenever you use a thrifty skill, add a small item to your glovebox with one use
-	unlock: Aquire all thrifty skills
+	name: Catador
+	desc: Sempre que você usar uma habilidade econômica, adicione um item pequeno na sua caixa de luvas com uma única utilização
+	unlock: Adquira todas as habilidades econômicas
 	
-	//and remove the skill "scavenge"
-	// both useful for the items during combat but can also be exploited to earn some money
-	
+	//e remova a habilidade "vasculhar"
+	//útil tanto para os itens durante combate quanto para ser explorado para ganhar algum dinheiro
 }
 
 {
 	devname: gourmet_mastery
-	name: Ultimate Gourmet
-	desc: Whenever you consume food from the glovebox, destroy 1-2 random threat
-	unlock: Aquire all gourmet skills
-	//its in
-	
+	name: Gourmet Supremo
+	desc: Sempre que você consumir comida da caixa de luvas, destrua 1-2 ameaças aleatórias
+	unlock: Adquira todas as habilidades de gourmet
+	//está incluso
 }
 
 {
 	devname: bookworm
-	name: Book worm
-	desc: read faster
-	unlock: finish 3 books
+	name: Rato de Biblioteca
+	desc: Leia mais rápido
+	unlock: termine 3 livros
 }
 
 {
 	devname: spartan
-	name: Spartan
-	desc: If you have no items in your trunk, you're constantly satisfied
-	unlock: Introspection
+	name: Espartano
+	desc: Se você não tiver itens no seu porta-malas, você está constantemente satisfeito
+	unlock: Introspecção
 }
 
 {
 	devname: hoarder
-	name: Hoarder
-	desc: If you have no empty space in your trunk, gain 2 energy after each road event
-	unlock: Fill your entire trunk
+	name: Acumulador
+	desc: Se você não tiver espaço vazio no seu porta-malas, ganhe 2 de energia após cada evento de estrada
+	unlock: Preencha seu porta-malas completamente
 }
 
 {
 	devname: sugar_addict
-	name: Sugar Addict
-	desc: When you consume products with sugar, gain 1 extra energy but also become more tired
-	unlock: Consume sugary items
+	name: Viciado em Açúcar
+	desc: Quando você consumir produtos com açúcar, ganhe 1 energia extra, mas também fique mais cansado
+	unlock: Consuma itens açucarados
 }
-
 
 {
 	devname: have_a_go_nerf
-	name: Experienced
-	desc: Have-a-go now has 5 maximum uses.
-	unlock: Use have-a-go 30 times.
+	name: Experiente
+	desc: "Have-a-go" agora tem 5 usos máximos.
+	unlock: Use "have-a-go" 30 vezes.
 }
-
-
 
 {
 	devname: lottery_winner
-	name: Lucky Bastard
-	desc: You're rich!
-	unlock: Win the lottery
+	name: Sortudo
+	desc: Você é rico!
+	unlock: Ganhe na loteria
 }
-
 
 {
 	devname: allergic
-	name: Allergic
-	desc: Lose one energy when driving on a country road
-	unlock: Introspection
+	name: Alérgico
+	desc: Perda 1 energia ao dirigir em uma estrada rural
+	unlock: Introspecção
 }
 
 {
 	devname: junkie_2
-	name: In Denial
-	desc: You're in constant withdrawal
-	unlock: Refuse aid
+	name: Em Negação
+	desc: Você está em constante abstinência
+	unlock: Recuse ajuda
 }
 
 {
 	devname: worker
-	name: Worker
-	desc: Your start with more cash
-	unlock: innate
+	name: Trabalhador
+	desc: Você começa com mais dinheiro
+	unlock: inato
 }
 
 {
 	devname: downer
-	name: Downer
-	desc: When you become sad, also become satisfied. It rains more often.
-	unlock: innate
+	name: Deprimido
+	desc: Quando você ficar triste, também ficará satisfeito. Chove mais frequentemente.
+	unlock: inato
 }
 
 {
 	devname: litterbug
-	name: Litterbug
-	desc: In forest and mountain areas, add one gas threat to events.
-	unlock: Throw away trash outside the car.
+	name: Poluidor
+	desc: Em áreas de floresta e montanha, adicione uma ameaça de combustível aos eventos.
+	unlock: Jogue lixo fora do carro.
 }
+
