@@ -2,12 +2,12 @@
 
 {
 	dev_name: "coffee"
-	title: "Coffee"
+	title: "Café"
 	
 	item_type: "consumable"
 	cons_stat: energy
 	cons_amount: 2
-	desc: "Hot beverage that restores §amnt energy and cures 1 stack of tired. Don't let it get cold!"
+	desc: "Bebida quente que restaura §amnt de energia e cura 1 acúmulo de cansaço. Não deixe esfriar!"
 	tags: cafe, beverage, hot, gas_station,hot_coffee,caffeine
 	price: 2
 	charges: 1
@@ -18,12 +18,12 @@
 
 {
 	dev_name: "coffee_cafe"
-	title: "Coffee"
+	title: "Café"
 	
 	item_type: "consumable"
 	cons_stat: energy
 	cons_amount: 2
-	desc: "Hot beverage that restores §amnt energy and cures 1 stack of tired. Don't let it get cold!"
+	desc: "Bebida quente que restaura §amnt de energia e cura 1 acúmulo de cansaço. Não deixe esfriar!"
 	tags: cafe, beverage, hot,breakable_glass,hot_coffee, caffeine
 	price: 2
 	charges: 1
@@ -34,13 +34,13 @@
 
 {
 	dev_name: "tea"
-	title: "Tea"
+	title: "Chá"
 	
 	item_type: "consumable"
 	cons_cure: "headache"
 	cons_stat: energy
 	cons_amount: 2
-	desc: "Hot beverage that restores §amnt energy and cures §cure. Smells so nice!"
+	desc: "Bebida quente que restaura §amnt de energia e cura §cure. Que cheiro gostoso!"
 	tags: cafe, beverage, hot,breakable_glass
 	price: 2
 	charges: 1
@@ -50,13 +50,14 @@
 }
 
 
+
 {
 	dev_name: "cold_coffee"
-	title: "Cold Coffee"
+	title: "Café Gelado"
 	
 	item_type: "consumable"
 	cons_buff: tired
-	desc: "Yuck! Cold Coffee!"
+	desc: "Eca! Café gelado!"
 	tags: token,cold, caffeine
 	price: 1
 	charges: 1
@@ -68,11 +69,11 @@
 
 {
 	dev_name: "cold_coffee_cafe"
-	title: "Cold Coffee"
+	title: "Café Gelado"
 	
 	item_type: "consumable"
 	cons_buff: tired
-	desc: "Yuck! Cold Coffee!"
+	desc: "Eca! Café gelado!"
 	tags: token,cold
 	price: 1
 	charges: 1
@@ -84,7 +85,7 @@
 
 {
 	dev_name: "juice_box"
-	title: "Juice"
+	title: "Suco"
 	
 	item_type: "consumable"
 	
@@ -92,7 +93,7 @@
 	cons_stat: energy
 	cons_amount: 3
 	cons_buff: tired
-	desc: "Drink that restores §amnt §st when consumed. Also makes you tired.
+	desc: "Bebida que restaura §amnt §st quando consumida. Também te deixa cansado.
 	
 	tags: drink, gas_station, super_market, beverage, sugar
 	price: 1
@@ -102,11 +103,9 @@
 	sprite: spr_item_juice_box
 }
 
-
-
 {
 	dev_name: "coke_big"
-	title: "Coke"
+	title: "Coca"
 	
 	item_type: "consumable"
 	
@@ -114,7 +113,7 @@
 	cons_stat: energy
 	cons_amount: 3
 	cons_buff: tired
-	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	desc: "Bebida gelada que restaura §amnt §st quando consumida. Também te deixa cansado.
 	
 	tags: drink, gas_station, super_market, beverage, cold, junk_food, caffeine, sugar
 	price: 2
@@ -126,7 +125,7 @@
 
 {
 	dev_name: "coke_small"
-	title: "Coke"
+	title: "Coca"
 	
 	item_type: "consumable"
 	
@@ -134,7 +133,7 @@
 	cons_stat: energy
 	cons_amount: 3
 	cons_buff: tired
-	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	desc: "Bebida gelada que restaura §amnt §st quando consumida. Também te deixa cansado.
 	
 	tags: drink, gas_station, super_market, beverage, cold, junk_food, caffeine, sugar
 	price: 1
@@ -146,7 +145,7 @@
 
 {
 	dev_name: "sprite_big"
-	title: "Soda"
+	title: "Refrigerante"
 	
 	item_type: "consumable"
 	
@@ -154,7 +153,7 @@
 	cons_stat: energy
 	cons_amount: 3
 	cons_buff: tired
-	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	desc: "Bebida gelada que restaura §amnt §st quando consumida. Também te deixa cansado.
 	
 	tags: drink, gas_station, super_market, beverage, cold, junk_food, sugar
 	price: 2
@@ -166,7 +165,7 @@
 
 {
 	dev_name: "sprite_small"
-	title: "Soda"
+	title: "Refrigerante"
 	
 	item_type: "consumable"
 	
@@ -174,7 +173,7 @@
 	cons_stat: energy
 	cons_amount: 3
 	cons_buff: tired
-	desc: "Cold drink that restores §amnt §st when consumed. Also makes you tired.
+	desc: "Bebida gelada que restaura §amnt §st quando consumida. Também te deixa cansado.
 	
 	tags: drink, gas_station, super_market, beverage, cold, junk_food, sugar
 	price: 1
@@ -184,16 +183,17 @@
 	sprite: spr_item_sprite_small
 }
 
+
 {
 	dev_name: "cocaine"
-	title: "Cocaine"
+	title: "Cocaína"
 	
 	item_type: "consumable"
 	charges: 2
 	cons_stat: energy
 	cons_amount: 10
 	cons_buff: "speeded"
-	desc: "Illegal drug. Fully restores §st when consumed. Gain the speeded status."
+	desc: "Droga ilegal. Restaura totalmente §st quando consumida. Ganha o status acelerado."
 	tags: illegal_drug, snort, drug_dealer,illegal
 	min_shop_amount: 3
 	price: 45
@@ -206,12 +206,12 @@
 
 {
 	dev_name: "weed"
-	title: "Weed"
+	title: "Maconha"
 	
 	item_type: "consumable"
 
 	cons_buff: "hungry"
-	desc: "Use to get relaxed. And maybe you'll feel good!"
+	desc: "Use para relaxar. E talvez você se sinta bem!"
 	tags: illegal_drug, smoke, weed, drug_dealer,illegal
 	min_shop_amount: 3
 	price: 25
@@ -224,11 +224,11 @@
 
 {
 	dev_name: "joint"
-	title: "Joint"
+	title: "Baseado"
 	
 	item_type: "consumable"
 	cons_buff: "hungry"
-	desc: "Use to get relaxed. And maybe you'll feel good!"
+	desc: "Use para relaxar. E talvez você se sinta bem!"
 	tags: illegal_drug, smoke, weed, drug_dealer,illegal
 	min_shop_amount: 3
 	price: 12
@@ -239,14 +239,13 @@
 	
 }
 
-
 {
 	dev_name: "baguette"
-	title: "Baguette"
+	title: "Baguete"
 	
 	item_type: "consumable"
 	cons_cure: starving
-	desc: "Cures §cure. Oh la la!"
+	desc: "Cura §cure. Oh la la!"
 	tags: cafe, bread, food, gourmet
 	charges: 1
 	price: 2
@@ -257,15 +256,16 @@
 	
 }
 
+
 {
 	dev_name: "cinnamon_bun"
-	title: "Cinnamon Bun"
+	title: "Pão de Canela"
 	
 	item_type: "consumable"
 	cons_cure: hungry
 	cons_stat: energy
 	cons_amount: 1
-	desc: "Cures §cure and restores §amnt energy. Very tasty!"
+	desc: "Cura §cure e restaura §amnt de energia. Muito saboroso!"
 	tags: cafe, bread, food, gourmet, sugar
 	price: 1.5
 	charges: 2
@@ -277,13 +277,13 @@
 
 {
 	dev_name: "danish"
-	title: "Danish"
+	title: "Doce Dinamarquês"
 	
 	item_type: "consumable"
 	cons_cure: hungry
 	cons_stat: energy
 	cons_amount: 1
-	desc: "Cures §cure and restores §amnt energy. Very tasty!"
+	desc: "Cura §cure e restaura §amnt de energia. Muito saboroso!"
 	tags: cafe, bread, food, gourmet,sugar
 	price: 1.5
 	charges: 1
@@ -295,14 +295,14 @@
 
 {
 	dev_name: "pie_small_1"
-	title: "Cherry Pie"
+	title: "Torta de Cereja"
 	
 	item_type: "consumable"
 	cons_cure: hungry
 	cons_stat: energy
 	cons_amount: 2
 	cons_buff: tired
-	desc: "Cures §cure and restores §amnt energy. Also makes you tired. So good! "
+	desc: "Cura §cure e restaura §amnt de energia. Também te deixa cansado. Deliciosa! "
 	
 	
 	tags: cafe, bread, food, gourmet,sugar
@@ -316,14 +316,14 @@
 
 {
 	dev_name: "pie_small_2"
-	title: "Blueberry Pie"
+	title: "Torta de Mirtilo"
 	
 	item_type: "consumable"
 	cons_cure: hungry
 	cons_stat: energy
 	cons_amount: 2
 	cons_buff: tired
-	desc: "Cures §cure and restores §amnt energy. Also makes you tired. So good!"
+	desc: "Cura §cure e restaura §amnt de energia. Também te deixa cansado. Deliciosa!"
 	tags: cafe, bread, food, gourmet,sugar
 	price: 1.5
 	charges: 1
@@ -332,16 +332,17 @@
 	sprite: spr_item_pie_piece_2
 	
 }
+
 {
 	dev_name: "pie_big
-	title: "Blueberry Pie"
+	title: "Torta de Mirtilo"
 	
 	item_type: "consumable"
 	cons_cure: starving
 	cons_stat: energy
 	cons_amount: 1
 	cons_buff: tired
-	desc: "Cures §cure and restores §amnt energy. Also makes you tired. So good!"
+	desc: "Cura §cure e restaura §amnt de energia. Também te deixa cansado. Deliciosa!"
 	tags: cafe, bread, food, gourmet,sugar,finish_satisfied
 	price: 6
 	charges: 7
@@ -353,11 +354,11 @@
 
 {
 	dev_name: "baguette_half"
-	title: "Baguette"
+	title: "Baguete"
 	
 	item_type: "consumable"
 	cons_cure: starving
-	desc: "Cures §cure. Oh la la!"
+	desc: "Cura §cure. Oh la la!"
 	tags: bread, food, gourmet, token,non_shop
 	charges: 1
 	price: 2
@@ -370,12 +371,12 @@
 
 {
 	dev_name: "chicken_wings"
-	title: "Chicken Wings"
+	title: "Asas de Frango"
 	
 	item_type: "consumable"
 	cons_cure: starving
 	cons_buff:satisfied
-	desc: "Cures §cure. Spicy! Makes you satisfied."
+	desc: "Cura §cure. Apimentado! Te deixa satisfeito."
 	tags: fast_food, bar, food, meat, junk_food, super_market
 	charges: 1
 	price: 4
@@ -388,12 +389,12 @@
 
 {
 	dev_name: "sandwich"
-	title: "Sandwich"
+	title: "Sanduíche"
 	
 	item_type: "consumable"
 	cons_cure: starving
 	cons_buff:satisfied
-	desc: "Made with love. Cures §cure. Makes you satisfied."
+	desc: "Feito com amor. Cura §cure. Te deixa satisfeito."
 	tags: food,cafe
 	price: 1.5
 	charges: 1
@@ -403,13 +404,14 @@
 	
 }
 
+
 {
 	dev_name: "egg_jar"
-	title: "Jar of Eggs"
+	title: "Pote de Ovos"
 	
 	item_type: "consumable"
 	cons_cure: starving
-	desc: "Eggs. In a jar. They're pickled. Cures §cure."
+	desc: "Ovos. Num pote. Estão em conserva. Cura §cure."
 	tags: food,cafe,bar
 	price: 1.5
 	charges: 3
@@ -421,11 +423,11 @@
 
 {
 	dev_name: "chips_big"
-	title: "Chips Big-Pack"
+	title: "Pacotão de Batata"
 	
 	item_type: "consumable"
 	cons_cure: hungry
-	desc: "Cures §cure. Mmm!"
+	desc: "Cura §cure. Mmm!"
 	tags: snack, vegetarian, junk_food, super_market, gas_station, food
 	charges: 3
 	price: 2
@@ -437,11 +439,11 @@
 
 {
 	dev_name: "chips_small"
-	title: "Chips"
+	title: "Batata Chips"
 	
 	item_type: "consumable"
 	cons_cure: hungry
-	desc: "Cures §cure. Mmm!"
+	desc: "Cura §cure. Mmm!"
 	tags: snack, vegetarian, junk_food, super_market, gas_station, food,common_find
 
 	price: 1
@@ -454,11 +456,11 @@
 
 {
 	dev_name: "nuts"
-	title: "Nuts"
+	title: "Nozes"
 	
 	item_type: "consumable"
 	cons_cure: hungry
-	desc: "Cures §cure. Nutritious!"
+	desc: "Cura §cure. Nutritivo!"
 	tags: snack, vegetarian, junk_food, super_market, gas_station, food,bar
 
 	price: 3
@@ -469,13 +471,14 @@
 	
 }
 
+
 {
 	dev_name: "hot_dog"
-	title: "Hot Dog"
+	title: "Cachorro-Quente"
 	
 	item_type: "consumable"
 	cons_cure: starving
-	desc: "Cures §cure. Popular food!"
+	desc: "Cura §cure. Comida popular!"
 	tags: fast_food, food, gas_station, meat, junk_food
 	charges: 1
 	price: 1
@@ -488,11 +491,11 @@
 
 {
 	dev_name: "fries"
-	title: "Fries"
+	title: "Batata Frita"
 	
 	item_type: "consumable"
 	cons_cure: starving
-	desc: "Cures §cure. C'est bon!"
+	desc: "Cura §cure. C'est bon!"
 	tags: fast_food, food, bar, junk_food
 	charges: 1
 	price: 1
@@ -505,12 +508,12 @@
 
 {
 	dev_name: "dog_food"
-	title: "Dog Food"
+	title: "Ração de Cachorro"
 	
 	item_type: "consumable"
 	cons_cure: hungry
 	cons_buff:dirty
-	desc: "Cures §cure. Not meant for humans though..."
+	desc: "Cura §cure. Mas não é feita para humanos..."
 	tags:  food, super_market, meat
 	charges: 1
 	price: 1
@@ -523,30 +526,30 @@
 
 {
 	dev_name: "toolbox"
-	title: "Tool box"
+	title: "Caixa de Ferramentas"
 	
 	item_type: "consumable"
 	cons_stat: car_health
 	cons_amount: 2
 	charges: 3
-	desc: Use to restore §amnt §st. DIY!
+	desc: Use para restaurar §amnt §st. Faça você mesmo!
 	tags: thrift,mechanic,common_find,macgyver,camping,toolbox
 	price: 30
 	
 	w:2
 	h:1
 	sprite: spr_item_toolbox
-
 	
 }
 
+
 {
 	dev_name: "rope"
-	title: "Rope"
+	title: "Corda"
 	
 	item_type: "trait"
 	trait: "rope"
-	desc: "A rope can always come in handy!"
+	desc: "Uma corda sempre pode ser útil!"
 	
 	tags: utility, mechanic,macgyver,camping, gas_station
 	price: 8
@@ -560,11 +563,11 @@
 
 {
 	dev_name: "knife"
-	title: "knife"
+	title: "Faca"
 	
 	item_type: "trait"
 	trait: "knife"
-	desc: "A knife can always come in handy!"
+	desc: "Uma faca sempre pode ser útil!"
 	
 	tags: utility,macgyver,camping,common_find,crime,thrift
 	price: 10
@@ -576,11 +579,11 @@
 
 {
 	dev_name: "gun"
-	title: "Gun"
+	title: "Arma"
 	
 	item_type: "trait"
 	trait: "knife"
-	desc: "A gun. Hopefully you'll never have to use it. [#FF4535]Better not get caught having it near any cops.[/color]"
+	desc: "Uma arma. Tomara que você nunca precise usar. [#FF4535]Melhor não ser pego com ela perto de policiais.[/color]"
 	
 	tags: utility,crime,non_shop, drug_dealer,illegal
 	price: 99
@@ -592,11 +595,11 @@
 
 {
 	dev_name: "knife_small"
-	title: "Butterfly Knife"
+	title: "Canivete Borboleta"
 	
 	item_type: "trait"
 	trait: "knife"
-	desc: "A knife can always come in handy!"
+	desc: "Uma faca sempre pode ser útil!"
 	
 	tags: utility,macgyver,crime, drug_dealer
 	price: 7
@@ -606,17 +609,16 @@
 	sprite: spr_item_knife_small
 }
 
-
 {
 	dev_name: "knife_small_golden"
-	title: "Golden Knife"
+	title: "Faca Dourada"
 	
 	item_type: "combat"
 	charges: 12
 	
 	pattern: AA
 	
-	desc: "A gift from the Stranger. Can be used during events. It has many uses and might be worth a lot of money"
+	desc: "Um presente do Estranho. Pode ser usada durante eventos. Tem muitos usos e pode valer muito dinheiro"
 	
 	tags: utility,macgyver,crime,non_shop
 	price: 100
@@ -630,11 +632,11 @@
 
 {
 	dev_name: "crowbar"
-	title: "Crowbar"
+	title: "Pé de Cabra"
 	
 	item_type: "trait"
 	trait: "crowbar"
-	desc: "A crowbar can always come in handy!"
+	desc: "Um pé de cabra sempre pode ser útil!"
 	
 	tags: utility,macgyver,common_find,crime,thrift,drug_dealer
 	price: 13
@@ -648,11 +650,11 @@
 
 {
 	dev_name: "flash_light"
-	title: "Flash Light"
+	title: "Lanterna"
 	
 	item_type: "trait"
 	trait: "light_source"
-	desc: "Good to light up dark areas. Remove one threat at start of road during night."
+	desc: "Boa para iluminar áreas escuras. Remove uma ameaça no início da estrada durante a noite."
 	
 	tags: utility,macgyver,camping,common_find,crime, gas_station,thrift
 	price: 8
@@ -666,11 +668,11 @@
 
 {
 	dev_name: "sunglasses"
-	title: "Cool Shades"
+	title: "Óculos Estilosos"
 	
 	item_type: "trait"
 	trait: "sunglasses"
-	desc: "Sunlight won't be a problem with these!"
+	desc: "A luz do sol não será um problema com esses!"
 	
 	tags: accessory, cool, common_find, gas_station,thrift
 	price: 4
@@ -680,15 +682,16 @@
 	sprite: spr_item_sunglasses
 }
 
+
 {
 	dev_name: "gas_tank_big"
-	title: "Jerrycan (full)"
+	title: "Galão (cheio)"
 	
 	item_type: "consumable"
 	cons_stat: gas
 	cons_amount: 6
 	charges: 1
-	desc: "Use to gain §amnt §st. Always handy!"
+	desc: "Use para ganhar §amnt §st. Sempre útil!"
 	
 	tags: gas, mechanic, common_find, gas_station
 	price: 30
@@ -700,13 +703,13 @@
 
 {
 	dev_name: "gas_tank_low"
-	title: "Jerrycan (low)"
+	title: "Galão (pouco)"
 	
 	item_type: "consumable"
 	cons_stat: gas
 	cons_amount: 2
 	charges: 1
-	desc: "Use to gain §amnt §st. Always handy!"
+	desc: "Use para ganhar §amnt §st. Sempre útil!"
 	
 	tags: gas, common_find, token, non_shop
 	price: 10
@@ -718,13 +721,13 @@
 
 {
 	dev_name: "gas_tank_half"
-	title: "Jerrycan (half)"
+	title: "Galão (metade)"
 	
 	item_type: "consumable"
 	cons_stat: gas
 	cons_amount: 3
 	charges: 1
-	desc: "Use to gain §amnt §st. Always handy!"
+	desc: "Use para ganhar §amnt §st. Sempre útil!"
 	
 	tags: gas, common_find, token, non_shop
 	price: 20
@@ -736,10 +739,10 @@
 
 {
 	dev_name: "gas_tank_empty"
-	title: "Jerrycan (empty)"
+	title: "Galão (vazio)"
 	
 	item_type: "trash"
-	desc: "It is empty."
+	desc: "Está vazio."
 	
 	tags:  token, non_shop
 	price: 0
@@ -752,12 +755,12 @@
 
 {
 	dev_name: "cheese"
-	title: "Cheese"
+	title: "Queijo"
 	
 	item_type: "consumable"
 	cons_cure: "hungry"
 	charges: 1
-	desc: "Cures §cure! Kinda smelly!"
+	desc: "Cura §cure! Meio fedido!"
 	
 	tags: food, dairy, gourmet, super_market
 	price: 5
@@ -768,14 +771,15 @@
 	
 }
 
+
 {
 	dev_name: "orange"
-	title: "Orange"
+	title: "Laranja"
 	
 	item_type: consumable
 	cons_cure: "hungry"
 	charges: 1
-	desc: "Cures §cure! Fresh!"
+	desc: "Cura §cure! Fresca!"
 	
 	tags: food, fruit
 	price: 1
@@ -788,12 +792,12 @@
 
 {
 	dev_name: "apple"
-	title: "Apple"
+	title: "Maçã"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 2
-	desc: "Cures §cure! Fresh!"
+	desc: "Cura §cure! Fresca!"
 	
 	tags: food, fruit, vegetarian
 	price: 1
@@ -805,12 +809,12 @@
 
 {
 	dev_name: "watermelon"
-	title: "Watermelon"
+	title: "Melancia"
 	item_type: consumable
 	
 	cons_cure: "starving"
 	charges: 1
-	desc: "Cures §cure! Fresh!"
+	desc: "Cura §cure! Fresca!"
 	
 	tags: food, fruit, vegetarian
 	price: 1
@@ -822,12 +826,12 @@
 
 {
 	dev_name: "watermelon_half"
-	title: "Watermelon"
+	title: "Melancia"
 	item_type: consumable
 	
 	cons_cure: "starving"
 	charges: 1
-	desc: "Cures §cure! Fresh!"
+	desc: "Cura §cure! Fresca!"
 	
 	tags: food, fruit, vegetarian,token, non_shop
 	price: 1
@@ -839,12 +843,12 @@
 
 {
 	dev_name: "carrots"
-	title: "Carrots"
+	title: "Cenouras"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 2
-	desc: "Cures §cure! Good for you!"
+	desc: "Cura §cure! Faz bem pra você!"
 	
 	tags: food, vegetable, vegetarian
 	price: 1
@@ -854,16 +858,17 @@
 	sprite: spr_item_carrots
 }
 
+
 {
 	dev_name: "potatoes"
-	title: "Potatoes"
+	title: "Batatas"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	cons_stat:energy
 	cons_amount: 0
 	charges: 2
-	desc: "Boil 'em, mash 'em stick 'em in a stew! (You'll need to cook these)"
+	desc: "Ferva, amasse, jogue no ensopado! (Você vai precisar cozinhar)"
 	
 	tags: food, vegetarian, vegetable, uncooked, super_market
 	price: 0.15
@@ -875,12 +880,12 @@
 
 {
 	dev_name: "berries_red"
-	title: "Berries"
+	title: "Frutas Vermelhas"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 1
-	desc: "Wild berries. Cures §cure! Fresh!"
+	desc: "Frutas silvestres. Cura §cure! Frescas!"
 	
 	tags: food, berries, non_shop
 	price: 1
@@ -892,12 +897,12 @@
 
 {
 	dev_name: "berries_blue"
-	title: "Berries"
+	title: "Frutas Vermelhas"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 1
-	desc: "Wild berries. Cures §cure! Fresh!"
+	desc: "Frutas silvestres. Cura §cure! Frescas!"
 	
 	tags: food, berries, non_shop
 	price: 1
@@ -908,15 +913,14 @@
 }
 
 
-
 {
 	dev_name: "mushroom_karl"
-	title: "Mushroom"
+	title: "Cogumelo"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 1
-	desc: "A mushroom! you found it!"
+	desc: "Um cogumelo! Você encontrou!"
 	
 	tags: food, mushroom, non_shop
 	price: 5
@@ -929,14 +933,14 @@
 
 {
 	dev_name: "mushroom_kant"
-	title: "Mushroom"
+	title: "Cogumelo"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	cons_stat: energy
 	cons_amount: 2
 	charges: 1
-	desc: "A mushroom! you found it!"
+	desc: "Um cogumelo! Você encontrou!"
 	
 	tags: food, mushroom,non_shop
 	price: 7
@@ -948,14 +952,14 @@
 
 {
 	dev_name: "mushroom_poison"
-	title: "Mushroom"
+	title: "Cogumelo"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	cons_buff: "headache"
 	cons_buff: "sad"
 	charges: 1
-	desc: "A mushroom! you found it!"
+	desc: "Um cogumelo! Você encontrou!"
 	
 	tags: food, mushroom, non_shop
 	price: 5
@@ -967,12 +971,12 @@
 
 {
 	dev_name: "soap"
-	title: "Soap"
+	title: "Sabonete"
 	item_type: consumable
 	
 	cons_cure: "dirty"
 	charges: 2
-	desc: "Removes §cure! So clean!"
+	desc: "Remove §cure! Tão limpo!"
 	
 	tags: hygiene, soap, super_market
 	price: 1
@@ -983,12 +987,12 @@
 }
 {
 	dev_name: "toilet_paper"
-	title: "Toilet Paper"
+	title: "Papel Higiênico"
 	item_type: consumable
 	
 	cons_cure: "dirty"
 	charges: 4
-	desc: "Removes §cure! Perfect!"
+	desc: "Remove §cure! Perfeito!"
 	
 	tags: hygiene, soap, super_market, trash,common_find
 	price: 2
@@ -998,14 +1002,15 @@
 	sprite: spr_item_toilet_paper
 }
 
+
 {
 	dev_name: "canned_beans"
-	title: "Canned Beans"
+	title: "Feijão Enlatado"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 3
-	desc: "Cures §cure! Wooh!"
+	desc: "Cura §cure! Uhul!"
 	cons_stat: energy
 	cons_amount: 1
 	
@@ -1024,7 +1029,7 @@
 	
 	cons_cure: "hungry"
 	charges: 8
-	desc: "Nice Margherita pizza. Cures §cure! Cowabunga!"
+	desc: "Pizza Margherita gostosa. Cura §cure! Cowabunga!"
 	
 	tags: food, fast_food, dairy, junk_food, super_market,finish_satisfied
 	price: 8
@@ -1037,12 +1042,12 @@
 
 {
 	dev_name: "pizza_meat"
-	title: "Pizza Peperoni"
+	title: "Pizza de Pepperoni"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 8
-	desc: "Nice Peperoni pizza. Cures §cure! Cowabunga!"
+	desc: "Pizza de Pepperoni gostosa. Cura §cure! Cowabunga!"
 	
 	tags: food, fast_food, dairy, meat, junk_food, super_market,finish_satisfied
 	price: 8
@@ -1061,7 +1066,7 @@
 	
 	cons_cure: "hungry"
 	charges: 3
-	desc: "Cures §cure! Yum!"
+	desc: "Cura §cure! Humm!"
 	
 	tags: food, fruit
 	price: 1
@@ -1074,13 +1079,13 @@
 
 {
 	dev_name: "noodles_1"
-	title: "Instant Ramen"
+	title: "Lámen Instantâneo"
 	item_type: consumable
 	
 	cons_stat: energy
 	cons_amount: 0
 	charges: 1
-	desc: "Needs to be cooked"
+	desc: "Precisa ser cozido"
 	
 	tags: food, super_market,uncooked,vegetarian
 	price: 0.5
@@ -1092,13 +1097,13 @@
 
 {
 	dev_name: "noodles_2"
-	title: "Instant Ramen"
+	title: "Lámen Instantâneo"
 	item_type: consumable
 	
 	cons_stat: energy
 	cons_amount: 0
 	charges: 1
-	desc: "Needs to be cooked"
+	desc: "Precisa ser cozido"
 	
 	tags: food, super_market,uncooked,vegetarian
 	price: 0.25
@@ -1110,13 +1115,13 @@
 
 {
 	dev_name: "noodles_3"
-	title: "Instant Ramen"
+	title: "Lámen Instantâneo"
 	item_type: consumable
 	
 	cons_stat: energy
 	cons_amount: 0
 	charges: 1
-	desc: "Needs to be cooked"
+	desc: "Precisa ser cozido"
 	
 	tags: food, super_market,uncooked,vegetarian
 	price: 0.25
@@ -1128,13 +1133,13 @@
 
 {
 	dev_name: "ravioli"
-	title: "Ravioli"
+	title: "Ravióli"
 	item_type: consumable
 	
 	cons_stat: energy
 	cons_amount: 0
 	charges: 3
-	desc: "Needs to be cooked. Contains meat."
+	desc: "Precisa ser cozido. Contém carne."
 	
 	tags: food, super_market,uncooked,meat
 	price: 1
@@ -1144,14 +1149,15 @@
 	sprite: spr_item_ravioli
 }
 
+
 {
 	dev_name: "tuna_can"
-	title: "Tuna Can"
+	title: "Lata de Atum"
 	item_type: consumable
 	
 	cons_cure: "hungry"
 	charges: 3
-	desc: "Cures §cure! Wooh!"
+	desc: "Cura §cure! Uhul!"
 	
 	tags: food, super_market,meat
 	price: 2
@@ -1163,14 +1169,14 @@
 
 {
 	dev_name: "ice_cream"
-	title: "Ice Cream"
+	title: "Sorvete"
 	item_type: consumable
 	
 	cons_cure: "hot"
 	cons_stat: energy
 	cons_amount: 4
 	charges: 1
-	desc: "Vanilla Flavour! Gain §amnt §st! Very cold!"
+	desc: "Sabor baunilha! Ganha §amnt §st! Bem gelado!"
 	
 	tags: food, dairy,super_market,cold
 	price: 3
@@ -1182,7 +1188,7 @@
 
 {
 	dev_name: "milk_shake"
-	title: "Milk Shake"
+	title: "Milkshake"
 	item_type: consumable
 	
 	cons_cure: "hot"
@@ -1190,7 +1196,7 @@
 	cons_stat: energy
 	cons_amount: 3
 	charges: 1
-	desc: "Strawberry flavour! And with whipped cream! Gain §amnt §st! Very cold! Makes you satisfied."
+	desc: "Sabor morango! E com chantilly! Ganha §amnt §st! Bem gelado! Te deixa satisfeito."
 	
 	tags: beverage, dairy,cold,cafe
 	price: 3
@@ -1203,12 +1209,12 @@
 
 {
 	dev_name: "aspirin"
-	title: "Aspirin"
+	title: "Aspirina"
 	
 	item_type: "consumable"
 	cons_cure: "headache"
 	charges: 2
-	desc: "Cures §cure! Ahhh..."
+	desc: "Cura §cure! Ahhh..."
 	
 	tags: legal_drug, gas_station, super_market
 	price: 3
@@ -1221,13 +1227,13 @@
 
 {
 	dev_name: caffeine_pills
-	title: "Caffeine pills"
+	title: "Pílulas de Cafeína"
 	
 	item_type: "consumable"
 	cons_stat: "energy"
 	cons_amount: 4
 	charges: 1
-	desc: "Restore §amnt §st!!!!"
+	desc: "Restaura §amnt §st!!!!"
 	
 	tags: legal_drug, pill, caffeine
 	price: 3
@@ -1240,12 +1246,12 @@
 
 {
 	dev_name: "wine"
-	title: "Wine"
+	title: "Vinho"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	charges: 1
-	desc: "Nice cheap wine. Gets you happy and drunk!"
+	desc: "Vinho barato e gostoso. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,thrift,bar,common_find
 	price: 5
@@ -1256,12 +1262,12 @@
 }
 {
 	dev_name: "wine_2"
-	title: "Wine"
+	title: "Vinho"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	charges: 1
-	desc: "Nice cheap white wine. Gets you happy and drunk!"
+	desc: "Vinho branco barato e gostoso. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,thrift,bar,common_find
 	price: 5
@@ -1273,12 +1279,12 @@
 
 {
 	dev_name: "whiskey"
-	title: "Whiskey"
+	title: "Uísque"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	charges: 3
-	desc: "Some whiskey. Gets you happy and drunk!"
+	desc: "Um pouco de uísque. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,thrift,bar
 	price: 10
@@ -1289,12 +1295,12 @@
 }
 {
 	dev_name: "liquor"
-	title: "Strong Liquor"
+	title: "Bebida Forte"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	charges: 3
-	desc: "Some hard liquor. Gets you drunk!"
+	desc: "Uma bebida alcoólica forte. Te deixa bêbado!"
 	
 	tags: beverage, alcohol,thrift,bar
 	price: 8
@@ -1306,12 +1312,12 @@
 
 {
 	dev_name: "happy_pills"
-	title: "Happy Pills"
+	title: "Pílulas da Felicidade"
 	
 	item_type: consumable
 	cons_buff: "happy"
 	charges: 2
-	desc: "Makes you happy"
+	desc: "Te deixa feliz"
 	
 	tags: non_shop
 	price: 9
@@ -1323,13 +1329,13 @@
 
 {
 	dev_name: "beer_case_green"
-	title: "Beer Case"
+	title: "Caixa de Cerveja"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	
 	charges: 20
-	desc: "A case of beer. Gets you happy and drunk!"
+	desc: "Uma caixa de cerveja. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,cold,gas_station,super_market
 	price: 30
@@ -1342,13 +1348,13 @@
 
 {
 	dev_name: "beer_can_1"
-	title: "Beer Can"
+	title: "Lata de Cerveja"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	
 	charges: 1
-	desc: "A beer. Gets you happy and drunk!"
+	desc: "Uma cerveja. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,cold,gas_station,bar,super_market
 	price: 1.5
@@ -1360,12 +1366,12 @@
 }
 {
 	dev_name: "beer_can_2"
-	title: "Beer Can"
+	title: "Lata de Cerveja"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	charges: 1
-	desc: "A beer. Gets you happy and drunk!"
+	desc: "Uma cerveja. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,cold,gas_station,bar,super_market
 	price: 1.5
@@ -1378,12 +1384,12 @@
 
 {
 	dev_name: "beer_can_3"
-	title: "Beer Can"
+	title: "Lata de Cerveja"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	charges: 1
-	desc: "A beer. Gets you happy and drunk!"
+	desc: "Uma cerveja. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,cold,gas_station,bar,super_market
 	price: 1.5
@@ -1396,12 +1402,12 @@
 
 {
 	dev_name: "beer_can_4"
-	title: "Beer Can"
+	title: "Lata de Cerveja"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	charges: 1
-	desc: "A beer. Gets you happy and drunk!"
+	desc: "Uma cerveja. Te deixa feliz e bêbado!"
 	
 	tags: beverage, alcohol,cold,gas_station,bar,super_market
 	price: 1.5
@@ -1414,13 +1420,13 @@
 
 {
 	dev_name: "beer_glass"
-	title: "Beer - Pint"
+	title: "Cerveja - Caneca"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	cons_buff: "social"
 	charges: 1
-	desc: "A cold beer. Gets you happy, social and drunk!"
+	desc: "Uma cerveja gelada. Te deixa feliz, sociável e bêbado!"
 	
 	tags: beverage, alcohol,cold,bar,breakable_glass
 	price: 1.5
@@ -1433,10 +1439,10 @@
 
 {
 	dev_name: "beer_glass_broken"
-	title: "Beer - Spilled"
+	title: "Cerveja - Derramada"
 	
 	item_type: trash
-	desc: "You spilled the beer..."
+	desc: "Você derramou a cerveja..."
 	
 	tags: trash,non_shop,token
 	price: 0.5
@@ -1449,13 +1455,13 @@
 
 {
 	dev_name: "wine_glass"
-	title: "Wine - Glass"
+	title: "Vinho - Taça"
 	
 	item_type: consumable
 	cons_buff: "drunk"
 	cons_buff: "social"
 	charges: 1
-	desc: "Fancy wine. Gets you happy, social and drunk!"
+	desc: "Vinho elegante. Te deixa feliz, sociável e bêbado!"
 	
 	tags: beverage, alcohol,bar,breakable_glass
 	price: 2
@@ -1469,10 +1475,10 @@
 
 {
 	dev_name: "wine_glass_broken"
-	title: "Broken Wine Glass"
+	title: "Taça de Vinho Quebrada"
 	
 	item_type: trash
-	desc: "... only shattered pieces of glass remains"
+	desc: "... só restaram pedaços de vidro quebrado"
 	
 	tags: trash,non_shop,token
 	price: 0.5
@@ -1485,10 +1491,10 @@
 
 {
 	dev_name: "milk_shake_broken"
-	title: "Former Milk Shake"
+	title: "Ex-Milkshake"
 	
 	item_type: trash
-	desc: "... a drink formerly known as milk shake. Small pieces of shattered glass everywhere"
+	desc: "... uma bebida antigamente conhecida como milkshake. Pequenos cacos de vidro por toda parte"
 	
 	tags: trash,non_shop,token
 	price: 0.5
@@ -1501,10 +1507,10 @@
 
 {
 	dev_name: "coffee_cafe_broken"
-	title: "Coffee - Spilled"
+	title: "Café - Derramado"
 	
 	item_type: trash
-	desc: "Spilled coffee..."
+	desc: "Café derramado..."
 	
 	tags: trash,non_shop,token
 	price: 0.5
@@ -1517,10 +1523,10 @@
 
 {
 	dev_name: "tea_broken"
-	title: "Tea - Spilled"
+	title: "Chá - Derramado"
 	
 	item_type: trash
-	desc: "Spilled tea..."
+	desc: "Chá derramado..."
 	
 	tags: trash,non_shop,token
 	price: 0.5
@@ -1533,10 +1539,10 @@
 
 {
 	dev_name: "electric_guitar"
-	title: "Electric Guitar"
+	title: "Guitarra Elétrica"
 	
 	item_type: "music"
-	desc: "A nice electric guitar!"
+	desc: "Uma bela guitarra elétrica!"
 	
 	tags: instrument, trophy, common_find, musical_equipment,thrift
 	price: 100
@@ -1550,10 +1556,10 @@
 
 {
 	dev_name: "amp"
-	title: "Amp"
+	title: "Amplificador"
 	
 	item_type: "trophy"
-	desc: "A nice amplifier!"
+	desc: "Um belo amplificador!"
 	
 	tags: instrument, trophy, musical_equipment,thrift
 	price: 25
@@ -1563,12 +1569,13 @@
 	sprite: spr_item_amp
 }
 
+
 {
 	dev_name: "melodica"
-	title: "Melodica"
+	title: "Melódica"
 	
 	item_type: "music"
-	desc: "A nice melodica!"
+	desc: "Uma bela melódica!"
 	
 	tags: instrument, trophy, musical_equipment, thrift
 	price: 5
@@ -1582,10 +1589,10 @@
 
 {
 	dev_name: "music_case"
-	title: "Instrument Case"
+	title: "Estojo de Instrumento"
 	
 	item_type: "trophy"
-	desc: "A case for musical equipment! Maybe a synth?"
+	desc: "Um estojo para equipamento musical! Talvez um sintetizador?"
 	
 	tags: instrument, trophy, musical_equipment
 	price: 25
@@ -1597,10 +1604,10 @@
 
 {
 	dev_name: "music_case_big"
-	title: "Instrument Case"
+	title: "Estojo de Instrumento"
 	
 	item_type: "trophy"
-	desc: "A case for musical equipment! Maybe an amp?"
+	desc: "Um estojo para equipamento musical! Talvez um amplificador?"
 	
 	tags: instrument, trophy, musical_equipment
 	price: 40
@@ -1612,10 +1619,10 @@
 
 {
 	dev_name: "music_cable"
-	title: "Audio Cable"
+	title: "Cabo de Áudio"
 	
 	item_type: "trophy"
-	desc: "A cable for connecting instuments"
+	desc: "Um cabo para conectar instrumentos"
 	
 	tags: instrument, trophy, musical_equipment
 	price: 5
@@ -1625,12 +1632,13 @@
 	sprite: spr_item_music_cable
 }
 
+
 {
 	dev_name: "pedal_board"
-	title: "Pedal Board"
+	title: "Placa de Pedais"
 	
 	item_type: "trophy"
-	desc: "Several effect pedals rigged to a board."
+	desc: "Vários pedais de efeito conectados a uma placa."
 	
 	tags: instrument, trophy, musical_equipment,thrift
 	price: 30
@@ -1642,10 +1650,10 @@
 
 {
 	dev_name: "tambourine"
-	title: "Tambourine"
+	title: "Pandeiro"
 	
 	item_type: "music"
-	desc: "Hey man! A tambourine"
+	desc: "Ei, cara! Um pandeiro"
 	
 	tags: instrument, trophy, common_find, musical_equipment,thrift
 	price: 4
@@ -1659,10 +1667,10 @@
 
 {
 	dev_name: "trumpet"
-	title: "Trumpet"
+	title: "Trompete"
 	
 	item_type: "music"
-	desc: "Very nice and clean trumpet"
+	desc: "Trompete muito bonito e bem cuidado"
 	
 	tags: instrument, trophy, common_find, musical_equipment,thrift
 	price: 25
@@ -1676,10 +1684,10 @@
 
 {
 	dev_name: "cat"
-	title: "Cat"
+	title: "Gato"
 	
 	item_type: "trophy"
-	desc: "A black cat. Someone is probably missing it."
+	desc: "Um gato preto. Alguém provavelmente está sentindo falta dele."
 	
 	tags: quest, animal, non_shop,missing_cat
 	price: 4
@@ -1691,10 +1699,10 @@
 
 {
 	dev_name: "songwriter_guitar"
-	title: "Guitar Case"
+	title: "Estojo de Guitarra"
 	
 	item_type: "key"
-	desc: "Belongs to the Songwriter"
+	desc: "Pertence ao Compositor"
 	
 	tags: instrument, hh_item
 	price: 300
@@ -1706,10 +1714,10 @@
 
 {
 	dev_name: "video_game"
-	title: "Video Game"
+	title: "Videogame"
 	
 	item_type: "demo"
-	desc: "Classic game! It's an Aquatic Adventure! Gotta bring this to your friend's house!"
+	desc: "Jogo clássico! É uma Aventura Aquática! Precisa levar isso pra casa do seu amigo!"
 	
 	tags: non_shop
 	price: 50
@@ -1721,12 +1729,12 @@
 
 {
 	dev_name: "letter_festival"
-	title: "Letters"
+	title: "Cartas"
 	
 	item_charges:1
 	
 	item_type: "consumable"
-	desc: "Seems like there is one letter here from your friend"
+	desc: "Parece que há uma carta aqui do seu amigo"
 	
 	tags: non_shop, key,quest_give
 	price: 0
@@ -1743,7 +1751,7 @@
 	item_charges:1
 	
 	item_type: "consumable"
-	desc: "It reads something about a race"
+	desc: "Está escrito algo sobre uma corrida"
 	
 	tags: non_shop, key,quest_give
 	price: 0
@@ -1755,10 +1763,10 @@
 
 {
 	dev_name: "teddy_bunny"
-	title: "Cute Bunny"
+	title: "Coelhinho Fofo"
 	cons_buff: happy
 	item_type: "consumable"
-	desc: "Cute stuffed animal. Hugging this makes you happy."
+	desc: "Bicho de pelúcia fofo. Abraçar isso te deixa feliz."
 	
 	item_charges:5
 	tags: toy, trophy
@@ -1771,10 +1779,10 @@
 
 {
 	dev_name: "festival_ticket"
-	title: "Festival Ticket"
+	title: "Ingresso do Festival"
 	
 	item_type: "key"
-	desc: "Ticket to the WAY OUT festival"
+	desc: "Ingresso para o festival WAY OUT"
 	
 	tags: key, ticket, festival_ticket
 	price: 30
@@ -1791,7 +1799,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "The Honeydrips""
+	desc: "Está escrito "Os Pingos de mel""
 	music_group:honeydrips_1
 	
 	tags: cd
@@ -1807,7 +1815,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "The Honeydrips""
+	desc: "Está escrito "Os Pingos de mel""
 	music_group:honeydrips_2
 	
 	tags: cd
@@ -1823,7 +1831,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "The Honeydrips""
+	desc: "Está escrito "Os Pingos de mel""
 	music_group:honeydrips_3
 	
 	tags: cd
@@ -1834,12 +1842,13 @@
 	sprite: spr_item_cd
 }
 
+
 {
 	dev_name: "cd_honey_bright"
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "The Honeydrips""
+	desc: "Está escrito "Os Pingos de mel""
 	music_group:honeydrips_bright
 	
 	tags: cd
@@ -1857,7 +1866,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "Holy Now""
+	desc: "Está escrito "Sagrado Agora""
 	music_group:holy_now_1
 	
 	tags: cd
@@ -1873,7 +1882,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "Holy Now""
+	desc: "Está escrito "Sagrado Agora""
 	music_group:holy_now_2
 	
 	tags: cd
@@ -1889,7 +1898,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "Holy Now""
+	desc: "Está escrito "Sagrado Agora""
 	music_group:holy_now_3
 	
 	tags: cd
@@ -1899,12 +1908,13 @@
 	h:1
 	sprite: spr_item_cd
 }
+
 {
 	dev_name: "cd_holy_now_wake_up"
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "Holy Now""
+	desc: "Está escrito "Sagrado Agora""
 	music_group:holy_now_wake_up
 	
 	tags: cd
@@ -1922,7 +1932,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "Going Nowhere""
+	desc: "Está escrito "Indo a lugar nenhum"
 	music_group:aasma
 	
 	tags: cd
@@ -1940,7 +1950,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "FWA"
+	desc: "Está escrito "FWA"
 	music_group:fwa_single_1
 	
 	tags: cd
@@ -1956,7 +1966,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "FWA"
+	desc: "Está escrito "FWA"
 	music_group:fwa_single_2
 	
 	tags: cd
@@ -1967,12 +1977,13 @@
 	sprite: spr_item_cd
 }
 
+
 {
 	dev_name: "cd_fwa_3"
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "FWA"
+	desc: "Está escrito "FWA"
 	music_group:fwa_single_3
 	
 	tags: cd
@@ -1988,7 +1999,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "FWA"
+	desc: "Está escrito "FWA"
 	music_group:fwa_single_4
 	
 	tags: cd
@@ -2005,7 +2016,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "Mundane"
+	desc: "Está escrito "Mundano"
 	music_group:mundane_single_1
 	
 	tags: cd
@@ -2021,7 +2032,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "Mundane"
+	desc: "Está escrito "Mundano"
 	music_group:mundane_single_2
 	
 	tags: cd
@@ -2032,12 +2043,13 @@
 	sprite: spr_item_cd
 }
 
+
 {
 	dev_name: "cd_el_huervo_five"
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "El Huervo"
+	desc: "Está escrito "El Huervo""
 	music_group:el_huervo_five
 	
 	tags: cd
@@ -2053,7 +2065,7 @@
 	title: "CD"
 	
 	item_type: "cd"
-	desc: "It reads "El Huervo"
+	desc: "Está escrito "El Huervo""
 	music_group:el_huervo_recluse
 	
 	tags: cd
@@ -2069,10 +2081,10 @@
 
 {
 	dev_name: "cooler"
-	title: "Cooler Box"
+	title: "Caixa Térmica"
 	
 	item_type: "key"
-	desc: "A cooler box to be delivered somewhere."
+	desc: "Uma caixa térmica para ser entregue em algum lugar."
 	
 	tags: delivery
 	price: 50
@@ -2083,10 +2095,10 @@
 }
 {
 	dev_name: "cooler_big"
-	title: "Big Cooler Box"
+	title: "Caixa Térmica Grande"
 	
 	item_type: "key"
-	desc: "A big cooler box to be delivered somewhere."
+	desc: "Uma caixa térmica grande para ser entregue em algum lugar."
 	
 	tags: delivery
 	price: 25
@@ -2098,10 +2110,10 @@
 
 {
 	dev_name: "box_small"
-	title: "Moving Box"
+	title: "Caixa de Mudança"
 	
 	item_type: "trophy"
-	desc: "A box to be delivered somewhere."
+	desc: "Uma caixa para ser entregue em algum lugar."
 	
 	tags: delivery,box
 	price: 6
@@ -2113,10 +2125,10 @@
 
 {
 	dev_name: "box_medium"
-	title: "Moving Box"
+	title: "Caixa de Mudança"
 	
 	item_type: "trophy"
-	desc: "A box to be delivered somewhere."
+	desc: "Uma caixa para ser entregue em algum lugar."
 	
 	tags: delivery,box
 	price: 9
@@ -2128,10 +2140,10 @@
 
 {
 	dev_name: "box_big"
-	title: "Moving Box"
+	title: "Caixa de Mudança"
 	
 	item_type: "trophy"
-	desc: "A box to be delivered somewhere."
+	desc: "Uma caixa para ser entregue em algum lugar."
 	
 	tags: delivery,box
 	price: 12
@@ -2141,14 +2153,13 @@
 	sprite: spr_item_box_big
 }
 
-
 {
 	dev_name: cigarettes
-	title: "Cigarettes"
+	title: "Cigarros"
 	
 	item_type: "combat"
 	charges: 12
-	desc: "Use from glovebox during events"
+	desc: "Usar do porta-luvas durante os eventos"
 	
 	pattern: E
 	
@@ -2163,11 +2174,11 @@
 
 {
 	dev_name: cigarettes_2
-	title: "Cigarettes"
+	title: "Cigarros"
 	
 	item_type: "combat"
 	charges: 12
-	desc: "Use from glovebox during events"
+	desc: "Usar do porta-luvas durante os eventos"
 	
 	pattern: E
 	
@@ -2182,11 +2193,11 @@
 
 {
 	dev_name: cigarettes_3
-	title: "Cigarettes"
+	title: "Cigarros"
 	
 	item_type: "combat"
 	charges: 12
-	desc: "Use from glovebox during events"
+	desc: "Usar do porta-luvas durante os eventos"
 	
 	pattern: E
 	
@@ -2201,11 +2212,11 @@
 
 {
 	dev_name: pipe
-	title: "Pipe"
+	title: "Cachimbo"
 	
 	item_type: "combat"
 	charges: 12
-	desc: "Use from glovebox during events"
+	desc: "Usar do porta-luvas durante os eventos"
 	
 	pattern: EXE
 	
@@ -2220,11 +2231,11 @@
 
 {
 	dev_name: bandage
-	title: "Bandage"
+	title: "Bandagem"
 	
 	item_type: "combat"
 	charges: 3
-	desc: "Use from glovebox during events, removes threat warnings"
+	desc: "Usar do porta-luvas durante os eventos, remove avisos de ameaça"
 	
 	pattern: XXX
 	
@@ -2236,13 +2247,14 @@
 	sprite: spr_item_bandage
 	
 }
+
 {
 	dev_name: harmonica
-	title: "Harmonica"
+	title: "Harmônica"
 	
 	item_type: "combat"
 	charges: 15
-	desc: "Use from glovebox during events, change target threat warning to a note"
+	desc: "Usar do porta-luvas durante eventos, muda o aviso de ameaça do alvo para uma nota"
 	
 	pattern: XX
 	
@@ -2264,7 +2276,7 @@
 	charges: 3
 	cons_stat: energy
 	cons_amount: 2
-	desc: "Yummy chocolate that restores §amnt §st when consumed.
+	desc: "Chocolate gostoso que restaura §amnt §st quando consumido.
 	
 	
 	tags: gas_station, super_market, candy, dairy, food
@@ -2278,11 +2290,11 @@
 
 {
 	dev_name: gum2
-	title: "Chewing Gum"
+	title: "Chiclete"
 	
 	item_type: "combat"
 	charges: 3
-	desc: "Use from glovebox during events"
+	desc: "Usar do porta-luvas durante eventos"
 	
 	pattern: EE
 	
@@ -2297,11 +2309,11 @@
 
 {
 	dev_name: gum
-	title: "Chewing Gum"
+	title: "Chiclete"
 	
 	item_type: "combat"
 	charges: 3
-	desc: "Use from glovebox during events"
+	desc: "Use do porta-luvas durante eventos"
 	
 	pattern: EE
 	
@@ -2317,11 +2329,11 @@
 
 {
 	dev_name: skittles
-	title: "Fruit Candy"
+	title: "Bala de Frutas"
 	
 	item_type: "combat"
 	charges: 3
-	desc: "Use from glovebox during events"
+	desc: "Usar do porta-luvas durante eventos"
 	
 	pattern: EXE
 	
@@ -2334,13 +2346,14 @@
 	
 }
 
+
 {
 	dev_name: candy_wrapping
-	title: "Candy Wrapping"
+	title: "Embalagem de Doce"
 	
 	item_type: "trash"
 
-	desc: "Worthless Trash"
+	desc: "Lixo sem valor"
 
 	
 	tags: trash
@@ -2353,11 +2366,11 @@
 }
 {
 	dev_name: empty_can
-	title: "Empty Soda Can"
+	title: "Lata de Refrigerante Vazia"
 	
 	item_type: "trash"
 
-	desc: "Worthless Trash"
+	desc: "Lixo sem valor"
 
 	
 	tags: trash
@@ -2371,11 +2384,11 @@
 
 {
 	dev_name: empty_tp
-	title: "Empty Roll"
+	title: "Rolo Vazio"
 	
 	item_type: "trash"
 
-	desc: "Worthless Trash"
+	desc: "Lixo sem valor"
 
 	
 	tags: trash
@@ -2389,11 +2402,11 @@
 
 {
 	dev_name: porn_mag_a
-	title: "Porn Magazine"
+	title: "Revista Pornô"
 	
 	item_type: "trash"
 
-	desc: "Lewd magazine... Found in the forest"
+	desc: "Revista indecente... Encontrada na floresta"
 
 	
 	tags: porn
@@ -2406,11 +2419,11 @@
 }
 {
 	dev_name: porn_mag_b
-	title: "Porn Magazine"
+	title: "Revista Pornô"
 	
 	item_type: "trash"
 
-	desc: "Lewd magazine... Found in the forest"
+	desc: "Revista indecente... Encontrada na floresta"
 
 	
 	tags: porn
@@ -2421,13 +2434,14 @@
 	sprite: spr_item_porn_b
 	
 }
+
 {
 	dev_name: porn_mag_c
-	title: "Porn Magazine"
+	title: "Revista Pornô"
 	
 	item_type: "trash"
 
-	desc: "Lewd magazine... Found in the forest"
+	desc: "Revista indecente... Encontrada na floresta"
 
 	
 	tags: porn
@@ -2441,11 +2455,11 @@
 
 {
 	dev_name: coupon
-	title: "Lottery Ticket"
+	title: "Bilhete de Loteria"
 	
 	item_type: "combat"
 	charges: 3
-	desc: "Use from glovebox during events. Maybe you'll win..."
+	desc: "Usar do porta-luvas durante eventos. Talvez você ganhe..."
 	
 	pattern: MM
 	
@@ -2461,11 +2475,11 @@
 
 {
 	dev_name: "honey_1"
-	title: "Honey"
+	title: "Mel"
 	cons_stat: energy
 	cons_amount:4
 	item_type: "consumable"
-	desc: "It's honey! Restore §amnt §st and one use for each skill when consumed."
+	desc: "É mel! Restaura §amnt §st e um uso para cada habilidade quando consumido."
 	tags: honey, sugar
 	price: 5
 	charges: 3
@@ -2475,11 +2489,11 @@
 }
 {
 	dev_name: "honey_2"
-	title: "Honey"
+	title: "Mel"
 	cons_stat: energy
 	cons_amount:4
 	item_type: "consumable"
-	desc: "It's honey! Restore §amnt §st and one use for each skill when consumed."
+	desc: "É mel! Restaura §amnt §st e um uso para cada habilidade quando consumido."
 	tags: honey, sugar
 	price: 5
 	charges: 3
@@ -2489,13 +2503,12 @@
 }
 
 
-
 {
 	dev_name: "tent"
-	title: "Tent"
+	title: "Barraca"
 	
 	item_type: "utility"
-	desc: "A comfy tent. (passive) Restore three more energy when sleeping in car."
+	desc: "Uma barraca confortável. (passivo) Restaura três de energia a mais ao dormir no carro."
 	
 	tags: thrift,camping, passive, common_find,car_part_shop
 	price: 20
@@ -2507,10 +2520,10 @@
 
 {
 	dev_name: "sleeping_bag"
-	title: "Sleeping Bag"
+	title: "Saco de Dormir"
 	
 	item_type: "utility"
-	desc: "A comfy Sleeping bag. (passive) Don't become cold when resting from car menu."
+	desc: "Um saco de dormir confortável. (passivo) Não fica com frio ao descansar no menu do carro."
 	
 	tags: thrift,camping, passive, common_find,car_part_shop
 	price: 5
@@ -2522,10 +2535,10 @@
 
 {
 	dev_name: "camera"
-	title: "Camera"
+	title: "Câmera"
 	
 	item_type: "utility"
-	desc: "A vintage camera. Grants you access to change camera filters in the options menu."
+	desc: "Uma câmera vintage. Permite alterar os filtros da câmera no menu de opções."
 	
 	tags: thrift,common_find
 	price: 30
@@ -2537,10 +2550,10 @@
 
 {
 	dev_name: "portable_stove"
-	title: "Portable Stove"
+	title: "Fogareiro Portátil"
 	
 	item_type: "utility"
-	desc: "A portable stove (passive). Makes certain food items edible."
+	desc: "Um fogareiro portátil (passivo). Torna certos alimentos comestíveis."
 	
 	tags: camping, passive, common_find,thrift,car_part_shop
 	price: 20
@@ -2552,10 +2565,10 @@
 
 {
 	dev_name: "thermos"
-	title: "Thermos"
+	title: "Garrafa Térmica"
 	
 	item_type: "utility"
-	desc: "Keeps your hot beverages from getting cold (passive). "Picked out for you!"
+	desc: "Mantém suas bebidas quentes sem esfriar (passivo). "Escolhido especialmente para você!""
 	
 	tags: camping, passive, common_find,thrift,car_part_shop
 	price: 7
@@ -2567,10 +2580,10 @@
 
 {
 	dev_name: "car_jack"
-	title: "Car Jack"
+	title: "Macaco de Carro"
 	
 	item_type: "utility"
-	desc: "Allows you to switch tires anywhere!"
+	desc: "Permite trocar os pneus em qualquer lugar!"
 	
 	tags: mechanic, passive, common_find,thrift,car_part_shop
 	price: 20
@@ -2582,11 +2595,11 @@
 
 {
 	dev_name: duct_tape
-	title: "Duct Tape"
+	title: "Fita Adesiva"
 	
 	item_type: "combat"
 	charges: 5
-	desc: "Use from glovebox during events"
+	desc: "Usar do porta-luvas durante eventos"
 	
 	pattern: DXD
 	
@@ -2601,11 +2614,11 @@
 
 {
 	dev_name: matches
-	title: "Matches"
+	title: "Fósforos"
 	
 	item_type: "combat"
 	charges: 8
-	desc: "Use from glovebox during events. Might not always work"
+	desc: "Usar do porta-luvas durante eventos. Pode não funcionar sempre"
 	
 	pattern: D
 	
@@ -2620,11 +2633,11 @@
 
 {
 	dev_name: multispray
-	title: "Multispray"
+	title: "Spray Multiuso"
 	
 	item_type: "combat"
 	charges: 6
-	desc: "Use from glovebox during events."
+	desc: "Usar do porta-luvas durante eventos."
 	
 	pattern: DD
 	
@@ -2637,15 +2650,16 @@
 	
 }
 
+
 //scrap
 
 {
 	dev_name: scrap_1
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2659,11 +2673,11 @@
 
 {
 	dev_name: scrap_2
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2679,11 +2693,11 @@
 
 {
 	dev_name: scrap_3
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2699,11 +2713,11 @@
 
 {
 	dev_name: scrap_4
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2716,14 +2730,13 @@
 }
 
 
-
 {
 	dev_name: scrap_5
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2739,11 +2752,11 @@
 
 {
 	dev_name: scrap_6
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2759,11 +2772,11 @@
 
 {
 	dev_name: scrap_7
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2779,11 +2792,11 @@
 
 {
 	dev_name: scrap_8
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2795,15 +2808,13 @@
 	
 }
 
-
-
 {
 	dev_name: scrap_9
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2819,11 +2830,11 @@
 
 {
 	dev_name: scrap_10
-	title: "Scrap"
+	title: "Sucata"
 	
 	item_type: "scrap"
 
-	desc: "Useless junk. Maybe someone wants to buy it at least."
+	desc: "Tranqueira inútil. Talvez alguém queira comprar pelo menos."
 
 	
 	tags: scrap
@@ -2835,16 +2846,17 @@
 	
 }
 
-//BOOKS
+
+ //BOOKS
 
 
 {
 	dev_name: "book_ac"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems interesting"
+	desc: "Um livro. Parece interessante"
 	
 	tags: book,thrift
 	price: 8
@@ -2856,11 +2868,11 @@
 
 {
 	dev_name: "book_bible"
-	title: "Book"
+	title: "Livro"
 	
 	charges:3
 	item_type: "book"
-	desc: "A book. Seems important to some"
+	desc: "Um livro. Parece importante para alguns"
 	
 	tags: book,thrift
 	price: 8
@@ -2872,11 +2884,11 @@
 
 {
 	dev_name: "book_horror"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems scary"
+	desc: "Um livro. Parece assustador"
 	
 	tags: book,thrift
 	price: 8
@@ -2888,11 +2900,11 @@
 
 {
 	dev_name: "book_mich"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems funny"
+	desc: "Um livro. Parece engraçado"
 	
 	tags: book,thrift
 	price: 8
@@ -2904,11 +2916,11 @@
 
 {
 	dev_name: "book_mura"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems nostalgic"
+	desc: "Um livro. Parece nostálgico"
 	
 	tags: book,thrift
 	price: 8
@@ -2920,11 +2932,11 @@
 
 {
 	dev_name: "book_peng"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems popular"
+	desc: "Um livro. Parece popular"
 	
 	tags: book,thrift
 	price: 8
@@ -2937,11 +2949,11 @@
 
 {
 	dev_name: "book_phil"
-	title: "Book"
+	title: "Livro"
 	
 	charges:3
 	item_type: "book"
-	desc: "A book. Seems deep"
+	desc: "Um livro. Parece profundo"
 	
 	tags: book,thrift
 	price: 8
@@ -2953,11 +2965,11 @@
 
 {
 	dev_name: "book_poem"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems moving"
+	desc: "Um livro. Parece comovente"
 	
 	tags: book,thrift
 	price: 8
@@ -2969,11 +2981,11 @@
 
 {
 	dev_name: "book_road"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems sad"
+	desc: "Um livro. Parece triste"
 	
 	tags: book,thrift
 	price: 8
@@ -2985,11 +2997,11 @@
 
 {
 	dev_name: "book_scifi"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems exciting"
+	desc: "Um livro. Parece empolgante"
 	
 	tags: book,thrift
 	price: 8
@@ -2999,13 +3011,14 @@
 	sprite: spr_item_book_scifi
 }
 
+
 {
 	dev_name: "book_slaughter"
-	title: "Book"
+	title: "Livro"
 	
 	charges:1
 	item_type: "book"
-	desc: "A book. Seems violent"
+	desc: "Um livro. Parece violento"
 	
 	tags: book,thrift
 	price: 8
@@ -3017,11 +3030,11 @@
 
 {
 	dev_name: "book_surreal"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems surreal"
+	desc: "Um livro. Parece surreal"
 	
 	tags: book,thrift
 	price: 8
@@ -3033,11 +3046,11 @@
 
 {
 	dev_name: "book_thirdp"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems mysterious"
+	desc: "Um livro. Parece misterioso"
 	
 	tags: book,thrift
 	price: 8
@@ -3049,11 +3062,11 @@
 
 {
 	dev_name: "book_walden"
-	title: "Book"
+	title: "Livro"
 	
 	charges:2
 	item_type: "book"
-	desc: "A book. Seems inspiring"
+	desc: "Um livro. Parece inspirador"
 	
 	tags: book,thrift
 	price: 8
