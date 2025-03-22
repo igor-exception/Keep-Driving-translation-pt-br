@@ -1,7 +1,7 @@
 {
 	id: "janitor_work"
-	title: "Janitor work"
-	desc: "Cleaning and stuff in a school or something"
+	title: "Trabalho de zelador"
+	desc: "Limpeza e outras tarefas em uma escola ou algo assim"
 	env: "city_small,city,country"
 	cost: 5
 	pay: 40
@@ -13,8 +13,8 @@
 
 {
 	id: "cafe_work"
-	title: "Cafe staff needed"
-	desc: "Need someone who can jump in as assistant barista!"
+	title: "Funcionário de cafeteria necessário"
+	desc: "Precisamos de alguém que possa ajudar como barista assistente!"
 	env: "city,country"
 	cost: 5
 	pay: 45
@@ -24,8 +24,8 @@
 
 {
 	id: "toilet_cleaner"
-	title: "Toilet cleaner"
-	desc: "Looking for help with cleaning of toilets"
+	title: "Limpador de banheiro"
+	desc: "Procuramos ajuda para limpeza de banheiros"
 	env: "city_small,city"
 	cost: 6
 	pay: 60
@@ -35,8 +35,8 @@
 
 {
 	id: "game_tester"
-	title: "Game tester"
-	desc: "We at YCJY Games need testers for our upcoming game!"
+	title: "Testador de jogo"
+	desc: "Nós da YCJY Games precisamos de testadores para nosso próximo jogo!"
 	env: "city_small,city"
 	cost: 4
 	pay: 25
@@ -46,8 +46,8 @@
 
 {
 	id: "forest_watcher"
-	title: "Forest watcher"
-	desc: "Watch over the forest."
+	title: "Vigilante da floresta"
+	desc: "Vigie a floresta."
 	env: "forest"
 	cost: 3
 	pay: 40
@@ -57,8 +57,8 @@
 
 {
 	id: "camping_work"
-	title: "Cabin cleaner"
-	desc: "Need help cleaning cabins at the camping resort"
+	title: "Faxineiro de cabana"
+	desc: "Precisamos de ajuda para limpar as cabanas no resort de camping"
 	env: "forest"
 	cost: 5
 	pay: 35
@@ -68,8 +68,8 @@
 
 {
 	id: "bartender_work"
-	title: "Bartender"
-	desc: "Need someone that can pour beers for a night"
+	title: "Barman"
+	desc: "Precisamos de alguém que sirva cervejas por uma noite"
 	env: "city_small,city"
 	cost: 2
 	pay: 30
@@ -79,8 +79,8 @@
 
 {
 	id: "manual_labor"
-	title: "Construction"
-	desc: "Need workers in construction"
+	title: "Construção"
+	desc: "Precisamos de trabalhadores na construção civil"
 	env: "city"
 	cost: 10
 	pay: 60
@@ -88,11 +88,10 @@
 	time: 16
 }
 
-
 {
 	id: "lawyers_office"
-	title: "Reception work"
-	desc: "Need someone who can work in our small law office."
+	title: "Recepcionista"
+	desc: "Precisamos de alguém para trabalhar em nosso pequeno escritório de advocacia."
 	env: "desert"
 	cost: 4
 	pay: 66
@@ -102,8 +101,8 @@
 
 {
 	id: "nail_salon"
-	title: "Cleaner"
-	desc: "We're in need of a cleaner in our Nail Salon."
+	title: "Faxineiro"
+	desc: "Estamos precisando de um faxineiro para nosso salão de unhas."
 	env: "desert"
 	cost: 2
 	pay: 44
@@ -113,8 +112,8 @@
 
 {
 	id: "farm_work"
-	title: "Farm Work"
-	desc: "Need a steady hand at our ranch. We'll pay well!"
+	title: "Trabalho na fazenda"
+	desc: "Precisamos de uma mão firme em nosso rancho. Pagaremos bem!"
 	env: "rural,country"
 	cost: 8
 	pay: 75
@@ -122,11 +121,10 @@
 	time: 24
 }
 
-
 {
 	id: "permanent_position"
-	title: "Permanent Job"
-	desc: "Has great benefits"
+	title: "Emprego fixo"
+	desc: "Tem ótimos benefícios"
 	env: "special"
 	cost: 6
 	pay: 100
