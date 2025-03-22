@@ -2,337 +2,328 @@
 
 {
 	memory_name: unemployed
-	memory_text: At this time I was unemployed...
+	memory_text: Naquela época, eu estava desempregado...
 }
 
 {
 	memory_name: student
-	memory_text: I was studying. Living with my parents.
+	memory_text: Eu estava estudando. Morando com meus pais.
 }
 
 {
 	memory_name: car_enthusiast
-	memory_text: I was working at the local garage.
+	memory_text: Eu estava trabalhando na oficina local.
 }
 
 {
 	memory_name: rehab
-	memory_text: I had just finished my rehabilitation program.
+	memory_text: Eu tinha acabado de terminar meu programa de reabilitação.
 }
 
 {
 	memory_name: intern
-	memory_text: I had made some money, working as an intern.
+	memory_text: Eu tinha feito algum dinheiro, trabalhando como estagiário.
 }
 
 {
 	memory_name: mourning
-	memory_text: I had been feeling down for a while.
+	memory_text: Eu estava me sentindo pra baixo há um tempo.
 }
 
 {
 	memory_name: veteran
-	memory_text: This wasn't my first road trip.
+	memory_text: Essa não era minha primeira viagem de carro.
 }
 
 {
 	memory_name: racer
-	memory_text: This was after I had won the Pine Race.
+	memory_text: Isso foi depois de eu ter vencido a Corrida Pine.
 }
 
 {
 	memory_name: alcoholic
-	memory_text: I was drinking a lot...
+	memory_text: Eu estava bebendo muito...
 }
 
 {
 	memory_name: gourmand
-	memory_text: My apetite was insane!
+	memory_text: Meu apetite estava insano!
 }
 
 {
 	memory_name: happy_user
-	memory_text: It was a very fun summer!
+	memory_text: Foi um verão muito divertido!
 }
+
 {
 	memory_name: broke
-	memory_text: I was so poor!
+	memory_text: Eu estava tão pobre!
 }
 
 {
 	memory_name: breakdown
-	memory_text: I had %t blackouts.
+	memory_text: Eu tive %t apagões.
 }
 
 {
 	memory_name: help_kid
-	memory_text: Helped a little girl reunite with her parents.
+	memory_text: Ajudei uma garotinha a se reunir com seus pais.
 }
 
 {
 	memory_name: help_stranger
-	memory_text: Got in too deep with a gambler and his debt.
+	memory_text: Me envolvi demais com um jogador e sua dívida.
 }
 
 {
 	memory_name: help_convict
-	memory_text: Helped an escaped convict to cross the border.
+	memory_text: Ajudei um prisioneiro fugitivo a cruzar a fronteira.
 }
 
 {
 	memory_name: help_bride
-	memory_text: Met a runaway bride and helped her have fun!
+	memory_text: Conheci uma noiva fugitiva e a ajudei a se divertir!
 }
 
 {
 	memory_name: help_punk
-	memory_text: A punk left me his dog.
+	memory_text: Um punk me deixou seu cachorro.
 }
 
 {
 	memory_name: help_suit
-	memory_text: Picked up a lonely salesman.
+	memory_text: Peguei um vendedor solitário.
 }
 
 {
 	memory_name: max_songwriter
-	memory_text: Befriended a Songwriter.
+	memory_text: Fiz amizade com um compositor.
 }
 
 
 {
 	memory_name: max_hippie_girl
-	memory_text: I ended up getting a bit annoyed by this girl.
+	memory_text: Eu acabei ficando um pouco irritado com essa garota.
 }
-
 
 {
 	memory_name: help_hiker
-	memory_text: An old hiker and I went to the mountain camp.
+	memory_text: Um velho caminhante e eu fomos para o acampamento na montanha.
 }
-
 
 {
 	memory_name: kicked_stranger
-	memory_text: Kicked out a real creep from my car.
+	memory_text: Expulsei um verdadeiro esquisito do meu carro.
 }
 
 {
 	memory_name: vegetarian
-	memory_text: I decided to only eat vegetarian food. 
+	memory_text: Eu decidi comer apenas comida vegetariana.
 }
 
 {
 	memory_name: bookworm
-	memory_text: I was reading A LOT
+	memory_text: Eu estava lendo MUITO.
 }
 
 {
 	memory_name: heavy_smoker
-	memory_text: So many cigarettes smoked...
+	memory_text: Fumei tantos cigarros...
 }
 
-
 /////////////////////////NEW
-
-
 
 {
 	//middle
 	memory_name: heavy_smoker
-	memory_text: Sooo many cigarettes smoked...
+	memory_text: Tantos cigarros fumados...
 }
 
 {
 	//middle
 	memory_name: crafty
-	memory_text: I got really good at using what I got.
+	memory_text: Fiquei muito bom em usar o que eu tinha.
 }
 
 {
 	//middle
 	memory_name: workaholic
-	memory_text: I found myself taking a lot of odd jobs.
+	memory_text: Eu me vi pegando vários trabalhos temporários.
 }
 
 {
 	//middle
 	memory_name: mechanic_experience
-	memory_text: I learnt a lot about simple repairs.
+	memory_text: Aprendi muito sobre reparos simples.
 }
 
 {
 	//middle
 	memory_name: broke
-	memory_text: I was soo poor at one point!
+	memory_text: Eu estava tão pobre em um ponto!
 }
 
 {
 	//middle
 	memory_name: bad_driver
-	memory_text: I drove so badly the car actually broke!
+	memory_text: Eu dirigi tão mal que o carro realmente quebrou!
 }
 
 {
 	//middle
 	memory_name: moody
-	memory_text: I had a hard time staying cool. Felt really moody.
+	memory_text: Eu tive dificuldades para me manter calmo. Me senti muito mal-humorado.
 }
 
 {
 	//middle
 	memory_name: mastery taits
-	memory_text: could you write 1 for each mastery trait. I don't know what they're called.
+	memory_text: Você poderia escrever 1 para cada traço de maestria? Eu não sei como chamá-los.
 }
 
 {
 	//middle
 	memory_name: litterbug
-	memory_text: I couldn't give a shit about nature.
+	memory_text: Eu não dava a mínima para a natureza.
 }
 
 {
 	//middle
 	memory_name: city_kid
-	memory_text: Exploring the city became second nature to me.
+	memory_text: Explorar a cidade se tornou algo natural para mim.
 }
+
 
 {
 	//middle
 	memory_name: spartan
-	memory_text: I was trying to live without possessions.
+	memory_text: Eu estava tentando viver sem posses.
 }
 
 {
 	//middle
 	memory_name: perfectionist
-	memory_text: I did my best to be precise on gravel roads.
+	memory_text: Eu fiz o meu melhor para ser preciso nas estradas de cascalho.
 }
 
 {
 	//middle
 	memory_name: generous
-	memory_text: I gave some money to a guy who needed it.
+	memory_text: Eu dei um pouco de dinheiro para um cara que precisava.
 }
 
 {
 	//middle
 	memory_name: tent_rain
-	memory_text: I slept soundly in my tent while it rained.
+	memory_text: Eu dormi profundamente na minha barraca enquanto chovia.
 }
 
 {
 	//middle
 	memory_name: rider_on_the_storm
-	memory_text: I felt happy driving in the rain.
+	memory_text: Eu me senti feliz dirigindo na chuva.
 }
 
 {
 	//middle
 	memory_name: comfortable
-	memory_text: I really looked forward to sleeping in my bed again.
+	memory_text: Eu realmente estava ansioso para dormir na minha cama novamente.
 }
-
 
 {
 	//middle
 	memory_name: driving_mastery
-	memory_text: I felt like I really grew as a driver.
+	memory_text: Eu senti que realmente cresci como motorista.
 }
 
 {
 	//middle
 	memory_name: hiking_mastery
-	memory_text: I really honed my hiking skills.
+	memory_text: Eu realmente aperfeiçoei minhas habilidades de caminhada.
 }
 
 {
 	//middle
 	memory_name: thrifty_mastery
-	memory_text: I used my resources masterfully.
+	memory_text: Eu usei meus recursos de forma magistral.
 }
 
 {
 	//middle
 	memory_name: gourmet_mastery
-	memory_text: I used my hunger as a strength.
+	memory_text: Eu usei minha fome como uma força.
 }
 
 {
 	//middle
 	memory_name: basic_mastery
-	memory_text: I grew as a person. It really inspired me.
+	memory_text: Eu cresci como pessoa. Isso realmente me inspirou.
 }
 
 {
 	//middle
 	memory_name: social_mastery
-	memory_text: I relied a lot on my travelling companions.
+	memory_text: Eu confiei muito nos meus companheiros de viagem.
 }
-
-
-
-
 
 {
 	//end
 	memory_name: end_festival
-	memory_text: In the end, I met up with my friends at the festival.
+	memory_text: No final, encontrei meus amigos no festival.
 }
 
 {
 	//end
 	memory_name: end_inheritance
-	memory_text: But I had to cut my trip short because my grandma died.
+	memory_text: Mas eu tive que cortar minha viagem porque minha avó morreu.
 }
 
 {
 	//end
 	memory_name: end_hurricane_party
-	memory_text: I recall crashing this wild party in a cabin.
+	memory_text: Eu me lembro de ter invadido essa festa louca em uma cabana.
 }
 
 {
 	//end
 	memory_name: end_prison
-	memory_text: Eventually I fucked up, and ended up in jail.
+	memory_text: Eventualmente, eu cometi um erro e acabei na prisão.
 }
 
 {
 	//end
 	memory_name: end_mountain
-	memory_text: I don't remember much after driving up the peak.
+	memory_text: Eu não lembro muito depois de dirigir até o pico.
 }
 
 {
 	//end
 	memory_name: end_rehab
-	memory_text: Then I checked myself into rehab.
+	memory_text: Então, eu me internai na reabilitação.
 }
-
 
 {
 	//end
 	memory_name: end_party
-	memory_text: I recall crashing this wild party in a cabin.
+	memory_text: Eu me lembro de ter invadido essa festa louca em uma cabana.
 }
-
 
 {
 	//end
 	memory_name: end_work
-	memory_text: In the end all I remembered was working the rest of the summer. 
+	memory_text: No final, tudo o que eu lembrava era de trabalhar o resto do verão.
 }
 
 {
 	//end
 	memory_name: end_race
-	memory_text: Then, out of curiosity, I took part in a race and won! 
+	memory_text: Então, por curiosidade, participei de uma corrida e ganhei!
 }
 
 {
 	//end
 	memory_name: end_game_over
-	memory_text: stranded, I wound up calling my parents, who didn't answer. 
+	memory_text: Perdido, acabei ligando para meus pais, que não atenderam.
 }
+
 
