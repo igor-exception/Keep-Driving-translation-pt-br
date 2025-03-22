@@ -6,12 +6,12 @@
 	type: "stats"
 	stat: "social"
 	amount: 10
-	title: "Nice car"
-	text: "§stat increased by §amount%"
+	title: "Carro legal"
+	text: "§stat aumentada em §amount%"
 	car: 0
 	tier: 0
 	pos: 0
-	reqs: "none"
+	reqs: "nenhum"
 }
 
 {
@@ -19,12 +19,12 @@
 	type: "stats"
 	stat: "gas_max"
 	amount: 4
-	title: "Gas tank 1"
-	text: "Increase §stat by §amount"
+	title: "Tanque de gás 1"
+	text: "Aumente §stat em §amount"
 	car: 0
 	tier: 0
 	pos: 2
-	reqs: "none"
+	reqs: "nenhum"
 }
 
 {
@@ -32,20 +32,20 @@
 	type: "stats"
 	stat: "carhealth_max"
 	amount: 4
-	title: "Durability 1"
-	text: "Increase §stat by §amount"
+	title: "Durabilidade 1"
+	text: "Aumente §stat em §amount"
 	car: 0
 	tier: 0
 	pos: 4
-	reqs: "none"
+	reqs: "nenhum"
 }
 ////tier 1
 //social
 {
 	name: "base_car_hh_energy_on_level"
 	type: "special"
-	title: "HH energy level"
-	text: "Leveling up a hitchhiker fully restores your energy"
+	title: "Nível de energia HH"
+	text: "Subir de nível um carona restaura toda a sua energia"
 	car: 0
 	tier: 1
 	pos: 0
@@ -55,8 +55,8 @@
 {
 	name: "base_car_automatic_gear"
 	type: "module"
-	title: "Automatic gear"
-	text: "Replace your gear box with an automatic gear system"
+	title: "Câmbio automático"
+	text: "Substitua sua caixa de câmbio por um sistema de câmbio automático"
 	car: 0
 	tier: 1
 	pos: 1
@@ -70,8 +70,8 @@
 	road: "motorway"
 	stat: "gas_cost_mod"
 	amount: 25
-	title: "Speedy tank"
-	text: "§stats on §road road events decrease by §amount%"
+	title: "Tanque veloz"
+	text: "§stats nos eventos de §road diminuem em §amount%"
 	car: 1
 	tier: 1
 	pos: 2
@@ -83,8 +83,8 @@
 	name: "base_car_skill_towncar"
 	type: "skill"
 	skill: "towncar"
-	title: "Town Car"
-	text: "gain a new skill"
+	title: "Carro de cidade"
+	text: "Ganhe uma nova habilidade"
 	car: 0
 	tier: 1
 	pos: 2
@@ -97,8 +97,8 @@
 	road: "motorway"
 	stat: "energy_cost_mod"
 	amount: -1
-	title: "Motorway wheels"
-	text: "§stats on §road road event decrease by §amount"
+	title: "Rodas da autoestrada"
+	text: "§stats nos eventos de §road diminuem em §amount"
 	car: 1
 	tier: 1
 	pos: 3
@@ -109,21 +109,21 @@
 	name: "base_car_skill_nice_seats"
 	type: "skill"
 	skill: "nice_seats"
-	title: "Nice seats!"
-	text: "gain a new skill"
+	title: "Bancos confortáveis!"
+	text: "Ganhe uma nova habilidade"
 	car: 0
 	tier: 1
 	pos: 3
 	reqs: "base_car_gas_1"
 }
 
-//durability/item
+//durabilidade/item
 
 {
 	name: "base_car_seat_replace_1"
 	type: "seat"
-	title: "Item space 1"
-	text: "remove one passenger seat, gain 4 item slots"
+	title: "Espaço para itens 1"
+	text: "Remova um banco de passageiro, ganhe 4 slots para itens"
 	car: 0
 	tier: 1
 	pos: 4
@@ -134,10 +134,10 @@
 	name: "base_car_rough_road_1"
 	type: "road"
 	road: "rough"
-	stat: car_health_cost_mod
+	stat: "car_health_cost_mod"
 	amount: 25
-	title: "Rough road spc"
-	text: "§stats on §roads decrease by §amount%"
+	title: "Espaço para estrada ruim"
+	text: "§stats nas §roads diminuem em §amount%"
 	car: 1
 	tier: 1
 	pos: 5
@@ -148,8 +148,8 @@
 	name: "base_car_skill_gear_down"
 	type: "skill"
 	skill: "gear_down"
-	title: "Gear down!"
-	text: "gain a new skill"
+	title: "Reduza a marcha!"
+	text: "Ganhe uma nova habilidade"
 	car: 0
 	tier: 1
 	pos: 5
@@ -161,8 +161,8 @@
 {
 	name: "base_car_sleep_comfort"
 	type: "special"
-	title: "Comfort"
-	text: "sleeping in your car fully restores energy"
+	title: "Conforto"
+	text: "Dormir no seu carro restaura toda a energia"
 	car: 0
 	tier: 2
 	pos: 0
@@ -173,7 +173,7 @@
 	name: "base_car_ac"
 	type: "module"
 	title: "A/C"
-	text: "Install an A/C to the car"
+	text: "Instale um ar-condicionado no carro"
 	car: 0
 	tier: 2
 	pos: 1
@@ -185,8 +185,8 @@
 	type: "stats"
 	stat: "gas_max"
 	amount: 4
-	title: "Gas tank 2"
-	text: "increase §stat by §amount"
+	title: "Tanque de gás 2"
+	text: "Aumente §stat em §amount"
 	car: 0
 	tier: 2
 	pos: 2
@@ -194,13 +194,13 @@
 	
 	reqs: "base_car_skill_nice_seats,base_car_skill_towncar"
 }
-//durability/item
+//durabilidade/item
 
 {
 	name: "base_car_seat_replace_2"
 	type: "seat"
-	title: "Item space 2"
-	text: "remove one passenger seat, gain 4 item slots"
+	title: "Espaço para itens 2"
+	text: "Remova um banco de passageiro, ganhe 4 slots para itens"
 	car: 0
 	tier: 2
 	pos: 3
@@ -210,8 +210,8 @@
 {
 	name: "base_car_cheap_repair"
 	type: "special"
-	title: "Easy repair"
-	text: "Cost of repairing car at a garage is decreased by 50%"
+	title: "Reparo fácil"
+	text: "O custo de reparo do carro em uma oficina é reduzido em 50%"
 	car: 0
 	tier: 2
 	pos: 4
@@ -223,8 +223,8 @@
 {
 	name: "base_car_hh_auto_level"
 	type: "special"
-	title: "What a car!"
-	text: "Instantly level up a hitchhiker once when you pick one up"
+	title: "Que carro!"
+	text: "Suba instantaneamente um carona de nível assim que você pegar um"
 	car: 0
 	tier: 3
 	pos: 1
@@ -234,14 +234,10 @@
 {
 	name: "base_car_item_inspired"
 	type: "special"
-	title: "Great trunk"
-	text: "Using an item to clear a road event has a 50% chance to grant the INSPIRED ailment"
+	title: "Ótimo porta-malas"
+	text: "Usar um item para limpar um evento de estrada tem 50% de chance de conceder o efeito INSPIRADO"
 	car: 0
 	tier: 3
 	pos: 3
 	reqs: "base_car_cheap_repair,base_car_seat_replace_2,base_car_gas_2"
 }
-
-
-
-
