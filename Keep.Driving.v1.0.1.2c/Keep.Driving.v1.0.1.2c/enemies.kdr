@@ -207,7 +207,7 @@
 
 {
 	dev_name: 	slow_driving
-	name:		Área de Direção Lenta
+	name:		area de Direcao Lenta
 	pattern:	GEMG
 	level: 		1
 	rarity:		4
@@ -223,7 +223,7 @@
 
 {
 	dev_name: 	construction_area
-	name:		Área em Construção
+	name:		area em Construcao
 	pattern:	GEGGMG
 	level: 		3
 	rarity:		4
@@ -252,7 +252,7 @@
 
 {
 	dev_name: 	ambulance
-	name:		Ambulância!
+	name:		Ambulancia!
 	pattern:	DGGDGD
 	level: 		2
 	rarity:		2
@@ -266,7 +266,7 @@
 
 {
 	dev_name: 	police_pull_over
-	name:		Parado pela Polícia!
+	name:		Parado pela Policia!
 	pattern:	DGMEMDEG
 	level: 		4
 	rarity:		2
@@ -278,7 +278,7 @@
 
 {
 	dev_name: 	police_chase
-	name:		Perseguido pela Polícia!
+	name:		Perseguido pela Policia!
 	pattern:	DGMEMDEGGE
 	level: 		4
 	rarity:		2
@@ -291,7 +291,7 @@
 
 {
 	dev_name: 	behind_large_truck
-	name:		Atrás de um Caminhão Grande
+	name:		Atras de um Caminhao Grande
 	pattern:	GGDEDG
 	level: 		4
 	rarity:		4
@@ -304,7 +304,7 @@
 
 {
 	dev_name: 	tailgating
-	name:		Carro Colado Atrás
+	name:		Carro Colado Atras
 	pattern:	DGGDEDG
 	level: 		4
 	rarity:		4
@@ -330,7 +330,7 @@
 
 {
 	dev_name: 	robber
-	name:		Ladrão
+	name:		Ladrao
 	pattern:	MMDMDM
 	level: 		3
 	rarity:		2
@@ -380,7 +380,7 @@
 
 {
 	dev_name: 	chicken_race
-	name:		Maníacos na Estrada
+	name:		Maniacos na Estrada
 	pattern:	DDGEEGEDD
 	level: 		5
 	rarity:		1
@@ -405,7 +405,7 @@
 
 {
 	dev_name: 	kids_playing
-	name:		Crianças Brincando
+	name:		Criancas Brincando
 	pattern:	GMEGEG
 	level: 		2
 	rarity:		3
@@ -485,7 +485,7 @@
 
 {
 	dev_name: 	hh_argument
-	name:		Discussão com Carona
+	name:		Discussao com Carona
 	pattern:	EEEE
 	level: 		1
 	rarity:		3
@@ -497,7 +497,7 @@
 
 {
 	dev_name: 	distracted
-	name:		Distraído
+	name:		Distraido
 	pattern:	EGDM
 	level: 		1
 	rarity:		1
@@ -535,7 +535,7 @@
 
 {
 	dev_name: 	leg_cramps
-	name:		Cãibras nas Pernas
+	name:		Caibras nas Pernas
 	pattern:	EEGD
 	level: 		1
 	rarity:		4
@@ -585,7 +585,7 @@
 
 {
 	dev_name: 	water_puddles
-	name:		Poças de Água
+	name:		Pocas de agua
 	pattern:	DGDE
 	level: 		1
 	rarity:		5
@@ -661,7 +661,7 @@
 
 {
 	dev_name: 	birds_on_road
-	name:		Pássaros que Não se Movem
+	name:		Passaros que Nao se Movem
 	pattern:	GDEDG
 	level: 		2
 	rarity:		4
@@ -673,7 +673,7 @@
 
 {
 	dev_name: 	falcon
-	name:		Falcão Majestoso
+	name:		Falcao Majestoso
 	pattern:	EGEE
 	level: 		1
 	rarity:		1
@@ -697,7 +697,7 @@
 
 {
 	dev_name: 	rainbow
-	name: 		Arco-Íris
+	name: 		Arco-iris
 	pattern:	GMED
 	level:		1
 	rarity:		2
@@ -722,7 +722,7 @@
 
 {
 	dev_name: 	thick_fog
-	name: 		Névoa Densa
+	name: 		Nehvoa Densa
 	pattern:	DEDED
 	level:		1
 	rarity:		2
@@ -734,7 +734,7 @@
 
 {
 	dev_name: 	fallen_tree
-	name:		Árvore Caída
+	name:		arvore Caida
 	pattern:	DGDDG
 	level: 		2
 	rarity:		3
@@ -747,7 +747,7 @@
 
 {
 	dev_name: 	fallen_rocks
-	name:		Pedras Caídas
+	name:		Pedras Caidas
 	pattern:	DGDDG
 	level: 		2
 	rarity:		3
@@ -785,7 +785,7 @@
 
 {
 	dev_name: 	race_catching_up
-	name:		Alcançando
+	name:		Alcancando
 	pattern:	GGDDEE
 	level: 		4
 	rarity:		2

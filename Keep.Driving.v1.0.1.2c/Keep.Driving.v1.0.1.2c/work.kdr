@@ -13,8 +13,8 @@
 
 {
 	id: "cafe_work"
-	title: "Funcionário de cafeteria necessário"
-	desc: "Precisamos de alguém que possa ajudar como barista assistente!"
+	title: "Funcionario de cafeteria necessario"
+	desc: "Precisamos de alguehm que possa ajudar como barista assistente!"
 	env: "city,country"
 	cost: 5
 	pay: 45
@@ -36,7 +36,7 @@
 {
 	id: "game_tester"
 	title: "Testador de jogo"
-	desc: "Nós da YCJY Games precisamos de testadores para nosso próximo jogo!"
+	desc: "Nos da YCJY Games precisamos de testadores para nosso proximo jogo!"
 	env: "city_small,city"
 	cost: 4
 	pay: 25
@@ -69,7 +69,7 @@
 {
 	id: "bartender_work"
 	title: "Barman"
-	desc: "Precisamos de alguém que sirva cervejas por uma noite"
+	desc: "Precisamos de alguehm que sirva cervejas por uma noite"
 	env: "city_small,city"
 	cost: 2
 	pay: 30
@@ -79,8 +79,8 @@
 
 {
 	id: "manual_labor"
-	title: "Construção"
-	desc: "Precisamos de trabalhadores na construção civil"
+	title: "Construcao"
+	desc: "Precisamos de trabalhadores na construcao civil"
 	env: "city"
 	cost: 10
 	pay: 60
@@ -91,7 +91,7 @@
 {
 	id: "lawyers_office"
 	title: "Recepcionista"
-	desc: "Precisamos de alguém para trabalhar em nosso pequeno escritório de advocacia."
+	desc: "Precisamos de alguehm para trabalhar em nosso pequeno escritorio de advocacia."
 	env: "desert"
 	cost: 4
 	pay: 66
@@ -102,7 +102,7 @@
 {
 	id: "nail_salon"
 	title: "Faxineiro"
-	desc: "Estamos precisando de um faxineiro para nosso salão de unhas."
+	desc: "Estamos precisando de um faxineiro para nosso salao de unhas."
 	env: "desert"
 	cost: 2
 	pay: 44
@@ -113,7 +113,7 @@
 {
 	id: "farm_work"
 	title: "Trabalho na fazenda"
-	desc: "Precisamos de uma mão firme em nosso rancho. Pagaremos bem!"
+	desc: "Precisamos de uma mao firme em nosso rancho. Pagaremos bem!"
 	env: "rural,country"
 	cost: 8
 	pay: 75
@@ -124,7 +124,7 @@
 {
 	id: "permanent_position"
 	title: "Emprego fixo"
-	desc: "Tem ótimos benefícios"
+	desc: "Tem otimos beneficios"
 	env: "special"
 	cost: 6
 	pay: 100

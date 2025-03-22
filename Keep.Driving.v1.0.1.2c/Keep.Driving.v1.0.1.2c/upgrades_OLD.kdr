@@ -19,7 +19,7 @@
 	type: "stats"
 	stat: "gas_max"
 	amount: 4
-	title: "Tanque de gás 1"
+	title: "Tanque de gas 1"
 	text: "Aumente §stat em §amount"
 	car: 0
 	tier: 0
@@ -44,8 +44,8 @@
 {
 	name: "base_car_hh_energy_on_level"
 	type: "special"
-	title: "Nível de energia HH"
-	text: "Subir de nível um carona restaura toda a sua energia"
+	title: "Nivel de energia HH"
+	text: "Subir de nivel um carona restaura toda a sua energia"
 	car: 0
 	tier: 1
 	pos: 0
@@ -55,8 +55,8 @@
 {
 	name: "base_car_automatic_gear"
 	type: "module"
-	title: "Câmbio automático"
-	text: "Substitua sua caixa de câmbio por um sistema de câmbio automático"
+	title: "Cambio automatico"
+	text: "Substitua sua caixa de cambio por um sistema de cambio automatico"
 	car: 0
 	tier: 1
 	pos: 1
@@ -109,7 +109,7 @@
 	name: "base_car_skill_nice_seats"
 	type: "skill"
 	skill: "nice_seats"
-	title: "Bancos confortáveis!"
+	title: "Bancos confortaveis!"
 	text: "Ganhe uma nova habilidade"
 	car: 0
 	tier: 1
@@ -122,7 +122,7 @@
 {
 	name: "base_car_seat_replace_1"
 	type: "seat"
-	title: "Espaço para itens 1"
+	title: "Espaco para itens 1"
 	text: "Remova um banco de passageiro, ganhe 4 slots para itens"
 	car: 0
 	tier: 1
@@ -136,7 +136,7 @@
 	road: "rough"
 	stat: "car_health_cost_mod"
 	amount: 25
-	title: "Espaço para estrada ruim"
+	title: "Espaco para estrada ruim"
 	text: "§stats nas §roads diminuem em §amount%"
 	car: 1
 	tier: 1
@@ -185,7 +185,7 @@
 	type: "stats"
 	stat: "gas_max"
 	amount: 4
-	title: "Tanque de gás 2"
+	title: "Tanque de gas 2"
 	text: "Aumente §stat em §amount"
 	car: 0
 	tier: 2
@@ -199,7 +199,7 @@
 {
 	name: "base_car_seat_replace_2"
 	type: "seat"
-	title: "Espaço para itens 2"
+	title: "Espaco para itens 2"
 	text: "Remova um banco de passageiro, ganhe 4 slots para itens"
 	car: 0
 	tier: 2
@@ -210,8 +210,8 @@
 {
 	name: "base_car_cheap_repair"
 	type: "special"
-	title: "Reparo fácil"
-	text: "O custo de reparo do carro em uma oficina é reduzido em 50%"
+	title: "Reparo facil"
+	text: "O custo de reparo do carro em uma oficina eh reduzido em 50%"
 	car: 0
 	tier: 2
 	pos: 4
@@ -224,7 +224,7 @@
 	name: "base_car_hh_auto_level"
 	type: "special"
 	title: "Que carro!"
-	text: "Suba instantaneamente um carona de nível assim que você pegar um"
+	text: "Suba instantaneamente um carona de nivel assim que voce pegar um"
 	car: 0
 	tier: 3
 	pos: 1
@@ -234,7 +234,7 @@
 {
 	name: "base_car_item_inspired"
 	type: "special"
-	title: "Ótimo porta-malas"
+	title: "otimo porta-malas"
 	text: "Usar um item para limpar um evento de estrada tem 50% de chance de conceder o efeito INSPIRADO"
 	car: 0
 	tier: 3

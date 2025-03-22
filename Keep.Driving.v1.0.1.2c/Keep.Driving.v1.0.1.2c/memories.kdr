@@ -2,7 +2,7 @@
 
 {
 	memory_name: unemployed
-	memory_text: Naquela época, eu estava desempregado...
+	memory_text: Naquela ehpoca, eu estava desempregado...
 }
 
 {
@@ -17,22 +17,22 @@
 
 {
 	memory_name: rehab
-	memory_text: Eu tinha acabado de terminar meu programa de reabilitação.
+	memory_text: Eu tinha acabado de terminar meu programa de reabilitacao.
 }
 
 {
 	memory_name: intern
-	memory_text: Eu tinha feito algum dinheiro, trabalhando como estagiário.
+	memory_text: Eu tinha feito algum dinheiro, trabalhando como estagiario.
 }
 
 {
 	memory_name: mourning
-	memory_text: Eu estava me sentindo pra baixo há um tempo.
+	memory_text: Eu estava me sentindo pra baixo ha um tempo.
 }
 
 {
 	memory_name: veteran
-	memory_text: Essa não era minha primeira viagem de carro.
+	memory_text: Essa nao era minha primeira viagem de carro.
 }
 
 {
@@ -52,17 +52,17 @@
 
 {
 	memory_name: happy_user
-	memory_text: Foi um verão muito divertido!
+	memory_text: Foi um verao muito divertido!
 }
 
 {
 	memory_name: broke
-	memory_text: Eu estava tão pobre!
+	memory_text: Eu estava tao pobre!
 }
 
 {
 	memory_name: breakdown
-	memory_text: Eu tive %t apagões.
+	memory_text: Eu tive %t apagoes.
 }
 
 {
@@ -72,7 +72,7 @@
 
 {
 	memory_name: help_stranger
-	memory_text: Me envolvi demais com um jogador e sua dívida.
+	memory_text: Me envolvi demais com um jogador e sua divida.
 }
 
 {
@@ -92,7 +92,7 @@
 
 {
 	memory_name: help_suit
-	memory_text: Peguei um vendedor solitário.
+	memory_text: Peguei um vendedor solitario.
 }
 
 {
@@ -148,7 +148,7 @@
 {
 	//middle
 	memory_name: workaholic
-	memory_text: Eu me vi pegando vários trabalhos temporários.
+	memory_text: Eu me vi pegando varios trabalhos temporarios.
 }
 
 {
@@ -160,13 +160,13 @@
 {
 	//middle
 	memory_name: broke
-	memory_text: Eu estava tão pobre em um ponto!
+	memory_text: Eu estava tao pobre em um ponto!
 }
 
 {
 	//middle
 	memory_name: bad_driver
-	memory_text: Eu dirigi tão mal que o carro realmente quebrou!
+	memory_text: Eu dirigi tao mal que o carro realmente quebrou!
 }
 
 {
@@ -178,13 +178,13 @@
 {
 	//middle
 	memory_name: mastery taits
-	memory_text: Você poderia escrever 1 para cada traço de maestria? Eu não sei como chamá-los.
+	memory_text: Voce poderia escrever 1 para cada traco de maestria? Eu nao sei como chama-los.
 }
 
 {
 	//middle
 	memory_name: litterbug
-	memory_text: Eu não dava a mínima para a natureza.
+	memory_text: Eu nao dava a minima para a natureza.
 }
 
 {
@@ -239,7 +239,7 @@
 {
 	//middle
 	memory_name: hiking_mastery
-	memory_text: Eu realmente aperfeiçoei minhas habilidades de caminhada.
+	memory_text: Eu realmente aperfeicoei minhas habilidades de caminhada.
 }
 
 {
@@ -251,7 +251,7 @@
 {
 	//middle
 	memory_name: gourmet_mastery
-	memory_text: Eu usei minha fome como uma força.
+	memory_text: Eu usei minha fome como uma forca.
 }
 
 {
@@ -275,7 +275,7 @@
 {
 	//end
 	memory_name: end_inheritance
-	memory_text: Mas eu tive que cortar minha viagem porque minha avó morreu.
+	memory_text: Mas eu tive que cortar minha viagem porque minha avo morreu.
 }
 
 {
@@ -287,19 +287,19 @@
 {
 	//end
 	memory_name: end_prison
-	memory_text: Eventualmente, eu cometi um erro e acabei na prisão.
+	memory_text: Eventualmente, eu cometi um erro e acabei na prisao.
 }
 
 {
 	//end
 	memory_name: end_mountain
-	memory_text: Eu não lembro muito depois de dirigir até o pico.
+	memory_text: Eu nao lembro muito depois de dirigir ateh o pico.
 }
 
 {
 	//end
 	memory_name: end_rehab
-	memory_text: Então, eu me internai na reabilitação.
+	memory_text: Entao, eu me internai na reabilitacao.
 }
 
 {
@@ -311,19 +311,19 @@
 {
 	//end
 	memory_name: end_work
-	memory_text: No final, tudo o que eu lembrava era de trabalhar o resto do verão.
+	memory_text: No final, tudo o que eu lembrava era de trabalhar o resto do verao.
 }
 
 {
 	//end
 	memory_name: end_race
-	memory_text: Então, por curiosidade, participei de uma corrida e ganhei!
+	memory_text: Entao, por curiosidade, participei de uma corrida e ganhei!
 }
 
 {
 	//end
 	memory_name: end_game_over
-	memory_text: Perdido, acabei ligando para meus pais, que não atenderam.
+	memory_text: Perdido, acabei ligando para meus pais, que nao atenderam.
 }
 
 

@@ -2,123 +2,123 @@
 {
 	name: "test1"
 	title: "Muito cansado"
-	text: "Você está se sentindo cansado. Muito cansado.
+	text: "Voce esta se sentindo cansado. Muito cansado.
 	tags: basic
 	
-	choice: "Forçar os olhos a ficarem abertos"
-	resolution: "Você consegue se manter acordado, mas sente uma dor de cabeça surgindo"
+	choice: "Forcar os olhos a ficarem abertos"
+	resolution: "Voce consegue se manter acordado, mas sente uma dor de cabeca surgindo"
 	reward: "ailment:headache"
 
-	choice: "Dá um tapa no próprio rosto!"
-	resolution: "Ai! Agora você está acordado!"
+	choice: "Da um tapa no proprio rosto!"
+	resolution: "Ai! Agora voce esta acordado!"
 	reward: "energy:-1,ailment:tired"
 }
 
 
 {
 	name: "test2"
-	title: "Introspecção"
-	text: O que estou fazendo. Não era pra eu estar procurando um emprego ou algo assim?
+	title: "Introspeccao"
+	text: O que estou fazendo. Nao era pra eu estar procurando um emprego ou algo assim?
 	tags: basic
 	
-	choice: "Não! É hora de aventura!"
+	choice: "Nao! eh hora de aventura!"
 	resolution: "Ajuda, de certa forma."
 	reward: "ailment:inspired"
 
-	choice: "Isso pode esperar! Embora um dinheirinho não fizesse mal..."
-	resolution: "Você continua duvidando das suas próprias decisões"
+	choice: "Isso pode esperar! Embora um dinheirinho nao fizesse mal..."
+	resolution: "Voce continua duvidando das suas proprias decisoes"
 	reward: "energy:-2"
 }
 
 
 {
 	name: "finger_nails"
-	text: Como minhas unhas ficaram tão sujas?
+	text: Como minhas unhas ficaram tao sujas?
 	tags: basic
 	
-	choice: "Acho que andei coçando a cabeça de novo."
+	choice: "Acho que andei cocando a cabeca de novo."
 	resolution: "Talvez seja hora de tomar um banho."
 	reward: "ailment:dirty"
 
-	choice: "Hmm... Não ligo."
-	resolution: "Você olha para a estrada e para de pensar nas unhas."
+	choice: "Hmm... Nao ligo."
+	resolution: "Voce olha para a estrada e para de pensar nas unhas."
 	reward:
 }
 
 //start new
 {
 	name: "lumbar_support"
-	text: Aff, minhas costas estão doendo por causa desses bancos.
+	text: Aff, minhas costas estao doendo por causa desses bancos.
 	tags: basic
 	
-	choice: Vou precisar me alongar um pouco. É melhor fazer isso agora.
+	choice: Vou precisar me alongar um pouco. eh melhor fazer isso agora.
 	resolution:  "Arqueie as costas, junte as omoplatas e estique bem."
 	reward: "energy:1"
 
-	choice: Queria ter um analgésico.
-	resolution: "Você tenta inutilmente procurar um analgésico, mas acaba apenas pensando na dor."
+	choice: Queria ter um analgehsico.
+	resolution: "Voce tenta inutilmente procurar um analgehsico, mas acaba apenas pensando na dor."
 	reward: "energy:-1"
 }
 
 
 {
 	name: "pass_car"
-	text: Eu já não tinha ultrapassado esse carro?
+	text: Eu ja nao tinha ultrapassado esse carro?
 	tags: basic
 	
 	choice: "Esfregue os olhos."
 	resolution: "Devo estar ficando cansado."
 	reward: "ailment:tired"
 
-	choice: "Não posso deixar ele me ultrapassar de novo"
+	choice: "Nao posso deixar ele me ultrapassar de novo"
 	resolution: "Acelere"
 	reward: ailment:zone
 
-	choice: "Ele está me seguindo..."
-	resolution:  "Olhando pelo retrovisor, você tenta ver quem é essa pessoa e começa a se sentir um pouco paranoico."
+	choice: "Ele esta me seguindo..."
+	resolution:  "Olhando pelo retrovisor, voce tenta ver quem eh essa pessoa e comeca a se sentir um pouco paranoico."
 	reward: energy:-2
 }
 
 
 {
 	name: "bright_headlights"
-	text: Esses faróis potentes tinham que ser proibidos.
+	text: Esses farois potentes tinham que ser proibidos.
 	tags: night
 	
-	choice: "Será que são mesmo mais seguros? Me cegam toda vez."
-	resolution: "Talvez eu devesse colocar também. Oh! Um dinheiro!"
+	choice: "Sera que sao mesmo mais seguros? Me cegam toda vez."
+	resolution: "Talvez eu devesse colocar tambehm. Oh! Um dinheiro!"
 	reward: money:2
 
 	choice: "Idiotas do caralho."
-	resolution:  "Você se irrita e acaba incomodando todo mundo."
+	resolution:  "Voce se irrita e acaba incomodando todo mundo."
 	reward: ailment:headache
 }
 
 {
 	name: "fan_fidget"
-	text: Sim! Finalmente consegui ajustar os ventiladores perfeitamente. Boa potência, não muito barulhento, e direcionados certinho.
+	text: Sim! Finalmente consegui ajustar os ventiladores perfeitamente. Boa potencia, nao muito barulhento, e direcionados certinho.
 	tags: basic
 	
-	choice: "Hmm talvez eu devesse só ajustar um pouquinho; pode ficar melhor."
-	resolution:  "Você ajusta um pouco a velocidade do ventilador e muda levemente a direção. Mesmo assim, de algum jeito, tudo ficou bem pior."
+	choice: "Hmm talvez eu devesse so ajustar um pouquinho; pode ficar melhor."
+	resolution:  "Voce ajusta um pouco a velocidade do ventilador e muda levemente a direcao. Mesmo assim, de algum jeito, tudo ficou bem pior."
 	reward: "durability:-1"
 
-	choice: "Deixa assim! Por favor, só deixa como tá."
-	resolution:  "Você leva a mão até o ventilador, depois até os controles, mas se contém."
+	choice: "Deixa assim! Por favor, so deixa como ta."
+	resolution:  "Voce leva a mao ateh o ventilador, depois ateh os controles, mas se contehm."
 	reward: "energy:1"
 }
 
 {
 	name: "crack_or_not"
-	text: Merda, isso é uma rachadura ou só sujeira no para-brisa?
+	text: Merda, isso eh uma rachadura ou so sujeira no para-brisa?
 	tags: basic
 	
 	choice:  "Cutuca com o dedo."
-	resolution: "Ufa, é só um catarro ou algo assim. Deve ter sido um espirro forte."
+	resolution: "Ufa, eh so um catarro ou algo assim. Deve ter sido um espirro forte."
 	reward: "durability:1"
 
-	choice: "E daí? Se for uma rachadura, é uma rachadura."
-	resolution:  "Sua indiferença te dá uma sensação de controle."
+	choice: "E dai? Se for uma rachadura, eh uma rachadura."
+	resolution:  "Sua indiferenca te da uma sensacao de controle."
 	reward: "ailment:inspired"
 }
 
@@ -128,26 +128,26 @@
 	tags: basic
 	
 	choice: "Hahaha, muito bom!"
-	resolution: "Queria que a minha fosse mais engraçada."
+	resolution: "Queria que a minha fosse mais engracada."
 	reward: "ailment:social"
 
 	choice: "Eu ficaria com muita vergonha com essa placa."
-	resolution: "Mas não é tão ruim quanto meu antigo e-mail."
+	resolution: "Mas nao eh tao ruim quanto meu antigo e-mail."
 	reward:
 }
 
 
 {
 	name: "the_pick"
-	text: Qualé, até onde você vai enfiar o dedo no nariz? Não sabe que a gente tá vendo?
+	text: Qualeh, ateh onde voce vai enfiar o dedo no nariz? Nao sabe que a gente ta vendo?
 	tags: basic
 	
-	choice: "O lance é que... eu meio que preciso também."
-	resolution:  "Você discretamente tira uma meleca do nariz."
+	choice: "O lance eh que... eu meio que preciso tambehm."
+	resolution:  "Voce discretamente tira uma meleca do nariz."
 	reward: ailment: dirty
 	
-	choice: "Vai ver era só uma coçada - do lado de fora, tipo."
-	resolution: "Duvido, na real; as pessoas são nojentas."
+	choice: "Vai ver era so uma cocada - do lado de fora, tipo."
+	resolution: "Duvido, na real; as pessoas sao nojentas."
 	reward:
 }
 
@@ -156,41 +156,41 @@
 	text: Se eu tivesse um bar, como eu chamaria?
 	tags: basic
 	
-	choice: "Você nunca conseguiria cuidar de um bar."
-	resolution: "Conseguiria sim. Ou talvez não. Provavelmente não, na real."
+	choice: "Voce nunca conseguiria cuidar de um bar."
+	resolution: "Conseguiria sim. Ou talvez nao. Provavelmente nao, na real."
 	reward: "ailment: headache"
 	
-	choice: "Hmm como é mesmo o nome daquele pub no Ulisses? Esse seria bom."
-	resolution: "Tanto faz, tudo que sei é que teria que ter uma máquina de Arcade."
+	choice: "Hmm como eh mesmo o nome daquele pub no Ulisses? Esse seria bom."
+	resolution: "Tanto faz, tudo que sei eh que teria que ter uma maquina de Arcade."
 	reward: 
 }
 
 {
 	name: "forgot_something"
-	text: Será que eu esqueci...
+	text: Sera que eu esqueci...
 	tags: basic
 	
 	choice: "De me despedir do meu melhor amigo?"
-	resolution: "Não, não, a gente se despediu alguns dias antes."
+	resolution: "Nao, nao, a gente se despediu alguns dias antes."
 	reward: ailment:social
 	
 	choice: "De desligar o forno antes de sair?"
-	resolution: "Fiz uns pizza bagels e aí... é, eu desliguei."
+	resolution: "Fiz uns pizza bagels e ai... eh, eu desliguei."
 	reward: ailment:hungry
 }
 
 
 {
 	name: "call_parents"
-	text: Preciso ligar pros meus pais logo. E não só quando eu preciso de ajuda. 
+	text: Preciso ligar pros meus pais logo. E nao so quando eu preciso de ajuda. 
 	tags: basic
 	
-	choice: "Eu ligo amanhã!"
+	choice: "Eu ligo amanha!"
 	resolution: "Aham, sei..."
 	reward: 
 	
-	choice: "Tô com saudade deles."
-	resolution: "Espero que eles não estejam preocupados comigo."
+	choice: "To com saudade deles."
+	resolution: "Espero que eles nao estejam preocupados comigo."
 	reward: 
 }
 
@@ -214,35 +214,35 @@
 	reward: "ailment: hungry"
 	
 	choice: "olhar pela janela"
-	resolution: "Sei lá, achei que esse seria o momento em que eu veria um alce ou o pé-grande pela primeira vez."
+	resolution: "Sei la, achei que esse seria o momento em que eu veria um alce ou o peh-grande pela primeira vez."
 	reward: 
 }
 //ROADS
 {
 	name: "motorway_test"
-	text: Dirigir na autoestrada é mesmo monótono...
+	text: Dirigir na autoestrada eh mesmo monotono...
 	tags: env:forest
 	
 	choice: "Deveria aproveitar isso"
 	resolution: "...eu realmente deveria..."
 	reward: "ailment: hungry"
 	
-	choice: "Tô ansioso pra ver algo novo"
+	choice: "To ansioso pra ver algo novo"
 	resolution: "Pode ser qualquer coisa!"
 	reward: energy:2
 }
 
 {
 	name: "stressed_out"
-	text: Caramba, por que tem gente tão estressada? Relaxa!
+	text: Caramba, por que tem gente tao estressada? Relaxa!
 	tags: road:city
 	
 	choice:  "mandar o dedo do meio"
-	resolution: "Idiotas! Qual a porra da pressa de vocês?"
+	resolution: "Idiotas! Qual a porra da pressa de voces?"
 	reward: "energy: -1"
 	
-	choice: "Tá bom, tá bom, vai logo. Fica de boa."
-	resolution: "Feliz por não ter a vida deles."
+	choice: "Ta bom, ta bom, vai logo. Fica de boa."
+	resolution: "Feliz por nao ter a vida deles."
 	reward:
 }
 
@@ -253,31 +253,31 @@
 //HITCHHIKERS
 {
 	name: "mechanic_doubts"
-	title: "Introspecção"
-	text: Esse cara, o Brian, é tão talentoso... O que eu tô fazendo da minha vida!?
+	title: "Introspeccao"
+	text: Esse cara, o Brian, eh tao talentoso... O que eu to fazendo da minha vida!?
 	tags: hh_mechanic
 	
-	choice: "Tá tudo bem, eu sou bom em... coisas!"
-	resolution: "Tipo o quê?"
+	choice: "Ta tudo bem, eu sou bom em... coisas!"
+	resolution: "Tipo o que?"
 	reward: "ailment:headache,energy:2"
 
-	choice: "Ele realmente é. Talvez um dia eu também possa aprender um ofício."
-	resolution: "Seus valores e objetivos de vida estão mudando"
+	choice: "Ele realmente eh. Talvez um dia eu tambehm possa aprender um oficio."
+	resolution: "Seus valores e objetivos de vida estao mudando"
 	reward: "energy:1"
 }
 
 {
 	name: "hippie_girl_thoughts"
-	title: "Introspecção"
-	text: Fico pensando quais são os sonhos e objetivos da Garota.
+	title: "Introspeccao"
+	text: Fico pensando quais sao os sonhos e objetivos da Garota.
 	tags: hh_hippie_girl
 	
-	choice: "Talvez ela seja só uma andarilha sem rumo"
-	resolution: "Será que eu também sou assim? Quais são MEUS objetivos e ambições?"
+	choice: "Talvez ela seja so uma andarilha sem rumo"
+	resolution: "Sera que eu tambehm sou assim? Quais sao MEUS objetivos e ambicoes?"
 	reward: "ailment:headache,energy:2"
 
-	choice: "Provavelmente ela só vive o momento"
-	resolution: "Planejar é superestimado! Eu devia tentar ser mais como ela!"
+	choice: "Provavelmente ela so vive o momento"
+	resolution: "Planejar eh superestimado! Eu devia tentar ser mais como ela!"
 	reward: "energy:1,ailment:inspired"
 }
 //ITEMS
@@ -286,12 +286,12 @@
 	text: Tem algo especial em deitar numa barraca enquanto chove.
 	tags: item_tent
 	
-	choice: "O som. É o som!"
-	resolution: "O jeito como o plic plic é amplificado pela vibração da lona. É como deitar em casa perto da janela, só que melhor."
+	choice: "O som. eh o som!"
+	resolution: "O jeito como o plic plic eh amplificado pela vibracao da lona. eh como deitar em casa perto da janela, so que melhor."
 	reward: trait:rain_lover
 
-	choice: "Fica tão úmido! É tipo transar numa sauna."
-	resolution: "Queria saber como é isso."
+	choice: "Fica tao umido! eh tipo transar numa sauna."
+	resolution: "Queria saber como eh isso."
 	reward: none
 }
 
@@ -304,12 +304,12 @@
 	text: Hmmm... Talvez eu devesse virar vegetariano...?
 	tags: basic
 	
-	choice: "Sim! Por que não?"
-	resolution: "Não deve ser tão difícil evitar carne!"
+	choice: "Sim! Por que nao?"
+	resolution: "Nao deve ser tao dificil evitar carne!"
 	reward: trait:vegetarian
 
-	choice: "Acho que não conseguiria"
-	resolution: "Sinceramente, acho que não consigo viver sem comer carne..."
+	choice: "Acho que nao conseguiria"
+	resolution: "Sinceramente, acho que nao consigo viver sem comer carne..."
 	reward: none
 }
 
@@ -317,7 +317,7 @@
 
 {
 	name: "rehab_old"
-	text: O que eu tô fazendo? Talvez eu esteja exagerando nas drogas...
+	text: O que eu to fazendo? Talvez eu esteja exagerando nas drogas...
 	tags: none
 	weight: 1
 	
@@ -325,7 +325,7 @@
 	resolution: "Provavelmente eu deveria ir a um hospital pra receber ajuda"
 	reward: quest:rehab_first
 
-	choice: "Tô de boa!"
+	choice: "To de boa!"
 	resolution: "Eu consigo lidar com isso!"
 	reward: none
 }
@@ -336,27 +336,27 @@
 	tags: trait_junkie
 	weight:1
 
-	choice: "Posso parar quando quiser. Só não quero agora."
-	resolution: "Seria bom dar só uma batidinha agora."
+	choice: "Posso parar quando quiser. So nao quero agora."
+	resolution: "Seria bom dar so uma batidinha agora."
 	reward: ailment:low,trait:junkie_2
 	
-	choice: "Lembro que vi um cartão de reabilitação em algum lugar."
-	resolution: "Caralho, é mesmo, não dá pra continuar vivendo assim."
+	choice: "Lembro que vi um cartao de reabilitacao em algum lugar."
+	resolution: "Caralho, eh mesmo, nao da pra continuar vivendo assim."
 	reward: quest:rehab_first
 }
 
 {
 	name: "work_end_old"
-	text: Hmm, é realmente bom ter um dinheirinho extra.
+	text: Hmm, eh realmente bom ter um dinheirinho extra.
 	tags: not_in_anymore
 	weight:1
 	
 	choice: "Deveria trabalhar mais"
-	resolution: "Tinha aquele lugar onde achei vários bicos"
+	resolution: "Tinha aquele lugar onde achei varios bicos"
 	reward: quest:settle_down
 
 	choice: "Vou dar um jeito, de algum modo"
-	resolution: "Ou será que não?"
+	resolution: "Ou sera que nao?"
 	reward: ailment:sad
 }
 
@@ -366,20 +366,20 @@
 
 {
 	name: "work_end"
-	text: Sinceramente, não seria tão ruim ter um trabalho nesse verão.
+	text: Sinceramente, nao seria tao ruim ter um trabalho nesse verao.
 	tags: trait_workaholic
 	weight:1
 
 	choice: "Eu era bom nisso. E eles gostavam de mim!"
-	resolution: "Hmm, talvez eu devesse voltar lá e ver se consigo algo mais permanente."  
+	resolution: "Hmm, talvez eu devesse voltar la e ver se consigo algo mais permanente."  
 	reward: quest:settle_down
 	
-	choice: "Como você pode pensar nisso?! Por que você iria querer trabalhar agora?!"
-	resolution: "Olha ao redor. Você tem o verão inteiro e tanta coisa pra fazer!"
+	choice: "Como voce pode pensar nisso?! Por que voce iria querer trabalhar agora?!"
+	resolution: "Olha ao redor. Voce tem o verao inteiro e tanta coisa pra fazer!"
 	reward: ailment:inspired,ailment:happy
 
-	choice: "É... por que não. Não tenho nada melhor planejado mesmo."
-	resolution: "Quer dizer... dinheiro, né? Eu gasto no próximo verão... eu acho."
+	choice: "eh... por que nao. Nao tenho nada melhor planejado mesmo."
+	resolution: "Quer dizer... dinheiro, neh? Eu gasto no proximo verao... eu acho."
 	reward: quest:settle_down
 }
 
@@ -387,29 +387,29 @@
 
 {
 	name: "the_clouds"
-	text: Uau, essas nuvens estão incríveis.
+	text: Uau, essas nuvens estao incriveis.
 	tags: basic
 	
-	choice: "Parece um castelo olímpico gigantesco. Eu preciso parar."
-	resolution:	"-Você decide parar o carro e simplesmente observar as nuvens passando."
+	choice: "Parece um castelo olimpico gigantesco. Eu preciso parar."
+	resolution:	"-Voce decide parar o carro e simplesmente observar as nuvens passando."
 	reward: stop_car,ailment:inspired
 	
-	choice: "É estranho ainda me emocionar com algo como uma nuvem bem iluminada."
-	resolution: "Pôr do sol, nuvens, o som da chuva — Clichê e básico, mas eu não consigo evitar."
+	choice: "eh estranho ainda me emocionar com algo como uma nuvem bem iluminada."
+	resolution: "Por do sol, nuvens, o som da chuva — Cliche e basico, mas eu nao consigo evitar."
 	reward: ailment:inspired
 }
 
 {
 	name: "the_clouds2"
-	text: Parece que algumas partes do mundo têm nuvens melhores que outras.
+	text: Parece que algumas partes do mundo tem nuvens melhores que outras.
 	tags: basic
 	
 	choice: "Espero encontrar um lugar com nuvens bem grandes. Densas, iluminadas, majestosas."
-	resolution: "-Você continua dirigindo com um leve sorriso de propósito."
+	resolution: "-Voce continua dirigindo com um leve sorriso de proposito."
 	reward: ailment:zone
 	
-	choice: "Os melhores lugares sempre são nas montanhas ou em campos."
-	resolution: "Você sente uma forte saudade de campos e montanhas."
+	choice: "Os melhores lugares sempre sao nas montanhas ou em campos."
+	resolution: "Voce sente uma forte saudade de campos e montanhas."
 	reward: ailment:inspired
 }
 
@@ -421,58 +421,58 @@
 	tags: forest
 	
 	choice: "Aposto que tem um troll numa caverna comendo uns mirtilos."
-	resolution: "Ou então um javali meio tostado... com mirtilos... e sorvete."
+	resolution: "Ou entao um javali meio tostado... com mirtilos... e sorvete."
 	reward: "ailment: hungry"
 	
 	choice: "-olhar pela janela"
-	resolution: "Sei lá, achei que esse era o momento em que eu veria um alce ou o pé-grande pela primeira vez."
+	resolution: "Sei la, achei que esse era o momento em que eu veria um alce ou o peh-grande pela primeira vez."
 	reward: 
 }
 
 {
 	name: "dog_heaven"
-	text: Cachorros vão pro céu?
+	text: Cachorros vao pro cehu?
 	tags: hh_dog
 
 	
-	choice: "Pro céu, seja lá o que isso for."
-	resolution: "Tenho certeza de que eles só querem estar onde o dono estiver, até depois da morte."
+	choice: "Pro cehu, seja la o que isso for."
+	resolution: "Tenho certeza de que eles so querem estar onde o dono estiver, ateh depois da morte."
 	reward: ailment:inspired
 	
 	choice: "Sim! Claro que sim."
-	resolution: "Eles são todos bons, do começo ao fim. O problema são os donos."
+	resolution: "Eles sao todos bons, do comeco ao fim. O problema sao os donos."
 	reward: ailment:happy
 }
 
 {
 	name: "unfair"
-	text: Isso não é justo...
+	text: Isso nao eh justo...
 	tags: basic
 		
 	choice: "Nunca ganhei nada em bingo, parque ou loteria."
-	resolution: "Será que a maioria das pessoas também sente isso?"
+	resolution: "Sera que a maioria das pessoas tambehm sente isso?"
 	reward: money:1
 	
-	choice: "O preço da gasolina subiu justo quando decidi comprar um carro."
+	choice: "O preco da gasolina subiu justo quando decidi comprar um carro."
 	resolution: "Aposto que vai cair assim que eu vender."
 	reward: gas:1
 
-	choice: "Quando eu preciso de um mecânico não tem nenhum, e quando não preciso, aparecem aos montes."
-	resolution: "Simplesmente não é justo."
+	choice: "Quando eu preciso de um mecanico nao tem nenhum, e quando nao preciso, aparecem aos montes."
+	resolution: "Simplesmente nao eh justo."
 	reward: durability:1
 }
 
 {
 	name: "stressed_out"
-	text: Caramba, por que tem gente tão estressada assim? Relaxa!
+	text: Caramba, por que tem gente tao estressada assim? Relaxa!
 	tags: city
 	
 	choice: "mandar o dedo do meio"
-	resolution: "Idiotas! Qual a porra da pressa de vocês?"
+	resolution: "Idiotas! Qual a porra da pressa de voces?"
 	reward: "energy:-1"
 	
-	choice: "Tá bom, tá bom, passa logo. Fica de boa."
-	resolution: "Sou grato por não ter a vida deles."
+	choice: "Ta bom, ta bom, passa logo. Fica de boa."
+	resolution: "Sou grato por nao ter a vida deles."
 	reward:
 }
 
@@ -482,67 +482,67 @@
 	text: Se eu bater agora... Ou se algo acontecer...
 	tags: hh_in_car
 	
-	choice: "Eu seria o responsável por matar todas essas pessoas."
-	resolution: "Eu nem conheço elas!"
+	choice: "Eu seria o responsavel por matar todas essas pessoas."
+	resolution: "Eu nem conheco elas!"
 	reward: energy:-1,ailment:scared
 	
 	choice: "Ai caralho. Ai caralho. Ai caralho!"
-	resolution: "Calma; todo mundo tá curtindo; a estrada tá de boa; vai com calma."
+	resolution: "Calma; todo mundo ta curtindo; a estrada ta de boa; vai com calma."
 	reward:  
 
 	choice: "-Mandar todo mundo no carro ficar quieto."
-	resolution: "Espero que eles não fiquem bravos comigo por ter surtado."
+	resolution: "Espero que eles nao fiquem bravos comigo por ter surtado."
 	reward: ailment:sad
 }
 
 {
 	name: "a_million_dollars"
-	text: Ok, imagina: amanhã eu acordo com um milhão em dinheiro no porta-malas. O que eu faria?
+	text: Ok, imagina: amanha eu acordo com um milhao em dinheiro no porta-malas. O que eu faria?
 	tags: basic
 	
-	choice: "Hmm, sei lá, comprar um carro melhor? Guardar um pouco pra gasolina e doar o resto.
-	resolution: "O problema é: pra quem eu daria isso?"
+	choice: "Hmm, sei la, comprar um carro melhor? Guardar um pouco pra gasolina e doar o resto.
+	resolution: "O problema eh: pra quem eu daria isso?"
 	reward: ailment: spender
 	
-	choice: "Eu ficaria muito preocupado de acordar no dia seguinte com uma cabeça de cavalo do lado."
+	choice: "Eu ficaria muito preocupado de acordar no dia seguinte com uma cabeca de cavalo do lado."
 	resolution: "Tipo, de onde veio esse dinheiro?"
 	reward: ailment:saver
 }
 
 {
 	name: "not_a_reader"
-	text: Eu realmente não tenho lido o suficiente ultimamente.
+	text: Eu realmente nao tenho lido o suficiente ultimamente.
 	tags: basic
 	
 	choice: "Queria ter tempo."
 	resolution: "E toda vez que tento ler antes de dormir, eu apago."
 	reward: ailment: tired
 	
-	choice: "A pilha de livros que EU QUERO ler só cresce."
-	resolution: "E mesmo assim, não leio nenhum deles."
+	choice: "A pilha de livros que EU QUERO ler so cresce."
+	resolution: "E mesmo assim, nao leio nenhum deles."
 	reward: item:random_book
 }
 
 {
 	name: "pimples_again"
-	text: Aquele motorista deve ter uns 14 anos. Não é possível que ele tenha carteira.
+	text: Aquele motorista deve ter uns 14 anos. Nao eh possivel que ele tenha carteira.
 	tags: basic
 	
-	choice: "Ainda bem que eu não tenho mais espinhas daquele jeito."
-	resolution: "Ou será que eu já tive mesmo? É, claro que tive."
+	choice: "Ainda bem que eu nao tenho mais espinhas daquele jeito."
+	resolution: "Ou sera que eu ja tive mesmo? eh, claro que tive."
 	reward: ailment: happy
 	
 	choice:-"sentir o rosto, tocar a testa e a dobra das narinas."
-	resolution: "Não sei se tô oleoso ou só suado."
+	resolution: "Nao sei se to oleoso ou so suado."
 	reward: ailment:hot
 }
 {
 	name: "brakes_break"
-	text: Se os freios falharem agora... Eu tô ferrado. Muito ferrado.
+	text: Se os freios falharem agora... Eu to ferrado. Muito ferrado.
 	tags: basic
 
 	choice: "Acho que esse carro nem tem airbag."
-	resolution: "- Você verifica se tem airbag"
+	resolution: "- Voce verifica se tem airbag"
 	reward: ailment:scared
 	
 	choice: "-Testar os freios."
@@ -560,33 +560,33 @@
 	reward: ailment:zone
 	
 	choice: "-Olhar pela janela da porta"
-	resolution: "Os campos abertos, as nuvens, o céu, e as cores de tudo isso."
+	resolution: "Os campos abertos, as nuvens, o cehu, e as cores de tudo isso."
 	reward: ailment:inspired
 }
 
 {
 	name: "boring_road"
-	text: Aff, essa estrada é muito entediante.
+	text: Aff, essa estrada eh muito entediante.
 	tags: road:motorway
 	choice: "-Manter os olhos na estrada"
 	resolution: "Sem curvas, nem natureza bonita. Vou acabar dormindo."
 	reward:ailment: tired
 	
 	choice: "-Olhar pela janela da porta"
-	resolution: "Nem bonito tá lá fora. Pelo menos o carro parece gostar da monotonia."
+	resolution: "Nem bonito ta la fora. Pelo menos o carro parece gostar da monotonia."
 	reward: ailment:zone
 }
 
 {
 	name: "stressful_road"
-	text: Ok, foco. Foco! Caramba, dirigir na cidade é estressante.
+	text: Ok, foco. Foco! Caramba, dirigir na cidade eh estressante.
 	tags: road:city
 	
-	choice: "As pessoas são malucas!"
+	choice: "As pessoas sao malucas!"
 	resolution: "Juro que todo mundo secretamente quer morrer."
 	reward: energy:-1
 	
-	choice: "Não vá rápido demais, olhe ao redor, vá com calma."
+	choice: "Nao va rapido demais, olhe ao redor, va com calma."
 	resolution: "Acho que consigo lidar com isso!"
 	reward: ailment:zone
 }
@@ -598,24 +598,24 @@
 	tags: basic
 	
 	choice: "-Pensar."
-	resolution: "Já faz... eu sei... hmm... o carro..."
+	resolution: "Ja faz... eu sei... hmm... o carro..."
 	reward: energy:-1
 	
-	choice: "-Não pensar."
-	resolution: "Não é tão fácil quanto eu pensei."
+	choice: "-Nao pensar."
+	resolution: "Nao eh tao facil quanto eu pensei."
 	reward: energy:4
 }
 
 {
 	name: "good_driver"
-	text: Eu realmente sou incrível dirigindo!
+	text: Eu realmente sou incrivel dirigindo!
 	tags: ailment_zone
 	
-	choice: "Tenho mantido a velocidade perfeitamente estável."
-	resolution: "-Você segura o volante com firmeza e confiança."
+	choice: "Tenho mantido a velocidade perfeitamente estavel."
+	resolution: "-Voce segura o volante com firmeza e confianca."
 	reward: ailment:happy
 	
-	choice: "E esse carro nem é dos mais fáceis de dirigir!"
+	choice: "E esse carro nem eh dos mais faceis de dirigir!"
 	resolution: "Devia entrar numa corrida ou algo assim."
 	reward: energy:2
 }
@@ -624,19 +624,19 @@
 //MORE NEW ONES
 {
 	name: "faces_places"
-	text: Existem bilhões de rostos diferentes, mas sinto que já vi quase todos antes.
+	text: Existem bilhoes de rostos diferentes, mas sinto que ja vi quase todos antes.
 	tags: basic
 	
-	choice: "Às vezes acho que só existem alguns 'tipos' que são ligeiramente modificados."
+	choice: "as vezes acho que so existem alguns 'tipos' que sao ligeiramente modificados."
 	resolution: "-Olhar no retrovisor e encarar a si mesmo."
 	reward: ailment:tired
 	
-	choice: "Tantos rostos estranhos, mas sempre parecem uma variação de algo que já vi."
-	resolution: "Pelo menos são mais diferentes entre si do que os astros de Hollywood."
+	choice: "Tantos rostos estranhos, mas sempre parecem uma variacao de algo que ja vi."
+	resolution: "Pelo menos sao mais diferentes entre si do que os astros de Hollywood."
 	reward: "ailment:social"
 
-	choice: "Parece que o gerador aleatório da simulação tá quebrado."
-	resolution: "Ou só foi feito de qualquer jeito."
+	choice: "Parece que o gerador aleatorio da simulacao ta quebrado."
+	resolution: "Ou so foi feito de qualquer jeito."
 	reward: "ailment:scared"
 }
 
@@ -644,29 +644,29 @@
 
 {
 	name: "grandpa_book"
-	text: Meu avô me falou uma vez sobre um livro que eu DEVERIA ler quando crescesse.
+	text: Meu avo me falou uma vez sobre um livro que eu DEVERIA ler quando crescesse.
 	tags: trait_bookworm
 
-	choice: "Mas não consigo lembrar o nome do autor nem qual era o livro."
-	resolution: "Acho que era Tolstói ou Dostoiévski."
+	choice: "Mas nao consigo lembrar o nome do autor nem qual era o livro."
+	resolution: "Acho que era Tolstoi ou Dostoiehvski."
 	reward: ailment:inspired
 	
-	choice: "Mas foda-se isso. Não tenho tempo pra ler."
-	resolution: "Essa estrada é longa demais e eu preciso de uma cerveja."
+	choice: "Mas foda-se isso. Nao tenho tempo pra ler."
+	resolution: "Essa estrada eh longa demais e eu preciso de uma cerveja."
 	reward: ailment:tired
 }
 
 {
 	name: "commuter"
-	text: Espero nunca virar um trabalhador que pega trânsito — mas espero me tornar responsável — mas espero não ficar chato — mas espero ser feliz...
+	text: Espero nunca virar um trabalhador que pega transito — mas espero me tornar responsavel — mas espero nao ficar chato — mas espero ser feliz...
 	tags:basic
 
 	choice: "-Fechar os olhos"
-	resolution: "Dois segundos se passam. Parecem longos e assustadores. Então você os abre de novo."
+	resolution: "Dois segundos se passam. Parecem longos e assustadores. Entao voce os abre de novo."
 	reward: clear_ailments
 	
-	choice: "-Olhar pro céu e sorrir."
-	resolution: "Hoje é um bom dia"
+	choice: "-Olhar pro cehu e sorrir."
+	resolution: "Hoje eh um bom dia"
 	reward: "energy: +10"
 }
 
@@ -677,25 +677,25 @@
 requirements: estrada rural ou montanha ou litoral
 
 	choice: "Preciso parar quando der e tirar uma foto."
-	resolution: "É exatamente por esse tipo de coisa que estou aqui."
+	resolution: "eh exatamente por esse tipo de coisa que estou aqui."
 	reward: "trait: naturalist" or "skill: naturalist +1"
 	
-	choice: "É difícil acreditar que o mundo às vezes parece assim."
-	resolution: "É quase bonito demais. Irreal. Logo além da estrada tem uma cidade, um balanço de árvore, uma vida."
+	choice: "eh dificil acreditar que o mundo as vezes parece assim."
+	resolution: "eh quase bonito demais. Irreal. Logo alehm da estrada tem uma cidade, um balanco de arvore, uma vida."
 	reward: "inspired" or something better
 }
 
 {
 	name: "shitty_driver"
-	text: Como é que essa pessoa conseguiu uma carteira? Sério, como?!
+	text: Como eh que essa pessoa conseguiu uma carteira? Sehrio, como?!
 	tags:basic
 
 	choice: -"BUZINAR"
 	resolution: "Idiota do caralho."
 	reward: "energy:-1,honk"
 	
-	choice: "-Desacelerar e balançar a cabeça"
-	resolution: "Fico pensando quem é essa pessoa."
+	choice: "-Desacelerar e balancar a cabeca"
+	resolution: "Fico pensando quem eh essa pessoa."
 	reward: "energy:1"
 }
 
@@ -704,32 +704,32 @@ requirements: estrada rural ou montanha ou litoral
 
 {
 	name: "view_point_drive"
-	text: Onde estão aqueles pontos com vista incrível pra namorar que sempre aparecem nos filmes?
+	text: Onde estao aqueles pontos com vista incrivel pra namorar que sempre aparecem nos filmes?
 	tags: env:desert,road:city
 	
 	choice: "Aparentemente, em nenhum lugar por onde eu passo."
-	resolution: "Consigo imaginar que seria bem legal estar num desses sozinho também."
+	resolution: "Consigo imaginar que seria bem legal estar num desses sozinho tambehm."
 	reward: "energy:-1"
 	
-	choice: "Ok, da próxima vez que eu passar por uma cidade, vou procurar umas colinas."
-	resolution: "E se eu estiver com alguém, ótimo — se não, tudo bem."
+	choice: "Ok, da proxima vez que eu passar por uma cidade, vou procurar umas colinas."
+	resolution: "E se eu estiver com alguehm, otimo — se nao, tudo bem."
 	reward: "energy:1"
 
-	choice: "Sinceramente, beijar dentro do carro é tão romântico assim?"
-	resolution: "É apertado, fica tudo úmido, e eu odeio o banco de trás."
+	choice: "Sinceramente, beijar dentro do carro eh tao romantico assim?"
+	resolution: "eh apertado, fica tudo umido, e eu odeio o banco de tras."
 	reward: "ailment:tired"
 }
 
 {
 	name: "beer_limit"
-	text: O limite legal é tipo 0,05 né? Fico pensando qual seria o meu limite.
+	text: O limite legal eh tipo 0,05 neh? Fico pensando qual seria o meu limite.
 	tags: basic
 
-	choice: "Será que eu poderia tomar tipo 5 cervejas e ainda dirigir?"
-	resolution: "Acho que sim. Mas melhor não arriscar."
+	choice: "Sera que eu poderia tomar tipo 5 cervejas e ainda dirigir?"
+	resolution: "Acho que sim. Mas melhor nao arriscar."
 	reward: ailment:scared
 	
-	choice: "Sinto que depois de uma caneca já fico alegre."
+	choice: "Sinto que depois de uma caneca ja fico alegre."
 	resolution: "De jeito nenhum que eu beberia e dirigiria."
 	reward: energy:1
 
@@ -740,19 +740,19 @@ requirements: estrada rural ou montanha ou litoral
 
 {
 	name: "beer_limit_drunk"
-	text: O limite legal é tipo 5%, ou pera, 0,08? ou sei lá. certo?
+	text: O limite legal eh tipo 5%, ou pera, 0,08? ou sei la. certo?
 	tags: ailment_drunk
 
 	choice: "Foda-se, eu poderia tomar mais umas 5 cervejas e estaria tranquilo."
-	resolution: "Mas será que eu realmente preciso de mais 5?"
+	resolution: "Mas sera que eu realmente preciso de mais 5?"
 	reward: "ailment:tired"
 	
-	choice: "Tem um esquilo na estrada. Ah não, pera."
-	resolution: "É um saco de lixo. Eu não devia ter tomado aquele último, aquele último drink."
+	choice: "Tem um esquilo na estrada. Ah nao, pera."
+	resolution: "eh um saco de lixo. Eu nao devia ter tomado aquele ultimo, aquele ultimo drink."
 	reward: "energy: -3"
 
-	choice: "A estrada tá bem mais fina do que eu achei. tá mais fina. É."
-	resolution: "Deus, tomara que ninguém perceba."
+	choice: "A estrada ta bem mais fina do que eu achei. ta mais fina. eh."
+	resolution: "Deus, tomara que ninguehm perceba."
 	reward: "ailment:scared"
 }
 
@@ -764,11 +764,11 @@ requirements: estrada rural ou montanha ou litoral
 	tags: road:country
 
 	choice: "Preciso parar quando tiver chance e tirar uma foto."
-	resolution: "É exatamente por esse tipo de coisa que estou aqui."
+	resolution: "eh exatamente por esse tipo de coisa que estou aqui."
 	reward: ailment:inspired
 	
-	choice: "Não acredito que o mundo às vezes é assim."
-	resolution: "É quase bonito demais. Irreal. Logo além da estrada tem uma cidade, um balanço de árvore, uma vida."
+	choice: "Nao acredito que o mundo as vezes eh assim."
+	resolution: "eh quase bonito demais. Irreal. Logo alehm da estrada tem uma cidade, um balanco de arvore, uma vida."
 	reward: ailment:happy
 }
 
@@ -777,39 +777,39 @@ requirements: estrada rural ou montanha ou litoral
 	text: Nunca me canso dessas estradas abertas e lindas.
 	tags: road:country
 
-	choice: "Tô tão feliz por poder dirigir por aí esse verão."
-	resolution: "Embora seria bom se alguém dirigisse um pouco também. Assim eu poderia observar mais."
+	choice: "To tao feliz por poder dirigir por ai esse verao."
+	resolution: "Embora seria bom se alguehm dirigisse um pouco tambehm. Assim eu poderia observar mais."
 	reward: ailment:inspired,energy:-1
 	
 	choice: "Nunca quero sair da estrada."
-	resolution: "É como um sonho misterioso do qual eu nunca quero acordar."
+	resolution: "eh como um sonho misterioso do qual eu nunca quero acordar."
 	reward: ailment:inspired
 }
 
 {
 	name: "dirty_fart"
-	text: *Ppprtt!* Que diabos eu comi?! Achei que ia ser só um peidinho.
+	text: *Ppprtt!* Que diabos eu comi?! Achei que ia ser so um peidinho.
 	tags: basic
 
 	choice: "Abrir a janela e ficar quieto."
-	resolution: "Todo mundo fica em silêncio"
+	resolution: "Todo mundo fica em silencio"
 	reward: ailment:dirty
 	
-	choice: "Mas agora tô me sentindo melhor..."
+	choice: "Mas agora to me sentindo melhor..."
 	resolution: "Preciso cuidar melhor do que eu como."
 	reward: ailment:satisfied
 }
 
 {
 	name: "sneeze"
-	text: Tô pra espirrar... Aaaahhh eu voooou espirraaaaar!
+	text: To pra espirrar... Aaaahhh eu voooou espirraaaaar!
 	tags: road:country
 
-	choice: "Ahhh tá tão perto!!"
+	choice: "Ahhh ta tao perto!!"
 	resolution: "Quer saber? Foi embora."
 	reward: ailment:headache
 	
-	choice: "Maldito pólen... ahhh."
+	choice: "Maldito polen... ahhh."
 	resolution: "Segura! Segura! Segura!"
 	reward: energy:-1,trait:allergic
 }
@@ -817,7 +817,7 @@ requirements: estrada rural ou montanha ou litoral
 
 {
 	name: "snacksy"
-	text: Tô começando a ficar meio com fominha.
+	text: To comecando a ficar meio com fominha.
 	tags: ailment_hungry
 
 	choice: "Melhor dar uma olhada se tem algo nos bolsos da porta."
@@ -825,35 +825,35 @@ requirements: estrada rural ou montanha ou litoral
 	reward: item:nuts
 	
 	choice: "Engolir um pouco de saliva extra e ficar feliz."
-	resolution: "Você engole o que quer que estivesse na boca e sente fome — nada de felicidade."
+	resolution: "Voce engole o que quer que estivesse na boca e sente fome — nada de felicidade."
 	reward: ailment:hungry
 
-	choice: "Quem é que fala 'fominha'? Só fala com fome, faminto ou qualquer outra coisa."
+	choice: "Quem eh que fala 'fominha'? So fala com fome, faminto ou qualquer outra coisa."
 	resolution: "De onde diabos eu tirei isso mesmo?"
 	reward: ailment:headache
 }
 
 {
 	name: "sky_bird_plane"
-	text: Você se inclina pra frente e olha pro céu.
+	text: Voce se inclina pra frente e olha pro cehu.
 	tags: weather_clear
 
-	choice: "Fico pensando pra onde aquele avião tá indo."
-	resolution: "É estranho pensar que tem um monte de gente lá em cima agora sentada, vendo filme, dormindo ou só esperando chegar em algum lugar da Terra."
+	choice: "Fico pensando pra onde aquele aviao ta indo."
+	resolution: "eh estranho pensar que tem um monte de gente la em cima agora sentada, vendo filme, dormindo ou so esperando chegar em algum lugar da Terra."
 	reward: ailment:inspired
 	
-	choice: "Ah que legal! Acho que é um gavião!"
-	resolution: "...ou um falcão? Não sei qual é a diferença. De qualquer forma, provavelmente é só um pombo."
+	choice: "Ah que legal! Acho que eh um gaviao!"
+	resolution: "...ou um falcao? Nao sei qual eh a diferenca. De qualquer forma, provavelmente eh so um pombo."
 	reward: road_event:falcon
 }
 
 {
 	name: "no_money_1"
-	text: Acho que não tenho muito dinheiro sobrando. Se é que tenho algum.
+	text: Acho que nao tenho muito dinheiro sobrando. Se eh que tenho algum.
 	tags: trait_broke
 
 	choice: "Ah, tanto faz. Eu dou um jeito."
-	resolution: "Essa sensação é boa, mas espero não ter acabado de zicar tudo..."
+	resolution: "Essa sensacao eh boa, mas espero nao ter acabado de zicar tudo..."
 	reward: ailment:satisfied
 	
 	choice: "Melhor dar uma olhada entre os bancos."
@@ -863,15 +863,15 @@ requirements: estrada rural ou montanha ou litoral
 
 {
 	name: "no_money_2"
-	text: Aff... é uma merda estar sem grana.
+	text: Aff... eh uma merda estar sem grana.
 	tags: trait_broke
 
-	choice: "Nem tô mais com vontade de continuar dirigindo."
-	resolution: "Sem grana, sem amigos, carro uma bosta, música ruim, e só problema na estrada o tempo todo."
+	choice: "Nem to mais com vontade de continuar dirigindo."
+	resolution: "Sem grana, sem amigos, carro uma bosta, musica ruim, e so problema na estrada o tempo todo."
 	reward: ailment:sad
 	
 	choice: "Talvez eu devesse vender umas coisas?"
-	resolution: "Eu podia viver igual aquele ex-viciado em heroína que conheci no verão passado, sem posses. Isso seria foda."
+	resolution: "Eu podia viver igual aquele ex-viciado em heroina que conheci no verao passado, sem posses. Isso seria foda."
 	reward: trait:spartan
 }
 
@@ -881,7 +881,7 @@ requirements: estrada rural ou montanha ou litoral
 	text: Desde quando eu tenho tanto dinheiro assim?
 	tags: trait_rich
 
-	choice: "Tenho dinheiro demais, alguém vai me roubar. Eu sei disso."
+	choice: "Tenho dinheiro demais, alguehm vai me roubar. Eu sei disso."
 	resolution: "Melhor esconder um pouco no sapato, um pouco no porta-luvas, um pouco na cueca e um pouco debaixo do carpete."
 	reward: ailment:saver
 	
@@ -892,32 +892,32 @@ requirements: estrada rural ou montanha ou litoral
 
 {
 	name: "school_thoughts"
-	text: Será que um dia eu vou esquecer tudo que aprendi na escola?
+	text: Sera que um dia eu vou esquecer tudo que aprendi na escola?
 	tags: basic
 
 	choice: "Espero lembrar pelo menos das aulas de psicologia e filosofia."
-	resolution: "Parece algo que dá pra usar na vida... ou talvez não sirva pra nada."
+	resolution: "Parece algo que da pra usar na vida... ou talvez nao sirva pra nada."
 	reward: ailment:social
 	
-	choice: "Espero lembrar de física e matemática, tipo umas fórmulas simples pelo menos."
-	resolution: "Já tô começando a esquecer... (f)=2x+y2+... aff, não lembro."
+	choice: "Espero lembrar de fisica e matematica, tipo umas formulas simples pelo menos."
+	resolution: "Ja to comecando a esquecer... (f)=2x+y2+... aff, nao lembro."
 	reward: road_event:distracted
 
-	choice: "Ou será que os pensamentos novos vão empurrar os antigos pra fora?"
+	choice: "Ou sera que os pensamentos novos vao empurrar os antigos pra fora?"
 	resolution: "Talvez eu tenha que voltar pra escola! Merda..."
 	reward: skill_point:1
 }
 
 {
 	name: "married_pact"
-	text: Essa noiva me lembra daquele pacto que fiz com meu amigo na primavera passada. A gente se casaria se não encontrássemos ninguém até os 30.
+	text: Essa noiva me lembra daquele pacto que fiz com meu amigo na primavera passada. A gente se casaria se nao encontrassemos ninguehm ateh os 30.
 	tags: hh_bride
 
-	choice: "Até que eu queria que isso acontecesse. Pode ser minha única chance."
-	resolution: "Você sonha com um casamento rápido e divertido."
+	choice: "Ateh que eu queria que isso acontecesse. Pode ser minha unica chance."
+	resolution: "Voce sonha com um casamento rapido e divertido."
 	reward: ailment:social
 	
-	choice: "Tão idiota. Será que a gente ainda vai ser amigo até lá?"
+	choice: "Tao idiota. Sera que a gente ainda vai ser amigo ateh la?"
 	resolution: "Duvido. Provavelmente ele vai casar antes disso."
 	reward: ailment:sad
 }
@@ -928,31 +928,31 @@ requirements: estrada rural ou montanha ou litoral
 	tags: gas_low
 	weight:1
 
-	choice: "Tá no vermelho, mas sempre tem mais do que parece."
+	choice: "Ta no vermelho, mas sempre tem mais do que parece."
 	resolution: "O ponteiro treme no vermelho, mas parece querer subir."
 	reward: gas:2
 	
-	choice: "Quero ver até onde consigo ir."
-	resolution: "Você fica de olho no ponteiro enquanto ele desce, desce, desce..."
+	choice: "Quero ver ateh onde consigo ir."
+	resolution: "Voce fica de olho no ponteiro enquanto ele desce, desce, desce..."
 	reward: ailment:zone
 }
 
 
 {
 	name: "low_durability"
-	text: Juro que tô ouvindo um barulho metálico em algum lugar. Será que é o carro?
+	text: Juro que to ouvindo um barulho metalico em algum lugar. Sera que eh o carro?
 	tags: durability_low
 
 	choice: "Abrir o vidro."
-	resolution: "Você ouve com atenção e percebe que os freios estão fazendo um clique baixo e constante."
+	resolution: "Voce ouve com atencao e percebe que os freios estao fazendo um clique baixo e constante."
 	reward: ailment:scared
 	
-	choice: "Baixar o volume da música."
-	resolution: "Agora parece que não ouço mais nada. Deve ter sido coisa da minha cabeça."
+	choice: "Baixar o volume da musica."
+	resolution: "Agora parece que nao ouco mais nada. Deve ter sido coisa da minha cabeca."
 	reward: durability:2
 
-	choice: "Porra de carro, não faz isso comigo..."
-	resolution: "Vou te consertar na próxima cidade, eu prometo."
+	choice: "Porra de carro, nao faz isso comigo..."
+	resolution: "Vou te consertar na proxima cidade, eu prometo."
 	reward: item:duct_tape
 }
 
@@ -962,28 +962,28 @@ requirements: estrada rural ou montanha ou litoral
 	tags: durability_low
 
 	choice: "Parece que ele nunca vai morrer!"
-	resolution: "Merda, melhor não zicar!"
+	resolution: "Merda, melhor nao zicar!"
 	reward: durability:-1
 	
-	choice: "Tô meio preocupado que numa curva mais forte ele desmonte igual desenho animado."
+	choice: "To meio preocupado que numa curva mais forte ele desmonte igual desenho animado."
 	resolution: "Melhor ir devagar e constante. Devagar e constante."
 	reward: ailment:zone
 }
 
 {
 	name: "happy_for_music"
-	text: Tô tão feliz de ter consertado o som antes de sair. Imagina se eu ficasse sem música!
+	text: To tao feliz de ter consertado o som antes de sair. Imagina se eu ficasse sem musica!
 	tags: music_playing
 
 	choice: "Definitivamente uma das coisas mais importantes numa road trip."
 	resolution: "Faz tudo parecer mais legal."
 	reward: ailment:inspired
 	
-	choice: "Seria um saco. Ficar ouvindo só o carro e o vento por horas e horas."
+	choice: "Seria um saco. Ficar ouvindo so o carro e o vento por horas e horas."
 	resolution: "Nem quero pensar nisso."
 	reward: ailment:scared
 
-	choice: "Pra falar a real, também não seria o fim do mundo."
+	choice: "Pra falar a real, tambehm nao seria o fim do mundo."
 	resolution: "Eu poderia ouvir o melhor som do mundo: o ronronar do motor e o zumbido dos pneus."
 	reward: ailment:zone
 }
@@ -995,34 +995,34 @@ requirements: estrada rural ou montanha ou litoral
 	text: Fico pensando o que meus pais faziam na minha idade?
 	tags: basic
 
-	choice: "Provavelmente só estudavam."
-	resolution: "Parece que eles nunca quiseram explorar o país de verdade."
+	choice: "Provavelmente so estudavam."
+	resolution: "Parece que eles nunca quiseram explorar o pais de verdade."
 	reward: energy:1
 	
 	choice: "Acho que eles nunca tiveram muita chance de viajar."
-	resolution: "Ou só não me contam sobre isso. Imagino que era meio doido naquela época."
+	resolution: "Ou so nao me contam sobre isso. Imagino que era meio doido naquela ehpoca."
 	reward: none
 
-	choice: "Deve ter sido muito mais fácil fazer uma road trip naquela época."
-	resolution: "...a gasolina não era tipo quase de graça?"
+	choice: "Deve ter sido muito mais facil fazer uma road trip naquela ehpoca."
+	resolution: "...a gasolina nao era tipo quase de graca?"
 	reward: gas:-1
 }
 
 {
 	name: "parents_footsteps_2"
-	text: Tô tão cansado dos meus pais quererem que eu seja tudo, menos o que eu quero ser.
+	text: To tao cansado dos meus pais quererem que eu seja tudo, menos o que eu quero ser.
 	tags: bad_parent_relation
 
 	choice: "Nem sei direito o que eu quero ser."
-	resolution: "Mas parece que eles já decidiram por mim. Que se foda isso."
+	resolution: "Mas parece que eles ja decidiram por mim. Que se foda isso."
 	reward: ailment:sad
 	
-	choice: "Por que eles não podem simplesmente relaxar e me deixar em paz?"
-	resolution: "Eu sei o que é melhor pra mim!"
+	choice: "Por que eles nao podem simplesmente relaxar e me deixar em paz?"
+	resolution: "Eu sei o que eh melhor pra mim!"
 	reward: ailment:sad
 
-	choice: "Sinto que tem opções demais na vida"
-	resolution: "Seria até bom só seguir os passos deles."
+	choice: "Sinto que tem opcoes demais na vida"
+	resolution: "Seria ateh bom so seguir os passos deles."
 	reward: ailment:sad
 }
 
@@ -1032,11 +1032,11 @@ requirements: estrada rural ou montanha ou litoral
 	tags: trait_junkie_2
 	weight:1
 
-	choice: "Mas talvez uma ajudinha não fizesse mal."
-	resolution: "Sinceramente, tô cansado de me sentir um lixo. Preciso achar aquela carta com as infos por aqui em algum lugar."
+	choice: "Mas talvez uma ajudinha nao fizesse mal."
+	resolution: "Sinceramente, to cansado de me sentir um lixo. Preciso achar aquela carta com as infos por aqui em algum lugar."
 	reward: quest:rehab_first
 	
-	choice: "Pera, o quê? Por que eu tô pensando nisso?"
+	choice: "Pera, o que? Por que eu to pensando nisso?"
 	resolution: "Eu amo viver desse jeito!"
 	reward: gain 4 energy
 }
@@ -1045,42 +1045,42 @@ requirements: estrada rural ou montanha ou litoral
 
 {
 	name: "grilled_cheese"
-	text: Fico pensando se um dia vou cair de novo num vício pesado por misto-quente.
+	text: Fico pensando se um dia vou cair de novo num vicio pesado por misto-quente.
 	tags: trait_gourmand
 
-	choice: "Engraçado como parece que todo mundo passa por uma fase assim."
-	resolution: "O misto-quente domina e não solta até você comer demais."
+	choice: "Engracado como parece que todo mundo passa por uma fase assim."
+	resolution: "O misto-quente domina e nao solta ateh voce comer demais."
 	reward: ailment:happy
 	
-	choice: "Pra ser sincero, tô com uma baita vontade agora."
-	resolution: "Frigideira com manteiga, um pão macio e um cheddar derretendo..."
+	choice: "Pra ser sincero, to com uma baita vontade agora."
+	resolution: "Frigideira com manteiga, um pao macio e um cheddar derretendo..."
 	reward: ailment:hungry
 }
 
 {
 	name: "road_life"
-	text: É louco pensar em quantas pessoas vivem e trabalham dirigindo nessas estradas.
+	text: eh louco pensar em quantas pessoas vivem e trabalham dirigindo nessas estradas.
 	tags: basic
 
-	choice: "Muita gente enfrenta jornadas absurdas de carro só pra trabalhar."
+	choice: "Muita gente enfrenta jornadas absurdas de carro so pra trabalhar."
 	resolution: "Horas e horas na estrada, sozinho."
 	reward: ailment:social
 	
-	choice: "Tipo, respeito total aos caminhoneiros e motoristas de ônibus que cruzam o mundo."
-	resolution: "Deve ser aconchegante às vezes... e bem solitário também."
+	choice: "Tipo, respeito total aos caminhoneiros e motoristas de onibus que cruzam o mundo."
+	resolution: "Deve ser aconchegante as vezes... e bem solitario tambehm."
 	reward: ailment:inspired
 }
 
 {
 	name: "missing_homely"
-	text: Olha, estar na estrada é incrível, mas eu realmente sinto falta de...
+	text: Olha, estar na estrada eh incrivel, mas eu realmente sinto falta de...
 	tags: basic
 
-	choice: "ficar sozinho de manhã, com água quente nas mãos, encarando o espelho do banheiro."
-	resolution: "O tempo parece parar... até você perceber que só tem 10 minutos pra sair pra escola."
+	choice: "ficar sozinho de manha, com agua quente nas maos, encarando o espelho do banheiro."
+	resolution: "O tempo parece parar... ateh voce perceber que so tem 10 minutos pra sair pra escola."
 	reward: ailment:tired
 	
-	choice: "levantar, fazer um chá e ouvir música com o sol batendo no rosto."
+	choice: "levantar, fazer um cha e ouvir musica com o sol batendo no rosto."
 	resolution: "Quando um minuto parece um segundo e um segundo parece um minuto."
 	reward: energy:1
 }
@@ -1094,7 +1094,7 @@ requirements: estrada rural ou montanha ou litoral
 
 {
 	name: "casino"
-	text: "Apostar... Talvez eu devesse tentar a sorte nas máquinas caça-níquel...
+	text: "Apostar... Talvez eu devesse tentar a sorte nas maquinas caca-niquel...
 	tags: location_specific
 	
 	choice: "Vou apostar 10 pratas!"
@@ -1107,21 +1107,21 @@ requirements: estrada rural ou montanha ou litoral
 	req:money:100
 	reward: money:-100,money:250%15
 	
-	choice: "Hoje não..."
-	resolution: "Não vou correr riscos."
+	choice: "Hoje nao..."
+	resolution: "Nao vou correr riscos."
 	reward: none
 }
 
 {
 	name: "light_house"
-	text: "O oceano. Ao mesmo tempo calmo e violento. Fico pensando há quanto tempo esse farol está de pé.
+	text: "O oceano. Ao mesmo tempo calmo e violento. Fico pensando ha quanto tempo esse farol esta de peh.
 	tags: location_specific
 	
 	choice: "Um dia eu queria zarpar pro mar"
-	resolution: "...Eu só continuaria navegando"
+	resolution: "...Eu so continuaria navegando"
 	reward: ailment:inspired
 	
-	choice: "Imagina ser o guardião de um farol..."
+	choice: "Imagina ser o guardiao de um farol..."
 	resolution: "...As noites de tempestade devem ser apavorantes"
 	reward: ailment:scared
 }

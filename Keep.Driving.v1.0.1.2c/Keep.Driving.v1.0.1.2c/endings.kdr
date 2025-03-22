@@ -3,8 +3,8 @@
 {
 	name: game_over
 	title: Fracasso
-	text: É isso?
-	text: Você não pode continuar...
+	text: eh isso?
+	text: Voce nao pode continuar...
 	text: A jornada acabou.
 	//Yasuko Onuki
 	//hungry and alone
@@ -14,9 +14,9 @@
 {
 	name: demo_game_over
 	title: Fracasso na Demo
-	text: É isso?
+	text: eh isso?
 	text: O fim de semana passou voando.
-	text: Você não conseguiu a tempo...
+	text: Voce nao conseguiu a tempo...
 	demo: 1
 	unlock: test
 }
@@ -24,18 +24,18 @@
 {
 	name: demo_game_over_video_game
 	title: Estupidez
-	text: Você jogou o jogo fora?!
-	text: Por quê?
-	text: O que você vai fazer agora?
+	text: Voce jogou o jogo fora?!
+	text: Por que?
+	text: O que voce vai fazer agora?
 	demo: 1
 }
 
 {
 	name: demo_game_over_video_game_sell
-	title: Ganância
-	text: Você decidiu que um dinheiro extra
-	text: era mais importante do que um fim de semana de diversão.
-	text: Então você vendeu o jogo...
+	title: Ganancia
+	text: Voce decidiu que um dinheiro extra
+	text: era mais importante do que um fim de semana de diversao.
+	text: Entao voce vendeu o jogo...
 	demo: 1
 }
 
@@ -43,12 +43,12 @@
 	name: festival
 	title: O Festival
 	text: As horas passam;
-	text: você bebe, canta, dança e aproveita as poucas bandas que queria ver.
-	text: Você é levado de uma cena para outra, sem perceber o tempo passando
-	text: até que, de repente, se vê desmontando o acampamento novamente.
+	text: voce bebe, canta, danca e aproveita as poucas bandas que queria ver.
+	text: Voce eh levado de uma cena para outra, sem perceber o tempo passando
+	text: ateh que, de repente, se ve desmontando o acampamento novamente.
 	text:  
-	text: As memórias, ainda não formadas, durarão uma vida inteira,
-	text: se transformando em um caleidoscópio de sol, cerveja quente e barulho constante.
+	text: As memorias, ainda nao formadas, durarao uma vida inteira,
+	text: se transformando em um caleidoscopio de sol, cerveja quente e barulho constante.
 	//jonna
 	//Please dont talk to me
 	music:mdy_m_02
@@ -58,11 +58,11 @@
 {
 	name: prison
 	title: Cadeia
-	text: A audiência durou 10 horas.
-	text: Você estava entediado até a morte. Você se declarou inocente.
-	text: O sol do fim do verão projetava sombras amarronzadas enquanto o júri te encarava, igualmente entediado.
-	text: Você acaba passando 3 meses na prisão antes de pagar a fiança.
-	text: Seus pais estão envergonhados, mas felizes por ter você de volta.
+	text: A audiencia durou 10 horas.
+	text: Voce estava entediado ateh a morte. Voce se declarou inocente.
+	text: O sol do fim do verao projetava sombras amarronzadas enquanto o juri te encarava, igualmente entediado.
+	text: Voce acaba passando 3 meses na prisao antes de pagar a fianca.
+	text: Seus pais estao envergonhados, mas felizes por ter voce de volta.
 	text: A vida continua.
 	unlock: prison
 	//everything allright
@@ -72,12 +72,12 @@
 {
 	name: mountain
 	title: No Topo do Mundo
-	text: É incrível o quão majestoso este mundo pode ser.
-	text: Uma grandiosidade tão imensa que não há como não sentir reverência.
-	text: Houve muitos momentos na vida em que você parou para admirar tudo,
+	text: eh incrivel o quao majestoso este mundo pode ser.
+	text: Uma grandiosidade tao imensa que nao ha como nao sentir reverencia.
+	text: Houve muitos momentos na vida em que voce parou para admirar tudo,
 	text: mas nenhum teve o mesmo impacto...
-	text: ...quanto a primeira vez que viu uma cadeia de montanhas se estendendo tão longe...
-	text: ...que os picos brancos pareciam mãos unidas em uma prece de 100 milhões de anos.
+	text: ...quanto a primeira vez que viu uma cadeia de montanhas se estendendo tao longe...
+	text: ...que os picos brancos pareciam maos unidas em uma prece de 100 milhoes de anos.
 	unlock: camping_gear
 	//please dont talk
 }
@@ -85,10 +85,10 @@
 {
 	name: work
 	title: Trabalhador Dedicado
-	text: Você se vê acordando às 7h e voltando para casa às 17h.
-	text: Você toma uma cerveja com os colegas às sextas-feiras, mas nada realmente divertido acontece.
-	text: Seus pais estão felizes porque você tem uma renda,
-	text: você também está... suponho.
+	text: Voce se ve acordando as 7h e voltando para casa as 17h.
+	text: Voce toma uma cerveja com os colegas as sextas-feiras, mas nada realmente divertido acontece.
+	text: Seus pais estao felizes porque voce tem uma renda,
+	text: voce tambehm esta... suponho.
 	//Friday
 	music:mdy_m_05
 	unlock: worker
@@ -97,10 +97,10 @@
 {
 	name: race
 	title: A Grande Corrida
-	text: Você não consegue acreditar.
-	text: Você venceu!
+	text: Voce nao consegue acreditar.
+	text: Voce venceu!
 	text: Foi preciso coragem e um pouco de habilidade,
-	text: mas, acima de tudo, foi pura audácia.
+	text: mas, acima de tudo, foi pura audacia.
 	text: Aproveite enquanto pode.
 	text: A chance pode nunca mais surgir.
 	//werewolf song for actual race, other song for ending?
@@ -110,11 +110,11 @@
 
 {
 	name: rehab
-	title: Reabilitação
-	text: Você começa sua estadia com relutância, mas logo começa a gostar dos horários das refeições e das caminhadas sem rumo.
-	text: Os primeiros dias são horríveis, a abstinência te assombra e você quer ir embora.
-	text: Mas conforme a segunda semana chega ao fim, você começa a se sentir calmo e no controle.
-	text: Você não sabe quanto tempo isso vai durar, mas por agora, está limpo.
+	title: Reabilitacao
+	text: Voce comeca sua estadia com relutancia, mas logo comeca a gostar dos horarios das refeicoes e das caminhadas sem rumo.
+	text: Os primeiros dias sao horriveis, a abstinencia te assombra e voce quer ir embora.
+	text: Mas conforme a segunda semana chega ao fim, voce comeca a se sentir calmo e no controle.
+	text: Voce nao sabe quanto tempo isso vai durar, mas por agora, esta limpo.
 	unlock: rehab
 	//cigarettes peoplesbeer
 	music:mdy_m_04
@@ -122,11 +122,11 @@
 
 {
 	name: inheritance
-	title: Herança
-	text: Você acaba construindo uma pequena casa no terreno que sua avó deixou para você.
-	text: O orgulho de ter feito tudo sozinho e de honrar sua memória...
-	text: ...eventualmente se dissipa, e você se cansa dos reparos constantes e do isolamento.
-	text: Você pensa: um dia, quando eu for velho...
+	title: Heranca
+	text: Voce acaba construindo uma pequena casa no terreno que sua avo deixou para voce.
+	text: O orgulho de ter feito tudo sozinho e de honrar sua memoria...
+	text: ...eventualmente se dissipa, e voce se cansa dos reparos constantes e do isolamento.
+	text: Voce pensa: um dia, quando eu for velho...
 	text: ...voltarei para o interior.
 	//jonna?
 	//last4ever
@@ -137,10 +137,10 @@
 {
 	name: party
 	title: A Cabana
-	text: Você e O Furacão entram dançando na festa decadente na floresta.
-	text: Vivendo por uma semana em sua própria bolha de drogas, bebidas e sexo -
-	text: - cercados por altos pinheiros balançando ao vento -
-	text: - que parecem não se importar com suas férias hedonistas.
+	text: Voce e O Furacao entram dancando na festa decadente na floresta.
+	text: Vivendo por uma semana em sua propria bolha de drogas, bebidas e sexo -
+	text: - cercados por altos pinheiros balancando ao vento -
+	text: - que parecem nao se importar com suas fehrias hedonistas.
 	//midsummer party
 	music:mdy_01
 	unlock: art_stuff
@@ -149,12 +149,12 @@
 {
 	name: demo_ending
 	title: Videogames
-	text: Você se senta em uma pilha de travesseiros e cobertores com seu amigo,
-	text: completamente imerso no jogo e na sua luz hipnótica.
-	text: Claro que você escolhe "lendário";
-	text: morrer mil vezes é irrelevante quando se é jovem.
-	text: Só mais uma vez, você diz, enquanto a noite se estende até o amanhecer.
-	text: Só mais uma vez; afinal, é fim de semana.
+	text: Voce se senta em uma pilha de travesseiros e cobertores com seu amigo,
+	text: completamente imerso no jogo e na sua luz hipnotica.
+	text: Claro que voce escolhe "lendario";
+	text: morrer mil vezes eh irrelevante quando se eh jovem.
+	text: So mais uma vez, voce diz, enquanto a noite se estende ateh o amanhecer.
+	text: So mais uma vez; afinal, eh fim de semana.
 	demo: 1
 }
 
@@ -163,10 +163,10 @@
 {
 	name: game_over_time
 	title: Fracasso
-	text: O volante do seu carro está desgastado.
-	text: Sua bunda dói e sua perna direita está um pouco dolorida.
+	text: O volante do seu carro esta desgastado.
+	text: Sua bunda doi e sua perna direita esta um pouco dolorida.
 	text: O carro parece que precisa de um longo descanso e um banho demorado.
-	text: No entanto, você não está satisfeito.
+	text: No entanto, voce nao esta satisfeito.
 	//Yasuko Onuki
 	//hungry and alone
 	music:mdy_04
@@ -175,12 +175,12 @@
 
 {
 	name: inheritance_bad
-	title: Herança
-	text: Uma caminhada pela propriedade confirma sua impressão inicial:
+	title: Heranca
+	text: Uma caminhada pela propriedade confirma sua impressao inicial:
 	text: a terra parece morta e feia.
-	text: A casa deteriorada te dá dor de cabeça enquanto você se pergunta:
+	text: A casa deteriorada te da dor de cabeca enquanto voce se pergunta:
 	text: o que ela estava pensando? Tem coisa demais para consertar.
-	text: Eu nunca vou morar aqui. Você volta para o carro...
+	text: Eu nunca vou morar aqui. Voce volta para o carro...
 	text: ...e continua dirigindo.
 	demo:1
 }

@@ -4,7 +4,7 @@ EVENTOS DE TESTE
 	event_name: "default_event"
 	event_type: "normal"
 	event_title: "Opa!"
-	event_text: "O evento desejado não foi encontrado"
+	event_text: "O evento desejado nao foi encontrado"
 	tags: "test"
 
 	option: "Fechar esta mensagem"
@@ -17,11 +17,11 @@ EVENTOS DE TESTE
 {
 	event_name: "road_1"
 	event_type: "road"
-	event_title: "Câmeras na Estrada"
-	event_text: "Há câmeras na estrada mais à frente!"
+	event_title: "Cameras na Estrada"
+	event_text: "Ha cameras na estrada mais a frente!"
 	tags: "general"
 	
-	option: "Dirija rápido!"
+	option: "Dirija rapido!"
 	option_type: "choice" 
 	option_cost: money:40
 	option_reward: "ailment:inspired%75"
@@ -34,15 +34,15 @@ EVENTOS DE TESTE
 {
 	event_name: "road_3"
 	event_type: "road"
-	event_title: "Bifurcação na Estrada"
-	event_text: "Parece que há duas rotas diferentes que você pode seguir."
+	event_title: "Bifurcacao na Estrada"
+	event_text: "Parece que ha duas rotas diferentes que voce pode seguir."
 	tags: "general"
 	
-	option: "Vá para a esquerda!"
+	option: "Va para a esquerda!"
 	option_type: "choice" 
 	option_cost: energy:2
 	
-	option: "Vá para a direita!"
+	option: "Va para a direita!"
 	option_type: "choice" 
 	option_cost: gas:1
 }
@@ -50,15 +50,15 @@ EVENTOS DE TESTE
 {
 	event_name: "road_4"
 	event_type: "road"
-	event_title: "Bifurcação na Estrada"
-	event_text: "Parece que há duas rotas diferentes que você pode seguir."
+	event_title: "Bifurcacao na Estrada"
+	event_text: "Parece que ha duas rotas diferentes que voce pode seguir."
 	tags: "general"
 	
-	option: "Vá para a esquerda!"
+	option: "Va para a esquerda!"
 	option_type: "choice" 
 	option_cost: carhealth:1
 	
-	option: "Vá para a direita!"
+	option: "Va para a direita!"
 	option_type: "choice" 
 	option_cost: energy:2
 }
@@ -68,7 +68,7 @@ EVENTOS DE TESTE
 	event_name: "road_motor_1"
 	event_type: "road"
 	event_title: "Evento na Rodovia"
-	event_text: "Está difícil manter o foco na direção."
+	event_text: "Esta dificil manter o foco na direcao."
 	tags: "motorway"
 	
 	option: "Continue dirigindo"
@@ -86,10 +86,10 @@ EVENTOS DE TESTE
 	event_name: "road_rough_1"
 	event_type: "road"
 	event_title: "Estrada Ruim"
-	event_text: "A estrada está cheia de buracos e irregularidades."
+	event_text: "A estrada esta cheia de buracos e irregularidades."
 	tags: "rough"
 	
-	option: "Nada que você possa fazer"
+	option: "Nada que voce possa fazer"
 	option_type: "choice"
 	option_cost: "carhealth:1"
 	
@@ -102,10 +102,10 @@ EVENTOS DE TESTE
 	event_name: "road_bumpy"
 	event_type: "road"
 	event_title: "Estrada Esburacada!"
-	event_text: "A estrada à frente parece cheia de buracos e irregularidades..."
+	event_text: "A estrada a frente parece cheia de buracos e irregularidades..."
 	tags: "rough"
 	
-	option: "Dirija rápido!"
+	option: "Dirija rapido!"
 	option_type: "choice" 
 	option_cost: carhealth:1
 	
@@ -119,7 +119,7 @@ EVENTOS DE TESTE
 	event_name: "road_country_1"
 	event_type: "road"
 	event_title: "Estradas do Interior (me leve para casa)"
-	event_text: "A paisagem está linda."
+	event_text: "A paisagem esta linda."
 	tags: "country"
 	
 	option: "Aproveite a vista."
@@ -138,14 +138,14 @@ EVENTOS DE TESTE
 	event_name: "road_city_1"
 	event_type: "road"
 	event_title: "BICICLETAS!"
-	event_text: "Uma criança de bicicleta decide atravessar a rua de repente."
+	event_text: "Uma crianca de bicicleta decide atravessar a rua de repente."
 	tags: "city"
 	
 	option: "Pise no freio!"
 	option_type: "choice"
 	option_cost: "carhealth:1,energy:1"
 	
-	option: "Faça uma curva rápida!"
+	option: "Faca uma curva rapida!"
 	option_type: "choice"
 	option_cost: "gas:1,energy:1"
 }
@@ -155,10 +155,10 @@ EVENTOS DE TESTE
 	event_name: "road_sunlight"
 	event_type: "DISABLED"
 	event_title: "Luz Forte!"
-	event_text: "O sol está brilhando intensamente pelas janelas."
+	event_text: "O sol esta brilhando intensamente pelas janelas."
 	tags: "day"
 	
-	option: "Coloque seus óculos de sol"
+	option: "Coloque seus oculos de sol"
 	option_type: "choice"
 	option_req: "sunglasses:1"
 	
@@ -172,7 +172,7 @@ EVENTOS DE TESTE
 	event_name: "blonde_guy_1"
 	event_type: "person"
 	event_title: "Um Cara Qualquer"
-	event_text: "Eu vendo para você bem barato!"
+	event_text: "Eu vendo para voce bem barato!"
 	
 	option: "Comprar o item"
 	option_type: "choice"
@@ -196,8 +196,8 @@ EVENTOS DE TESTE
 {
 	event_name: "journal_girl_1"
 	event_type: "person"
-	event_title: "Excêntrica"
-	event_text: "Você pode ficar aqui e conversar comigo? Eu te pago!"
+	event_title: "Excentrica"
+	event_text: "Voce pode ficar aqui e conversar comigo? Eu te pago!"
 	
 	option: "Ficar e conversar"
 	option_type: "choice"
@@ -208,7 +208,7 @@ EVENTOS DE TESTE
 	event_name: "doom_diver_1"
 	event_type: "person"
 	event_title: "MERGULHADOR DO APOCALIPSE"
-	event_text: "O FIM ESTÁ PRÓXIMO!"
+	event_text: "O FIM ESTa PRoXIMO!"
 	
 	option: "Beba com ele"
 	option_type: "choice"
@@ -220,9 +220,9 @@ EVENTOS DE TESTE
 	event_name: "crying_girl_1"
 	event_type: "person"
 	event_title: "Garota Chorando"
-	event_text: "Ficar e confortá-la?"
+	event_text: "Ficar e conforta-la?"
 	
-	option: "Confortá-la"
+	option: "Conforta-la"
 	option_type: "choice"
 	option_cost: "energy:4"
 	option_reward: "money:20"
@@ -243,7 +243,7 @@ EVENTOS DE TESTE
 	event_name: "student_coffee"
 	event_type: "person"
 	event_title: "Estudante Gago"
-	event_text: "Essa pessoa fala sem parar sobre provas que estão por vir e festas loucas."
+	event_text: "Essa pessoa fala sem parar sobre provas que estao por vir e festas loucas."
 	
 	option: "Se relacionar"
 	option_type: "choice"
@@ -269,7 +269,7 @@ EVENTOS DE TESTE
 {
 	event_name: "mechanic"
 	event_type: "normal"
-	event_title: "Mecânico"
+	event_title: "Mecanico"
 	event_text: "Consertar seu carro?"
 	tags: "test","destination"
 
@@ -282,13 +282,13 @@ EVENTOS DE TESTE
 	event_name: "bar_test"
 	event_type: "normal"
 	event_title: "Bar Legal"
-	event_text: "Você entra no bar."
+	event_text: "Voce entra no bar."
 	tags: "test","destination"
 
 	option: "Beber com os locais"
 	option_type: "stats" money:-5, social:1, confidence:1
 
-	option: "Queda de braço"
+	option: "Queda de braco"
 	option_type: "stats" energy:-1, strength:1
 
 	option: "Sair do bar"
@@ -332,7 +332,7 @@ EVENTOS DE TESTE
 	event_name: "not_enough"
 	event_type: "normal"
 	event_title: "Opa!"
-	event_text: "Você não pode pagar por isso"
+	event_text: "Voce nao pode pagar por isso"
 	tags: "debug"
 }
 
@@ -340,7 +340,7 @@ EVENTOS DE TESTE
 	event_name: "fine_100"
 	event_type: "normal"
 	event_title: "Droga!"
-	event_text: "Você recebeu uma multa de $100!"
+	event_text: "Voce recebeu uma multa de $100!"
 	tags: "debug"
 
 	option: "Continuar"
@@ -351,7 +351,7 @@ EVENTOS DE TESTE
 	event_name: "no_gas"
 	event_type: "normal"
 	event_title: "Sem Gasolina"
-	event_text: "Você ficou sem gasolina... Comprar mais magicamente?"
+	event_text: "Voce ficou sem gasolina... Comprar mais magicamente?"
 	tags: "test"
 	
 	option: "...claro!"
@@ -362,7 +362,7 @@ EVENTOS DE TESTE
 	event_name: "no_energy_dest"
 	event_type: "normal"
 	event_title: "Sem Energia"
-	event_text: "Você não tem energia suficiente para fazer mais coisas. Hora de dormir!"
+	event_text: "Voce nao tem energia suficiente para fazer mais coisas. Hora de dormir!"
 	tags: "test"
 	
 	option: "Ok!"
@@ -372,8 +372,8 @@ EVENTOS DE TESTE
 {
 	event_name: "lose"
 	event_type: "normal"
-	event_title: "VOCÊ PERDEU!"
-	event_text: "É muito bonito!"
+	event_title: "VOCe PERDEU!"
+	event_text: "eh muito bonito!"
 	tags: "lose","test"
 	
 	option: "Ok"
@@ -384,7 +384,7 @@ EVENTOS DE TESTE
 	event_name: "car_full"
 	event_type: "normal"
 	event_title: "Carro Lotado"
-	event_text: "Não há mais espaço no seu carro"
+	event_text: "Nao ha mais espaco no seu carro"
 	tags: "hh","test"
 }
 
@@ -400,14 +400,14 @@ EVENTOS DE TESTE
 	event_name: "work_done"
 	event_type: "normal"
 	event_title: "Sem Mais Trabalho"
-	event_text: "Não há mais trabalho a ser feito!"
+	event_text: "Nao ha mais trabalho a ser feito!"
 	tags: "work","test"
 }
 
 {
 	event_name: "quest_got"
 	event_type: "normal"
-	event_title: "Sem Missões"
+	event_title: "Sem Missoes"
 	event_text: "Nada para encontrar aqui"
 	tags: "quest","test"
 }

@@ -50,7 +50,7 @@
 	text: "Voce precisa garantir que preencha seu Y30 antes de declarar seus impostos pessoais..."
 	text_hh: suit
 	
-	text: "...depois de enviar seu D7 no penúltimo trimestre do ano fiscal."
+	text: "...depois de enviar seu D7 no penultimo trimestre do ano fiscal."
 	text_hh: suit
 	
 	text: "Umm, legal. Vou fazer isso."
@@ -132,7 +132,7 @@
 {
 	name: "hh_suit_banter_12"
 
-	text: "Eu te conheço de algum lugar?"
+	text: "Eu te conheco de algum lugar?"
 	text_hh: suit
 	
 	text: "Nao, amigo, acho que nao."
@@ -151,7 +151,7 @@
 	text: "Em que serie ela esta?"
 	text_hh: kid
 	
-	text: "Terceira, nao, quarta, espera, acho que ela começou a sexta, na verdade."
+	text: "Terceira, nao, quarta, espera, acho que ela comecou a sexta, na verdade."
 	text_hh: suit
 	
 	text: "O tempo voa."
@@ -175,14 +175,14 @@
 	
 	text: "Nao."
 	
-	text: "Acho que o mundo dos negocios quer parecer mais casual. Ridículo."
+	text: "Acho que o mundo dos negocios quer parecer mais casual. Ridiculo."
 	text_hh: suit
 }
 
 {
 	name: "hh_suit_banter_16"
 
-	text: "Conheço um otimo advogado, o marido da minha prima, se voce precisar."
+	text: "Conheco um otimo advogado, o marido da minha prima, se voce precisar."
 	text_hh: suit
 	
 	text: "Espero que nao."
@@ -199,13 +199,13 @@
 	text: "e estranho..."
 	text_hh: suit
 	
-	text: "...que somos incentivados a investir nossos salarios em poupança,"
+	text: "...que somos incentivados a investir nossos salarios em poupanca,"
 	text_hh: suit
 	
 	text: "pegar emprestimos,"
 	text_hh: suit
 	
-	text: "entrar em dívidas e comprar uma casa que nunca sera realmente nossa."
+	text: "entrar em dividas e comprar uma casa que nunca sera realmente nossa."
 	text_hh: suit
 }
 
@@ -234,7 +234,7 @@
 	text: "Pessoas como eu?"
 	text_hh: sleeper
 	
-	text: "Sim, sem moral. Serio. Um vagabundo preguiçoso."
+	text: "Sim, sem moral. Serio. Um vagabundo preguicoso."
 	text_hh: suit
 	
 	text: "e, e, o que voce sabe."
@@ -260,12 +260,12 @@
 {
 	name: "hh_girl_banter_2"
 	
-	text: "Seu cabelo e bonito! Posso trança-lo?"
+	text: "Seu cabelo e bonito! Posso tranca-lo?"
 	text_hh: hippie_girl
 	
 	text: "Nao. Agora nao."
 	
-	text: "Nossa, voce realmente nao tem graça."
+	text: "Nossa, voce realmente nao tem graca."
 	text_hh: hippie_girl
 }
 
@@ -273,7 +273,7 @@
 	name: "hh_girl_banter_3"
 	req: weather_clear
 	
-	text: "As nuvens sao tao bonitas. So flutuando por aí."
+	text: "As nuvens sao tao bonitas. So flutuando por ai."
 	text_hh: hippie_girl
 }
 
@@ -293,7 +293,7 @@
 	name: "hh_girl_banter_5"
 	req: country
 	
-	text: "Estou entediada, deveríamos nadar pelados."
+	text: "Estou entediada, deveriamos nadar pelados."
 	text_hh: hippie_girl
 }
 
@@ -326,7 +326,7 @@
 {	
 	name: "hh_girl_banter_7"
 
-	text: "Que tipo de música voce gosta?"
+	text: "Que tipo de musica voce gosta?"
 	text_hh: hippie_girl
 	
 	text: "Praticamente qualquer coisa."
@@ -354,7 +354,7 @@
 {
 	name: "hh_girl_banter_9"
 
-	text: "Voce fica ridículo com esse terno."
+	text: "Voce fica ridiculo com esse terno."
 	text_hh: hippie_girl
 	
 	text: "Ah, bom, voce tambem. Quer dizer, desculpa, acho que eu fico mesmo."
@@ -504,7 +504,7 @@
 	name: "hh_mechanic_banter_3"
 	req: rain
 	
-	text: "Voce verificou a vedaçao da tampa do distribuidor recentemente?"
+	text: "Voce verificou a vedacao da tampa do distribuidor recentemente?"
 	text_hh: mechanic
 	
 	text: "Nao? Sei la."
@@ -542,7 +542,7 @@
 {
 	name: "hh_mechanic_banter_8"
 
-	text: "Voce nao era o mecânico da Sanny’s Turbo Shop?"
+	text: "Voce nao era o mecanico da Sanny’s Turbo Shop?"
 	text_hh: mechanic
 	
 	text: "Sim. Como voce os conhece?"
@@ -589,7 +589,7 @@
 {
 	name: "hh_mechanic_banter_12"
 	
-	text: "Devíamos parar em um ferro-velho."
+	text: "Deviamos parar em um ferro-velho."
 	text_hh: mechanic
 }
 
@@ -650,7 +650,7 @@
 	name: "hh_hurricane_banter_3"
 	req: music_playing
 	
-	text: "Cara! Essa música e otima!"
+	text: "Cara! Essa musica e otima!"
 	text_hh: hurricane
 }
 
@@ -681,7 +681,7 @@
 	text: "Qual e a sua?"
 	text_hh: hurricane
 	
-	text: "Quer descobrir hoje à noite?"
+	text: "Quer descobrir hoje a noite?"
 	text_hh: stranger
 	
 	text: "Nossa, cai fora."
@@ -720,23 +720,23 @@
 {
 	name: "hh_hurricane_banter_9"
 
-	text: "Saúde!"
+	text: "Saude!"
 	text_hh: hurricane
 	
-	text: "Saúde, querida. Voce e uma verdadeira beleza, nao e?"
+	text: "Saude, querida. Voce e uma verdadeira beleza, nao e?"
 	text_hh: hiker
 	
-	text: "Faço o meu melhor hehe."
+	text: "Faco o meu melhor hehe."
 	text_hh: hurricane
 }
 
 {
 	name: "hh_hurricane_banter_10"
 	
-	text: "A melhor coisa de ser músico deve ser viajar por aí,"
+	text: "A melhor coisa de ser musico deve ser viajar por ai,"
 	text_hh: hurricane
 	
-	text: "conhecer gente estranha e tocar suas músicas para eles."
+	text: "conhecer gente estranha e tocar suas musicas para eles."
 	text_hh: hurricane
 	
 	text: "Sim, se voce puder bancar isso. Essa e minha primeira vez."
@@ -770,12 +770,12 @@
 	name: "hh_hurricane_banter_13"
 	req: hh_kid
 	
-	text: "Quem e a criança?"
+	text: "Quem e a crianca?"
 	text_hh: hurricane
 	
 	text: "Ela esta meio perdida."
 	
-	text: "Nao devíamos leva-la para casa?"
+	text: "Nao deviamos leva-la para casa?"
 	text_hh: hurricane
 }
 
@@ -895,18 +895,18 @@
 {
 	name: "hh_punk_banter_7"
 
-	text: "Eu estava lendo um livro interessante. Era sobre um gorila explicando as desgraças da humanidade."
+	text: "Eu estava lendo um livro interessante. Era sobre um gorila explicando as desgracas da humanidade."
 	text_hh: punk
 	
 	text: "Ou pelo menos da humanidade civilizada e como simplesmente nao sabemos viver."
 	text_hh: punk
 	
-	text: "Como deveríamos viver?"
+	text: "Como deveriamos viver?"
 	
 	text: "Nao sei, ainda nao terminei."
 	text_hh: punk
 	
-	text: "Mas acho que deveríamos viver de forma mais primitiva ou algo assim."
+	text: "Mas acho que deveriamos viver de forma mais primitiva ou algo assim."
 	text_hh: punk
 }
 
@@ -916,7 +916,7 @@
 	text: "Aposto que voce toca um violao de nylon."
 	text_hh: punk
 	
-	text: "Nao, de aço."
+	text: "Nao, de aco."
 	text_hh: songwriter
 	
 	text: "Vendi meu violao por um sintetizador, mas tive que vender ele tambem por uma tatuagem."
@@ -926,10 +926,10 @@
 {
 	name: "hh_punk_banter_9"
 
-	text: "Entao, que tipo de música voce escuta?"
+	text: "Entao, que tipo de musica voce escuta?"
 	text_hh: punk
 	
-	text: "Nao faço ideia, odeio essa pergunta."
+	text: "Nao faco ideia, odeio essa pergunta."
 	text_hh: hurricane
 	
 	text: "Mas eu gosto de quase tudo. Ultimamente tenho curtido umas paradas mais goticas."
@@ -967,7 +967,7 @@
 	
 	text: "Sim, e estranho depois de tanto tempo no interior."
 	
-	text: "e incrível, mas deve ser uma merda morar aqui, cara."
+	text: "e incrivel, mas deve ser uma merda morar aqui, cara."
 	text_hh: punk
 }
 
@@ -1166,7 +1166,7 @@
 	text: "Ah nao! Desculpa, cachorrinho."
 	text_hh: kid
 	
-	text: "Voce cheira a cocô bom."
+	text: "Voce cheira a coco bom."
 	text_hh: kid
 }
 
@@ -1190,7 +1190,7 @@
 	text: "Meu pai me disse que pessoas de terno sao fantasmas."
 	text_hh: kid
 	
-	text: "Uma vez que voce veste um terno, voce se torna invisível e pode assombrar as pessoas."
+	text: "Uma vez que voce veste um terno, voce se torna invisivel e pode assombrar as pessoas."
 	text_hh: kid
 	
 	text: "Mas eu consigo te ver."
@@ -1262,7 +1262,7 @@
 	text: "Eu chamo ele de Jerry..."
 	text_hh: kid
 	
-	text: "Ah, uma vez no balanço eu balancei..."
+	text: "Ah, uma vez no balanco eu balancei..."
 	text_hh: kid
 	
 	text: "Podemos jogar o jogo do silencio, por favor?"
@@ -1283,7 +1283,7 @@
 {
 	name: "hh_songwriter_banter_1"
 	req: newly_added
-	text: "Isso aí, valeu de novo! Muito animado por ver que tinha espaço para meu violao."
+	text: "Isso ai, valeu de novo! Muito animado por ver que tinha espaco para meu violao."
 	text_hh: songwriter
 }
 
@@ -1361,7 +1361,7 @@
 {
 	name: "hh_songwriter_banter_8"
 
-	text: "Ja escrevi tipo 200 músicas, sabia? Algumas sao nível Dylan."
+	text: "Ja escrevi tipo 200 musicas, sabia? Algumas sao nivel Dylan."
 	text_hh: songwriter
 	
 	text: "Quer dizer, nao exatamente, mas quase!"
@@ -1394,17 +1394,17 @@
 	text: "...voce sente isso tambem, ne?"
 	text_hh: songwriter
 	
-	text: "...inspiraçao!"
+	text: "...inspiracao!"
 	text_hh: songwriter
 }
 
 {
 	name: "hh_songwriter_banter_11"
 
-	text: "Voce esta indo para algum lugar específico?"
+	text: "Voce esta indo para algum lugar especifico?"
 	text_hh: songwriter
 	
-	text: "Eu estava pensando em ir para um festival de música na costa leste. E voce?"
+	text: "Eu estava pensando em ir para um festival de musica na costa leste. E voce?"
 	
 	text: "Estou em turne! So precisava de uma carona por um tempo."
 	text_hh: songwriter
@@ -1416,7 +1416,7 @@
 	text: "Voce e algum tipo de donzela em um vestido de desastre?"
 	text_hh: songwriter
 	
-	text: "Sim. E voce e algum tipo de poeta romântico sem esperança?"
+	text: "Sim. E voce e algum tipo de poeta romantico sem esperanca?"
 	text_hh: bride
 	
 	text: "Algo assim."
@@ -1429,7 +1429,7 @@
 	name: "hh_stranger_banter_1"
 	req: newly_added
 	req: car_volvo
-	text: "Puta merda... que carro horrível."
+	text: "Puta merda... que carro horrivel."
 	text_hh: stranger
 } 
 
@@ -1480,7 +1480,7 @@
 	text: "Nao sei por que as pessoas sao tao frescas com comida congelada."
 	text_hh: stranger
 	
-	text: "Às vezes so quero esquentar minha comida no micro-ondas e nao lavar louça."
+	text: "As vezes so quero esquentar minha comida no micro-ondas e nao lavar louca."
 	text_hh: stranger
 	
 	text: "Nao acho que ninguem liga para comida congelada..."
@@ -1524,7 +1524,7 @@
 	name: "hh_stranger_banter_8"
 	req: ailment_sad
 	
-	text: "Anima aí, moleque."
+	text: "Anima ai, moleque."
 	text_hh: stranger
 }
 
@@ -1585,12 +1585,12 @@
 {
 	name: "hh_stranger_banter_13"
 	req: trait_broke
-	text: "Os preços estao saindo do controle. Voce viu o preço do leite?"
+	text: "Os precos estao saindo do controle. Voce viu o preco do leite?"
 	text_hh: stranger
 	
 	text: "Sim, e uma loucura. O que esta acontecendo?"
 	
-	text: "Cara, eu nem consigo comprar uma cerveja e uma linguiça sem ficar falido."
+	text: "Cara, eu nem consigo comprar uma cerveja e uma linguica sem ficar falido."
 	text_hh: stranger
 }
 
@@ -1611,7 +1611,7 @@
 	name: "hh_stranger_banter_15"
 	req: ailment_social
 	
-	text: "Meu avô dirigia caminhões no velho país."
+	text: "Meu avo dirigia caminhoes no velho pais."
 	text_hh: stranger
 	
 	text: "Eu tentei uma vez. e foda."
@@ -1659,7 +1659,7 @@
 {
 	name: "hh_stranger_banter_18"
 	req: durability_low
-	text: "Esse carro horrível parece que vai se desmontar a qualquer momento."
+	text: "Esse carro horrivel parece que vai se desmontar a qualquer momento."
 	text_hh: stranger
 }
 
@@ -1671,14 +1671,14 @@
 	
 	text: "Humm, nao?"
 	
-	text: "Nao faça isso, e horrível. Voce vai cagar areia por dias."
+	text: "Nao faca isso, e horrivel. Voce vai cagar areia por dias."
 	text_hh: stranger
 }
 
 {
 	name: "hh_stranger_banter_20"
 	req: night
-	text: "Devíamos ver se ha algum bar aberto na proxima parada."
+	text: "Deviamos ver se ha algum bar aberto na proxima parada."
 	text_hh: stranger
 }
 
@@ -1690,14 +1690,14 @@
 	text: "..."
 	text_hh: idiot
 	
-	text: "Voce sabia que a flor mais antiga ja descoberta tem 125 milhões de anos?"
+	text: "Voce sabia que a flor mais antiga ja descoberta tem 125 milhoes de anos?"
 	text_hh: idiot
 }
 
 {
 	name: "hh_idiot_banter_2"
 	req: rain
-	text: "Houve um período na historia da Terra em que choveu por 200 milhões de anos."
+	text: "Houve um periodo na historia da Terra em que choveu por 200 milhoes de anos."
 	text_hh: idiot
 	
 	text: "Nossa, isso e muito tempo."
@@ -1725,7 +1725,7 @@
 {
 	name: "hh_idiot_banter_4"
 	
-	text: "e bom começar pequeno. Olhe o orvalho numa folha."
+	text: "e bom comecar pequeno. Olhe o orvalho numa folha."
 	text_hh: idiot
 	
 	text: "O brilho nos olhos. As antenas de uma formiga."
@@ -1762,7 +1762,7 @@
 {
 	name: "hh_idiot_banter_6"
 	
-	text: "Hmm... Voce fecharia os olhos se fôssemos bater?"
+	text: "Hmm... Voce fecharia os olhos se fossemos bater?"
 	text_hh: idiot
 	
 	text: "Mesmo se soubesse que nao sentiria dor, apenas morreria instantaneamente."
@@ -1788,7 +1788,7 @@
 	text: "Olhe, olhe todas as flores lindas."
 	text_hh: idiot
 	
-	text: "E as arvores balançando e as nuvens engraçadas."
+	text: "E as arvores balancando e as nuvens engracadas."
 	text_hh: idiot
 	
 	text: "Ha majestade no simples ato de viver."
@@ -1890,7 +1890,7 @@
 	req: newly_added
 	req: car_volvo
 	
-	text: "Isso aí! Valeu por me pegar, policial. Vamos nessa!"
+	text: "Isso ai! Valeu por me pegar, policial. Vamos nessa!"
 	text_hh: convict
 }
 
@@ -1899,7 +1899,7 @@
 	req: newly_added
 	req: car_muscle
 	
-	text: "Rapido e lindo, graças a Deus! Nao poderia ter mais sorte."
+	text: "Rapido e lindo, gracas a Deus! Nao poderia ter mais sorte."
 	text_hh: convict
 }
 
@@ -1913,7 +1913,7 @@
 	text: "Nao, para ser honesto, nao teria coragem."
 	text_hh: songwriter
 	
-	text: "Tô contigo. Um bando de bastardos, nem escutariam mesmo. So o Cash consegue fazer isso."
+	text: "To contigo. Um bando de bastardos, nem escutariam mesmo. So o Cash consegue fazer isso."
 	text_hh: convict
 }
 
@@ -1979,7 +1979,7 @@
 	name: "hh_convict_banter_9"
 	req: hh_hurricane
 
-	text: "Ei, garota, voce tem um pozinho aí?"
+	text: "Ei, garota, voce tem um pozinho ai?"
 	text_hh: convict
 	
 	text: "Sim, um pouco. Voce pode pagar?"
@@ -2000,10 +2000,10 @@
 	name: "hh_convict_banter_11"
 	req: coast
 	
-	text: "Tem que haver algum navio por aí em que eu possa embarcar. Preciso dar o fora desse lugar."
+	text: "Tem que haver algum navio por ai em que eu possa embarcar. Preciso dar o fora desse lugar."
 	text_hh: convict
 	
-	text: "Maldiçao - nao da pra fugir para sempre."
+	text: "Maldicao - nao da pra fugir para sempre."
 	text_hh: convict
 }
 
@@ -2011,7 +2011,7 @@
 	name: "hh_convict_banter_12"
 	req: trait_good_driver
 	
-	text: "Direçao impressionante. E voce acabou de tirar a carteira?"
+	text: "Direcao impressionante. E voce acabou de tirar a carteira?"
 	text_hh: convict
 	
 	text: "Acho que sim. Sei la, e divertido."
@@ -2048,7 +2048,7 @@
 {
 	name: "hh_convict_banter_16"
 	req: night
-	text: "Droga, acho que vi um carro de polícia atras daquela arvore. Fica tranquilo."
+	text: "Droga, acho que vi um carro de policia atras daquela arvore. Fica tranquilo."
 	text_hh: convict
 }
 
@@ -2110,7 +2110,7 @@
 {
 	name: "hh_sleeper_banter_6"
 
-	text: "Se nao for incômodo, posso ficar por um tempo?"
+	text: "Se nao for incomodo, posso ficar por um tempo?"
 	text_hh: sleeper
 	
 	text: "Sem problemas."
@@ -2146,7 +2146,7 @@
 	text: "- ha muito tempo -"
 	text_hh: hiker
 	
-	text: "Eles tinham uma fazenda. Eles fizeram o couro e moldaram para minha cabeça."
+	text: "Eles tinham uma fazenda. Eles fizeram o couro e moldaram para minha cabeca."
 	text_hh: hiker
 	
 	text: "Maneiro. Nao se ve tantos chapeus hoje em dia."
@@ -2173,10 +2173,10 @@
 {
 	name: "hh_sleeper_banter_9"
 	
-	text: "Engraçado, voce olha pela janela..."
+	text: "Engracado, voce olha pela janela..."
 	text_hh: sleeper
 	
-	text: "...e às vezes tudo o que ve e o futuro passando."
+	text: "...e as vezes tudo o que ve e o futuro passando."
 	text_hh: sleeper
 	
 	text: "Eu geralmente vejo ele chegando."
@@ -2209,7 +2209,7 @@
 	text: "Uma vez deixei meu melhor amigo na casa de um cliente abusivo."
 	text_hh: sleeper
 	
-	text: "Me senti tao mal, so saí correndo para a estrada. Agora voce sabe, eu acho."
+	text: "Me senti tao mal, so sai correndo para a estrada. Agora voce sabe, eu acho."
 	text_hh: sleeper
 }
 
@@ -2237,18 +2237,18 @@
 {
 	name: "hh_sleeper_banter_15"
 	
-	text: "Como, quero dizer, o que, quero dizer, quando voce começou a ter seus problemas?"
+	text: "Como, quero dizer, o que, quero dizer, quando voce comecou a ter seus problemas?"
 	
 	text: "Por volta da epoca em que meus pais se divorciaram. Eu era muito jovem."
 	text_hh: sleeper
 	
-	text: "Comecei a ter ataques de pânico."
+	text: "Comecei a ter ataques de panico."
 	text_hh: sleeper
 	
 	text: "E acho que meu corpo encontrou um jeito de lidar com isso."
 	text_hh: sleeper
 	
-	text: "Droga, isso e horrível. Pelo menos voce consegue dormir bem, ne?"
+	text: "Droga, isso e horrivel. Pelo menos voce consegue dormir bem, ne?"
 	
 	text: "Heh."
 }
@@ -2259,7 +2259,7 @@
 	text: "Por favor, nao me expulse enquanto esta chovendo."
 	text_hh: sleeper
 	
-	text: "Nao quero adormecer em uma poça."
+	text: "Nao quero adormecer em uma poca."
 	text_hh: sleeper
 }
 
@@ -2276,7 +2276,7 @@
 	text: "Alguem quer um lanche?"
 	text_hh: sleeper
 	
-	text: "Eu! Estou morrendo de vontade de comer açúcar agora."
+	text: "Eu! Estou morrendo de vontade de comer acucar agora."
 	text_hh: bride
 }
 
@@ -2285,7 +2285,7 @@
 {
 	name: "hh_hiker_banter_1"
 	req: newly_added
-	text: "Saúde! Nao achei que alguem fosse dar carona para esse velho andarilho."
+	text: "Saude! Nao achei que alguem fosse dar carona para esse velho andarilho."
 	text_hh: hiker
 }
 
@@ -2295,7 +2295,7 @@
 	text: "Eu costumava ter um desses carros quando eram novos."
 	text_hh: hiker
 	
-	text: "Rodava mal, mas sempre pegava. Deus os abençoe."
+	text: "Rodava mal, mas sempre pegava. Deus os abencoe."
 	text_hh: hiker
 }
 
@@ -2380,7 +2380,7 @@
 	name: "hh_hiker_banter_9"
 	req: hh_punk
 	
-	text: "Estou feliz que voce esta aqui com seu amigo. Agora eu nao pareço cheirar tao mal."
+	text: "Estou feliz que voce esta aqui com seu amigo. Agora eu nao pareco cheirar tao mal."
 	text_hh: hiker
 	
 	text: "Haha! Ela e mais limpa que voce."
@@ -2411,10 +2411,10 @@
 	name: "hh_hiker_banter_11"
 	req: ailment_hungry
 	
-	text: "Que país lindo!"
+	text: "Que pais lindo!"
 	text_hh: hiker
 	
-	text: "Adoraria fazer uma fogueira hoje à noite, grelhar umas salsichas."
+	text: "Adoraria fazer uma fogueira hoje a noite, grelhar umas salsichas."
 	text_hh: hiker
 	
 	text: "Oh, salsichas deliciosas."
@@ -2470,7 +2470,7 @@
 	text: "Cara, foda-se os lagos! Sao nojentos."
 	text_hh: stranger
 	
-	text: "So saí da cidade porque precisei."
+	text: "So sai da cidade porque precisei."
 	text_hh: stranger
 }
 
@@ -2480,9 +2480,9 @@
 	text: "Aproveite, hein. A natureza e algo que voce nao pode esquecer."
 	text_hh: hiker
 	
-	text: "Eu nao esqueço. e linda."
+	text: "Eu nao esqueco. e linda."
 	
-	text: "Claro, mas às vezes a vida atrapalha..."
+	text: "Claro, mas as vezes a vida atrapalha..."
 	text_hh: hiker
 	
 	text: "...e voce acaba esquecendo."
@@ -2521,7 +2521,7 @@
 	text: "Pelo amor de Deus, eu costumava usar terno antigamente."
 	text_hh: hiker
 	
-	text: "Nao consigo imaginar ter um laço no pescoço o dia todo de novo."
+	text: "Nao consigo imaginar ter um laco no pescoco o dia todo de novo."
 	text_hh: hiker
 	
 	hh_suit: "Ah, eu meio que gosto de gravatas. Melhor que sextas casuais."
@@ -2595,12 +2595,12 @@
 	name: "hh_bride_banter_5"
 	req: music_playing
 	
-	text: "Voce ouve música classica? Sinto tanta falta de tocar violino."
+	text: "Voce ouve musica classica? Sinto tanta falta de tocar violino."
 	text_hh: bride
 	
 	text: "Nao muito. Meio sonolenta para dirigir."
 	
-	text: "Talvez uma dança irlandesa seja mais a sua cara."
+	text: "Talvez uma danca irlandesa seja mais a sua cara."
 	text_hh: bride
 	
 	text: "Com um bom violino."
@@ -2625,7 +2625,7 @@
 	name: "hh_bride_banter_8"
 	req: ailment_hot
 	
-	text: "Caramba! Esta fervendo aqui dentro! Tem como transformar isso num conversível?"
+	text: "Caramba! Esta fervendo aqui dentro! Tem como transformar isso num conversivel?"
 	text_hh: bride
 }
 
@@ -2653,7 +2653,7 @@
 	text: "Entao voce encontrou um bardo, pelo que vejo. Que divertido! O que voce toca?"
 	text_hh: bride
 	
-	text: "Principalmente minhas proprias músicas. Alguns covers, mas, sim, mais minhas proprias composições."
+	text: "Principalmente minhas proprias musicas. Alguns covers, mas, sim, mais minhas proprias composicoes."
 	text_hh: songwriter
 	
 	text: "Sao boas?"
@@ -2708,10 +2708,10 @@
 	text: "Voce pode fazer o carro andar um pouco mais rapido?"
 	text_hh: bride
 	
-	text: "Sim, se conseguirmos as peças."
+	text: "Sim, se conseguirmos as pecas."
 	text_hh: mechanic
 	
-	text: "Oh! Isso seria divertido. Acho que deveríamos."
+	text: "Oh! Isso seria divertido. Acho que deveriamos."
 	text_hh: bride
 }
 

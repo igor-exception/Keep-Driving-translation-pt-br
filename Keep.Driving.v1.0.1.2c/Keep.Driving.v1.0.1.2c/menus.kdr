@@ -22,21 +22,21 @@
 
 {
 	dev_name: car_menu_journal_option
-	name: Diário
+	name: Diario
 }
 
 {
 	dev_name: car_menu_journal_desc
-	name: Aprenda e equipe habilidades. Veja traços
+	name: Aprenda e equipe habilidades. Veja tracos
 }
 {
 	dev_name: car_menu_calendar_option
-	name: Calendário
+	name: Calendario
 }
 
 {
 	dev_name: car_menu_calendar_desc
-	name: Veja seu calendário e registro de tarefas.
+	name: Veja seu calendario e registro de tarefas.
 }
 
 //TOP CLOSE
@@ -55,12 +55,12 @@
 
 {
 	dev_name: threat_desc_title
-	name: Ameaça
+	name: Ameaca
 }
 
 {
 	dev_name: threat_desc
-	name: Cada ameaça representa um de seus recursos e danificará esse recurso ao atacar. Remova todas as ameaças para completar um evento na estrada.
+	name: Cada ameaca representa um de seus recursos e danificara esse recurso ao atacar. Remova todas as ameacas para completar um evento na estrada.
 }
 {
 	dev_name: armor_desc_title
@@ -69,7 +69,7 @@
 
 {
 	dev_name: armor_desc
-	name: Protege você de um ataque durante um evento na estrada. Desaparece após o evento.
+	name: Protege voce de um ataque durante um evento na estrada. Desaparece apos o evento.
 }
 
 {
@@ -84,17 +84,17 @@
 
 {
 	dev_name: locked_skill_hover
-	name: [#E4ACF1]Clique com o botão direito para ver os detalhes.[/color] Esta habilidade está bloqueada e custa % pontos de habilidade para desbloquear. Clique e segure para desbloquear.
+	name: [#E4ACF1]Clique com o botao direito para ver os detalhes.[/color] Esta habilidade esta bloqueada e custa % pontos de habilidade para desbloquear. Clique e segure para desbloquear.
 }
 
 {
 	dev_name: owned_skill_hover
-	name: [#E4ACF1]Clique com o botão direito para ver os detalhes.[/color] Arraste a habilidade para a barra de habilidades no topo para equipar esta habilidade.
+	name: [#E4ACF1]Clique com o botao direito para ver os detalhes.[/color] Arraste a habilidade para a barra de habilidades no topo para equipar esta habilidade.
 }
 
 {
 	dev_name: unavailable_skill_hover
-	name: [#E4ACF1]Clique com o botão direito para ver os detalhes.[/color] Esta habilidade está bloqueada. Desbloqueie as habilidades conectadas a esta para acessá-la.
+	name: [#E4ACF1]Clique com o botao direito para ver os detalhes.[/color] Esta habilidade esta bloqueada. Desbloqueie as habilidades conectadas a esta para acessa-la.
 }
 
 
@@ -105,7 +105,7 @@
 }
 {
 	dev_name: "re_targeting"
-	name: "Alinhe seus alvos de ameaça com a ameaça na exibição do evento na estrada"
+	name: "Alinhe seus alvos de ameaca com a ameaca na exibicao do evento na estrada"
 }
 
 
@@ -119,7 +119,7 @@
 
 {
 	dev_name: "threat_attacking"
-	name: "Esta ameaça irá lhe causar dano de uma unidade."
+	name: "Esta ameaca ira lhe causar dano de uma unidade."
 }
 //DEBUFF
 {
@@ -128,7 +128,7 @@
 }
 {
 	dev_name: "threat_debuff"
-	name: "Esta ameaça irá lhe aplicar um efeito negativo aleatório"
+	name: "Esta ameaca ira lhe aplicar um efeito negativo aleatorio"
 }
 //SHIELD
 {
@@ -137,7 +137,7 @@
 }
 {
 	dev_name: "threat_shield"
-	name: "Quando você atingir esta ameaça, remova o escudo em vez da ameaça. Causará dano de uma unidade."
+	name: "Quando voce atingir esta ameaca, remova o escudo em vez da ameaca. Causara dano de uma unidade."
 }
 //CRIT
 {
@@ -146,7 +146,7 @@
 }
 {
 	dev_name: "threat_crit"
-	name: "Esta ameaça irá lhe causar dano de duas unidades"
+	name: "Esta ameaca ira lhe causar dano de duas unidades"
 }
 //BOMB
 {
@@ -155,7 +155,7 @@
 }
 {
 	dev_name: "threat_bomb"
-	name: "Quando você atingir esta ameaça, remova também a ameaça adjacente"
+	name: "Quando voce atingir esta ameaca, remova tambehm a ameaca adjacente"
 }
 
 //THREAT TARGET DESCS
@@ -167,18 +167,18 @@
 }
 {
 	dev_name:target_energy_desc
-	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
+	name: Alinhe com uma ameaca do mesmo tipo para remove-la.
 }
 
 //GAS
 {
 	dev_name:target_gas_desc_title
-	name: Gás
+	name: Gas
 	ignore_def:1
 }
 {
 	dev_name:target_gas_desc
-	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
+	name: Alinhe com uma ameaca do mesmo tipo para remove-la.
 }
 
 //MONEY
@@ -189,7 +189,7 @@
 }
 {
 	dev_name:target_money_desc
-	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
+	name: Alinhe com uma ameaca do mesmo tipo para remove-la.
 }
 
 //DURABILITY
@@ -200,17 +200,17 @@
 }
 {
 	dev_name:target_durability_desc
-	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
+	name: Alinhe com uma ameaca do mesmo tipo para remove-la.
 }
 
 //NONE
 {
 	dev_name:target_none_desc_title
-	name: Espaço
+	name: Espaco
 }
 {
 	dev_name:target_none_desc
-	name: Não destruirá nenhuma ameaça.
+	name: Nao destruira nenhuma ameaca.
 }
 
 //ALL
@@ -220,7 +220,7 @@
 }
 {
 	dev_name:target_all_desc
-	name: Alinhe com QUALQUER ameaça para removê-la.
+	name: Alinhe com QUALQUER ameaca para remove-la.
 }
 ////////////////////////////////////GAS PEDAL
 
@@ -231,7 +231,7 @@
 //event
 {
 	dev_name: gp_event
-	name: Pressione uma vez para pular sua vez. Mantenha pressionado para escapar do evento atual, tomando o dano restante da ameaça.
+	name: Pressione uma vez para pular sua vez. Mantenha pressionado para escapar do evento atual, tomando o dano restante da ameaca.
 }
 
 //event
@@ -294,11 +294,11 @@
 
 {
 	dev_name: dest_option_part_shop_title
-	name: Loja de Peças de Carro
+	name: Loja de Pecas de Carro
 }
 {
 	dev_name: dest_option_part_shop_desc
-	name: Compre peças de carro aqui
+	name: Compre pecas de carro aqui
 }
 
 {
@@ -318,7 +318,7 @@
 
 {
 	dev_name: shop_buy_desc
-	name: Arraste o item para o seu porta-malas para comprá-lo.
+	name: Arraste o item para o seu porta-malas para compra-lo.
 }
 
 //PLAYER HOME
@@ -349,26 +349,26 @@
 }
 {
 	dev_name: dest_option_bar_desc
-	name: Pegue missões para ganhar dinheiro e pontos de habilidade
+	name: Pegue missoes para ganhar dinheiro e pontos de habilidade
 }
 
 //CAFE
 {
 	dev_name: dest_option_cafe_title
-	name: Café/Pub
+	name: Cafeh/Pub
 }
 {
 	dev_name: dest_option_cafe_desc
-	name: Pegue missões para ganhar dinheiro e pontos de habilidade
+	name: Pegue missoes para ganhar dinheiro e pontos de habilidade
 }
 //CAFE & BAR
 {
 	dev_name: dest_option_cafe_bar_title
-	name: Café/Pub
+	name: Cafeh/Pub
 }
 {
 	dev_name: dest_option_cafe_bar_desc
-	name: Pegue missões para ganhar dinheiro e pontos de habilidade
+	name: Pegue missoes para ganhar dinheiro e pontos de habilidade
 }
 //GARAGE
 {
@@ -382,12 +382,12 @@
 
 {
 	dev_name: garage_extra_space_fail_title
-	name: Espaço vazio!
+	name: Espaco vazio!
 }
 
 {
 	dev_name: garage_extra_space_fail
-	name: Remova itens do espaço extra antes de remover esta melhoria
+	name: Remova itens do espaco extra antes de remover esta melhoria
 }
 
 
@@ -399,7 +399,7 @@
 }
 {
 	dev_name: dest_option_gas_desc
-	name: Abasteça seu carro
+	name: Abasteca seu carro
 }
 //HOSTEL
 {
@@ -408,7 +408,7 @@
 }
 {
 	dev_name: dest_option_hostel_desc
-	name: Pague para descansar em uma cama confortável.
+	name: Pague para descansar em uma cama confortavel.
 }
 
 //EXPLORE
@@ -435,7 +435,7 @@
 
 {
 	dev_name: car_menu_phone_desc_warning
-	name: [#FF4535]%t% chance de sucesso. Se falhar, perderá o jogo.[/color]
+	name: [#FF4535]%t% chance de sucesso. Se falhar, perdera o jogo.[/color]
 }
 //TOW
 {
@@ -445,7 +445,7 @@
 
 {
 	dev_name: car_menu_tow_desc
-	name: Chame um guincho para voltar ao último destino e reparar o carro. dinheiro-50
+	name: Chame um guincho para voltar ao ultimo destino e reparar o carro. dinheiro-50
 }
 //WALK
 {
@@ -455,7 +455,7 @@
 
 {
 	dev_name: car_menu_walk_desc
-	name: Caminhe para pegar combustível para seu carro. energia-5 dinheiro-30 combustível+7
+	name: Caminhe para pegar combustivel para seu carro. energia-5 dinheiro-30 combustivel+7
 }
 
 //FUEL
@@ -476,7 +476,7 @@
 
 {
 	dev_name: fuel_accept_desc
-	name: Aceitar a quantidade de combustível e pagar.
+	name: Aceitar a quantidade de combustivel e pagar.
 }
 {
 	dev_name: fuel_reset_title
@@ -485,7 +485,7 @@
 
 {
 	dev_name: fuel_reset_desc
-	name: Resetar a quantidade de combustível.
+	name: Resetar a quantidade de combustivel.
 }
 
 
@@ -508,17 +508,17 @@
 
 {
 	dev_name: car_menu_black_ou_keep_driving_dest_desc
-	name: Tudo está sob controle!
+	name: Tudo esta sob controle!
 }
 
 {
 	dev_name: cant_drive_title
-	name: Não pode dirigir
+	name: Nao pode dirigir
 }
 
 {
 	dev_name: cant_drive_desc
-	name: Você/Seu carro não está em condições para a estrada
+	name: Voce/Seu carro nao esta em condicoes para a estrada
 }
 
 /////////////////////////////////////////////////////////INVENTORY
@@ -529,7 +529,7 @@
 
 {
 	dev_name: inventory_seat_hover_desc
-	name: Clique com o botão direito para abaixar o banco
+	name: Clique com o botao direito para abaixar o banco
 }
 {
 	dev_name: inventory_seat_hover_lowered
@@ -538,7 +538,7 @@
 
 {
 	dev_name: inventory_seat_hover_desc_lowered
-	name: Clique com o botão direito para levantar
+	name: Clique com o botao direito para levantar
 }
 
 {
@@ -550,7 +550,7 @@
 
 {
 	dev_name: road_type_desc_motorway
-	name: Tende a ser desgastante tanto para sua energia quanto para o combustível. Ameaças nas rodovias podem lhe causar efeitos negativos.
+	name: Tende a ser desgastante tanto para sua energia quanto para o combustivel. Ameacas nas rodovias podem lhe causar efeitos negativos.
 }
 
 {
@@ -560,12 +560,12 @@
 
 {
 	dev_name: road_type_desc_rough
-	name: A durabilidade do seu carro certamente sofrerá um ou dois danos. Algumas ameaças serão protegidas e difíceis de remover.
+	name: A durabilidade do seu carro certamente sofrera um ou dois danos. Algumas ameacas serao protegidas e dificeis de remover.
 }
 
 {
 	dev_name: road_type_desc_city
-	name: Tanto o seu dinheiro quanto sua energia estarão em perigo aqui. Chance de encontrar uma ameaça de perigo (causa dano dobrado)
+	name: Tanto o seu dinheiro quanto sua energia estarao em perigo aqui. Chance de encontrar uma ameaca de perigo (causa dano dobrado)
 }
 
 
@@ -582,7 +582,7 @@
 
 {
 	dev_name: hostel_morning_title
-	name: Ficar até a Manhã
+	name: Ficar ateh a Manha
 }
 
 {
@@ -592,7 +592,7 @@
 
 {
 	dev_name: hostel_night_title
-	name: Ficar até Anoitecer
+	name: Ficar ateh Anoitecer
 }
 
 {
@@ -608,7 +608,7 @@
 
 {
 	dev_name: road_summary_graph_text
-	name: Mudanças nos Recursos da Estrada
+	name: Mudancas nos Recursos da Estrada
 }
 
 
@@ -616,7 +616,7 @@
 
 {
 	dev_name: garage_drag_tooltip
-	name: Arraste uma melhoria aqui para instalá-la.
+	name: Arraste uma melhoria aqui para instala-la.
 }
 {
 	dev_name: garage_view_tooltip
@@ -657,7 +657,7 @@
 //DURABILITY
 {
 	dev_name: "not_enough_durability_title"
-	name: "Condição do carro ruim"
+	name: "Condicao do carro ruim"
 }
 
 {
@@ -702,7 +702,7 @@
 }
 {
 	dev_name: "work_none"
-	name: "ERRO: Serviço indisponível"
+	name: "ERRO: Servico indisponivel"
 }
 
 //SPECIC
@@ -714,7 +714,7 @@
 //SPECIC
 {
 	dev_name: no_wheels_leave_desc
-	name: Você não pode dirigir porque não tem rodas equipadas.
+	name: Voce nao pode dirigir porque nao tem rodas equipadas.
 }
 
 //LEAVE DEST OPEN MAP
@@ -725,7 +725,7 @@
 
 {
 	dev_name: leave_dest_map_desc
-	name: Você precisa selecionar um destino antes de sair. Abrir mapa?
+	name: Voce precisa selecionar um destino antes de sair. Abrir mapa?
 }
 ///////////////////////////////////MAP
 {
@@ -734,7 +734,7 @@
 }
 {
 	dev_name: map_eye_icon_text
-	name: Pressione para alternar a visibilidade do ícone do mapa
+	name: Pressione para alternar a visibilidade do icone do mapa
 }
 
 
@@ -764,16 +764,16 @@
 }
 {
 	dev_name: mm_stop
-	name: Parar de tocar música
+	name: Parar de tocar musica
 }
 //NEXT
 {
 	dev_name: mm_next_title
-	name: Próxima
+	name: Proxima
 }
 {
 	dev_name: mm_next
-	name: Tocar próxima faixa
+	name: Tocar proxima faixa
 }
 //BACK
 {
@@ -791,7 +791,7 @@
 }
 {
 	dev_name: mm_eject
-	name: Parar de tocar música e ir para o modo de edição.
+	name: Parar de tocar musica e ir para o modo de edicao.
 }
 //DRAG SONG
 {
@@ -809,7 +809,7 @@
 }
 {
 	dev_name: mm_topup
-	name: Mover faixa para o topo da lista de reprodução
+	name: Mover faixa para o topo da lista de reproducao
 }
 //EDIT MODE
 {
@@ -818,7 +818,7 @@
 }
 {
 	dev_name: mm_edit_mode
-	name: Clique em uma faixa para adicioná-la à playlist. Pressione o CD para finalizar a edição
+	name: Clique em uma faixa para adiciona-la a playlist. Pressione o CD para finalizar a edicao
 }
 //CD
 {
@@ -827,7 +827,7 @@
 }
 {
 	dev_name: mm_cd
-	name: Pressione o CD para finalizar a edição da sua playlist.
+	name: Pressione o CD para finalizar a edicao da sua playlist.
 }
 
 
@@ -840,7 +840,7 @@
 }
 {
 	dev_name: stat_energy_desc
-	name: Pode ser restaurada descansando ou através de itens.
+	name: Pode ser restaurada descansando ou atravehs de itens.
 }
 
 //GAS
@@ -862,7 +862,7 @@
 }
 {
 	dev_name: stat_money_desc
-	name: Usado para comprar coisas. Você pode ganhar dinheiro trabalhando em um escritório de empregos ou vendendo itens.
+	name: Usado para comprar coisas. Voce pode ganhar dinheiro trabalhando em um escritorio de empregos ou vendendo itens.
 }
 
 //durability
@@ -873,5 +873,5 @@
 }
 {
 	dev_name: stat_durability_desc
-	name: Representa o estado do seu veículo. Você pode reparar a durabilidade em oficinas.
+	name: Representa o estado do seu veiculo. Voce pode reparar a durabilidade em oficinas.
 }

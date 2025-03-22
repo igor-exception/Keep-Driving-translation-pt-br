@@ -26,7 +26,7 @@
 	threat: 2
 	target: energy
 	uses: 999
-	text: "Remove uma ameaça aleatoriamente. Só pode ser usado quando tiver 5 ou menos de energia"
+	text: "Remove uma ameaca aleatoriamente. So pode ser usado quando tiver 5 ou menos de energia"
 	sprite: "spr_skill_background_patch_improvise"
 }
 
@@ -67,13 +67,13 @@
 
 	pattern: EAE
 	uses: 5
-	text: Se você conseguir um perfeito com essa habilidade, restaure uma utilização de TODAS as habilidades e ganhe 10 de dinheiro
+	text: Se voce conseguir um perfeito com essa habilidade, restaure uma utilizacao de TODAS as habilidades e ganhe 10 de dinheiro
 	sprite: "spr_skill_bg_polaroid_generous"
 }
 
 {
 	dev_name: "resourceful"
-	title:"Econômico"
+	title:"Economico"
 	tribe: "player"
 	type: "basic"
 	cost_string: none
@@ -82,13 +82,13 @@
 	pattern: "XX"
 	swift: 1
 	uses: 5
-	text: Remove avisos e TROCA a posição da ameaça com a qual esta habilidade foi usada
+	text: Remove avisos e TROCA a posicao da ameaca com a qual esta habilidade foi usada
 	sprite: "spr_skill_bg_polaroid_resourceful"
 }
 
 {
 	dev_name: "eco_driving"
-	title:"Eco-Condução"
+	title:"Eco-Conducao"
 	tribe: "player"
 	type: "basic"
 	cost_string: energy:1
@@ -96,14 +96,14 @@
 	target: gas
 	pattern: GGG
 	uses: 3
-	text: Se você conseguir um perfeito com essa habilidade, ganhe 1 de gasolina
+	text: Se voce conseguir um perfeito com essa habilidade, ganhe 1 de gasolina
 	swift: 1
 	sprite: "spr_skill_bg_polaroid_eco_driving"
 }
 
 {
 	dev_name: "drive_safe"
-	title:"Conduzir com Segurança"
+	title:"Conduzir com Seguranca"
 	tribe: "player"
 	type: "basic"
 	cost_string: gas:1
@@ -117,20 +117,20 @@
 
 {
 	dev_name: "patience"
-	title:"Paciência"
+	title:"Paciencia"
 	tribe: "player"
 	type: "special"
 	cost_string: "energy:1"
 	threat: 0
 	target: all
 	uses: 5
-	text: Remove 1 ameaça para cada habilidade usada neste evento. (§skills_used)
+	text: Remove 1 ameaca para cada habilidade usada neste evento. (§skills_used)
 	sprite: spr_skill_background_patch_mountain_1
 }
 
 {
 	dev_name: "cheap"
-	title:"Econômico"
+	title:"Economico"
 	tribe: "player"
 	type: "basic"
 	cost_string: "durability:1"
@@ -151,12 +151,12 @@
 	threat: 0
 	target: all
 	uses: 4
-	text: transforme uma ameaça aleatória de ataque em uma nota
+	text: transforme uma ameaca aleatoria de ataque em uma nota
 }
 
 {
 	dev_name: "confidence"
-	title:"Confiança"
+	title:"Confianca"
 	tribe: "player"
 	type: "basic"
 	cost_string: "none"
@@ -165,13 +165,13 @@
 	target: all
 	uses: 3
 	pattern: EAE
-	text: "Só pode ser usado quando estiver com a energia cheia"
+	text: "So pode ser usado quando estiver com a energia cheia"
 	sprite: "spr_skill_bg_polaroid_step_on_it"
 }
 
 {
 	dev_name: "suicide"
-	title:"Suicídio"
+	title:"Suicidio"
 	tribe: "player"
 	type: "basic"
 	cost_string: "energy:4"
@@ -206,7 +206,7 @@
 	cost_string: "energy:0"
 
 	uses: 4
-	text: "Fique cansado. Destrua uma ameaça aleatória. Repita para cada pilha de cansaço"
+	text: "Fique cansado. Destrua uma ameaca aleatoria. Repita para cada pilha de cansaco"
 	sprite: spr_skill_background_patch_raccoon"
 }
 
@@ -222,7 +222,7 @@
 	uses: 3
 	swift: 1
 	
-	text: "Consuma um item de comida no seu porta-malas. Cure toda a fome. Ganhe energia proporcional ao preço do item consumido"
+	text: "Consuma um item de comida no seu porta-malas. Cure toda a fome. Ganhe energia proporcional ao preco do item consumido"
 	sprite: spr_skill_background_kebab
 }
 
@@ -237,13 +237,13 @@
 	uses: 4
 	pattern: EA
 	
-	text: "Só pode ser usado enquanto estiver com fome"
+	text: "So pode ser usado enquanto estiver com fome"
 	sprite: "spr_skill_background_polaroid_37"
 }
 
 {
 	dev_name: "fine_dining"
-	title:"Rugido de Estômago"
+	title:"Rugido de Estomago"
 	tribe: "player"
 	type: "basic"
 	cost_string: "none"
@@ -252,7 +252,7 @@
 	pattern:AXEXA
 	swift: 0
 	
-	text: "Se estiver com fome: ganhe 1 de armadura. Se estiver bêbado: fique Satisfeito"
+	text: "Se estiver com fome: ganhe 1 de armadura. Se estiver bebado: fique Satisfeito"
 	sprite: spr_skill_background_polaroid_39
 }
 
@@ -267,7 +267,7 @@
 	pattern: AA
 
 	uses: 3
-	text: "Se você for social, isso não custa nada"
+	text: "Se voce for social, isso nao custa nada"
 	sprite: "spr_skill_background_polaroid_encourage"
 }
 
@@ -280,7 +280,7 @@
 	pattern: EE
 
 	uses: 3
-	text: "Obter um perfeito com isso te dá o status social"
+	text: "Obter um perfeito com isso te da o status social"
 	sprite: "spr_skill_background_roadtrip"
 }
 
@@ -292,7 +292,7 @@
 	cost_string: "none"
 
 	uses: 2
-	text: "Destrua uma ameaça aleatória. Repita para cada carona no seu carro"
+	text: "Destrua uma ameaca aleatoria. Repita para cada carona no seu carro"
 	sprite: "spr_skill_background_patch_improvise"
 }
 
@@ -304,7 +304,7 @@
 	cost_string: "energy:0"
 	swift: 1
 	uses: 3
-	text: "Restaure uma utilização para cada habilidade de carona"
+	text: "Restaure uma utilizacao para cada habilidade de carona"
 	sprite: "spr_skill_background_patch_walking"
 }
 
@@ -359,12 +359,12 @@
 	target_extra: money
 	pattern: DGD
 	uses: 3
-	text: Se você escapar depois de usar essa habilidade, ganhe 3 de armadura
+	text: Se voce escapar depois de usar essa habilidade, ganhe 3 de armadura
 	sprite: spr_skill_bg_polaroid_step_on_it
 }
 {
 	dev_name: "nice_seats"
-	title:"Assentos Confortáveis!"
+	title:"Assentos Confortaveis!"
 	tribe: "car"
 	type: "basic"
 	cost_string: "durability:1"
@@ -403,19 +403,19 @@
 
 {
 	dev_name: "power_break"
-	title:"Conhecimento Aleatório"
+	title:"Conhecimento Aleatorio"
 	tribe: "car"
 	type: "special"
 	cost_string: "durability:2"
 
 	uses: 3
-	text: "Destrua de 1 a 6 ameaças aleatórias"
+	text: "Destrua de 1 a 6 ameacas aleatorias"
 	sprite: spr_skill_background_vitriol
 }
 
 {
 	dev_name: "nice_seats"
-	title:"Assentos Confortáveis!"
+	title:"Assentos Confortaveis!"
 	tribe: "car"
 	type: "basic"
 	cost_string: "durability:1"
@@ -456,7 +456,7 @@
 }
 {
 	dev_name: "eco_reminder"
-	title:"Lembrete Ecológico"
+	title:"Lembrete Ecologico"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "energy:1"
@@ -493,14 +493,14 @@
 	target: energy
 	swift: 1
 	uses: 3
-	//text: reduzir o custo da §target da próxima habilidade em 2
+	//text: reduzir o custo da §target da proxima habilidade em 2
 	text: Fique inspirado e cansado
 	sprite: "spr_ui_skill_girl_active_backrub"
 }
 
 {
 	dev_name: "lose_status"
-	title:"Atenção Plena"
+	title:"Atencao Plena"
 	tribe: "hh"
 	type: "special"
 	cost_string: "none"
@@ -561,7 +561,7 @@
 	target: all
 	uses: 2
 	swift: 1
-	text: "Troque toda ameaça de durabilidade por energia e ganhe um cigarro"
+	text: "Troque toda ameaca de durabilidade por energia e ganhe um cigarro"
 	sprite: "spr_skill_background_baum"
 }
 
@@ -595,7 +595,7 @@
 
 {
 	dev_name: "fast_repair"
-	title:"Reparo Rápido"
+	title:"Reparo Rapido"
 	tribe: "hh"
 	type: "resource"
 	cost_string: "none"
@@ -623,7 +623,7 @@
 
 {
 	dev_name: "dealmaker"
-	title:"Fechando Negócios"
+	title:"Fechando Negocios"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "money:2"
@@ -648,7 +648,7 @@
 	target: none
 	uses: 2
 	swift: 1
-	text: "Adiciona um item pequeno aleatório ao seu porta-luvas"
+	text: "Adiciona um item pequeno aleatorio ao seu porta-luvas"
 	sprite: "spr_skill_background_patch_raccoon"
 }
 
@@ -661,7 +661,7 @@
 	threat: 0
 	target: none
 	uses: 2
-	text: "Destrua uma ameaça aleatória para cada status ativo"
+	text: "Destrua uma ameaca aleatoria para cada status ativo"
 	sprite: "spr_skill_background_camp"
 }
 
@@ -674,19 +674,19 @@
 	target_extra: energy
 	pattern: XXXXX
 	uses: 3
-	text: Remova todos os avisos de ameaça na área alvo
+	text: Remova todos os avisos de ameaca na area alvo
 	sprite: spr_skill_background_sitting_window
 }
 
 {
 	dev_name: "shady_deals"
-	title:"Negócios Escusos"
+	title:"Negocios Escusos"
 	tribe: "player"
 	type: "basic"
 	cost_string: "money:2"
 	pattern: AEA
 	uses: 4
-	text: Custa nada à noite
+	text: Custa nada a noite
 	sprite: spr_skill_background_deal_maker
 }
 
@@ -698,7 +698,7 @@
 	cost_string: "none"
 	pattern: X
 	uses: 4
-	text: Ganhe o padrão de ameaça de todos os itens no seu porta-luvas
+	text: Ganhe o padrao de ameaca de todos os itens no seu porta-luvas
 	sprite: spr_skill_bg_polaroid_crafting
 }
 
@@ -712,7 +712,7 @@
 	target: none
 	uses: 4
 	swift: 1
-	text: "Troque todas as ameaças de ataque por gasolina"
+	text: "Troque todas as ameacas de ataque por gasolina"
 	sprite: "spr_skill_background_gulp"
 }
 
@@ -726,7 +726,7 @@
 	target: none
 	uses: 3
 	swift: 0
-	text: "Troque todos os avisos de ameaça por debuffs"
+	text: "Troque todos os avisos de ameaca por debuffs"
 	sprite: "spr_skill_background_patch_test2"
 }
 
@@ -746,7 +746,7 @@
 
 {
 	dev_name: "piercer"
-	title:"Astúcia"
+	title:"Astucia"
 	tribe: "player"
 	type: "basic"
 	cost_string: "durability:1"
@@ -759,7 +759,7 @@
 
 {
 	dev_name: "safety_first"
-	title: "Segurança em Primeiro Lugar!"
+	title: "Seguranca em Primeiro Lugar!"
 	tribe: player
 	type: special
 	cost_string: "none"
@@ -780,7 +780,7 @@
 	swift: 0
 	amount: 2
 	condition: armor
-	text: "Remova toda a armadura, destrua 1 ameaça para cada armadura perdida"
+	text: "Remova toda a armadura, destrua 1 ameaca para cada armadura perdida"
 	sprite: "spr_skill_background_patch_test1"
 }
 
@@ -792,7 +792,7 @@
 	cost_string: "energy:0"
 	pattern: ADXDA
 	uses: 4
-	text: Ganhe 1 de armadura para cada ameaça removida com isso
+	text: Ganhe 1 de armadura para cada ameaca removida com isso
 	sprite: spr_skill_background_polaroid_44
 }
 
@@ -801,13 +801,13 @@
 
 {
 	dev_name: "exploit"
-	title:"Exploração"
+	title:"Exploracao"
 	tribe: "hh"
 	type: "special"
 	cost_string: "energy:1"
 	pattern: EDMG
 	uses: 2
-	text: Adicione 2 ameaças de dinheiro e ganhe 20 de dinheiro. Reinicie todos os avisos de ameaças de ataque
+	text: Adicione 2 ameacas de dinheiro e ganhe 20 de dinheiro. Reinicie todos os avisos de ameacas de ataque
 	sprite: spr_ui_skill_suit_active_exploit
 }
 
@@ -827,7 +827,7 @@
 
 {
 	dev_name: "dont_worry"
-	title:"Não se Preocupe!"
+	title:"Nao se Preocupe!"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "energy:0"
@@ -839,19 +839,19 @@
 
 {
 	dev_name: "dont_worry_2"
-	title:"Não se Preocupe!"
+	title:"Nao se Preocupe!"
 	tribe: "hh"
 	type: "special"
 	cost_string: "energy:0"
 	pattern: EDMG
 	uses: 2
-	text: Remova uma ameaça de cada tipo
+	text: Remova uma ameaca de cada tipo
 	sprite: spr_ui_skill_hurricane_active_dontworry
 }
 
 {
 	dev_name: "drunk_master"
-	title:"Você é Divertido!"
+	title:"Voce eh Divertido!"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "none"
@@ -860,20 +860,20 @@
 	uses: 3
 	pattern: AAA
 	
-	text: "Só pode ser usado enquanto estiver bêbado ou chapado"
+	text: "So pode ser usado enquanto estiver bebado ou chapado"
 	sprite: "spr_ui_skill_hurricane_polaroid_yourefun"
 }
 
 //PUNK
 {
 	dev_name: "poison_heart"
-	title:"Coração Envenenado"
+	title:"Coracao Envenenado"
 	tribe: "hh"
 	type: "special"
 	cost_string: "gas:1"
 	pattern: 
 	uses: 2
-	text: Remova 3 ameaças aleatórias
+	text: Remova 3 ameacas aleatorias
 	sprite: spr_ui_skill_punk_active_adhd
 }
 
@@ -887,7 +887,7 @@
 	uses: 4
 	pattern: DAG
 	
-	text: "Custa nada se você estiver ouvindo punk"
+	text: "Custa nada se voce estiver ouvindo punk"
 	sprite: "spr_ui_skill_punk_active_bastardsofyoung"
 }
 
@@ -900,13 +900,13 @@
 	target_extra: energy
 	pattern: X
 	uses: 3
-	text: Remova a ameaça mais à esquerda e mais à direita e cure um status negativo aleatório
+	text: Remova a ameaca mais a esquerda e mais a direita e cure um status negativo aleatorio
 	sprite: spr_ui_skill_punk_active_greenhell
 }
 
 {
 	dev_name: "motor_breath"
-	title:"Respiração do Motor"
+	title:"Respiracao do Motor"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "gas:0"
@@ -936,7 +936,7 @@
 
 {
 	dev_name: "pet"
-	title:"Animal de Estimação"
+	title:"Animal de Estimacao"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "none"
@@ -966,7 +966,7 @@
 
 {
 	dev_name: "innocence"
-	title:"Inocência"
+	title:"Inocencia"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "none"
@@ -975,7 +975,7 @@
 	target: all
 	uses: 2
 	pattern: AEAD
-	text: "Só pode ser usado quando estiver com a energia cheia"
+	text: "So pode ser usado quando estiver com a energia cheia"
 	sprite: "spr_ui_skill_kid_polaroid_innocence"
 }
 
@@ -1001,13 +1001,13 @@
 	cost_string: "energy:1"
 
 	uses: 999
-	text: "Remova 3 ameaças. Troque esta habilidade por outro jogo"
+	text: "Remova 3 ameacas. Troque esta habilidade por outro jogo"
 	sprite: "spr_ui_skill_kid_active_kidgame_2"
 }
 
 {
 	dev_name: "kid_game_3"
-	title:"O Jogo do Silêncio"
+	title:"O Jogo do Silencio"
 	tribe: "hh"
 	type: "special"
 	cost_string: "none"
@@ -1021,7 +1021,7 @@
 
 {
 	dev_name: "songwriter_setup"
-	title:"Humor para Música"
+	title:"Humor para Musica"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "energy:1"
@@ -1029,20 +1029,20 @@
 	pattern: X
 	uses: 4
 	swift:1
-	text: Mude o aviso de ameaça do alvo para uma nota
+	text: Mude o aviso de ameaca do alvo para uma nota
 	sprite: spr_ui_skill_songwriter_polaroid_moodymelody
 }
 
 {
 	dev_name: "power_chord"
-	title:"Acorde de Potência"
+	title:"Acorde de Potencia"
 	tribe: "hh"
 	type: "special"
 	cost_string: "energy:1"
 	target_extra: energy
 	pattern: X
 	uses: 3
-	text: Remova todas as ameaças com o aviso de nota
+	text: Remova todas as ameacas com o aviso de nota
 	sprite: spr_ui_skill_songwriter_active_soothingblues
 }
 
@@ -1050,7 +1050,7 @@
 
 {
 	dev_name: "gambler_1"
-	title:"Resolução de Problemas"
+	title:"Resolucao de Problemas"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "durability:1"
@@ -1072,7 +1072,7 @@
 	target: energy
 	uses: 5
 	swift: 1
-	text: "Troque toda ameaça de ataque por dinheiro"
+	text: "Troque toda ameaca de ataque por dinheiro"
 	sprite: "spr_ui_skill_stranger_active_bribe"
 }
 
@@ -1085,7 +1085,7 @@
 	threat: 2
 	target: energy
 	uses: 5
-	text: "Destrua uma ameaça aleatória, se for uma ameaça de dinheiro, repita isso"
+	text: "Destrua uma ameaca aleatoria, se for uma ameaca de dinheiro, repita isso"
 	sprite: "spr_ui_skill_stranger_active_biggamble"
 }
 
@@ -1093,7 +1093,7 @@
 
 {
 	dev_name: "idiotic_1"
-	title:"O Quê?"
+	title:"O Que?"
 	tribe: "hh"
 	type: "basic"
 	cost_string: "none"
@@ -1103,7 +1103,7 @@
 	
 	swift:1
 	
-	text: "Se essa habilidade não remover nenhuma ameaça, ganhe felicidade"
+	text: "Se essa habilidade nao remover nenhuma ameaca, ganhe felicidade"
 	sprite: "spr_ui_skill_idiot_polaroid_what"
 }
 
@@ -1117,7 +1117,7 @@
 	uses: 4
 	pattern: XXX
 	
-	text: "Pense sobre um recurso aleatório, então destrua uma ameaça desse tipo"
+	text: "Pense sobre um recurso aleatorio, entao destrua uma ameaca desse tipo"
 	sprite: spr_ui_skill_idiot_active_hmm
 }
 
@@ -1151,7 +1151,7 @@
 	
 	swift:0
 	
-	text: "Destrua 2 ameaças. Se essa habilidade limpar o evento, aumente a velocidade do carro!"
+	text: "Destrua 2 ameacas. Se essa habilidade limpar o evento, aumente a velocidade do carro!"
 	sprite: "spr_ui_skill_convict_skill_increasespeed"
 }
 
@@ -1166,7 +1166,7 @@
 	uses: 5
 	swift: 1
 	amount: 4
-	text: "Ganhe §amnt de armadura. Adormeça"
+	text: "Ganhe §amnt de armadura. Adormeca"
 	sprite: "spr_ui_skill_sleeper_active_bolster"
 }
 
@@ -1194,7 +1194,7 @@
 	uses: 4
 	swift: 0
 	condition: asleep
-	text: "Destrua uma ameaça aleatória para cada armadura. Só pode ser usado quando estiver dormindo"
+	text: "Destrua uma ameaca aleatoria para cada armadura. So pode ser usado quando estiver dormindo"
 	sprite: "spr_ui_skill_sleeper_active_alwaystired"
 }
 
@@ -1209,7 +1209,7 @@
 	uses: 2
 	swift: 0
 	amount: 2
-	text: "Ganhe 1 de cada recurso e 1 de armadura. Se não estiver em uma área urbana, mude a quantidade para 2"
+	text: "Ganhe 1 de cada recurso e 1 de armadura. Se nao estiver em uma area urbana, mude a quantidade para 2"
 	sprite: "spr_ui_skill_hiker_active_freshair"
 }
 
@@ -1240,7 +1240,7 @@
 	uses: 3
 	pattern: EG
 	
-	text: "Se você conseguir um perfeito com isso, fique feliz"
+	text: "Se voce conseguir um perfeito com isso, fique feliz"
 	sprite: "spr_ui_skill_bride_polaroid_adventure"
 }
 

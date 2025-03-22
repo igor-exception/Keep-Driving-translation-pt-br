@@ -2,8 +2,8 @@
 
 {
 	dev_name: "cheap_repair"
-	title: "Eu conheço um cara"
-	desc: "Reduz o preço para reparar no mecânico em 50%"
+	title: "Eu conheco um cara"
+	desc: "Reduz o preco para reparar no mecanico em 50%"
 	sprite: "spr_pskill_img_temp"
 	//IMPLEMENTED
 }
@@ -19,7 +19,7 @@
 {
 	dev_name: "cure_negative_ailment_arrive"
 	title: "Massagista"
-	desc: "50% de chance de curar um status negativo quando você chegar ao seu destino"
+	desc: "50% de chance de curar um status negativo quando voce chegar ao seu destino"
 	sprite: "spr_pskill_img_temp"
 	//IMPLEMENTED
 }
@@ -27,7 +27,7 @@
 {
 	dev_name: "choice_event_gamble"
 	title: "Arriscando"
-	desc: "Aumenta a chance de obter resultados positivos em eventos de escolha, mas as penalidades são mais severas."
+	desc: "Aumenta a chance de obter resultados positivos em eventos de escolha, mas as penalidades sao mais severas."
 	sprite: "spr_pskill_img_temp"
 }
 
@@ -42,21 +42,21 @@
 
 {
 	dev_name: "closer_quests"
-	title: "Trabalhos Próximos"
-	desc: "Encontre missões de entrega mais próximas de você."
+	title: "Trabalhos Proximos"
+	desc: "Encontre missoes de entrega mais proximas de voce."
 	sprite: "spr_pskill_img_temp"
 }
 
 {
 	dev_name: "uncool"
-	title: "Sem Graça"
-	desc: "Seus outros caronas ganham menos experiência."
+	title: "Sem Graca"
+	desc: "Seus outros caronas ganham menos experiencia."
 	sprite: "spr_ui_skill_suit_passive_sadandboring"
 }
 
 {
 	dev_name: "flee_easy"
-	title: "Ignorância"
+	title: "Ignorancia"
 	desc: "Receba menos dano ao escapar de eventos na estrada."
 	sprite: "spr_pskill_img_temp"
 }
@@ -64,7 +64,7 @@
 {
 	dev_name: "due_taxes"
 	title: "Impostos Vencidos"
-	desc: "Ameaças de dinheiro em eventos na estrada causam o dobro de dano."
+	desc: "Ameacas de dinheiro em eventos na estrada causam o dobro de dano."
 	sprite: "spr_ui_skill_suit_passive_taxesdue"
 }
 
@@ -73,7 +73,7 @@
 {
 	dev_name: "extra_neg_status"
 	title: "Status Empilhado"
-	desc: "Quando você ganha um status positivo, também ganha um negativo."
+	desc: "Quando voce ganha um status positivo, tambehm ganha um negativo."
 	sprite: "spr_ui_skill_girl_passive_pessimist"
 }
 
@@ -86,8 +86,8 @@
 
 {
 	dev_name: "road_start_neg_status"
-	title: "Vibrações Ruins"
-	desc: "Início da estrada: Recebe um status negativo aleatório."
+	title: "Vibracoes Ruins"
+	desc: "Inicio da estrada: Recebe um status negativo aleatorio."
 	sprite: "spr_ui_skill_girl_passive_badvibes"
 }
 
@@ -96,8 +96,8 @@
 
 {
 	dev_name: "auto_repair"
-	title: "Reparo Automático"
-	desc: "Restaura automaticamente 1 durabilidade quando você chega ao seu destino."
+	title: "Reparo Automatico"
+	desc: "Restaura automaticamente 1 durabilidade quando voce chega ao seu destino."
 	sprite: "spr_ui_skill_mechanic_passive_autorepair"
 	//IMPLEMENTED
 }
@@ -113,14 +113,14 @@
 {
 	dev_name: "upgrade_anywhere"
 	title: "Melhore em Qualquer Lugar!"
-	desc: "Você pode trocar os upgrades do carro diretamente do seu porta-malas"
+	desc: "Voce pode trocar os upgrades do carro diretamente do seu porta-malas"
 	sprite: "spr_ui_skill_mechanic_passive_upgradeanywhere"
 }
 
 {
 	dev_name: "upgrade_dependant"
 	title: "Dependente de Upgrade"
-	desc: "Perde uma energia no início de uma estrada para cada espaço vazio de upgrade no carro"
+	desc: "Perde uma energia no inicio de uma estrada para cada espaco vazio de upgrade no carro"
 	sprite: "spr_ui_skill_mechanic_passive_upgradedependant"
 }
 
@@ -128,7 +128,7 @@
 
 {
 	dev_name: messy
-	title: Bagunçado
+	title: Baguncado
 	desc: Deixa lixo no porta-malas
 	sprite: spr_ui_skill_hurricane_passive_messy
 }
@@ -136,21 +136,21 @@
 {
 	dev_name: drunk_energy
 	title: Beba!
-	desc: Ganha 3 energias quando consome álcool
+	desc: Ganha 3 energias quando consome alcool
 	sprite: spr_ui_skill_hurricane_passive_drinkup
 }
 
 {
 	dev_name: shoplifting
 	title: Furtador
-	desc: Rouba um item pequeno de graça quando visita uma loja pela primeira vez
+	desc: Rouba um item pequeno de graca quando visita uma loja pela primeira vez
 	sprite: spr_ui_skill_hurricane_passive_shoplifting
 }
 
 {
 	dev_name: demanding
 	title: Exigente
-	desc: Você está sempre cansado.
+	desc: Voce esta sempre cansado.
 	sprite: spr_ui_skill_hurricane_passive_demanding
 }
 
@@ -158,21 +158,21 @@
 {
 	dev_name: dog
 	title: Dono de Cachorro
-	desc: Precisa de um espaço extra no carro para o cachorro.
+	desc: Precisa de um espaco extra no carro para o cachorro.
 	sprite: spr_ui_skill_punk_passive_dog
 }
 
 {
 	dev_name: dog_friend
-	title: Aprovação do Cachorro
-	desc: Agora você tem acesso às habilidades do Cachorro.
+	title: Aprovacao do Cachorro
+	desc: Agora voce tem acesso as habilidades do Cachorro.
 	sprite: spr_ui_skill_punk_passive_friendofdog
 }
 
 {
 	dev_name: hh_forced_vegan
 	title: Estilo de Vida Vegano
-	desc: Você não tem mais acesso a produtos de carne e laticínios nas lojas.
+	desc: Voce nao tem mais acesso a produtos de carne e laticinios nas lojas.
 	sprite: spr_ui_skill_punk_passive_straightedge
 }
 
@@ -194,7 +194,7 @@
 {
 	dev_name: dog_passive_3
 	title: Boa Cachorrinha
-	desc: Ela é uma cachorrinha muito boazinha
+	desc: Ela eh uma cachorrinha muito boazinha
 	sprite: spr_pskill_img_temp
 }
 
@@ -209,21 +209,21 @@
 {
 	dev_name: night_sleep
 	title: Boa Noite
-	desc: Sempre dormindo à noite
+	desc: Sempre dormindo a noite
 	sprite: spr_ui_skill_kid_passive_sleepatnight
 }
 
 {
 	dev_name: no_drugs
-	title: Boa Influência
-	desc: Fica triste se usar qualquer substância ilegal.
+	title: Boa Influencia
+	desc: Fica triste se usar qualquer substancia ilegal.
 	sprite: spr_ui_skill_kid_passive_goodinfluence
 }
 
 {
 	dev_name: idol_power
-	title: Imaginação Infantil
-	desc: Aumenta o poder do seu bonequinho de cabeça
+	title: Imaginacao Infantil
+	desc: Aumenta o poder do seu bonequinho de cabeca
 	sprite: spr_ui_skill_kid_passive_imagination
 }
 
@@ -232,28 +232,28 @@
 {
 	dev_name: guitar_case
 	title: Estojo de Guitarra
-	desc: Precisa de espaço no seu inventário para o estojo de guitarra dele.
+	desc: Precisa de espaco no seu inventario para o estojo de guitarra dele.
 	sprite: spr_ui_skill_songwriter_passive_guitarcase
 }
 
 {
 	dev_name: street_musician
-	title: Músico de Rua
-	desc: Te dá um pouco de dinheiro ganho depois que você passar a noite em um destino.
+	title: Musico de Rua
+	desc: Te da um pouco de dinheiro ganho depois que voce passar a noite em um destino.
 	sprite: spr_ui_skill_songwriter_active_streetmusic
 }
 
 {
 	dev_name: center_of_attention
-	title: Centro das Atenções
-	desc: Perde 1 energia se você não usar nenhuma das habilidades do Songwriter durante um evento.
+	title: Centro das Atencoes
+	desc: Perde 1 energia se voce nao usar nenhuma das habilidades do Songwriter durante um evento.
 	sprite: spr_ui_skill_songwriter_passive_attention
 }
 
 {
 	dev_name: kick_penalty
-	title: Sócios de Negócios...?
-	desc: Perde metade dos seus recursos se você chutar o Songwriter.
+	title: Socios de Negocios...?
+	desc: Perde metade dos seus recursos se voce chutar o Songwriter.
 	sprite: spr_ui_skill_songwriter_passive_businesspartners
 }
 
@@ -261,14 +261,14 @@
 {
 	dev_name: gambler
 	title: Jogador
-	desc: Quando você dorme em um destino. O estranho pega um pouco do seu dinheiro e aposta com ele.
+	desc: Quando voce dorme em um destino. O estranho pega um pouco do seu dinheiro e aposta com ele.
 	sprite: spr_ui_skill_stranger_passive_gambler
 }
 
 {
 	dev_name: creepy
 	title: Estranho
-	desc: Suas caronas femininas não ganham experiência.
+	desc: Suas caronas femininas nao ganham experiencia.
 	sprite: spr_ui_skill_stranger_passive_creepy
 }
 
@@ -283,7 +283,7 @@
 {
 	dev_name: gb_organize
 	title: TOC
-	desc: Às vezes, organiza a ameaça.
+	desc: as vezes, organiza a ameaca.
 	sprite: spr_ui_skill_idiot_passive_ocd
 }
 
@@ -296,8 +296,8 @@
 
 {
 	dev_name: idiot_x
-	title: Ahá!
-	desc: TODAS as habilidades de X-target se tornam o que o Idiota está pensando.
+	title: Aha!
+	desc: TODAS as habilidades de X-target se tornam o que o Idiota esta pensando.
 	sprite: spr_ui_skill_idiot_passive_beauty
 }
 
@@ -313,35 +313,35 @@
 {
 	dev_name: convict_no_adjacent
 	title: Assustador
-	desc: Caronas não se sentam ao lado do Condenado
+	desc: Caronas nao se sentam ao lado do Condenado
 	sprite: spr_ui_skill_convict_passive_scary
 }
 
 {
 	dev_name: on_the_run
 	title: Fugitivo
-	desc: A polícia está procurando o Condenado.
+	desc: A policia esta procurando o Condenado.
 	sprite: spr_ui_skill_convict_passive_ontherun
 }
 
 {
 	dev_name: partner_in_crime
 	title: Parceiro no Crime
-	desc: Se você perder em um evento policial, você irá para a prisão (perde o jogo).
+	desc: Se voce perder em um evento policial, voce ira para a prisao (perde o jogo).
 	sprite: spr_ui_skill_convict_passive_aidingandabetting
 }
 
 {
 	dev_name: double_engine
-	title: Potência Extra!
+	title: Potencia Extra!
 	desc: Dobra o efeito ativo do seu motor
 	sprite: spr_ui_skill_convict_passive_soupedup
 }
 
 {
 	dev_name: hh_drive_faster
-	title: Acelerando ao Máximo!
-	desc: Aumenta a sua velocidade de direção.
+	title: Acelerando ao Maximo!
+	desc: Aumenta a sua velocidade de direcao.
 	sprite: spr_pskill_img_temp
 }
 
@@ -372,22 +372,22 @@
 
 {
 	dev_name: hh_city_hate
-	title: A cidade é um saco!
-	desc: Fica triste quando está em uma cidade.
+	title: A cidade eh um saco!
+	desc: Fica triste quando esta em uma cidade.
 	sprite: spr_ui_skill_hiker_passive_citysucks
 }
 
 {
 	dev_name: hiker_new_roads
 	title: Offroader!
-	desc: Adiciona novas estradas difíceis no mapa!
+	desc: Adiciona novas estradas dificeis no mapa!
 	sprite: spr_ui_skill_hiker_passive_shortcut
 }
 
 {
 	dev_name: weather_extra_energy
-	title: Condições Climáticas
-	desc: Quando o clima não estiver com céu limpo, adiciona uma ameaça de energia a cada evento na estrada.
+	title: Condicoes Climaticas
+	desc: Quando o clima nao estiver com cehu limpo, adiciona uma ameaca de energia a cada evento na estrada.
 	sprite: spr_ui_skill_hiker_passive_weather
 }
 
@@ -401,7 +401,7 @@
 {
 	dev_name: hh_no_inspire
 	title: Confortavelmente Entorpecido
-	desc: Você não pode mais se inspirar.
+	desc: Voce nao pode mais se inspirar.
 	sprite: spr_ui_skill_hiker_passive_comfortablynumb
 }
 
@@ -409,7 +409,7 @@
 {
 	dev_name: runaway_bride
 	title: Noiva Fugitiva
-	desc: Se você desmaiar, a noiva vai embora
+	desc: Se voce desmaiar, a noiva vai embora
 	sprite: spr_ui_skill_bride_passive_runnawaybride
 }
 
@@ -423,20 +423,20 @@
 {
 	dev_name: lose_happy_sad
 	title: Tristeza
-	desc: Quando você perde o status de Feliz, fica triste
+	desc: Quando voce perde o status de Feliz, fica triste
 	sprite: spr_ui_skill_bride_passive_sadness
 }
 
 {
 	dev_name: inspire_happy
 	title: Alegre
-	desc: Quando você fica inspirado, também fica feliz
+	desc: Quando voce fica inspirado, tambehm fica feliz
 	sprite: spr_ui_skill_bride_passive_joyful
 }
 
 {
 	dev_name: double_hot_cold
-	title: Desconfortável
+	title: Desconfortavel
 	desc: Dobra o dano recebido dos status quente e frio.
 	sprite: spr_ui_skill_bride_passive_uncomfortable
 }

@@ -1,7 +1,7 @@
 {
 	loadout_name: basic
-	loadout_title: Pacote de cuidados da mãe
-	loadout_short: Mãe
+	loadout_title: Pacote de cuidados da mae
+	loadout_short: Mae
 	loadout_desc: yes
 	loadout_start: 1
 	
@@ -10,7 +10,7 @@
 
 {
 	loadout_name: tools
-	loadout_title: Meus utensílios
+	loadout_title: Meus utensilios
 	loadout_short: Ferramentas
 	loadout_desc: yes
 	loadout_start: 1
@@ -65,7 +65,7 @@
 {
 	loadout_name: music_lover
 	loadout_title: Kit de Festival
-	loadout_short: Música
+	loadout_short: Musica
 	loadout_desc: yes
 	loadout_start: 0
 	

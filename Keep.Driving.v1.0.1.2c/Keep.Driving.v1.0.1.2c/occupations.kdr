@@ -10,7 +10,7 @@
 
 {
 	occ_name: car_enthusiast
-	occ_title: Mecânico de meio-período
+	occ_title: Mecanico de meio-periodo
 	occ_desc: Ama tudo relacionado a carros.
 	
 	occ_trait: car_savvy
@@ -19,15 +19,15 @@
 {
 	occ_name: student
 	occ_title: Estudante
-	occ_desc: Espírito jovem com vontade de aprender.
+	occ_desc: Espirito jovem com vontade de aprender.
 	
 	occ_trait: student
 }
 
 {
 	occ_name:rehab
-	occ_title: Pós-Junkie
-	occ_desc: Você está reabilitado
+	occ_title: Pos-Junkie
+	occ_desc: Voce esta reabilitado
 	
 	occ_trait: rehabilitated
 	occ_locked: 1
@@ -36,7 +36,7 @@
 {
 	occ_name:racer
 	occ_title: Corredor
-	occ_desc: Você ama dirigir rápido
+	occ_desc: Voce ama dirigir rapido
 	
 	occ_trait: racer
 	occ_locked: 1
@@ -45,7 +45,7 @@
 {
 	occ_name:veteran
 	occ_title: Veterano
-	occ_desc: Você já sabe o que fazer.
+	occ_desc: Voce ja sabe o que fazer.
 	
 	occ_trait: veteran
 	occ_locked: 1
@@ -53,8 +53,8 @@
 
 {
 	occ_name:worker
-	occ_title: Estagiário
-	occ_desc: Você trabalhou o ano todo.
+	occ_title: Estagiario
+	occ_desc: Voce trabalhou o ano todo.
 	
 	occ_trait: worker
 	occ_locked: 1
@@ -63,7 +63,7 @@
 {
 	occ_name:mourning
 	occ_title: De luto
-	occ_desc: Você não tem se sentido muito bem.
+	occ_desc: Voce nao tem se sentido muito bem.
 	
 	occ_trait: downer
 	occ_locked: 1

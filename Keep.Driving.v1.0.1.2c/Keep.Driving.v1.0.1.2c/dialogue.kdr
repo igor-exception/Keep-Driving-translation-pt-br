@@ -23,7 +23,7 @@
 
 {
 	id: "test_dialogue_1"
-	text: "Este e outro trecho de dialogo de teste. Quando houver pontos. havera. interrupçoes"
+	text: "Este e outro trecho de dialogo de teste. Quando houver pontos. havera. interrupcoes"
 }
 
 ////////////////////////////////////VENDEDOR DE FRUTAS
@@ -172,7 +172,7 @@
 	text: "Uma vez, aconteceu algo comigo"
 }
 
-//hh saudaçao padrao no destino_OLD
+//hh saudacao padrao no destino_OLD
 
 {
 	id: "hh_default_dest_greeting"
@@ -186,7 +186,7 @@
 	text: "Queria conversar com voce sobre algo."
 }
 
-//hh saudaçao ao ser expulso
+//hh saudacao ao ser expulso
 
 {
 	id: "hh_default_kicked_greeting"
@@ -295,7 +295,7 @@
 	text: "Melhor. Viagem de carro.[shake]DE TODAS[/shake]!"
 }
 
-//CRIANÇA
+//CRIANcA
 
 {
 	id: "hh_kid_greeting_a"
@@ -312,7 +312,7 @@
 	text: "[wheel]Viagem de carro! [wheel]Viagem de carro! [shake]Ah [wheel]sim!"
 }
 
-//MECÂNICO
+//MECaNICO
 
 {
 	id: "hh_mechanic_greeting_a"
@@ -416,11 +416,11 @@
 
 //ESPECiFICO
 
-///////////////MECÂNICO
+///////////////MECaNICO
 
 {
 	id: "hh_mechanic_skill_dialogue_cheap_repair"
-	text: "Eu costumava trabalhar com conserto de carros. Ainda conheço algumas pessoas que trabalham la. Se voce precisar de uma revisAo mais detalhada no seu veiculo, eu [wheel]provavelmente[/wheel] consigo um preço melhor para voce la."
+	text: "Eu costumava trabalhar com conserto de carros. Ainda conheco algumas pessoas que trabalham la. Se voce precisar de uma revisAo mais detalhada no seu veiculo, eu [wheel]provavelmente[/wheel] consigo um preco melhor para voce la."
 }
 
 //MISSAO COMPLETA
@@ -518,7 +518,7 @@
 
 {
 	id: "hh_kid_festival"
-	text: "Olha! Tantas bandeiras! Vamos dançar?"
+	text: "Olha! Tantas bandeiras! Vamos dancar?"
 }
 
 {
@@ -558,14 +558,14 @@
 
 {
 	id: "hh_punk_festival"
-	text: "Eu reconheço. uma. nAo, duas bandas que estAo tocando. Mas elas sAo iradas!"
+	text: "Eu reconheco. uma. nAo, duas bandas que estAo tocando. Mas elas sAo iradas!"
 }
 
 //DEMO
 
 {
 	id: "q_demo_turn_in_greeting"
-	text: "Ei, por que demorou tanto? Apenas estacione la fora, eu ja desço."
+	text: "Ei, por que demorou tanto? Apenas estacione la fora, eu ja desco."
 }
 
 //MONTANHA
@@ -594,7 +594,7 @@
 
 {
 	id: "race_enter_fail"
-	text: "Quer entrar na grande corrida? Voce vai precisar de uma GAIOLA DE PROTEÇAO instalada. QuestAo de segurança."
+	text: "Quer entrar na grande corrida? Voce vai precisar de uma GAIOLA DE PROTEcAO instalada. QuestAo de seguranca."
 }
 
 {
@@ -617,19 +617,19 @@
 	text: "Foi um prazer correr com voce. Tenho que dizer, voce mandou bem. Foi acirrado!"
 }
 
-//HERANÇA
+//HERANcA
 
 {
 	id:"grandma_greeting"
-	text: "Oi, querido, estou tAo feliz que voce veio. Voce esta com uma aparencia otima. Como foi a viagem? *tosse *tosse! Os medicos me disseram que estou com uma inflamaçAo nos pulmoes. Disseram que meus pulmoes começaram a se encher de liquido. *tosse *tosse! NAo parece bom. *tosse *tosse! Enfim, eu comprei esse terreno nos anos 70. Meu sonho era que seus pais construissem uma casa la e vivessem uma boa vida. Mas acho que agora isso vai ficar para voce. *tosse *tosse! e um lugar lindo. Quero que voce aproveite. Tenha uma familia la. Cuide da terra com amor. Eu te desejo tudo de melhor, meu querido. Me da um abraço!"
+	text: "Oi, querido, estou tAo feliz que voce veio. Voce esta com uma aparencia otima. Como foi a viagem? *tosse *tosse! Os medicos me disseram que estou com uma inflamacAo nos pulmoes. Disseram que meus pulmoes comecaram a se encher de liquido. *tosse *tosse! NAo parece bom. *tosse *tosse! Enfim, eu comprei esse terreno nos anos 70. Meu sonho era que seus pais construissem uma casa la e vivessem uma boa vida. Mas acho que agora isso vai ficar para voce. *tosse *tosse! e um lugar lindo. Quero que voce aproveite. Tenha uma familia la. Cuide da terra com amor. Eu te desejo tudo de melhor, meu querido. Me da um abraco!"
 }
 
 {
 	id:"grandma_done"
-	text: "e um lugar lindo. Quero que voce aproveite. Tenha uma familia aqui. Cuide bem dessa terra. Te desejo tudo de melhor, meu querido. Me da um abraço!"
+	text: "e um lugar lindo. Quero que voce aproveite. Tenha uma familia aqui. Cuide bem dessa terra. Te desejo tudo de melhor, meu querido. Me da um abraco!"
 }
 
-//HHs NA HERANÇA
+//HHs NA HERANcA
 
 {
 	id: "hh_suit_inheritance"
@@ -643,7 +643,7 @@
 
 {
 	id: "hh_kid_inheritance"
-	text: "Tem uma estaçAo de ônibus aqui? Acho que meus pais estAo realmente preocupados comigo."
+	text: "Tem uma estacAo de onibus aqui? Acho que meus pais estAo realmente preocupados comigo."
 }
 
 {
@@ -700,7 +700,7 @@
 
 {
 	id: "demo_journal_girl_greeting"
-	text: "Ei, se voce vai pegar a estrada, e melhor estar preparado! Voce precisa ter um diario para anotar as coisas. Ah, e um tocador de música e ESSENCIAL."
+	text: "Ei, se voce vai pegar a estrada, e melhor estar preparado! Voce precisa ter um diario para anotar as coisas. Ah, e um tocador de musica e ESSENCIAL."
 }
 
 //HOMEM DO TRAVESSEIRO
@@ -712,7 +712,7 @@
 
 {
 	id: "demo_pillow_man_greeting"
-	text: "Ei! Se voce estiver se sentindo sem energia, tudo que precisa e de um lugar para descansar a cabeça."
+	text: "Ei! Se voce estiver se sentindo sem energia, tudo que precisa e de um lugar para descansar a cabeca."
 }
 
 //CORRIDA
@@ -736,7 +736,7 @@
 
 {
 	id: "party_turn_in_greeting"
-	text: "Olha so quem chegou! Hurricaane! Porra, começamos a duvidar que voce viria. Entrem logo e fechem a porta! Ta frio!"
+	text: "Olha so quem chegou! Hurricaane! Porra, comecamos a duvidar que voce viria. Entrem logo e fechem a porta! Ta frio!"
 }
 
 {
@@ -763,7 +763,7 @@
 
 {
 	id: "hh_suit_party_cabin"
-	text: "Olha, se eu nao precisasse tanto dessa cerveja agora, teria chamado a policia. O que ha de errado com a geraçao de voces?"
+	text: "Olha, se eu nao precisasse tanto dessa cerveja agora, teria chamado a policia. O que ha de errado com a geracao de voces?"
 }
 
 {
@@ -788,7 +788,7 @@
 
 {
 	id: "hh_stranger_party_cabin"
-	text: "A gente devia roubar esses desgraçados. Voce viu a quantidade de cocaina naquela mesa?"
+	text: "A gente devia roubar esses desgracados. Voce viu a quantidade de cocaina naquela mesa?"
 }
 
 {
@@ -798,7 +798,7 @@
 
 {
 	id: "hh_idiot_party_cabin"
-	text: "As arvores aqui sao muito bonitas. Queria que desligassem essa música."
+	text: "As arvores aqui sao muito bonitas. Queria que desligassem essa musica."
 }
 
 {
@@ -813,7 +813,7 @@
 
 {
 	id: "hh_punk_party_cabin"
-	text: "Nao e meu tipo de música. Mas a energia e boa!"
+	text: "Nao e meu tipo de musica. Mas a energia e boa!"
 }
 
 //PEGAR CARONA
@@ -827,17 +827,17 @@
 
 {
 	id: "hh_suit_hitch"
-	text: "Oh, ah, oi! Obrigado por parar! Eu... acabei de largar meu emprego. Perdi o ônibus. Voce se importaria de me levar ate a proxima cidade com um escritorio de empregos?"
+	text: "Oh, ah, oi! Obrigado por parar! Eu... acabei de largar meu emprego. Perdi o onibus. Voce se importaria de me levar ate a proxima cidade com um escritorio de empregos?"
 }
 
 {
 	id: "hh_suit_complete_q1"
-	text: "Se nao for um problema para voce... sabe, eu realmente precisava disso... Se nao for incômodo, posso viajar com voce por mais um tempo? So por uma semana ou algo assim? Depois disso, prometo que nao vou mais atrapalhar."
+	text: "Se nao for um problema para voce... sabe, eu realmente precisava disso... Se nao for incomodo, posso viajar com voce por mais um tempo? So por uma semana ou algo assim? Depois disso, prometo que nao vou mais atrapalhar."
 }
 
 {
 	id: "hh_suit_begin_q2"
-	text: "Eu realmente agradeço por me levar com voce. Mas estive pensando... preciso voltar para minha filha. Nao posso continuar com isso. Voce poderia me levar ate a cidade mais proxima? Vou pegar um ônibus de volta para casa. Tenho que consertar isso."
+	text: "Eu realmente agradeco por me levar com voce. Mas estive pensando... preciso voltar para minha filha. Nao posso continuar com isso. Voce poderia me levar ate a cidade mais proxima? Vou pegar um onibus de volta para casa. Tenho que consertar isso."
 }
 
 {
@@ -854,7 +854,7 @@
 
 {
 	id:"hh_hippie_girl_hitch"
-	text: "Ei! Uau! Voce nao e um caminhoneiro velho. Para onde esta indo? Tem espaço para mim? Estou so viajando por ai."
+	text: "Ei! Uau! Voce nao e um caminhoneiro velho. Para onde esta indo? Tem espaco para mim? Estou so viajando por ai."
 }
 
 {
@@ -867,21 +867,21 @@
 	text: "Voce nao fala muito e e meio entediante, mas foi bom ter um lugar para ficar, acho. Vou ficar por aqui, se nao for um problema."
 }
 
-//MECÂNICO
+//MECaNICO
 
 {
 	id:"hh_mechanic_hitch"
-	text: "Como vai? Espera, isso e um Redblock B21? Eu trabalhava em uma oficina, mas me cansei de consertar essas latas velhas novas. Precisava dar um tempo – tem espaço ai?"
+	text: "Como vai? Espera, isso e um Redblock B21? Eu trabalhava em uma oficina, mas me cansei de consertar essas latas velhas novas. Precisava dar um tempo – tem espaco ai?"
 }
 
 {
 	id:"hh_mechanic_hitch_non_volvo"
-	text: "Como vai? Belo carro! Eu trabalhava em uma oficina, mas me cansei de consertar essas latas velhas novas. Precisava dar um tempo – tem espaço ai?"
+	text: "Como vai? Belo carro! Eu trabalhava em uma oficina, mas me cansei de consertar essas latas velhas novas. Precisava dar um tempo – tem espaco ai?"
 }
 
 {
 	id:	"hh_mechanic_talk1"
-	text: "Que tipo de melhoria voce fez ai? Hmm. Nada mal, mas se quiser, posso te ajudar a escolher umas peças melhores. Tenho algumas ideias para deixa-lo uma verdadeira maquina."
+	text: "Que tipo de melhoria voce fez ai? Hmm. Nada mal, mas se quiser, posso te ajudar a escolher umas pecas melhores. Tenho algumas ideias para deixa-lo uma verdadeira maquina."
 }
 
 {
@@ -903,12 +903,12 @@
 
 {
 	id:"hh_hurricane_begin_q1"
-	text: "Deviamos pegar umas cervejas! Ou talvez um gin. Nao pode beber comigo? Beber sozinho nao tem graça. Voce dirige bem, vai ficar tudo bem. Pooor favor, so um pouquinho, hehe."
+	text: "Deviamos pegar umas cervejas! Ou talvez um gin. Nao pode beber comigo? Beber sozinho nao tem graca. Voce dirige bem, vai ficar tudo bem. Pooor favor, so um pouquinho, hehe."
 }
 
 {
 	id:"hh_hurricane_complete_q1"
-	text: "Voce e meio legal! Consegui o endereço dos meus amigos agora. Voce tem que ir! Aqui esta o cartao-postal."
+	text: "Voce e meio legal! Consegui o endereco dos meus amigos agora. Voce tem que ir! Aqui esta o cartao-postal."
 }
 
 {
@@ -918,7 +918,7 @@
 
 {
 	id:"hh_hurricane_give_cd"
-	text: "Ei! Pegue este CD. Voce deveria tocar isso no carro às vezes. e o meu favorito!"
+	text: "Ei! Pegue este CD. Voce deveria tocar isso no carro as vezes. e o meu favorito!"
 }
 
 //PUNK
@@ -943,16 +943,16 @@
 	text: "Nao acredito que perdi o show! Droga, achei que voce tinha dito que me levaria ate la. Tanto faz, nao importa. Mas duvido que eles toquem aqui de novo."
 }
 
-//A CRIANÇA
+//A CRIANcA
 
 {
 	id:"hh_kid_hitch"
-	text: "Ola! Acho que estou um pouco perdido. Talvez tenha pegado o ônibus errado para a casa do meu pai. O homem na estaçao disse para pegar o 607 e eu peguei! Ou talvez fosse o 705. Voce pode me ajudar, por favor? Acho que nao e longe."
+	text: "Ola! Acho que estou um pouco perdido. Talvez tenha pegado o onibus errado para a casa do meu pai. O homem na estacao disse para pegar o 607 e eu peguei! Ou talvez fosse o 705. Voce pode me ajudar, por favor? Acho que nao e longe."
 }
 
 {
 	id:"hh_kid_q1"
-	text: "Sabe, eu realmente achei que era aqui. Meu pai se mudou recentemente e, e... nao consigo lembrar o endereço. Eu escrevi em algum lugar, mas acho que perdi o papel enquanto desenhava."
+	text: "Sabe, eu realmente achei que era aqui. Meu pai se mudou recentemente e, e... nao consigo lembrar o endereco. Eu escrevi em algum lugar, mas acho que perdi o papel enquanto desenhava."
 }
 
 {
@@ -1006,12 +1006,12 @@
 
 {
 	id: "hh_idiot_q_complete"
-	text: "Minha irma e linda. Como essas flores. Ela gostava de flores. Sinto muito a falta dela. Sempre ouviamos essa música juntos."
+	text: "Minha irma e linda. Como essas flores. Ela gostava de flores. Sinto muito a falta dela. Sempre ouviamos essa musica juntos."
 }
 
 {
 	id: "hh_idiot_q_complete_again"
-	text: "Obrigado por me trazer aqui. Eu gostaria de viajar com voce, nas suas aventuras. Se for possivel. Nao faço muitas viagens de carro."
+	text: "Obrigado por me trazer aqui. Eu gostaria de viajar com voce, nas suas aventuras. Se for possivel. Nao faco muitas viagens de carro."
 }
 
 //CONDENADO
@@ -1023,7 +1023,7 @@
 
 {
 	id:"hh_convict_talk"
-	text: "Estive pensando... vamos para o mar, ok? Conheço um cara que e faroleiro. Ele tem um barco. Posso finalmente dar o fora daqui. Nao posso voltar para aqueles malditos policiais sadicos. Enfim, vamos continuar."
+	text: "Estive pensando... vamos para o mar, ok? Conheco um cara que e faroleiro. Ele tem um barco. Posso finalmente dar o fora daqui. Nao posso voltar para aqueles malditos policiais sadicos. Enfim, vamos continuar."
 }
 {
 	id:"hh_convict_q_complete"
@@ -1049,7 +1049,7 @@
 
 {
 	id: "hh_hiker_complete_quest"
-	text: "Tenha uma boa viagem, amigo! Nos vemos por ai – Saúde!"
+	text: "Tenha uma boa viagem, amigo! Nos vemos por ai – Saude!"
 }
 
 {
@@ -1083,19 +1083,19 @@
 
 {
 	id:"hh_bride_complete_quest_2"
-	text: "Vem ca! Quero te dar um abraço bem forte! Obrigada, estou livre! Agora que voce sabe meu endereço, nao suma. Me escreva de vez em quando!"
+	text: "Vem ca! Quero te dar um abraco bem forte! Obrigada, estou livre! Agora que voce sabe meu endereco, nao suma. Me escreva de vez em quando!"
 }
 
 //COMPOSITOR
 
 {
 	id: "hh_songwriter_hitch"
-	text: "Ei, cara! Voce se importaria de me levar para minha proxima apresentaçao? Estou em turne, sabe. E nao tenho carro. Nunca tirei carteira."
+	text: "Ei, cara! Voce se importaria de me levar para minha proxima apresentacao? Estou em turne, sabe. E nao tenho carro. Nunca tirei carteira."
 }
 
 {
 	id: "hh_songwriter_talk"
-	text: "Estou escrevendo uma nova música. Nada de especial. e sobre minha namorada. Terminamos para que eu pudesse viajar nessa turne. *Suspiro*... Mas sei que em breve vou tocar de novo."
+	text: "Estou escrevendo uma nova musica. Nada de especial. e sobre minha namorada. Terminamos para que eu pudesse viajar nessa turne. *Suspiro*... Mas sei que em breve vou tocar de novo."
 }
 
 {
@@ -1139,7 +1139,7 @@
 	text: "Esse filme vai ser otimo!"
 }
 
-//MUDANÇA
+//MUDANcA
 
 {
 	id: "sq_boxes_turn_in_greeting"
@@ -1275,11 +1275,11 @@
 	text: "Muito obrigado!"
 }
 
-//REABILITAÇaO
+//REABILITAcaO
 
 {
 	id:	"rehab_doctor"
-	text:	"Oi. O que esta te incomodando? Ah, claro. Ha quanto tempo voce esta usando? Entendi. Nosso centro público de reabilitaçao esta lotado no momento, mas vamos verificar se ha alguma vaga disponivel na Effectica. Hmm. Voce deu sorte, parece que ainda ha uma disponivel. Se puder, va o quanto antes. Eles estarao te esperando."
+	text:	"Oi. O que esta te incomodando? Ah, claro. Ha quanto tempo voce esta usando? Entendi. Nosso centro publico de reabilitacao esta lotado no momento, mas vamos verificar se ha alguma vaga disponivel na Effectica. Hmm. Voce deu sorte, parece que ainda ha uma disponivel. Se puder, va o quanto antes. Eles estarao te esperando."
 }
 
 {
@@ -1294,12 +1294,12 @@
 
 {
 	id: "rehab_ending"
-	text: "Ola, eu estava ansioso para te conhecer. Meu nome e Dr. Williams. Eu serei responsavel pelo seu processo de recuperaçao nas proximas semanas. Voce pode deixar seu carro aqui. Um dos nossos funcionarios o levara para o estacionamento. Vamos fazer seu check-in. Bem-vindo!"
+	text: "Ola, eu estava ansioso para te conhecer. Meu nome e Dr. Williams. Eu serei responsavel pelo seu processo de recuperacao nas proximas semanas. Voce pode deixar seu carro aqui. Um dos nossos funcionarios o levara para o estacionamento. Vamos fazer seu check-in. Bem-vindo!"
 }
 
 {
 	id: "rehab_start"
-	text: "Voce deveria se orgulhar! O que voce conquistou e algo grande. Nao se esqueça disso. Adeus!"
+	text: "Voce deveria se orgulhar! O que voce conquistou e algo grande. Nao se esqueca disso. Adeus!"
 }
 
 //NPC//============================================================================================================================//
@@ -1337,7 +1337,7 @@
 
 {
 	id: old_lady_6
-	text: "Cuide bem do seu carro. Ele e tudo o que separa voce da estrada. Por outro lado, talvez uma pane mecânica te ensine uma boa liçao."
+	text: "Cuide bem do seu carro. Ele e tudo o que separa voce da estrada. Por outro lado, talvez uma pane mecanica te ensine uma boa licao."
 	tag:old_lady
 }
 
@@ -1373,13 +1373,13 @@
 
 {
 	id: old_lady_12
-	text: "Querido, quem nao tem cao caça com gato. Se voce esta sem dinheiro, precisa aproveitar ao maximo o que tem. No fim, vera que o mundo esta cheio de tesouros úteis."
+	text: "Querido, quem nao tem cao caca com gato. Se voce esta sem dinheiro, precisa aproveitar ao maximo o que tem. No fim, vera que o mundo esta cheio de tesouros uteis."
 	tag:old_lady
 }
 
 {
 	id: old_lady_13
-	text: "Cresci no campo, mas me senti uma verdadeira dama da cidade depois da minha terceira visita à capital."
+	text: "Cresci no campo, mas me senti uma verdadeira dama da cidade depois da minha terceira visita a capital."
 	tag:old_lady
 }
 
@@ -1403,30 +1403,30 @@
 
 {
 	id: old_lady_17
-	text: "Ser sociavel e algo que se pode praticar! E, como tudo na vida, bons relacionamentos exigem esforço."
+	text: "Ser sociavel e algo que se pode praticar! E, como tudo na vida, bons relacionamentos exigem esforco."
 	tag:old_lady
 }
 
 {
 	id: old_lady_18
-	text: "Manter um espirito brincalhao na minha idade me mantem feliz. Por isso ainda guardo todas as minhas bonecas e brinquedos de quando era criança."
+	text: "Manter um espirito brincalhao na minha idade me mantem feliz. Por isso ainda guardo todas as minhas bonecas e brinquedos de quando era crianca."
 	tag:old_lady
 }
 
 {
 	id: old_lady_19
-	text: "Mesmo que voce ache que um livro nao te acrescentou nada, ele pode fazer a diferença no futuro!"
+	text: "Mesmo que voce ache que um livro nao te acrescentou nada, ele pode fazer a diferenca no futuro!"
 	tag:old_lady
 }
 {
 	id: old_lady_20
-	text: "Quando meu marido trabalhava com carros, ele adorava fugir da policia. 'e a única maneira de conhecer a verdadeira coragem', ele dizia."
+	text: "Quando meu marido trabalhava com carros, ele adorava fugir da policia. 'e a unica maneira de conhecer a verdadeira coragem', ele dizia."
 	tag:old_lady
 }
 
 {
 	id: old_lady_21
-	text: "Antes da minha visao piorar, eu amava dirigir à noite. Isso saciava minha verdadeira vontade de viajar."
+	text: "Antes da minha visao piorar, eu amava dirigir a noite. Isso saciava minha verdadeira vontade de viajar."
 	tag:old_lady
 }
 
@@ -1441,19 +1441,19 @@
 
 {
 	id: old_friends_2
-	text: "Acho que estou começando a perder a memoria, sabia?" "Nem me fale! Lembro de todas as minhas aventuras antigas, mas nao faço ideia de como chegar ao correio!" "Nem me peça para lembrar um mapa, muito menos onde fica o correio."
+	text: "Acho que estou comecando a perder a memoria, sabia?" "Nem me fale! Lembro de todas as minhas aventuras antigas, mas nao faco ideia de como chegar ao correio!" "Nem me peca para lembrar um mapa, muito menos onde fica o correio."
 	tag:old_friends
 }
 
 {
 	id: old_friends_3
-	text: "Sinto falta do meu velho carro. O que sera que aconteceu com ele? Provavelmente virou sucata em algum ferro-velho. Hoje em dia, muitos jovens gostam de carros antigos. Eles restauram e tudo mais. Engraçado como as coisas voltam à moda." "e, com certeza. Hmmm, vagamente me lembro de VOCe consertando uma sucata anos atras. He he he! Bons tempos. Aqueles P1900s eram lindos."
+	text: "Sinto falta do meu velho carro. O que sera que aconteceu com ele? Provavelmente virou sucata em algum ferro-velho. Hoje em dia, muitos jovens gostam de carros antigos. Eles restauram e tudo mais. Engracado como as coisas voltam a moda." "e, com certeza. Hmmm, vagamente me lembro de VOCe consertando uma sucata anos atras. He he he! Bons tempos. Aqueles P1900s eram lindos."
 	tag:old_friends
 }
 
 {
 	id: old_friends_4
-	text: "O que aconteceu com o rock and roll? Ninguem dança mais, so se empurram agora. Antes do acidente, sempre viajavamos pelo pais procurando um salao de dança. e triste. As crianças de hoje nunca vao sentir essa alegria."
+	text: "O que aconteceu com o rock and roll? Ninguem danca mais, so se empurram agora. Antes do acidente, sempre viajavamos pelo pais procurando um salao de danca. e triste. As criancas de hoje nunca vao sentir essa alegria."
 	tag:old_friends
 }
 
@@ -1473,7 +1473,7 @@
 
 {
 	id: hobo_text_1b
-	text: "Obrigado. Que Deus te abençoe."
+	text: "Obrigado. Que Deus te abencoe."
 	tag:hobo_thanks
 }
 
@@ -1515,7 +1515,7 @@
 
 {
 	id: hobo_text_4a
-	text: "So preciso de um trocado para pegar um ônibus."
+	text: "So preciso de um trocado para pegar um onibus."
 	tag:hobo_greeting
 }
 {
@@ -1538,7 +1538,7 @@
 
 {
 	id: hobo_text_5b
-	text: "Agradeço."
+	text: "Agradeco."
 	tag:hobo_thanks
 }
 
@@ -1569,7 +1569,7 @@
 
 {
 	id: dennis_race
-	text: "Bom te ver de novo! Como esta indo? Vi uns dragsters irados passando por aqui, mas nao sei para onde estao indo. Adoraria assistir algumas corridas ou talvez ajudar como mecânico."
+	text: "Bom te ver de novo! Como esta indo? Vi uns dragsters irados passando por aqui, mas nao sei para onde estao indo. Adoraria assistir algumas corridas ou talvez ajudar como mecanico."
 	tag:dennis
 }
 
@@ -1587,7 +1587,7 @@
 
 {
 	id: dennis_inheritance
-	text: "E ai! Como estao as coisas? Faz um tempo. Sei la, cara, andei pensando em talvez me estabelecer. Meu avô comprou um terreno perto da costa e talvez eu devesse, tipo, construir uma casa la ou algo assim. Nao sei."
+	text: "E ai! Como estao as coisas? Faz um tempo. Sei la, cara, andei pensando em talvez me estabelecer. Meu avo comprou um terreno perto da costa e talvez eu devesse, tipo, construir uma casa la ou algo assim. Nao sei."
 	tag:dennis
 }
 
@@ -1599,7 +1599,7 @@
 
 {
 	id: dennis_jail
-	text: "Eeeei! Chega mais! Espero que esteja bem. Esta meio magro! Nao se esqueça de alongar e comer bem. Vou te mostrar alguns exercicios que aprendi na cadeia algum dia. Haha! Sim, fui preso um tempo atras por posse de drogas. Acontece. Voce so precisa seguir em frente."
+	text: "Eeeei! Chega mais! Espero que esteja bem. Esta meio magro! Nao se esqueca de alongar e comer bem. Vou te mostrar alguns exercicios que aprendi na cadeia algum dia. Haha! Sim, fui preso um tempo atras por posse de drogas. Acontece. Voce so precisa seguir em frente."
 	tag:dennis
 }
 
@@ -1611,17 +1611,17 @@
 
 {
 	id: dennis_mountain
-	text: "Nao acredito que continuamos nos esbarrando assim! Voce sempre sera bem-vindo para relaxar comigo. Sabe disso, ne? Eu sei, eu sei, voce esta ocupado. Mas nao se esqueça de desacelerar e curtir a natureza. Va ate o topo da montanha se tiver a chance. e lindo."
+	text: "Nao acredito que continuamos nos esbarrando assim! Voce sempre sera bem-vindo para relaxar comigo. Sabe disso, ne? Eu sei, eu sei, voce esta ocupado. Mas nao se esqueca de desacelerar e curtir a natureza. Va ate o topo da montanha se tiver a chance. e lindo."
 	tag:dennis
 }
 
 {
 	id: dennis_complete
-	text: "Ei! Sabe, adorei te conhecer na estrada. Nao importa o que voce faça agora, so quero que saiba que voce tera uma vida incrivel. Tenho muito orgulho de voce por explorar e descobrir tudo o que esse mundo tem a oferecer. Boa viagem!"
+	text: "Ei! Sabe, adorei te conhecer na estrada. Nao importa o que voce faca agora, so quero que saiba que voce tera uma vida incrivel. Tenho muito orgulho de voce por explorar e descobrir tudo o que esse mundo tem a oferecer. Boa viagem!"
 	tag:dennis
 }
 
 {
 	id: dennis_done
-	text: "Logo estarei de volta à estrada!"
+	text: "Logo estarei de volta a estrada!"
 }

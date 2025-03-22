@@ -1,8 +1,8 @@
-////////////////ÁRVORES DE HABILIDADES
-//AO ADICIONAR NOVAS ÁRVORES DE HABILIDADES, SEMPRE ADICIONE NO FINAL (não se preocupe em fazê-las salvar/carregar com strings)
+////////////////aRVORES DE HABILIDADES
+//AO ADICIONAR NOVAS aRVORES DE HABILIDADES, SEMPRE ADICIONE NO FINAL (nao se preocupe em faze-las salvar/carregar com strings)
 {
 	name: basic
-	title: Básico
+	title: Basico
 	letter: Ba
 	icon: spr_player_menu_journal_tab_icon_basic
 	icon_big: spr_skill_tree_icon_basic_big
@@ -92,7 +92,7 @@
 
 {
 	name: thrifty
-	title: Econômico
+	title: Economico
 	letter: Th
 	icon: spr_player_menu_journal_tab_icon_mechanic
 	icon_big: spr_skill_tree_icon_thrifty_big

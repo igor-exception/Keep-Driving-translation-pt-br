@@ -3,8 +3,8 @@
 {
 	quest_name: festival
 	quest_title: Festival Way Out
-	quest_desc: Pegue uma tenda e um ingresso para o festival, depois vá para o Festival Way Out a tempo!
-	quest_pc_desc: Ei!¤Você vai ao Festival este ano?¤Ouvi dizer que você comprou um carro novo. DIVERTIDO!¤Você pode comprar um ingresso em qualquer grande cidade¤É meio longe, mas você consegue.¤Não se esqueça de dormir e abastecer quando estiver sem gasolina!¤Já fiquei preso uma ou duas vezes. Não é tão ruim se você tiver algum dinheiro.¤¤Nos vemos em 4 semanas!¤xo
+	quest_desc: Pegue uma tenda e um ingresso para o festival, depois va para o Festival Way Out a tempo!
+	quest_pc_desc: Ei!¤Voce vai ao Festival este ano?¤Ouvi dizer que voce comprou um carro novo. DIVERTIDO!¤Voce pode comprar um ingresso em qualquer grande cidade¤eh meio longe, mas voce consegue.¤Nao se esqueca de dormir e abastecer quando estiver sem gasolina!¤Ja fiquei preso uma ou duas vezes. Nao eh tao ruim se voce tiver algum dinheiro.¤¤Nos vemos em 4 semanas!¤xo
 	quest_type: main
 	quest_start_month: 5
 	quest_start_day: 27
@@ -50,7 +50,7 @@
 {
 	quest_name: demo_main
 	quest_title: Videogames
-	quest_desc: Vá até a casa do seu amigo no sul para jogar alguns jogos.
+	quest_desc: Va ateh a casa do seu amigo no sul para jogar alguns jogos.
 	quest_pc_desc:TEST
 	
 	quest_skip_turn_in:1
@@ -83,8 +83,8 @@
 {
 	quest_name: race
 	quest_title: A Grande Corrida
-	quest_desc: Instale uma gaiola de segurança e entre na corrida
-	quest_pc_desc: BEM-VINDO À COMPETIÇÃO ANUAL DE DRIFT DE FINAL DE SEMANA EM PINE RACEWAY*¤¤Traga seu carro e, se passar na nossa verificação de serviço qualificada, você está liberado para correr. Simples assim!¤¤GRANDE PRÊMIO DE 1º LUGAR!¤¤Boa sorte,¤PINE RACEWAY¤* novo local, consulte o mapa.
+	quest_desc: Instale uma gaiola de seguranca e entre na corrida
+	quest_pc_desc: BEM-VINDO a COMPETIcaO ANUAL DE DRIFT DE FINAL DE SEMANA EM PINE RACEWAY*¤¤Traga seu carro e, se passar na nossa verificacao de servico qualificada, voce esta liberado para correr. Simples assim!¤¤GRANDE PReMIO DE 1º LUGAR!¤¤Boa sorte,¤PINE RACEWAY¤* novo local, consulte o mapa.
 	quest_type: main
 	quest_start_month: 5
 	quest_start_day: 29
@@ -98,14 +98,14 @@
 	obj: upgrade
 	obj_type: special
 	obj_dest: none
-	obj_title: Instalar uma gaiola de segurança
-	obj_desc: Instale uma gaiola de segurança
+	obj_title: Instalar uma gaiola de seguranca
+	obj_desc: Instale uma gaiola de seguranca
 	
 	obj: race_dest
 	obj_type: dest
 	obj_dest: hidden
 	obj_new_dest_id: race_track
-	obj_title: Chegue à corrida
+	obj_title: Chegue a corrida
 	obj_desc: Participe da corrida
 	
 	obj: race
@@ -122,8 +122,8 @@
 {
 	quest_name: rehab
 	quest_title: Ficar Limpo
-	quest_desc: Chegue na instalação de reabilitação!
-	quest_pc_desc: Olá,¤Aqui é o Dr. Williams da Effectica.¤Estou entrando em contato para confirmar¤a sua estadia conosco.¤¤Estamos muito felizes em saber que você¤está dando seus primeiros passos¤para a sobriedade.¤¤Temos muitos pedidos¤para ficar conosco neste verão,¤portanto não podemos garantir sua¤vaga indefinidamente. Por favor,¤chegue no horário reservado.¤¤Bem-vindo à,¤EFFECTICA REHAB
+	quest_desc: Chegue na instalacao de reabilitacao!
+	quest_pc_desc: Ola,¤Aqui eh o Dr. Williams da Effectica.¤Estou entrando em contato para confirmar¤a sua estadia conosco.¤¤Estamos muito felizes em saber que voce¤esta dando seus primeiros passos¤para a sobriedade.¤¤Temos muitos pedidos¤para ficar conosco neste verao,¤portanto nao podemos garantir sua¤vaga indefinidamente. Por favor,¤chegue no horario reservado.¤¤Bem-vindo a,¤EFFECTICA REHAB
 
 	quest_type: main
 	quest_start_month: 5
@@ -140,8 +140,8 @@
 	obj: no_drugs
 	obj_type: special
 	obj_dest: none
-	obj_title: Não use drogas
-	obj_desc: Não use nenhuma droga
+	obj_title: Nao use drogas
+	obj_desc: Nao use nenhuma droga
 
 	
 	
@@ -151,9 +151,9 @@
 	obj_new_dest_id: rehab
 	obj_new_dest_x: 27
 	obj_new_dest_y: 17
-	obj_new_dest_name:	Instalação de Reabilitação
-	obj_title: Chegue à instalação
-	obj_desc: Chegue na instalação de reabilitação
+	obj_new_dest_name:	Instalacao de Reabilitacao
+	obj_title: Chegue a instalacao
+	obj_desc: Chegue na instalacao de reabilitacao
 
 
 }
@@ -162,8 +162,8 @@
 {
 	quest_name: rehab_first
 	quest_title: Ficar Limpo
-	quest_desc: Entre em contato com um médico sobre seu vício
-	quest_pc_desc: Caro Leitor,¤Se você, ou alguém que você conhece,¤está sofrendo com vícios¤por favor, venha até o nosso centro de reabilitação EFFECTICA.¤¤Às vezes, sair do seu ciclo e ir para um lugar seguro¤por alguns dias é tudo o que você precisa.¤¤Cada passo em direção à EFFECTICA¤é um passo em direção ao bem-estar.¤¤Visite o hospital local¤para mais informações sobre a EFFECTICA REHAB.
+	quest_desc: Entre em contato com um mehdico sobre seu vicio
+	quest_pc_desc: Caro Leitor,¤Se voce, ou alguehm que voce conhece,¤esta sofrendo com vicios¤por favor, venha ateh o nosso centro de reabilitacao EFFECTICA.¤¤as vezes, sair do seu ciclo e ir para um lugar seguro¤por alguns dias eh tudo o que voce precisa.¤¤Cada passo em direcao a EFFECTICA¤eh um passo em direcao ao bem-estar.¤¤Visite o hospital local¤para mais informacoes sobre a EFFECTICA REHAB.
 
 	quest_type: main
 	quest_start_month: 5
@@ -190,7 +190,7 @@
 	quest_name: mountain
 	quest_title: A Montanha
 	quest_desc: Chegue ao topo da montanha
-	quest_pc_desc: Saudações aos Amantes da Natureza,¤¤Será o chamado pela liberdade?¤O ar fresco e gelado¤lá em cima das nuvens?¤Ou simplesmente, um momento de paz¤com as grandes montanhas e as vastas terras de florestas que chamam você para uma caminhada inesquecível?¤¤Seja qual for o motivo,¤temos o que você está procurando.¤Fique conosco no acampamento base¤hospedagem; prepare-se para uma aventura¤como nenhuma outra!
+	quest_pc_desc: Saudacoes aos Amantes da Natureza,¤¤Sera o chamado pela liberdade?¤O ar fresco e gelado¤la em cima das nuvens?¤Ou simplesmente, um momento de paz¤com as grandes montanhas e as vastas terras de florestas que chamam voce para uma caminhada inesquecivel?¤¤Seja qual for o motivo,¤temos o que voce esta procurando.¤Fique conosco no acampamento base¤hospedagem; prepare-se para uma aventura¤como nenhuma outra!
 
 	quest_skip_turn_in:1
 	
@@ -207,8 +207,8 @@
 	obj_type: item
 	obj_item: gas_tank_big
 	obj_dest: none
-	obj_title: (Opt.) Pegue um galão de combustível
-	obj_desc: Pegue um galão de combustível. Na verdade, você pode precisar de mais de um.
+	obj_title: (Opt.) Pegue um galao de combustivel
+	obj_desc: Pegue um galao de combustivel. Na verdade, voce pode precisar de mais de um.
 	
 	obj: toolbox
 	obj_type: item
@@ -232,8 +232,8 @@
 {
 	quest_name: settle_down
 	quest_title: Estabelecer-se
-	quest_desc: Volte para onde você costumava trabalhar e tente encontrar uma posição permanente.
-	quest_pc_desc: Bom dia!¤¤Estamos escrevendo para você do¤Escritório de Emprego. Notamos¤seu esforço em encontrar trabalho recentemente.¤¤Se você quiser, podemos oferecer¤uma posição permanente.¤¤O pagamento é ótimo, mas será¤necessário que você se mude¤imediatamente.¤¤Venha até o Escritório de Emprego§se estiver interessado.
+	quest_desc: Volte para onde voce costumava trabalhar e tente encontrar uma posicao permanente.
+	quest_pc_desc: Bom dia!¤¤Estamos escrevendo para voce do¤Escritorio de Emprego. Notamos¤seu esforco em encontrar trabalho recentemente.¤¤Se voce quiser, podemos oferecer¤uma posicao permanente.¤¤O pagamento eh otimo, mas sera¤necessario que voce se mude¤imediatamente.¤¤Venha ateh o Escritorio de Emprego§se estiver interessado.
 
 	quest_type: main
 	quest_start_month: 5
@@ -249,13 +249,13 @@
 	obj_type: dest
 	obj_dest: work
 	obj_title: Volte para o trabalho
-	obj_desc: Volte para onde você se candidatou a vários empregos.
+	obj_desc: Volte para onde voce se candidatou a varios empregos.
 	
 	obj: get_the_job
 	obj_type: special
 	obj_dest: none
 	obj_title: Candidatar-se ao trabalho
-	obj_desc: Use o Escritório de Emprego para se candidatar à posição.
+	obj_desc: Use o Escritorio de Emprego para se candidatar a posicao.
 
 	reward: goal
 }
@@ -263,8 +263,8 @@
 {
 	quest_name: party
 	quest_title: Convite para a Festa
-	quest_desc: Traga O Furacão e algumas cervejas e vá para a cabana da festa.
-	quest_pc_desc: Ei!¤Você está com o Furacão, certo?¤¤Vem para a festa na cabana. Vai ser ótimo! Está um pouco no meio da floresta, então pode ser difícil chegar aqui sem bons pneus.¤¤Traga quem você quiser.¤¤BYOB¤¤Se cuida, nos vemos em breve!
+	quest_desc: Traga O Furacao e algumas cervejas e va para a cabana da festa.
+	quest_pc_desc: Ei!¤Voce esta com o Furacao, certo?¤¤Vem para a festa na cabana. Vai ser otimo! Esta um pouco no meio da floresta, entao pode ser dificil chegar aqui sem bons pneus.¤¤Traga quem voce quiser.¤¤BYOB¤¤Se cuida, nos vemos em breve!
 
 	quest_type: main
 	quest_start_month: 6
@@ -279,8 +279,8 @@
 	obj: hurricane
 	obj_type: hitchhiker
 	obj_dest: none
-	obj_title: Traga o Furacão
-	obj_desc: Tenha o Furacão no seu carro
+	obj_title: Traga o Furacao
+	obj_desc: Tenha o Furacao no seu carro
 	
 	obj: get_beer
 	obj_type: item
@@ -296,8 +296,8 @@
 	obj_new_dest_y: 17
 	obj_new_dest_id: party
 	obj_new_dest_name:	Cabana da Festa
-	obj_title: Chegue à Cabana
-	obj_desc: Chegue à Cabana
+	obj_title: Chegue a Cabana
+	obj_desc: Chegue a Cabana
 	
 	dialogue_turn_in_greeting: 	party_turn_in_greeting
 	dialogue_turn_in_reject: 	party_turn_in_reject
@@ -309,10 +309,10 @@
 
 {
 	quest_name: inheritance
-	quest_title: Herança
-	quest_desc: Visite sua avó no hospital
+	quest_title: Heranca
+	quest_desc: Visite sua avo no hospital
 	
-	quest_pc_desc: Este é o médico da sua avó. Não há uma forma fácil de dizer isso:¤Ela está morrendo.¤Até o momento, o câncer se¤metastatizou completamente e ela só tem alguns¤dias antes da falência total do corpo.¤¤Venha até o centro de tratamento¤assim que puder!¤Minhas condolências,¤Dr. Vaswani
+	quest_pc_desc: Este eh o mehdico da sua avo. Nao ha uma forma facil de dizer isso:¤Ela esta morrendo.¤Ateh o momento, o cancer se¤metastatizou completamente e ela so tem alguns¤dias antes da falencia total do corpo.¤¤Venha ateh o centro de tratamento¤assim que puder!¤Minhas condolencias,¤Dr. Vaswani
 
 	quest_type: main
 	quest_start_month: 6
@@ -328,8 +328,8 @@
 	obj_type: special
 	obj_dest: hidden
 	obj_new_dest_id: city_north
-	obj_title: Visite sua avó
-	obj_desc: Visite sua avó no hospital
+	obj_title: Visite sua avo
+	obj_desc: Visite sua avo no hospital
 	
 	reward: none
 }
@@ -337,9 +337,9 @@
 
 {
 	quest_name: inheritance_2
-	quest_title: Herança
-	quest_desc: Vá para a terra que você herdou
-	quest_pc_desc: Olá, querido,¤Obrigado por vir até o hospital.¤Sempre fico tão feliz em ver você.¤Eu te amo com toda a minha vida.¤¤A terra está no interior:¤Pegue as estradas rurais, depois o caminho de terra até você ver,¤logo além do brejo,¤um pedaço de terra com uma pequena cabana.¤É isso, agora é sua.¤¤Muito amor, para sempre,¤Vovó.
+	quest_title: Heranca
+	quest_desc: Va para a terra que voce herdou
+	quest_pc_desc: Ola, querido,¤Obrigado por vir ateh o hospital.¤Sempre fico tao feliz em ver voce.¤Eu te amo com toda a minha vida.¤¤A terra esta no interior:¤Pegue as estradas rurais, depois o caminho de terra ateh voce ver,¤logo alehm do brejo,¤um pedaco de terra com uma pequena cabana.¤eh isso, agora eh sua.¤¤Muito amor, para sempre,¤Vovo.
 
 	quest_type: main
 	quest_start_month: 6
@@ -354,17 +354,17 @@
 	obj_type: special
 	obj_dest: hidden
 	obj_new_dest_id: inherited_land
-	obj_title: Vá para sua terra
-	obj_desc: Vá para a terra que você herdou
+	obj_title: Va para sua terra
+	obj_desc: Va para a terra que voce herdou
 	
 	reward: goal
 }
 
 {
 	quest_name: inheritance_3
-	quest_title: Herança
-	quest_desc: Vá para a terra que você herdou
-	quest_pc_desc: Olá, espero que esta mensagem chegue até você¤pois não sei se você¤viu a última carta que enviamos.¤¤Escrevo agora para lamentavelmente¤informá-lo que sua¤avó faleceu¤na noite passada às 17h21.¤Não havia mais o que fazer, pois o câncer¤já havia danificado tanto¤os tecidos internos.¤¤Ela deixou uma mensagem¤sobre sua herança.¤O endereço está em anexo.¤Dr. Vaswani
+	quest_title: Heranca
+	quest_desc: Va para a terra que voce herdou
+	quest_pc_desc: Ola, espero que esta mensagem chegue ateh voce¤pois nao sei se voce¤viu a ultima carta que enviamos.¤¤Escrevo agora para lamentavelmente¤informa-lo que sua¤avo faleceu¤na noite passada as 17h21.¤Nao havia mais o que fazer, pois o cancer¤ja havia danificado tanto¤os tecidos internos.¤¤Ela deixou uma mensagem¤sobre sua heranca.¤O endereco esta em anexo.¤Dr. Vaswani
 
 	quest_type: main
 	quest_start_month: 6
@@ -379,8 +379,8 @@
 	obj_type: special
 	obj_dest: hidden
 	obj_new_dest_id: inherited_land
-	obj_title: Vá para sua terra
-	obj_desc: Vá para a terra que você herdou
+	obj_title: Va para sua terra
+	obj_desc: Va para a terra que voce herdou
 	
 	reward: goal
 }
@@ -389,8 +389,8 @@
 
 {
 	quest_name: box_delivery
-	quest_title: Ajuda para a Mudança
-	quest_desc: Entregue algumas caixas no meu novo apartamento. Preciso delas lá logo!
+	quest_title: Ajuda para a Mudanca
+	quest_desc: Entregue algumas caixas no meu novo apartamento. Preciso delas la logo!
 	quest_type: side
 	quest_start_month: 5
 	quest_start_day: 22
@@ -405,10 +405,10 @@
 	obj_item: random_box,random_box,random_box
 	obj_dest: pick_up_generate
 	obj_title: Entregar as caixas
-	obj_desc: Leve os itens até §dest.
+	obj_desc: Leve os itens ateh §dest.
 	
 	custom_person: 1
-	custom_person_name: "Homem da Mudança"
+	custom_person_name: "Homem da Mudanca"
 	custom_person_sprite: spr_sidequest_movingboxes
 	custom_person_sprite_done: spr_sidequest_movingboxes_delivered
 	custom_person_interact_x: 8
@@ -423,8 +423,8 @@
 
 {
 	quest_name: gas_delivery
-	quest_title: Entrega de Combustível
-	quest_desc: Minha banda favorita ficou sem dinheiro ou gasolina! Por favor, leve um pouco de gasolina para eles! É urgente!
+	quest_title: Entrega de Combustivel
+	quest_desc: Minha banda favorita ficou sem dinheiro ou gasolina! Por favor, leve um pouco de gasolina para eles! eh urgente!
 	quest_type: side
 	quest_start_month: 5
 	quest_start_day: 22
@@ -438,14 +438,14 @@
 	obj_type: item_tag
 	obj_item_tag: gas
 	obj_title: Pegue gasolina
-	obj_desc: Leve o item até §dest.
+	obj_desc: Leve o item ateh §dest.
 	obj_dest: none
 	
 	obj: return
 	obj_type: dest
 	obj_dest: pick_up_generate
 	obj_title: Chegue ao amigo
-	obj_desc: Leve o item até §dest.
+	obj_desc: Leve o item ateh §dest.
 	
 	custom_person: 1
 	custom_person_name: "Amigo em necessidade"
@@ -464,7 +464,7 @@
 {
 	quest_name: beer_delivery
 	quest_title: Entrega de Cerveja
-	quest_desc: Precisamos de cerveja para uma festa! Ela é daqui a quatro dias!
+	quest_desc: Precisamos de cerveja para uma festa! Ela eh daqui a quatro dias!
 	quest_type: side
 	quest_start_month: 5
 	quest_start_day: 22
@@ -490,7 +490,7 @@
 	obj_item: beer_case_green,beer_case_green
 	obj_dest: pick_up_generate
 	obj_title: Entregar a cerveja
-	obj_desc: Leve o item até §dest.
+	obj_desc: Leve o item ateh §dest.
 	
 	reward: money:60,skill_point:1
 }
@@ -526,7 +526,7 @@
 	obj_item: random_music_equipment,random_music_equipment,random_music_equipment,random_music_equipment,random_music_equipment
 	obj_dest: pick_up_generate
 	obj_title: Entregar os instrumentos
-	obj_desc: Leve o item até §dest.
+	obj_desc: Leve o item ateh §dest.
 	
 	reward: money:70,skill_point:1
 }
@@ -534,7 +534,7 @@
 {
 	quest_name: pizza_delivery
 	quest_title: Entrega de Pizza
-	quest_desc: Estamos com falta de funcionários e precisamos de alguém para entregar pizzas!
+	quest_desc: Estamos com falta de funcionarios e precisamos de alguehm para entregar pizzas!
 	quest_type: side
 	quest_start_month: 5
 	quest_start_day: 22
@@ -550,7 +550,7 @@
 	obj_item: pizza_veg
 	obj_dest: pick_up_generate
 	obj_title: Entregar a pizza
-	obj_desc: Leve o item até §dest.
+	obj_desc: Leve o item ateh §dest.
 	
 	custom_person: 1
 	custom_person_name: "pizza_karl"
@@ -569,7 +569,7 @@
 {
 	quest_name: missing_cat
 	quest_title: Gato Perdido
-	quest_desc: Nosso gato, Cookie, está perdido! Alguém a viu?
+	quest_desc: Nosso gato, Cookie, esta perdido! Alguehm a viu?
 	quest_type: side
 	quest_start_month: 5
 	quest_start_day: 22
@@ -591,7 +591,7 @@
 	obj_type: dest
 	obj_dest: pick_up_same
 	obj_title: Devolver o gato
-	obj_desc: Leve o item até §dest.
+	obj_desc: Leve o item ateh §dest.
 	
 	custom_person: 1
 	custom_person_name: "cat_girl"
@@ -609,7 +609,7 @@
 {
 	quest_name: film_extra
 	quest_title: Extra de Filme
-	quest_desc: Precisa de um carro preto para a filmagem de um filme. Você tem um?
+	quest_desc: Precisa de um carro preto para a filmagem de um filme. Voce tem um?
 	quest_type: side
 	quest_start_month: 5
 	quest_start_day: 3
@@ -648,8 +648,8 @@
 
 {
 	quest_name: advert
-	quest_title: Anúncio
-	quest_desc: Precisamos que você dirija com nosso anúncio da WARRIOR ENERGY
+	quest_title: Anuncio
+	quest_desc: Precisamos que voce dirija com nosso anuncio da WARRIOR ENERGY
 	quest_type: side
 	quest_start_month: 5
 	quest_start_day: 3
@@ -665,15 +665,15 @@
 	obj_inc_goal: 5
 	obj_dest: none
 	obj_title: Anuncie!
-	obj_desc: Dirija com o anúncio no seu carro
+	obj_desc: Dirija com o anuncio no seu carro
 	
 	reward: money:60
 }
 
 {
 	quest_name: test2
-	quest_title: Outra missão
-	quest_desc: Missão secundária sem importância. Pule ela!
+	quest_title: Outra missao
+	quest_desc: Missao secundaria sem importancia. Pule ela!
 	quest_type: test
 	quest_start_month: 5
 	quest_start_day: 3
@@ -688,14 +688,14 @@
 {
 	quest_name: hh_test
 	quest_title: Carona
-	quest_desc: Leve §hh até o destino.
+	quest_desc: Leve §hh ateh o destino.
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
 	obj_title: Dirija o Caroneiro
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: pick_up_generate
 	
 	reward: money:100
@@ -703,7 +703,7 @@
 
 {
 	quest_name: songwriter_sing
-	quest_title: Composição de Música
+	quest_title: Composicao de Musica
 	quest_desc: Use as habilidades do Compositor 8 vezes
 	quest_type: hh
 	quest_days: 10
@@ -721,15 +721,15 @@
 
 {
 	quest_name: hurricane_drunk_driving
-	quest_title: Dirigindo Bêbado
-	quest_desc: O furacão quer ver você dirigindo bêbado.
+	quest_title: Dirigindo Bebado
+	quest_desc: O furacao quer ver voce dirigindo bebado.
 	quest_type: hh
 	quest_days: 5
 	
 	obj: hurricane_road_drunk
 	obj_type: special
-	obj_title: Complete uma estrada bêbado
-	obj_desc: Complete uma estrada do início ao fim enquanto bêbado
+	obj_title: Complete uma estrada bebado
+	obj_desc: Complete uma estrada do inicio ao fim enquanto bebado
 	
 	dialogue_turn_in_complete: hh_hurricane_complete_q1
 	
@@ -739,7 +739,7 @@
 {
 	quest_name: mechanic_upgrades
 	quest_title: Estrela da Estrada
-	quest_desc: O Mecânico quer construir o carro perfeito. Reúna e instale as peças que ele deseja.
+	quest_desc: O Mecanico quer construir o carro perfeito. Reuna e instale as pecas que ele deseja.
 	quest_type: hh
 	quest_days: 20
 	
@@ -761,8 +761,8 @@
 	obj_type: upgrade
 	obj_upgrade:roll_cage
 	obj_dest: none
-	obj_title: Instalar uma Gaiola de Segurança
-	obj_desc: Instale uma Gaiola de Segurança	
+	obj_title: Instalar uma Gaiola de Seguranca
+	obj_desc: Instale uma Gaiola de Seguranca	
 	
 	obj: upgrade
 	obj_type: upgrade
@@ -779,14 +779,14 @@
 {
 	quest_name: hiker_go_mountain
 	quest_title: Trilha na Montanha
-	quest_desc: O Viajante quer ver a grande montanha. Devo começar indo até a base da montanha!
+	quest_desc: O Viajante quer ver a grande montanha. Devo comecar indo ateh a base da montanha!
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
-	obj_title: Vá até a Base da Montanha
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Va ateh a Base da Montanha
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: mountain_base
 	
 	dialogue_turn_in_complete:hh_hiker_complete_quest
@@ -804,8 +804,8 @@
 	
 	obj: go_punk_city
 	obj_type: dest
-	obj_title: Vá para a Cidade do Leste
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Va para a Cidade do Leste
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: hidden
 	obj_new_dest_id: city_east
 
@@ -822,14 +822,14 @@
 {
 	quest_name: suit_get_to_work
 	quest_title: Oportunidades de Emprego
-	quest_desc: O Terno quer visitar um escritório de emprego. Ele diz que é uma ótima maneira de ganhar um dinheiro extra!
+	quest_desc: O Terno quer visitar um escritorio de emprego. Ele diz que eh uma otima maneira de ganhar um dinheiro extra!
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: special
-	obj_title: Visite um escritório de emprego
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Visite um escritorio de emprego
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: employment_office
 	
 	dialogue_turn_in_complete: 	hh_suit_complete_q1
@@ -839,15 +839,15 @@
 
 {
 	quest_name: suit_get_to_family
-	quest_title: Eu sinto falta da minha família
-	quest_desc: O Terno quer visitar sua família. Deixe-o no local que ele quer.
+	quest_title: Eu sinto falta da minha familia
+	quest_desc: O Terno quer visitar sua familia. Deixe-o no local que ele quer.
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
 	obj_title: Deixe o Terno
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: pick_up_generate
 	
 	dialogue_turn_in_complete: 	hh_suit_complete_q2
@@ -858,14 +858,14 @@
 {
 	quest_name: stranger_casino
 	quest_title: El Cobra
-	quest_desc: Leve o Estranho até o El Cobra
+	quest_desc: Leve o Estranho ateh o El Cobra
 	quest_type: hh
 	quest_days: 12
 	
 	obj: go
 	obj_type: dest
 	obj_title: Dirija o Estranho
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: hidden
 	obj_new_dest_id: casino
 	
@@ -876,8 +876,8 @@
 
 {
 	quest_name: stranger_debt
-	quest_title: A Dívida do Estranho
-	quest_desc: Você precisa conseguir dinheiro para pagar a dívida do Estranho. Ele disse que são 300 bucks.
+	quest_title: A Divida do Estranho
+	quest_desc: Voce precisa conseguir dinheiro para pagar a divida do Estranho. Ele disse que sao 300 bucks.
 	quest_type: hh
 	quest_days: 8
 	
@@ -894,15 +894,15 @@
 
 {
 	quest_name: kid_dad_1
-	quest_title: Ajudar a Criança
-	quest_desc: A Criança está procurando o pai dela. Ela te disse onde ele mora.
+	quest_title: Ajudar a Crianca
+	quest_desc: A Crianca esta procurando o pai dela. Ela te disse onde ele mora.
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
-	obj_title: Leve a Criança
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Leve a Crianca
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: pick_up_generate
 	
 	dialogue_turn_in_complete: 	hh_kid_q1
@@ -912,15 +912,15 @@
 
 {
 	quest_name: kid_dad_2
-	quest_title: Ajudar a Criança
-	quest_desc: A Criança está procurando o pai dela. Ela te disse onde ele mora. Desta vez é o endereço certo.
+	quest_title: Ajudar a Crianca
+	quest_desc: A Crianca esta procurando o pai dela. Ela te disse onde ele mora. Desta vez eh o endereco certo.
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
-	obj_title: Leve a Criança
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Leve a Crianca
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: pick_up_generate
 	
 	dialogue_turn_in_complete: 	hh_kid_q2
@@ -931,15 +931,15 @@
 
 {
 	quest_name: kid_dad_3
-	quest_title: Ajudar a Criança
-	quest_desc: A Criança está procurando o pai dela. Ela te disse onde ele mora. Desta vez é o endereço certo. Verdade!
+	quest_title: Ajudar a Crianca
+	quest_desc: A Crianca esta procurando o pai dela. Ela te disse onde ele mora. Desta vez eh o endereco certo. Verdade!
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
-	obj_title: Leve a Criança
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Leve a Crianca
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: pick_up_generate
 	
 	dialogue_turn_in_complete: 	hh_kid_q3
@@ -949,15 +949,15 @@
 
 {
 	quest_name: kid_dad_4
-	quest_title: Ajudar a Criança
-	quest_desc: Agora você está basicamente procurando sem rumo pelo pai dessa Criança.
+	quest_title: Ajudar a Crianca
+	quest_desc: Agora voce esta basicamente procurando sem rumo pelo pai dessa Crianca.
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
-	obj_title: Leve a Criança
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Leve a Crianca
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: pick_up_generate
 	
 	dialogue_turn_in_complete: 	hh_kid_q4
@@ -967,8 +967,8 @@
 
 {
 	quest_name: kid_auth
-	quest_title: Criança Desaparecida
-	quest_desc: Você viu essa criança? Se a vir, por favor, leve-a até este endereço!
+	quest_title: Crianca Desaparecida
+	quest_desc: Voce viu essa crianca? Se a vir, por favor, leve-a ateh este endereco!
 	quest_type: hh
 	quest_days: 20
 	
@@ -976,8 +976,8 @@
 	
 	obj: go
 	obj_type: dest
-	obj_title: Leve a Criança
-	obj_desc: Leve-os até onde eles precisam ir.
+	obj_title: Leve a Crianca
+	obj_desc: Leve-os ateh onde eles precisam ir.
 	obj_dest: pick_up_generate
 	
 	dialogue_turn_in_complete: hh_kid_complete
@@ -987,15 +987,15 @@
 
 {
 	quest_name: idiot_mission
-	quest_title: Visite a Irmã
-	quest_desc: Leve o Idiota até sua irmã.
+	quest_title: Visite a Irma
+	quest_desc: Leve o Idiota ateh sua irma.
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
 	obj_title: Leve o Idiota
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: hidden
 	obj_new_dest_id: graveyard
 	
@@ -1007,14 +1007,14 @@
 {
 	quest_name: convict_escape
 	quest_title: A Grande Fuga
-	quest_desc: Ajude o prisioneiro a escapar. Ele diz que conhece um guardião de farol que pode ajudá-lo.
+	quest_desc: Ajude o prisioneiro a escapar. Ele diz que conhece um guardiao de farol que pode ajuda-lo.
 	quest_type: hh
 	quest_days: 8
 	
 	obj: go
 	obj_type: dest
-	obj_title: Dirija até o farol
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_title: Dirija ateh o farol
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: light_house
 	
 	dialogue_turn_in_complete:hh_convict_q_complete
@@ -1033,7 +1033,7 @@
 	obj_type: inc
 	obj_inc_goal: 1
 	obj_title: Compartilhe uma bebida
-	obj_desc: Beba álcool		
+	obj_desc: Beba alcool		
 	
 	obj: relax
 	obj_type: inc
@@ -1055,14 +1055,14 @@
 {
 	quest_name: bride_go_home
 	quest_title: Voltar para Casa
-	quest_desc: A noiva quer ir até seus pais.
+	quest_desc: A noiva quer ir ateh seus pais.
 	quest_type: hh
 	quest_days: 20
 	
 	obj: get_to_brides_home
 	obj_type: dest
 	obj_title: Leve a Noiva
-	obj_desc: Leve-os até onde eles querem ir.
+	obj_desc: Leve-os ateh onde eles querem ir.
 	obj_dest: pick_up_generate
 	
 	dialogue_turn_in_complete:hh_bride_complete_quest_2

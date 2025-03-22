@@ -4,7 +4,7 @@
 {
 	dev_name: "suit"
 	hh_name: "Peter Hornsby"
-	desc: "Este é um caroneiro"
+	desc: "Este eh um caroneiro"
 
 	start_skill: "smooth_talker"
 
@@ -45,12 +45,12 @@
 {
 	dev_name: "hippie_girl"
 	hh_name: "Judee Bird"
-	desc: "Esta é uma caroneira"
+	desc: "Esta eh uma caroneira"
 
 	start_skill: "backrubber"
 
 	perk_id: "super_cheer"
-	perk_name: "Quando eu era líder de torcida"
+	perk_name: "Quando eu era lider de torcida"
 	perk_type: "skill"
 	perk_dia: "hh_default_gain_skill"
 	perk_end
@@ -82,11 +82,11 @@
 	sprite_kicked: spr_hitchhiker_girl_sitting
 }
 
-//---------------------------------O MECÂNICO
+//---------------------------------O MECaNICO
 {
 	dev_name: "mechanic"
 	hh_name: "Brian Taylor"
-	desc: "Não fala muito."
+	desc: "Nao fala muito."
 
 	start_skill: "instruct"
 
