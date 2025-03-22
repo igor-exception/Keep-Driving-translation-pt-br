@@ -1,8 +1,8 @@
-////////////////SKILL TREES
-//WHEN ADDING NEW SKILL TREES, ALWAYS ADD IN THE END (didn't bother to make them save/load with strings)
+////////////////ÁRVORES DE HABILIDADES
+//AO ADICIONAR NOVAS ÁRVORES DE HABILIDADES, SEMPRE ADICIONE NO FINAL (não se preocupe em fazê-las salvar/carregar com strings)
 {
 	name: basic
-	title: Basic
+	title: Básico
 	letter: Ba
 	icon: spr_player_menu_journal_tab_icon_basic
 	icon_big: spr_skill_tree_icon_basic_big
@@ -26,7 +26,7 @@
 
 {
 	name: driving
-	title: Driving
+	title: Dirigindo
 	letter: Dr
 	icon: spr_player_menu_journal_tab_icon_driving
 	icon_big: spr_skill_tree_icon_drive_big
@@ -92,7 +92,7 @@
 
 {
 	name: thrifty
-	title: Thrifty
+	title: Econômico
 	letter: Th
 	icon: spr_player_menu_journal_tab_icon_mechanic
 	icon_big: spr_skill_tree_icon_thrifty_big
@@ -118,7 +118,7 @@
 
 {
 	name: hiking
-	title: Hiking
+	title: Caminhada
 	letter: Hk
 	icon: spr_player_menu_journal_tab_icon_hiking
 	icon_big: spr_skill_tree_icon_hiking_big
