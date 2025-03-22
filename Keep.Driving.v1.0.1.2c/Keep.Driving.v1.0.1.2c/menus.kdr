@@ -2,52 +2,52 @@
 //////////////////////////////////CAR MENU
 {
 	dev_name: car_menu_sleep_option
-	name: Rest
+	name: Descansar
 }
 
 {
 	dev_name: car_menu_sleep_desc
-	name: Rest in your car. Refresh skill uses. energy+%t Durability-%t
+	name: Descanso no seu carro. Usa as habilidades de recarga. energia+%t Durabilidade-%t
 }
 
 {
 	dev_name: car_menu_sleep_desc_tent
-	name: Rest in your tent. Refresh skill uses. energy+%t Durability-%t
+	name: Descanso na sua barraca. Usa as habilidades de recarga. energia+%t Durabilidade-%t
 }
 
 {
 	dev_name: car_menu_sleep_desc_tent_rack
-	name: Rest in your car-top-tent. Refresh skill uses. energy+%t Durability-%t
+	name: Descanso na sua barraca de teto. Usa as habilidades de recarga. energia+%t Durabilidade-%t
 }
 
 {
 	dev_name: car_menu_journal_option
-	name: Journal
+	name: Diário
 }
 
 {
 	dev_name: car_menu_journal_desc
-	name: Learn and equip skills. View traits
+	name: Aprenda e equipe habilidades. Veja traços
 }
 {
 	dev_name: car_menu_calendar_option
-	name: Calendar
+	name: Calendário
 }
 
 {
 	dev_name: car_menu_calendar_desc
-	name: Look at your calendar and task log.
+	name: Veja seu calendário e registro de tarefas.
 }
 
 //TOP CLOSE
 
 {
 	dev_name: top_close_button_title
-	name: Close
+	name: Fechar
 }
 {
 	dev_name: top_close_button_desc
-	name: Closes active menu
+	name: Fecha o menu ativo
 }
 
 
@@ -55,70 +55,71 @@
 
 {
 	dev_name: threat_desc_title
-	name: Threat
+	name: Ameaça
 }
 
 {
 	dev_name: threat_desc
-	name: Each threat represent one of your resources and will damage that resource when attacking. Remove all threat to complete a road event. 
+	name: Cada ameaça representa um de seus recursos e danificará esse recurso ao atacar. Remova todas as ameaças para completar um evento na estrada.
 }
 {
 	dev_name: armor_desc_title
-	name: Armor
+	name: Armadura
 }
 
 {
 	dev_name: armor_desc
-	name: Protects you from one attack during a road event. Disappears after the event.
+	name: Protege você de um ataque durante um evento na estrada. Desaparece após o evento.
 }
 
 {
 	dev_name: exhausted_desc_title
-	name: Exhausted
+	name: Exausto
 }
 
 {
 	dev_name: exhausted_desc
-	name: A skill with no uses left.
+	name: Uma habilidade sem usos restantes.
 }
 
 {
-	dev_name:locked_skill_hover
-	name: [#E4ACF1]Right-click to see details.[/color] This skill is locked and costs % skill points to unlock. Click and hold to unlock.
+	dev_name: locked_skill_hover
+	name: [#E4ACF1]Clique com o botão direito para ver os detalhes.[/color] Esta habilidade está bloqueada e custa % pontos de habilidade para desbloquear. Clique e segure para desbloquear.
 }
 
 {
-	dev_name:owned_skill_hover
-	name: [#E4ACF1]Right-click to see details.[/color] Drag skill to the skill bar in the top to equip this skill. 
+	dev_name: owned_skill_hover
+	name: [#E4ACF1]Clique com o botão direito para ver os detalhes.[/color] Arraste a habilidade para a barra de habilidades no topo para equipar esta habilidade.
 }
 
 {
-	dev_name:unavailable_skill_hover
-	name: [#E4ACF1]Right-click to see details.[/color] This skill is locked. Unlock skills connected to this one to access it. 
+	dev_name: unavailable_skill_hover
+	name: [#E4ACF1]Clique com o botão direito para ver os detalhes.[/color] Esta habilidade está bloqueada. Desbloqueie as habilidades conectadas a esta para acessá-la.
 }
 
 
 //during events
 {
 	dev_name: "re_targeting_title"
-	name: "Targeting"
+	name: "Mirando"
 }
 {
 	dev_name: "re_targeting"
-	name: "Align your threat targets with the threat in the road event display"
+	name: "Alinhe seus alvos de ameaça com a ameaça na exibição do evento na estrada"
 }
+
 
 //threat status
 
 //ATTACK
 {
 	dev_name: "threat_attacking_title"
-	name: "Warning"
+	name: "Aviso"
 }
 
 {
 	dev_name: "threat_attacking"
-	name: "This threat will damage you by one unit."
+	name: "Esta ameaça irá lhe causar dano de uma unidade."
 }
 //DEBUFF
 {
@@ -127,144 +128,145 @@
 }
 {
 	dev_name: "threat_debuff"
-	name: "This threat will give you one random negative status effect"
+	name: "Esta ameaça irá lhe aplicar um efeito negativo aleatório"
 }
 //SHIELD
 {
 	dev_name: "threat_shield_title"
-	name: "Shield"
+	name: "Escudo"
 }
 {
 	dev_name: "threat_shield"
-	name: "When you hit this threat, remove the shield instead of the threat. Will damage you by one unit."
+	name: "Quando você atingir esta ameaça, remova o escudo em vez da ameaça. Causará dano de uma unidade."
 }
 //CRIT
 {
 	dev_name: "threat_crit_title"
-	name: "DANGER"
+	name: "PERIGO"
 }
 {
 	dev_name: "threat_crit"
-	name: "This threat will damage you by two units"
+	name: "Esta ameaça irá lhe causar dano de duas unidades"
 }
 //BOMB
 {
 	dev_name: "threat_bomb_title"
-	name: "Note"
+	name: "Nota"
 }
 {
 	dev_name: "threat_bomb"
-	name: "When you hit this threat, also remove adjacent threat"
+	name: "Quando você atingir esta ameaça, remova também a ameaça adjacente"
 }
 
 //THREAT TARGET DESCS
 //ENERGY
 {
 	dev_name:target_energy_desc_title
-	name: Energy
+	name: Energia
 	ignore_def:1
 }
 {
 	dev_name:target_energy_desc
-	name: Align with a threat of the same type to remove it.
+	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
 }
 
 //GAS
 {
 	dev_name:target_gas_desc_title
-	name: Gas
+	name: Gás
 	ignore_def:1
 }
 {
 	dev_name:target_gas_desc
-	name: Align with a threat of the same type to remove it.
+	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
 }
 
 //MONEY
 {
 	dev_name:target_money_desc_title
-	name: Cash
+	name: Dinheiro
 	ignore_def:1
 }
 {
 	dev_name:target_money_desc
-	name: Align with a threat of the same type to remove it.
+	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
 }
 
 //DURABILITY
 {
 	dev_name:target_durability_desc_title
-	name: Durability
+	name: Durabilidade
 	ignore_def:1
 }
 {
 	dev_name:target_durability_desc
-	name: Align with a threat of the same type to remove it.
+	name: Alinhe com uma ameaça do mesmo tipo para removê-la.
 }
 
 //NONE
 {
 	dev_name:target_none_desc_title
-	name: Space
+	name: Espaço
 }
 {
 	dev_name:target_none_desc
-	name: Won't destroy any threat.
+	name: Não destruirá nenhuma ameaça.
 }
 
 //ALL
 {
 	dev_name:target_all_desc_title
-	name: All
+	name: Todos
 }
 {
 	dev_name:target_all_desc
-	name: Align with ANY threat to remove it.
+	name: Alinhe com QUALQUER ameaça para removê-la.
 }
 ////////////////////////////////////GAS PEDAL
 
 {
 	dev_name: gp_title
-	name: Gas Pedal
+	name: Pedal do Acelerador
 }
 //event
 {
 	dev_name: gp_event
-	name: Press once to skip your turn. Hold to escape current event, taking remaining threat damage.
+	name: Pressione uma vez para pular sua vez. Mantenha pressionado para escapar do evento atual, tomando o dano restante da ameaça.
 }
 
 //event
 {
 	dev_name: gp_normal
-	name: Use during events to escape or skip the player phase.
+	name: Use durante eventos para escapar ou pular a fase do jogador.
 }
 ////////////////////////////////////BREAK
 
 {
 	dev_name: bp_title
-	name: Brake Pedal
+	name: Pedal de Freio
 }
 //event
 {
 	dev_name: bp_desc
-	name: Press to close any open menu and pause the game.
+	name: Pressione para fechar qualquer menu aberto e pausar o jogo.
 }
+
 
 
 ///////////////////////////////////////////////////////////////////////Journal
 {
 	dev_name: journal_learn_skill_title
-	name: Learn Skill
+	name: Aprender Habilidade
 }
 
 {
 	dev_name: journal_learn_skill_text
-	name: Spend one skill pont to learn §skill?
+	name: Gaste um ponto de habilidade para aprender §skill?
 }
 
 {
 	dev_name: journal_not_enough_skill_points
-	name: Not enough skill points
+	name: Pontos de habilidade insuficientes
 }
 
 
@@ -273,70 +275,71 @@
 //WORK
 {
 	dev_name: dest_option_work_title
-	name: Work
+	name: Trabalho
 }
 {
 	dev_name: dest_option_work_desc
-	name: Work to earn cash
+	name: Trabalhe para ganhar dinheiro
 }
 //SHOP
 {
 	dev_name: dest_option_shop_title
-	name: Shop
+	name: Loja
 }
 
 {
 	dev_name: dest_option_shop_desc
-	name: Buy and sell goods
+	name: Compre e venda produtos
 }
 
 {
 	dev_name: dest_option_part_shop_title
-	name: Car Part Shop
+	name: Loja de Peças de Carro
 }
 {
 	dev_name: dest_option_part_shop_desc
-	name: Buy car parts here
+	name: Compre peças de carro aqui
 }
 
 {
 	dev_name: dest_option_thrift_shop_title
-	name: Thrift Store
+	name: Loja de Pechinchas
 }
 {
 	dev_name: dest_option_thrift_shop_desc
-	name: Buy antiques. Sell items for more cash here.
+	name: Compre antiguidades. Venda itens para ganhar mais dinheiro aqui.
 }
 
 
 {
 	dev_name: shop_buy_title
-	name: Buy item
+	name: Comprar item
 }
 
 {
 	dev_name: shop_buy_desc
-	name: Drag item to your trunk to buy it.
+	name: Arraste o item para o seu porta-malas para comprá-lo.
 }
 
 //PLAYER HOME
 {
 	dev_name: dest_option_home_title
-	name: Home
+	name: Casa
 }
 {
 	dev_name: dest_option_home_desc
-	name: Your home
+	name: Sua casa
 }
 //CULTURE
 {
 	dev_name: dest_option_culture_title
-	name: Culture
+	name: Cultura
 }
 {
 	dev_name: dest_option_culture_desc
-	name: Point of interest
+	name: Ponto de interesse
 }
+
 
 
 //BAR
@@ -346,45 +349,45 @@
 }
 {
 	dev_name: dest_option_bar_desc
-	name: Pick up quests to gain cash and skill points
+	name: Pegue missões para ganhar dinheiro e pontos de habilidade
 }
 
 //CAFE
 {
 	dev_name: dest_option_cafe_title
-	name: Cafe/Pub
+	name: Café/Pub
 }
 {
 	dev_name: dest_option_cafe_desc
-	name: Pick up quests to gain cash and skill points
+	name: Pegue missões para ganhar dinheiro e pontos de habilidade
 }
 //CAFE & BAR
 {
 	dev_name: dest_option_cafe_bar_title
-	name: Cafe/Pub
+	name: Café/Pub
 }
 {
 	dev_name: dest_option_cafe_bar_desc
-	name: Pick up quests to gain cash and skill points
+	name: Pegue missões para ganhar dinheiro e pontos de habilidade
 }
 //GARAGE
 {
 	dev_name: dest_option_garage_title
-	name: Garage
+	name: Oficina
 }
 {
 	dev_name: dest_option_garage_desc
-	name: Install and buy upgrades for your car. Repair car.
+	name: Instale e compre melhorias para seu carro. Repare o carro.
 }
 
 {
 	dev_name: garage_extra_space_fail_title
-	name: Empty space!
+	name: Espaço vazio!
 }
 
 {
 	dev_name: garage_extra_space_fail
-	name: Remove items in extra space before removing this upgrade
+	name: Remova itens do espaço extra antes de remover esta melhoria
 }
 
 
@@ -392,97 +395,97 @@
 //GAS
 {
 	dev_name: dest_option_gas_title
-	name: Gas Station
+	name: Posto de Gasolina
 }
 {
 	dev_name: dest_option_gas_desc
-	name: Refuel your car
+	name: Abasteça seu carro
 }
 //HOSTEL
 {
 	dev_name: dest_option_hostel_title
-	name: Hostel
+	name: Albergue
 }
 {
 	dev_name: dest_option_hostel_desc
-	name: Pay to rest in a comfortable bed.
+	name: Pague para descansar em uma cama confortável.
 }
 
 //EXPLORE
 {
 	dev_name: dest_option_explore_title
-	name: Explore
+	name: Explorar
 }
 {
 	dev_name: dest_option_explore_desc
-	name: Explore to find rare items.
+	name: Explore para encontrar itens raros.
 }
 
 
 //PHONE
 {
 	dev_name: car_menu_phone_option
-	name: Call Parents
+	name: Ligar para os Pais
 }
 
 {
 	dev_name: car_menu_phone_desc
-	name: Call your parents for help.
+	name: Ligue para seus pais pedindo ajuda.
 }
 
 {
 	dev_name: car_menu_phone_desc_warning
-	name: [#FF4535]%t% chance of success. If you fail, lose the game.[/color]
+	name: [#FF4535]%t% chance de sucesso. Se falhar, perderá o jogo.[/color]
 }
 //TOW
 {
 	dev_name: car_menu_tow_option
-	name: Call Tow Truck
+	name: Ligar para o Guincho
 }
 
 {
 	dev_name: car_menu_tow_desc
-	name: Call a tow truck to get back to last destination and repair car. money-50
+	name: Chame um guincho para voltar ao último destino e reparar o carro. dinheiro-50
 }
 //WALK
 {
 	dev_name: car_menu_walk_option
-	name: Walk
+	name: Caminhar
 }
 
 {
 	dev_name: car_menu_walk_desc
-	name: Walk to get gas for your car. energy-5 money-30 gas+7
+	name: Caminhe para pegar combustível para seu carro. energia-5 dinheiro-30 combustível+7
 }
 
 //FUEL
 {
 	dev_name: fuel_pump_title
-	name: Gas Pump
+	name: Bomba de Gasolina
 }
 
 {
 	dev_name: fuel_pump_desc
-	name: Hold to fuel your car.
+	name: Mantenha pressionado para abastecer seu carro.
 }
 
 {
 	dev_name: fuel_accept_title
-	name: Accept
+	name: Aceitar
 }
 
 {
 	dev_name: fuel_accept_desc
-	name: Accept gas amount and pay.
+	name: Aceitar a quantidade de combustível e pagar.
 }
 {
 	dev_name: fuel_reset_title
-	name: Reset
+	name: Resetar
 }
 
 {
 	dev_name: fuel_reset_desc
-	name: Reset gas amount.
+	name: Resetar a quantidade de combustível.
 }
 
 
@@ -490,121 +493,122 @@
 
 {
 	dev_name: car_menu_black_ou_keep_driving_title
-	name: Keep Driving
+	name: Continuar Dirigindo
 }
 
 {
 	dev_name: car_menu_black_ou_keep_driving_desc
-	name: Get back on the road!
+	name: Volte para a estrada!
 }
 
 {
 	dev_name: car_menu_black_ou_keep_driving_dest_title
-	name: Shape up!
+	name: Preparar-se!
 }
 
 {
 	dev_name: car_menu_black_ou_keep_driving_dest_desc
-	name: Everything is under control!
+	name: Tudo está sob controle!
 }
 
 {
 	dev_name: cant_drive_title
-	name: Can't drive
+	name: Não pode dirigir
 }
 
 {
 	dev_name: cant_drive_desc
-	name: You/Your car is not in shape for the road
+	name: Você/Seu carro não está em condições para a estrada
 }
 
 /////////////////////////////////////////////////////////INVENTORY
 {
 	dev_name: inventory_seat_hover
-	name: Empty seat
+	name: Banco vazio
 }
 
 {
 	dev_name: inventory_seat_hover_desc
-	name: Right click to lower seat
+	name: Clique com o botão direito para abaixar o banco
 }
 {
 	dev_name: inventory_seat_hover_lowered
-	name: Lowered seat
+	name: Banco abaixado
 }
 
 {
 	dev_name: inventory_seat_hover_desc_lowered
-	name: Right click to raise
+	name: Clique com o botão direito para levantar
 }
 
 {
 	dev_name: hh_inv_drag_desc
-	name: Click and drag to move around passengers in your car.
+	name: Clique e arraste para mover os passageiros no seu carro.
 }
 
 //ROAD TYPES DESCS
 
 {
 	dev_name: road_type_desc_motorway
-	name: Tends to be draining on both your energy and gas. Threat on motorways can give you negative status effects.
+	name: Tende a ser desgastante tanto para sua energia quanto para o combustível. Ameaças nas rodovias podem lhe causar efeitos negativos.
 }
 
 {
 	dev_name: road_type_desc_country
-	name: Calm and quiet road. Tends to be more taxing on your energy.
+	name: Estrada calma e tranquila. Tende a ser mais exigente com sua energia.
 }
 
 {
 	dev_name: road_type_desc_rough
-	name: The durability of your car will surely take a hit or two. Some threat will be shielded and extra tough to remove.
+	name: A durabilidade do seu carro certamente sofrerá um ou dois danos. Algumas ameaças serão protegidas e difíceis de remover.
 }
 
 {
 	dev_name: road_type_desc_city
-	name: Both your money and energy will be in danger here. Chance of encountering danger-threat (deals double damage)
+	name: Tanto o seu dinheiro quanto sua energia estarão em perigo aqui. Chance de encontrar uma ameaça de perigo (causa dano dobrado)
 }
+
 
 //HOSTEL
 {
 	dev_name: hostel_12_title
-	name: 12 Hour room
+	name: Quarto de 12 Horas
 }
 
 {
 	dev_name: hostel_6_title
-	name: 6 Hour room
+	name: Quarto de 6 Horas
 }
 
 {
 	dev_name: hostel_morning_title
-	name: Stay until Morning
+	name: Ficar até a Manhã
 }
 
 {
 	dev_name: hostel_general_desc
-	name: Fully restore energy, cure hunger, and become happy.
+	name: Restaure totalmente sua energia, cure a fome e fique feliz.
 }
 
 {
 	dev_name: hostel_night_title
-	name: Stay until Nightfall
+	name: Ficar até Anoitecer
 }
 
 {
 	dev_name: hostel_12_desc
-	name: Rest for 12 hours. Restore all energy and get 1 extra energy. Cure hunger.
+	name: Descanse por 12 horas. Restaure toda a energia e ganhe 1 energia extra. Cure a fome.
 }
 {
 	dev_name: hostel_6_desc
-	name: Rest for 6 hours. Restore all energy.
+	name: Descanse por 6 horas. Restaure toda a energia.
 }
 
 //ROAD SUMMARY
 
 {
 	dev_name: road_summary_graph_text
-	name: Road Resource Changes
+	name: Mudanças nos Recursos da Estrada
 }
 
 
@@ -612,17 +616,17 @@
 
 {
 	dev_name: garage_drag_tooltip
-	name: Drag an upgrade here to install it.
+	name: Arraste uma melhoria aqui para instalá-la.
 }
 {
 	dev_name: garage_view_tooltip
-	name: Visit a garage to install an upgrade here.
+	name: Visite uma oficina para instalar uma melhoria aqui.
 }
 
 //INTROSPECTIONS
 {
 	dev_name: "introspection_close_text"
-	name: "Press anywhere to close"
+	name: "Pressione qualquer lugar para fechar"
 }
 
 
@@ -631,46 +635,47 @@
 //ENERGY
 {
 	dev_name: "not_enough_energy_title"
-	name: "Too tired"
+	name: "Muito cansado"
 }
 
 {
 	dev_name: "not_enough_energy_desc"
-	name: "Not enough energy"
+	name: "Energia insuficiente"
 	ignore_def:1
 }
 //MONEY
 {
 	dev_name: "not_enough_money_title"
-	name: "Too poor"
+	name: "Muito pobre"
 }
 
 {
 	dev_name: "not_enough_money_desc"
-	name: "Not enough cash"
+	name: "Dinheiro insuficiente"
 	ignore_def:1
 }
 //DURABILITY
 {
 	dev_name: "not_enough_durability_title"
-	name: "Car shape bad"
+	name: "Condição do carro ruim"
 }
 
 {
 	dev_name: "not_enough_durability_desc"
-	name: "Not enough durability"
+	name: "Durabilidade insuficiente"
 	ignore_def:1
 }
+
 
 //DURABILITY
 {
 	dev_name: "not_enough_gas_title"
-	name: "Gas low"
+	name: "Gasolina baixa"
 }
 
 {
 	dev_name: "not_enough_gas_desc"
-	name: "Not enough gas"
+	name: "Gasolina insuficiente"
 	ignore_def:1
 }
 
@@ -678,58 +683,58 @@
 
 {
 	dev_name: "work_title"
-	name: "WORK.EXE"
+	name: "TRABALHO.EXE"
 }
 
 {
 	dev_name: "work_cost"
-	name: "!Energy"
+	name: "!Energia"
 }
 
 {
 	dev_name: "work_inspired"
-	name: "!Inspired"
+	name: "!Inspirado"
 }
 
 {
 	dev_name: "work_pay"
-	name: "!Pay"
+	name: "!Pagamento"
 }
 {
 	dev_name: "work_none"
-	name: "ERROR: Service unavailable"
+	name: "ERRO: Serviço indisponível"
 }
 
 //SPECIC
 {
 	dev_name: no_wheels_leave_title
-	name: No wheels
+	name: Sem rodas
 }
 
 //SPECIC
 {
 	dev_name: no_wheels_leave_desc
-	name: You can't drive because you have no wheels equipped.
+	name: Você não pode dirigir porque não tem rodas equipadas.
 }
 
 //LEAVE DEST OPEN MAP
 {
 	dev_name: leave_dest_map_title
-	name: Leave
+	name: Sair
 }
 
 {
 	dev_name: leave_dest_map_desc
-	name: You need to select a destination before leaving. Open map?
+	name: Você precisa selecionar um destino antes de sair. Abrir mapa?
 }
 ///////////////////////////////////MAP
 {
 	dev_name: map_eye_icon_title
-	name: Toggle map visibliity
+	name: Alternar visibilidade do mapa
 }
 {
 	dev_name: map_eye_icon_text
-	name: Press to toggle visibilty of map icon
+	name: Pressione para alternar a visibilidade do ícone do mapa
 }
 
 
@@ -737,92 +742,92 @@
 //PLAY
 {
 	dev_name: mm_play_title
-	name: Play
+	name: Tocar
 }
 {
 	dev_name: mm_play
-	name: Play current track
+	name: Tocar faixa atual
 }
 //PAUSE
 {
 	dev_name: mm_pause_title
-	name: Pause
+	name: Pausar
 }
 {
 	dev_name: mm_pause
-	name: Pause current track
+	name: Pausar faixa atual
 }
 //STOP
 {
 	dev_name: mm_stop_title
-	name: Stop
+	name: Parar
 }
 {
 	dev_name: mm_stop
-	name: Stop playing music
+	name: Parar de tocar música
 }
 //NEXT
 {
 	dev_name: mm_next_title
-	name: Next
+	name: Próxima
 }
 {
 	dev_name: mm_next
-	name: Play next track
+	name: Tocar próxima faixa
 }
 //BACK
 {
 	dev_name: mm_back_title
-	name: Back
+	name: Voltar
 }
 {
 	dev_name: mm_back
-	name: Play previous track.
+	name: Tocar faixa anterior.
 }
 //EJECT
 {
 	dev_name: mm_eject_title
-	name: Eject
+	name: Ejetar
 }
 {
 	dev_name: mm_eject
-	name: Stop playing music and go to edit mode.
+	name: Parar de tocar música e ir para o modo de edição.
 }
 //DRAG SONG
 {
 	dev_name: mm_drag_song_title
-	name: Move track
+	name: Mover faixa
 }
 {
 	dev_name: mm_drag_song
-	name: Press and hold to drag the track
+	name: Pressione e segure para arrastar a faixa
 }
 //TOPUP TRACK
 {
 	dev_name: mm_topup_title
-	name: Move to top
+	name: Mover para o topo
 }
 {
 	dev_name: mm_topup
-	name: Move track to the top of the playlist
+	name: Mover faixa para o topo da lista de reprodução
 }
 //EDIT MODE
 {
 	dev_name: mm_edit_mode_title
-	name: Edit Playlist
+	name: Editar Playlist
 }
 {
 	dev_name: mm_edit_mode
-	name: Click a track to add it to the playlist. Push the CD to finish editing
+	name: Clique em uma faixa para adicioná-la à playlist. Pressione o CD para finalizar a edição
 }
 //CD
 {
 	dev_name: mm_cd_title
-	name: Finalize CD
+	name: Finalizar CD
 }
 {
 	dev_name: mm_cd
-	name: Push CD to finish editing your playlist.
+	name: Pressione o CD para finalizar a edição da sua playlist.
 }
 
 
@@ -830,43 +835,43 @@
 //ENERGY
 {
 	dev_name: stat_energy_title
-	name: Energy
+	name: Energia
 	ignore_def:1
 }
 {
 	dev_name: stat_energy_desc
-	name: Can be restored by resting or through items.
+	name: Pode ser restaurada descansando ou através de itens.
 }
 
 //GAS
 {
 	dev_name: stat_gas_title
-	name: Gas
+	name: Gasolina
 	ignore_def:1
 }
 {
 	dev_name: stat_gas_desc
-	name: Passively drains while driving. Restore at gas stations.
+	name: Drena passivamente enquanto dirige. Restaure em postos de gasolina.
 }
 
 //MONEY
 {
 	dev_name: stat_money_title
-	name: Cash
+	name: Dinheiro
 	ignore_def:1
 }
 {
 	dev_name: stat_money_desc
-	name: Used to buy things. You can earn cash by working at an employment office or by selling items.
+	name: Usado para comprar coisas. Você pode ganhar dinheiro trabalhando em um escritório de empregos ou vendendo itens.
 }
 
 //durability
 {
 	dev_name: stat_durability_title
-	name: Durability
+	name: Durabilidade
 	ignore_def:1
 }
 {
 	dev_name: stat_durability_desc
-	name: Represents the state of your vehicle. You can repair durability at garages.
+	name: Representa o estado do seu veículo. Você pode reparar a durabilidade em oficinas.
 }
